@@ -8,14 +8,14 @@ Stable tag: 1.0.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Easy Media Gallery for WordPress that's powerful and so easy to use that anyone can create beautiful portfolio or media gallery.
+Easy Media Gallery for WordPress that's powerful and so easy to create beautiful portfolio or media gallery.
 
 
 == Description ==
 
 Easy Media Gallery (EMG) is a wordpress plugin designed to display portfolios and various media support including gallery sets, single image, google maps, video, audio and link with very ease and elegant.
 
-* [Easy Media Gallery DEMOS] (http://ghozylab.com/)
+* [Easy Media Gallery DEMOS](http://ghozylab.com/)
 
 = Features =
 
