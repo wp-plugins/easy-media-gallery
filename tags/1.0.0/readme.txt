@@ -15,6 +15,8 @@ Easy Media Gallery for WordPress that's powerful and so easy to use that anyone 
 
 Easy Media Gallery (EMG) is a wordpress plugin designed to display portfolios and various media support including gallery sets, single image, google maps, video, audio and link with very ease and elegant.
 
+* [Easy Media Gallery DEMOS] (http://ghozylab.com/)
+
 = Features =
 
 * Responsive
@@ -36,7 +38,7 @@ Easy Media Gallery (EMG) is a wordpress plugin designed to display portfolios an
 It is a very customizable plugin that allow you to set display whatever you want like adjust colors, positions, media sizes, hover effect and much more with one easy control panel. That easy control panel for experts it would save your time, and for you who do not have more knowledge about website styling, of course this plugin will allow you to manage your website much more easily. 
 
 Example:
-<p>http://www.youtube.com/watch?v=2T73wvt_wOA</p><br>
+<p>http://www.youtube.com/watch?v=2T73wvt_wOA</p>
 <p>http://www.youtube.com/watch?v=LMBg0Zv8048</p>
 
 
