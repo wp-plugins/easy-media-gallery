@@ -142,11 +142,12 @@ But seriously, I just want to drink coffee for free, so help a developer out. Yo
 
 == Screenshots ==
 
-1. This screen shot description corresponds to screenshot-1.(png|jpg|jpeg|gif). Note that the screenshot is taken from
-the /assets directory or the directory that contains the stable readme.txt (tags or trunk). Screenshots in the /assets 
-directory take precedence. For example, `/assets/screenshot-1.png` would win over `/tags/4.3/screenshot-1.png` 
-(or jpg, jpeg, gif).
-2. This is the second screen shot
+1. Easy Media Gallery Admin Panel
+2. Easy Media Gallery Metabox (Gallery)
+3. Easy Media Gallery Media List
+4. Easy Media Gallery Admin Panel
+5. Easy Media Gallery Shortcode Manager
+6. Easy Media Gallery Metabox (Audio)
 
 == Changelog ==
 
