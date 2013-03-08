@@ -695,7 +695,7 @@ function easymedia_comparison() {
         <li class="row_style_3 align_center"><span class="pricing_no"></span></li>
         <li class="row_style_1 align_center"><span class="pricing_no"></span></li>
         <li class="row_style_3 align_center"><span>light</span></li>
-        <li class="row_style_1 align_center"><span>3 pattern</span></li>
+        <li class="row_style_1 align_center"><span>3 patterns</span></li>
         <li class="row_style_3 align_center"><span class="pricing_no"></span></li>
         <li class="row_style_1 align_center"><span class="pricing_no"></span></li>
         <li class="row_style_3 align_center"><span class="pricing_no"></span></li>
