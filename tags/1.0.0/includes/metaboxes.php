@@ -47,6 +47,10 @@ if ( strstr( $_SERVER['REQUEST_URI'], 'wp-admin/post-new.php' ) || strstr( $_SER
 			
 jQuery(document).ready(function($) {
 	
+		jQuery('select[id=easmedia_metabox_media_type] option').each(function() {
+    if (jQuery(this).text().indexOf('PRO ONLY') >= 0) jQuery(this).attr('disabled', 'disabled');
+});
+	
 	
 // -------- DELETE MEDIA IMAGE (AJAX)
 			function easmedia_img_media_remv(type) {
@@ -493,7 +497,7 @@ function easmedia_metabox_work(){
 					'id' => 'easmedia_metabox_media_type',
 					'type' => 'select',
 					'defflimit' => '0',
-					'options' => array( 'Select', 'Single Image', 'Video', 'Audio' ),
+					'options' => array( 'Select', 'Single Image', 'Video', 'Audio', 'Link (PRO ONLY)', 'Google Maps (PRO ONLY)', 'Multiple Images (PRO ONLY)' ),
 					'std' => 'Select')
 				),				
 				
