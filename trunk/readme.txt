@@ -29,11 +29,11 @@ Easy Media Gallery (EMG) is a wordpress plugin designed to display portfolios an
 <p>Easy Media Gallery satisfy all your needs letting you create different types of portfolio. Each item can be:</p> 
 
 * An image
-* An image gallery (<em>Only available in Pro Version</em>)
+* An image gallery (<em>Pro Version</em>)
 * A video
 * An mp3 player
-* Google Maps (<em>Only available in Pro Version</em>)
-* A link (<em>Only available in Pro Version</em>)
+* Google Maps (<em>Pro Version</em>)
+* A link (<em>Pro Version</em>)
 
 It is a very customizable plugin that allow you to set display whatever you want like adjust colors, positions, media sizes, hover effect and much more with one easy control panel. That easy control panel for experts it would save your time, and for you who do not have more knowledge about website styling, of course this plugin will allow you to manage your website much more easily. 
 
@@ -76,11 +76,11 @@ Take your media to the next level with [Easy Media Gallery Pro](http://ghozylab.
 
 == Installation ==
 
-For automatic installation:
+= For automatic installation: =
 
 The simplest way to install is to click on 'Plugins' then 'Add' and type 'Easy Media Gallery' in the search field.
 
-For manual installation 1:
+= For manual installation 1: =
 
 1. Login to your website and go to the Plugins section of your admin panel.
 1. Click the Add New button.
@@ -89,7 +89,7 @@ For manual installation 1:
 1. You should see a message stating that the plugin was installed successfully.
 1. Click the Activate Plugin link.
 
-For manual installation 2:
+= For manual installation 2: =
 
 1. You should have access to the server where WordPress is installed. If you don't, see your system administrator.
 1. Copy the plugin zip file (easy-media-gallery.zip) up to your server and unzip it somewhere on the file system.
@@ -102,7 +102,7 @@ For manual installation 2:
 
 = How do I use the shortcode to my post/page template? =
 
-There are 2 ways to use the shortcode, once you’ve created you’re media, you can use them in your website simply using the Easy Media Gallery shortcode wizard on top of each page or post editor.
+There are 2 ways to use the shortcode, once you've created your media, you can use them in your website simply using the Easy Media Gallery shortcode wizard on top of each page or post editor.
 
 `[easy-media med="231,233"]`
 
