@@ -135,7 +135,7 @@ To make the plugin easy for everyone, the documentation comes with detailed vide
 
 = How can I say thanks? =
 
-* just recommend our plugin to your friends! or
+* Just recommend our plugin to your friends! or
 * If you really love Easy Media Gallery, any donation would be appreciated! It helps to continue the development and support of the plugin.
 But seriously, I just want to drink coffee for free, so help a developer out. You can use this link [Donate to Easy Media Gallery][easymedia donate].
 
