@@ -1,7 +1,7 @@
 <?php
 $shortname = 'emgtinymce';
 
-$options = array (
+$optn = array (
 array( "name" => "Order media by",
 	"id" => $shortname."_select_method",
 	"type" => "select",
@@ -74,8 +74,8 @@ if ( get_post_type( get_the_ID() ) != 'easymediagallery' ) {
 
 <?php 
 
-global $options;
-foreach ( $options as $value ) {
+global $optn;
+foreach ( $optn as $value ) {
 switch ( $value['type'] ) {
 	
 case "text":
