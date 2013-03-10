@@ -48,7 +48,7 @@ jQuery(function() {
 		
 	/* Mediabox init */		
 		var add = "easymedia";
-jQuery('.da-thumbs image_grid a[rel!="easymedia"]').attr('rel', function (i, old) {
+jQuery('.da-thumbs a[rel!="easymedia"]').attr('rel', function (i, old) {
     return old ? old + ' ' + add : add; });		
 		
     });
