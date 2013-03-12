@@ -572,6 +572,43 @@ return $translation;
 
 
 /*-------------------------------------------------------------------------------*/
+/*   Load Dasboard News
+/*-------------------------------------------------------------------------------*/
+function emg_register_dashboard_widgets() {
+	if ( current_user_can( apply_filters( 'emg_dashboard_stats_cap', 'edit_pages' ) ) ) {
+		wp_add_dashboard_widget( 'emg_dashboard_stat', __('Easy Media Gallery (Lite)', 'easmedia'), 'emg_dashboard_widget' );
+	}
+}
+add_action('wp_dashboard_setup', 'emg_register_dashboard_widgets' );
+
+function emg_dashboard_widget() {
+?>
+    <div class="emg_dashboard_widget">
+<p class="sub">If you ever have any questions at all, please post them on our <a target="_blank" href="http://ghozylab.com/contactus/">Submit Support Request</a> form. Our dedicated support team will gladly assist you with your inquiries directly via the ticket or email. Lastly, if you really love Easy Media Gallery, please recommend our plugin to your friends.</p>	
+<div style="position:relative;">
+<ul class='easymedia-social' id='easymedia-cssanime'>
+<li class='easymedia-facebook'>
+<a onclick="window.open('http://www.facebook.com/sharer.php?s=100&amp;p[title]=Check out the Best Wordpress Portfolio and Gallery plugin&amp;p[summary]=Easy Media Gallery for WordPress that is powerful and so easy to create portfolio or media gallery&amp;p[url]=http://ghozylab.com/&amp;p[images][0]=<?php echo plugins_url( 'images/easymediabox.png' , dirname(__FILE__) ) ?>', 'sharer', 'toolbar=0,status=0,width=548,height=325');" href="javascript: void(0)" title="Share"><strong>Facebook</strong></a>
+</li>
+<li class='easymedia-twitter'>
+<a onclick="window.open('https://twitter.com/share?text=Check out the Best Wordpress Portfolio and Gallery Plugin &url=http://ghozylab.com/', 'sharer', 'toolbar=0,status=0,width=548,height=325');" title="Twitter" class="circle"><strong>Twitter</strong></a>
+</li>
+</li>
+<li class='easymedia-googleplus'>
+<a onclick="window.open('https://plus.google.com/share?url=http://ghozylab.com/','','width=415,height=450');"><strong>Google+</strong></a>
+</li>
+</li>
+<li class='easymedia-pinterest'>
+<a onclick="window.open('http://pinterest.com/pin/create/button/?url=http://ghozylab.com/;media=<?php echo plugins_url( 'images/easymediabox.png' , dirname(__FILE__) ) ?>;description=Easy Media Gallery for WordPress that is powerful and so easy to create portfolio or media gallery','','width=600,height=300');"><strong>Pinterest</strong></a>
+</li>
+</ul>
+</div></div>
+
+    <?php
+}
+
+
+/*-------------------------------------------------------------------------------*/
 /*   Admin Notifications
 /*-------------------------------------------------------------------------------*/
 function emg_upgradepro_message() {
