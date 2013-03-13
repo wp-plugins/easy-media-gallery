@@ -97,9 +97,11 @@ if ( have_posts() ) :
 $mediauniqueid = RandomString(6); //Random class for fitText
  
 echo'<script type="text/javascript">
-	 jQuery(document).ready(function() {
-	jQuery(".'.$mediauniqueid.'").fitText(1.1,{ maxFontSize: "12px" });
-	    });
+	(function($,undefined){
+	 $(document).ready(function() {
+	$(".'.$mediauniqueid.'").fitText(1.1,{ maxFontSize: "12px" });
+	});
+	    })(jQuery);
 		</script>';
 		
 echo '<div class="pfwrpr"><div id="alignstyle" class="easymedia_'.$cus_align.'">';
