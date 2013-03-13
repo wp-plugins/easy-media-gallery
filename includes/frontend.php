@@ -42,8 +42,8 @@ ob_start(); ?>
 	/* Easy Media Gallery */
     jQuery(document).ready(function($) {
 		
-jQuery(function() {
-	jQuery('div.da-thumbs').hoverdir();
+$(function() {
+	$('div.da-thumbs').hoverdir();
 });
 		
 	/* Mediabox init */		
