@@ -23,6 +23,7 @@ $paged = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : 1; // for pag
 if ( $med <= '0' && $cat > '0' ) {
 	$fnlterm = explode(",", $cat);
 	$args = array(
+	'posts_per_page' => -1,
 	'tax_query' => array(
 	array(
         'taxonomy' => 'emediagallery',
@@ -41,6 +42,7 @@ else if ( $cat <= '0' && $med > '0' ) {
 	$args = array(
 	'post__in' => $fnlid, 
 	'post_type' => 'easymediagallery',
+	'posts_per_page' => -1,
 	'order' => 'ASC',
 	'orderby' => 'menu_order',
   	'paged' => $paged
