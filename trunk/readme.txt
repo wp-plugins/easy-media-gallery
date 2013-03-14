@@ -4,7 +4,7 @@ Donate link: http://ghozylab.com/donate
 Tags: gallery, portfolio, media gallery, google maps plugin, video gallery, image gallery, audio gallery, gallery plugin, wordpress portfolio plugin, wordpress gallery, wordpress gallery plugin, wordpress portfolio, best gallery plugin, best portfolio plugin
 Requires at least: 3.3
 Tested up to: 3.5.1
-Stable tag: 1.0.0
+Stable tag: 1.1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -157,7 +157,16 @@ But seriously, I just want to drink coffee for free, so help a developer out. Yo
 = 1.0.0 =
 * This is the launch version. No changes yet.
 
+= 1.1.0 =
+* Fixed: PHP warning in the tinymce-dlg.php file
+* Fixed: Hover effect not works on several themes
+* Fixed: Only display 10 media, although we have determined more than 10. Now you can put unlimited media
+* Fixed: Title was given wrong position by CSS
+* Fixed: Theme's that set image heights affected the media image dimensions.
+* Many other code clean and optimization
+* Add Dasboard Share Button
+
 == Upgrade Notice ==
 
-= 1.0.0 =
-Please deactivate and then reactivate before using.
+= 1.1.0 =
+New version availabe, update NOW!
