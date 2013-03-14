@@ -154,9 +154,6 @@ But seriously, I just want to drink coffee for free, so help a developer out. Yo
 
 == Changelog ==
 
-= 1.0.0 =
-* This is the launch version. No changes yet.
-
 = 1.1.0 =
 * Fixed: PHP warning in the tinymce-dlg.php file
 * Fixed: Hover effect not works on several themes
@@ -165,6 +162,9 @@ But seriously, I just want to drink coffee for free, so help a developer out. Yo
 * Fixed: Theme's that set image heights affected the media image dimensions.
 * Many other code clean and optimization
 * Add Dasboard Share Button
+
+= 1.0.0 =
+* This is the launch version. No changes yet.
 
 == Upgrade Notice ==
 
