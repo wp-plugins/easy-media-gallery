@@ -428,6 +428,13 @@ function easymedia_hex2rgb($hex) {
 /*-------------------------------------------------------------------------------*/
 function easymedia_imgresize($img, $limit, $isres) {
 	
+	if ( strpos( $img, $_SERVER['HTTP_HOST'] ) === FALSE ) {
+		$img= "http://".$_SERVER['HTTP_HOST'].$img;
+		}
+		else {
+			$img= $img;
+			}	
+	
 	if ( $image == '' ) {
 		$image = plugins_url( 'images/no-image-available.jpg' , __FILE__ ) ;
 	}
@@ -460,7 +467,14 @@ function easymedia_imgresize_ajax() {
 			
 		$imgurl = $_POST['imgurl'];
 		$limiter = $_POST['limiter'];
-
+		
+		if ( strpos( $imgurl, $_SERVER['HTTP_HOST'] ) === FALSE ) {
+			$imgurl = "http://".$_SERVER['HTTP_HOST'].$imgurl;
+			}
+			else {
+				$imgurl = $imgurl;
+				}			
+		
 	$imgdata = getimagesize($imgurl); // get image size (w & h)
 	$tmpimgratio = ceil( $imgdata[0] / $imgdata[1] ); //get image aspec ratio
 		if ( $imgdata[0] > $limiter ) {
