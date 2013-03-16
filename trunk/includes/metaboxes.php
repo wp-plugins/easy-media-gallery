@@ -32,6 +32,8 @@ if ( strstr( $_SERVER['REQUEST_URI'], 'wp-admin/post-new.php' ) || strstr( $_SER
 					wp_enqueue_script( 'jquery-i-button', plugins_url( 'js/jquery/jquery.ibutton.js' , __FILE__ ) );
 					wp_enqueue_style( 'metabox-ibuttoneditor', plugins_url( 'css/ibutton.css' , __FILE__ ), false, EASYMEDIA_VERSION );
 					wp_enqueue_style( 'easymedia-jplayer-css', plugins_url( 'css/jplayer/skin/pink.flag/jplayer.pink.flag.css' , __FILE__ ), false, EASYMEDIA_VERSION );	
+					wp_enqueue_style( 'jquery-messi-css' );
+					wp_enqueue_script( 'jquery-messi-js' );	
 									
 			}
 		}	
@@ -51,6 +53,10 @@ jQuery(document).ready(function($) {
     if (jQuery(this).text().indexOf('PRO ONLY') >= 0) jQuery(this).attr('disabled', 'disabled');
 });
 	
+// MESSI POPUP	
+		jQuery('#videofrmt').on('click', function() {
+          new Messi('<p> - <strong>Youtube :</strong> http://www.youtube.com/watch?v=JaNH56Vpg-A</p><p> - <strong>Vimeo :</strong> http://vimeo.com/798022</p><p> - <strong>DailyMotion :</strong> http://www.dailymotion.com/swf/1zR7vSr9sneRWgUqL</p><p> - <strong>MetaCafe :</strong> http://www.metacafe.com/watch/2185365/spot_electrabel_gdf_suez_happy_new_year_2009/</p><p> - <strong>Facebook :</strong> http://www.facebook.com/video/video.php?v=543650258685</p><p> - <strong>Veoh :</strong> http://www.veoh.com/watch/v20943320Dz9Z45Qj</p><p> - <strong>Flickr video :</strong> http://www.flickr.com/photos/bhl1/2402027765/in/pool-video</p><p> - <strong>Google video :</strong> http://video.google.com/videoplay?docid=-8111235669135653751</p><p> - <strong>Quietube + Youtube :</strong> http://quietube.com/v.php/http://www.youtube.com/watch?v=b5Ff2X_3P_4</p><p> - <strong>Quietube + Vimeo :</strong> http://quietube.com/v.php/http://vimeo.com/2295261</p><p> - <strong>Tudou :</strong> http://www.tudou.com/programs/view/KG2UG_U4DMY/</p><p> - <strong>YouKu :</strong> http://v.youku.com/v_show/id_XNDI1MDkyMDQ</p>', {title: 'Sample video format', modal: true});
+		  });		
 	
 // -------- DELETE MEDIA IMAGE (AJAX)
 			function easmedia_img_media_remv(type) {
@@ -244,8 +250,7 @@ function easmedia_create_meta_box( $post, $meta_box )
 				
 			case 'video':
 				echo '<td>
-				<p>Youtube format : http://www.youtube.com/watch?v=JaNH56Vpg-A</p> 
-				<p>Vimeo format : http://vimeo.com/798022</p> 
+				<p id="videofrmt" style="text-decoration:underline;font-weight:bold;cursor:Pointer; color:#1A91F2 !important;">Click to See Video Format Examples</p>
 				<input type="text" name="easmedia_meta['. $field['id'] .']" id="'. $field['id'] .'" value="'. ($meta ? $meta : $field['std']) .'" size="30" />
 <div style="color:red; display:none;" id="emgvideopreview"></div>				
 <div class="videobox" id="" style="display:none;">
@@ -509,7 +514,7 @@ function easmedia_metabox_work(){
 	    $meta_box = array(
 		'id' => 'easmedia_metaboxmediavideo',
 		'title' =>  __( 'Video Options', 'easmedia' ),
-		'description' => __( 'Paste video URL to field below. For example:', 'easmedia' ),
+		'description' => __( 'Paste video URL to field below.', 'easmedia' ),
 		'page' => 'easymediagallery',
 		'context' => 'normal',
 		'priority' => 'default',
