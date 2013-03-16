@@ -133,6 +133,11 @@ To make the plugin easy for everyone, the documentation comes with detailed vide
 * [How to Publish Easy Media Gallery ( Advance Method )](http://www.youtube.com/watch?v=LMBg0Zv8048)
 
 
+= How can I get support? =
+
+* We are not able to provide anything other than community based support for Easy Media Gallery Lite. Please consider upgrading to [Easy Media Gallery Professional](http://ghozylab.com/) for support.
+
+
 = How can I say thanks? =
 
 * Just recommend our plugin to your friends! or
