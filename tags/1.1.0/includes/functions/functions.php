@@ -23,6 +23,7 @@ function easymedia_reg_script() {
 	wp_register_style( 'easymedia-tinymce', plugins_url( 'css/tinymce.css' , dirname(__FILE__) ), false, EASYMEDIA_VERSION );	
 	wp_register_style( 'jquery-multiselect-css', plugins_url( 'css/jquery/multiselect/jquery.multiselect.css' , dirname(__FILE__) ), false, EASYMEDIA_VERSION );
 	wp_register_style( 'easymedia-comparison-css', plugins_url( 'css/compare.css' , dirname(__FILE__) ), false, EASYMEDIA_VERSION );
+	wp_register_style( 'jquery-messi-css', plugins_url( 'css/messi.css' , dirname(__FILE__) ), false, EASYMEDIA_VERSION );
 	
 	// JS ( settings.php ) 
 	wp_register_script( 'easymedia-jquery-easing', plugins_url( 'js/jquery/jquery.easing.1.3.js' , dirname(__FILE__) ) );	
@@ -35,7 +36,8 @@ function easymedia_reg_script() {
 	
 	// JS ( metaboxes.php, ) 
 	wp_register_script( 'easymedia-comparison-js', plugins_url( 'js/func/compare.js' , dirname(__FILE__) ) );
-	
+	wp_register_script( 'jquery-messi-js', plugins_url( 'js/jquery/jquery.messi.min.js' , dirname(__FILE__) ) );
+		
 }
 add_action( 'admin_init', 'easymedia_reg_script' );
 
