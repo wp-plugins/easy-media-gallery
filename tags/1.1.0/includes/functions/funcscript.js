@@ -99,6 +99,7 @@ if (msgclk == 'image'){
 					jQuery("#emediaimagediv").show("slow");
 					jQuery('#easmedia_metabox_media_desc').show("slow");
 					jQuery("#easmedia_metaboxmediavideo").hide("slow");
+					jQuery("#medsingimgtut").show();
 					jQuery('.easmedia_metabox_media_image_opt1').show();
 					jQuery('#emediaimagediv .hndle span').text("Select Image");
 					jQuery('#easmedia_metaboxmediaaudio').hide("slow");}			
@@ -108,10 +109,12 @@ if (msgclk == 'image'){
 					jQuery("#emediaimagediv").show("slow");
 					jQuery('#easmedia_metabox_media_desc').show("slow");
 					jQuery("#easmedia_metaboxmediavideo").show("slow");
-					jQuery('#easmedia_metaboxmedialink').hide("slow");				
+					jQuery('#easmedia_metaboxmedialink').hide("slow");
+					jQuery("#medsingimgtut").hide();				
 					jQuery('#emediaimagediv .hndle span').text("Select the Cover Video");					
 					jQuery('#easmedia_metaboxmediagallery').hide("slow");	
-					jQuery('.easmedia_metabox_media_image_opt1').hide();				
+					jQuery('.easmedia_metabox_media_image_opt1').hide();
+									
 					jQuery('#easmedia_metaboxmediaaudio').hide("slow");}	
 					
 				else if (sctyp == '3'){ // Audio
@@ -120,6 +123,7 @@ if (msgclk == 'image'){
 					jQuery('#easmedia_metabox_media_desc').show("slow");
 					jQuery('#easmedia_metaboxmediaaudio').show("slow");			
 					jQuery("#easmedia_metaboxmediavideo").hide("slow");
+					jQuery("#medsingimgtut").hide();
 					jQuery('#emediaimagediv .hndle span').text("Select the Cover Audio");					
 					jQuery('#easmedia_metaboxmediagallery').hide("slow");
 					jQuery('.easmedia_metabox_media_image_opt1').hide();				
