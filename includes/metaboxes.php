@@ -56,7 +56,22 @@ jQuery(document).ready(function($) {
 // MESSI POPUP	
 		jQuery('#videofrmt').on('click', function() {
           new Messi('<p> - <strong>Youtube :</strong> http://www.youtube.com/watch?v=JaNH56Vpg-A</p><p> - <strong>Vimeo :</strong> http://vimeo.com/798022</p><p> - <strong>DailyMotion :</strong> http://www.dailymotion.com/swf/1zR7vSr9sneRWgUqL</p><p> - <strong>MetaCafe :</strong> http://www.metacafe.com/watch/2185365/spot_electrabel_gdf_suez_happy_new_year_2009/</p><p> - <strong>Facebook :</strong> http://www.facebook.com/video/video.php?v=543650258685</p><p> - <strong>Veoh :</strong> http://www.veoh.com/watch/v20943320Dz9Z45Qj</p><p> - <strong>Flickr video :</strong> http://www.flickr.com/photos/bhl1/2402027765/in/pool-video</p><p> - <strong>Google video :</strong> http://video.google.com/videoplay?docid=-8111235669135653751</p><p> - <strong>Quietube + Youtube :</strong> http://quietube.com/v.php/http://www.youtube.com/watch?v=b5Ff2X_3P_4</p><p> - <strong>Quietube + Vimeo :</strong> http://quietube.com/v.php/http://vimeo.com/2295261</p><p> - <strong>Tudou :</strong> http://www.tudou.com/programs/view/KG2UG_U4DMY/</p><p> - <strong>YouKu :</strong> http://v.youku.com/v_show/id_XNDI1MDkyMDQ</p>', {title: 'Sample video format', modal: true});
-		  });		
+		  });	
+		  		  
+		jQuery('#medvidtut').on('click', function() {
+          new Messi('<iframe width="853" height="480" src="http://www.youtube.com/embed/htxwZw_aPF0" frameborder="0" allowfullscreen></iframe>', {title: 'Video Tutorial', modal: true});
+		  });			  
+	  	
+
+		jQuery('#medsingimgtut').on('click', function() {
+          new Messi('<iframe width="853" height="480" src="http://www.youtube.com/embed/dXFBNY5t6E8" frameborder="0" allowfullscreen></iframe>', {title: 'Video Tutorial', modal: true});
+		  });	
+		  
+		  
+		jQuery('#medaudiotut').on('click', function() {
+          new Messi('<iframe width="853" height="480" src="http://www.youtube.com/embed/Bsn-CB5Hpbw" frameborder="0" allowfullscreen></iframe>', {title: 'Video Tutorial', modal: true});
+		  });			  
+
 	
 // -------- DELETE MEDIA IMAGE (AJAX)
 			function easmedia_img_media_remv(type) {
@@ -249,8 +264,9 @@ function easmedia_create_meta_box( $post, $meta_box )
 				break;	
 				
 			case 'video':
-				echo '<td>
-				<p id="videofrmt" style="text-decoration:underline;font-weight:bold;cursor:Pointer; color:#1A91F2 !important;">Click to See Video Format Examples</p>
+				echo '				<p id="videofrmt" style="text-decoration:underline;font-weight:bold;cursor:Pointer; color:#1A91F2 !important;">Sample video format</p>
+				<p id="medvidtut" style="text-decoration:underline;font-weight:bold;cursor:Pointer; color:#1A91F2 !important;">Video Tutorial</p><td>				
+				
 				<input type="text" name="easmedia_meta['. $field['id'] .']" id="'. $field['id'] .'" value="'. ($meta ? $meta : $field['std']) .'" size="30" />
 <div style="color:red; display:none;" id="emgvideopreview"></div>				
 <div class="videobox" id="" style="display:none;">
@@ -272,7 +288,7 @@ $dsplynone = 'display:none;';
 ( $curimgpth != '' ) ? $curimgpth = easymedia_imgresize(get_post_meta( $post->ID, 'easmedia_metabox_img', true ), '210', 'on') : $curimgpth = '';
 ( $curimgpth != '' ) ? $dsplynone = '' : $dsplynone = 'display:none;';		
 
-echo '<td id="imgupld"><input id="upload_image" type="text" name="easmedia_meta['. $field['id'] .']" value="'. ($meta ? $meta : $field['std']) .'" style="margin-bottom:5px;"/><div style="color:red;" id="notifynovalidimg"></div><div class="addmed"><a rel="image" class="' . $uploaderclass . '" title="Add Media" data-editor="content" href="media-upload.php?type=image&TB_iframe=1"><span class="emg-media-buttons-icon"></span>Add Media</a></div>
+echo '<p id="medsingimgtut" style="text-decoration:underline;font-weight:bold;cursor:Pointer; color:#1A91F2 !important;">Video Tutorial</p><td id="imgupld"><input id="upload_image" type="text" name="easmedia_meta['. $field['id'] .']" value="'. ($meta ? $meta : $field['std']) .'" style="margin-bottom:5px;"/><div style="color:red;" id="notifynovalidimg"></div><div class="addmed"><a rel="image" class="' . $uploaderclass . '" title="Add Media" data-editor="content" href="media-upload.php?type=image&TB_iframe=1"><span class="emg-media-buttons-icon"></span>Add Media</a></div>
 <a onClick="return false;" style="'. $dsplynone .';" class="deleteimage button" title="Delete Image" href="#"><span class="emg-media-buttons-icon-del"></span>Delete Image</a>
 
 <div style="'. $dsplynone .' width:'.$imagesz[0].'px; height:'.$imagesz[1].'px" id="imgpreviewbox" class="imgpreviewboxc">
@@ -299,7 +315,7 @@ if ( $curaudiopth != '' ) { echo '
     </script>	
 '; }
 
-echo '<td id="audioupld"><input id="upload_audio" type="text" name="easmedia_meta['. $field['id'] .']" value="'. ($meta ? $meta : $field['std']) .'" style="margin-bottom:5px;"/><div style="color:red;" id="notifynovalidaudio"></div><div class="addmed"><a rel="audio" class="' . $uploaderclass . '" title="Add Media" data-editor="content" href="media-upload.php?type=image&TB_iframe=1"><span class="emg-media-buttons-icon"></span>Add Media</a></div>
+echo '<p id="medaudiotut" style="text-decoration:underline;font-weight:bold;cursor:Pointer; color:#1A91F2 !important;">Video Tutorial</p><td id="audioupld"><input id="upload_audio" type="text" name="easmedia_meta['. $field['id'] .']" value="'. ($meta ? $meta : $field['std']) .'" style="margin-bottom:5px;"/><div style="color:red;" id="notifynovalidaudio"></div><div class="addmed"><a rel="audio" class="' . $uploaderclass . '" title="Add Media" data-editor="content" href="media-upload.php?type=image&TB_iframe=1"><span class="emg-media-buttons-icon"></span>Add Media</a></div>
 <a onClick="return false;" style="'. $adsplynone .';" class="deleteaudio button" title="Delete Audio" href="#"><span class="emg-media-buttons-icon-del"></span>Delete Audio</a>
 
 <div style="'. $adsplynone .';" id="audioprev" class="vidpreviewboxc">
