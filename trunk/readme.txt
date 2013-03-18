@@ -32,6 +32,7 @@ Easy Media Gallery (EMG) is a wordpress plugin designed to display portfolios an
 * An image gallery (<em>Pro Version</em>)
 * A video
 * An mp3 player
+* Embed from Reverbnation or Soundcloud (<em>Pro Version</em>)
 * Google Maps (<em>Pro Version</em>)
 * A link (<em>Pro Version</em>)
 
