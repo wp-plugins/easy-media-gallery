@@ -157,6 +157,8 @@ But seriously, I just want to drink coffee for free, so help a developer out. Yo
 4. Easy Media Gallery Admin Panel
 5. Easy Media Gallery Shortcode Manager
 6. Easy Media Gallery Metabox (Audio)
+7. Embed music from Soundcloud
+8. Embed music from Reverbnation
 
 == Changelog ==
 
