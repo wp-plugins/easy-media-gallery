@@ -446,10 +446,10 @@ function easymedia_imgresize($img, $limit, $isres) {
 		
 	if ( $isres == 'on' ) {
 	$imagedata = getimagesize($img); // get image size (w & h)
-	$tempimgratio = ceil( $imagedata[0] / $imagedata[1] ); //get image aspec ratio
+	$tempimgratio = $imagedata[1] / $imagedata[0]; //get image aspec ratio
 		if ( $imagedata[0] > $limit ) {
-			$tmpimgw = $limit; // final image width
-			$tmpimgh = ceil( $limit / $tempimgratio ); // final image height
+			$tmpimgh = (int)($tempimgratio * $limit); // final image height
+			$tmpimgw = $limit; // fixed image width
 			$finalimgurl = EMG_THUMB_FILE . "?src=" . $img . "&h=" . $tmpimgh . "&w=" . $tmpimgw . "&zc=1&q=100";
 			}
 		else {
@@ -478,10 +478,10 @@ function easymedia_imgresize_ajax() {
 				}			
 		
 	$imgdata = getimagesize($imgurl); // get image size (w & h)
-	$tmpimgratio = ceil( $imgdata[0] / $imgdata[1] ); //get image aspec ratio
+	$tmpimgratio = $imgdata[1] / $imgdata[0]; //get image aspec ratio
 		if ( $imgdata[0] > $limiter ) {
-			$tmpw = $limiter; // final image width
-			$tmph = ceil( $limiter / $tmpimgratio ); // final image height
+			$tmph = (int)($tmpimgratio * $limiter); // final image height
+			$tmpw = $limiter; // fixed image width
 			$finimgurl = EMG_THUMB_FILE . "?src=" . $imgurl . "&h=" . $tmph . "&w=" . $tmpw . "&zc=1&q=100";
 			$allimgdata = array( $finimgurl,  $tmpw, $tmph );
 			echo implode(",", $allimgdata);
