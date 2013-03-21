@@ -426,40 +426,54 @@ function easymedia_hex2rgb($hex) {
 }
 
 /*-------------------------------------------------------------------------------*/
+/*  Get attachment image id 
+/*-------------------------------------------------------------------------------*/
+function get_attachment_id_from_src ($link) {
+    global $wpdb;
+        $link = preg_replace('/-\d+x\d+(?=\.(jpg|jpeg|png|gif)$)/i', '', $link);
+        return $wpdb->get_var("SELECT ID FROM {$wpdb->posts} WHERE guid='$link'");
+}
+
+
+/*-------------------------------------------------------------------------------*/
 /*  Image Resize ( Aspect Ratio )
 /*-------------------------------------------------------------------------------*/
-function easymedia_imgresize($img, $limit, $isres) {
+function easymedia_imgresize($img, $limit, $isres, $imw, $imh) {
 	
 	if ( strpos( $img, $_SERVER['HTTP_HOST'] ) === FALSE ) {
 		$img= "http://".$_SERVER['HTTP_HOST'].$img;
 		}
 		else {
 			$img= $img;
-			}	
+			}
 	
-	if ( $image == '' ) {
-		$image = plugins_url( 'images/no-image-available.jpg' , __FILE__ ) ;
+	if ( $img == '' ) {
+		$img = plugins_url( 'images/no-image-available.jpg' , dirname(__FILE__) ) ;
 	}
 		else {
-			$image = $image;
-		}
-		
+			$img = $img;
+		}	
+	
 	if ( $isres == 'on' ) {
-	$imagedata = getimagesize($img); // get image size (w & h)
-	$tempimgratio = $imagedata[1] / $imagedata[0]; //get image aspec ratio
-		if ( $imagedata[0] > $limit ) {
-			$tmpimgh = (int)($tempimgratio * $limit); // final image height
-			$tmpimgw = $limit; // fixed image width
-			$finalimgurl = EMG_THUMB_FILE . "?src=" . $img . "&h=" . $tmpimgh . "&w=" . $tmpimgw . "&zc=1&q=100";
+		if ( $imw > $limit ) {
+			$tempimgratio = $imh / $imw;
+			$fih = (int)($tempimgratio * $limit); // final image height
+			$fiw = $limit; // fixed image width
+			$allimgdata = array( EMG_THUMB_FILE . "?src=" . $img . "&h=" . $fih . "&w=" . $fiw . "&zc=1&q=100", $fiw, $fih );
 			}
 		else {
-			$finalimgurl = $img;
+			$allimgdata = array( $img, $imw, $imh );
 			}		
 		}
-	else { $finalimgurl = $img; }
-return $finalimgurl;
+	else { $allimgdata = array( $img, $imw, $imh );	
+	}
+return implode(",", $allimgdata);
 }
 
+
+/*-------------------------------------------------------------------------------*/
+/*  Image Resize ( Aspect Ratio ) AJAX
+/*-------------------------------------------------------------------------------*/
 function easymedia_imgresize_ajax() {
 	if ( !isset( $_POST['imgurl'] ) || !isset( $_POST['limiter'] ) || $_POST['imgurl'] == '' || $_POST['limiter'] == '' ) {
 		echo '<p>Ajax request failed, please refresh your browser window.</p>';
@@ -469,32 +483,32 @@ function easymedia_imgresize_ajax() {
 			
 		$imgurl = $_POST['imgurl'];
 		$limiter = $_POST['limiter'];
-		
+		$attid = wp_get_attachment_image_src( get_attachment_id_from_src( $imgurl ), 'full' );
+	
 		if ( strpos( $imgurl, $_SERVER['HTTP_HOST'] ) === FALSE ) {
 			$imgurl = "http://".$_SERVER['HTTP_HOST'].$imgurl;
 			}
 			else {
 				$imgurl = $imgurl;
-				}			
-		
-	$imgdata = getimagesize($imgurl); // get image size (w & h)
-	$tmpimgratio = $imgdata[1] / $imgdata[0]; //get image aspec ratio
-		if ( $imgdata[0] > $limiter ) {
+				}
+				
+				$tmpimgratio = $attid[2] / $attid[1]; //get image aspec ratio
+
+		if ( $attid[1] > $limiter ) {
 			$tmph = (int)($tmpimgratio * $limiter); // final image height
 			$tmpw = $limiter; // fixed image width
 			$finimgurl = EMG_THUMB_FILE . "?src=" . $imgurl . "&h=" . $tmph . "&w=" . $tmpw . "&zc=1&q=100";
-			$allimgdata = array( $finimgurl,  $tmpw, $tmph );
+			$allimgdata = array( $finimgurl, $tmpw, $tmph );
 			echo implode(",", $allimgdata);
 			die;
 			}
 		else {
 			$finimgurl = $imgurl;
-			$allimgdata = array( $finimgurl, $imgdata[0], $imgdata[1] );
+			$allimgdata = array( $finimgurl, $attid[1], $attid[2] );
 			echo implode(",", $allimgdata);
 			die;
 			}		
 		}
-		
 }
 add_action( 'wp_ajax_easymedia_imgresize_ajax', 'easymedia_imgresize_ajax' );
 
