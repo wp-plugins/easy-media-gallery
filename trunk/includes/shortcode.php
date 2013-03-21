@@ -144,15 +144,14 @@ echo '<div class="pfwrpr"><div id="alignstyle" class="easymedia_'.$cus_align.'">
 		switch ( $mediatype ) {
 			case 'Single Image':
 				$mediahovttl = "Single Image";
-				$medialink = easymedia_imgresize( $image, $deff_img_limit, $isresize1 );
-				
+				$attid = wp_get_attachment_image_src( get_attachment_id_from_src( $image ), 'full' );
+				$medialink = easymedia_imgresize( $attid[0], $deff_img_limit, $isresize1, $attid[1], $attid[2] );
+				$medialink = explode(",", $medialink); $medialink = $medialink[0];
 					if ( $mark ) {
 				$therell = "easymedia[" .$mark."]";
 				} else {
 					$therell = "easymedia";
 					}
-				
-				
 	    	break;
 			
 						
@@ -173,17 +172,6 @@ echo '<div class="pfwrpr"><div id="alignstyle" class="easymedia_'.$cus_align.'">
 				
 	        break;			
 			
-			case 'Link':
-				$media_link = get_post_meta( $post->ID, 'easmedia_metabox_media_link', true );
-				$link_type = get_post_meta( $post->ID, 'easmedia_metabox_media_link_opt1', true );	
-				$mediahovttl = "Link";
-				if ( $media_link !='' ) {
-					$media_link_fin = $media_link; } else {
-					$media_link_fin = $post->guid;}
-					
-				$medialink = $media_link_fin;
-				$therell = "";
-	        break;			
 		}
 		
       if( $counter%$num_cols == 0 ) :
