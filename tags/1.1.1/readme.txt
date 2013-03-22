@@ -165,6 +165,7 @@ But seriously, I just want to drink coffee for free, so help a developer out. Yo
 == Changelog ==
 
 = 1.1.1 =
+* Add Resize thumbnails option
 * Removed the use of PHP function getimagesize()
 * Fixed: jQuery image preview
 * Update: Video tutorial
