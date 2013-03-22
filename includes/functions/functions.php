@@ -757,7 +757,7 @@ function easymedia_comparison() {
         <li class="row_style_1 align_center"><span>max 3 columns</span></li>
         <li class="row_style_3 align_center"><span>title &amp; subtitle ONLY</span></li>
         <li class="row_style_1 align_center"><span>center</span></li>
-        <li class="row_style_3 align_center"><span class="pricing_no"></span></li>
+        <li class="row_style_3 align_center"><span class="pricing_yes"></span></li>
         <li class="row_style_1 align_center"><span class="pricing_no"></span></li>
         <li class="row_style_3 align_center"><span class="pricing_no"></span></li>
         <li class="row_style_1 align_center"><span class="pricing_no"></span></li>
