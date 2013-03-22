@@ -90,6 +90,13 @@ array( "name" => "Cursor",
 	"options" => array( "Pointer", "Crosshair", "Move", "Default" ),
 	"std" => "3"),
 	
+array( "name" => "Thumbnail Size",
+	"desc" => "Allow for editing thumbnail sizes, you can also set this manually when adding shortcode. Default sizes width 180px, height : 180px",
+	"id" => $theshort."_frm_size",
+	"type" => "size",
+	'std' => array( 'width' => '180', 'height' => '180' ),
+	"pixopr" => "px"),		
+	
 array( "name" => "Thumbnail Border Color",
 	"desc" => "Please define your custom Border Color. Default color is white (#FFF)",
 	"id" => $theshort."_frm_col",
