@@ -511,7 +511,7 @@ function easmedia_metabox_work(){
 	    $meta_box = array(
 		'id' => 'easmedia_metaboxmediatypeselect',
 		'title' =>  __( 'Media Options', 'easmedia' ),
-		'description' => __( 'Select videos, images, gallery or audio files.<br><br><span style="color:#F00;">Upgrade to PRO and you can select Image Gallery, Google Maps, Soundcloud or reverbnation embed and also Link to specific URL. You can learn more and see comparison <a href="edit.php?post_type=easymediagallery&page=comparison">HERE</a></span>', 'easmedia' ),
+		'description' => __( 'Select videos, images, gallery or audio files.<br><br><span style="color:#F00;">Upgrade to PRO and you can select Image Gallery, Google Maps, Soundcloud or Reverbnation embed and also Link to specific URL. You can learn more and see version comparison <a href="edit.php?post_type=easymediagallery&page=comparison">HERE</a></span>', 'easmedia' ),
 		'page' => 'easymediagallery',
 		'context' => 'normal',
 		'priority' => 'default',
