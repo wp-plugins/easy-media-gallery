@@ -264,8 +264,8 @@ function easmedia_create_meta_box( $post, $meta_box )
 				break;	
 				
 			case 'video':
-				echo '				<p id="videofrmt" style="text-decoration:underline;font-weight:bold;cursor:Pointer; color:#1A91F2 !important;">Sample video format</p>
-				<p id="medvidtut" style="text-decoration:underline;font-weight:bold;cursor:Pointer; color:#1A91F2 !important;">Video Tutorial</p><td>				
+				echo '				<div id="videofrmt" style="text-decoration:underline;font-weight:bold;cursor:Pointer; color:#1A91F2 !important; margin-bottom:8px;">Sample video format</div>
+				<div id="medvidtut" style="text-decoration:underline;font-weight:bold;cursor:Pointer; color:#1A91F2 !important; margin-bottom:8px;">Video Tutorial</div><td>				
 				
 				<input type="text" name="easmedia_meta['. $field['id'] .']" id="'. $field['id'] .'" value="'. ($meta ? $meta : $field['std']) .'" size="30" />
 <div style="color:red; display:none;" id="emgvideopreview"></div>				
@@ -293,7 +293,7 @@ $curimgpth = explode(",", $curimgpth);
 	 $dsplynone = 'display:none;';
 	}	
 
-echo '<p id="medsingimgtut" style="text-decoration:underline;font-weight:bold;cursor:Pointer; color:#1A91F2 !important;">Video Tutorial</p><td id="imgupld"><input id="upload_image" type="text" name="easmedia_meta['. $field['id'] .']" value="'. ($meta ? $meta : $field['std']) .'" style="margin-bottom:5px;"/><div style="color:red;" id="notifynovalidimg"></div><div class="addmed"><a rel="image" class="' . $uploaderclass . '" title="Add Media" data-editor="content" href="media-upload.php?type=image&TB_iframe=1"><span class="emg-media-buttons-icon"></span>Add Media</a></div>
+echo '<div id="medsingimgtut" style="text-decoration:underline;font-weight:bold;cursor:Pointer; color:#1A91F2 !important; margin-bottom:8px;">Video Tutorial</div><td id="imgupld"><input id="upload_image" type="text" name="easmedia_meta['. $field['id'] .']" value="'. ($meta ? $meta : $field['std']) .'" style="margin-bottom:5px;"/><div style="color:red;" id="notifynovalidimg"></div><div class="addmed"><a rel="image" class="' . $uploaderclass . '" title="Add Media" data-editor="content" href="media-upload.php?type=image&TB_iframe=1"><span class="emg-media-buttons-icon"></span>Add Media</a></div>
 <a onClick="return false;" style="'. $dsplynone .';" class="deleteimage button" title="Delete Image" href="#"><span class="emg-media-buttons-icon-del"></span>Delete Image</a>
 
 <div style="'. $dsplynone .' width:'.$curimgpth[1].'px; height:'.$curimgpth[2].'px" id="imgpreviewbox" class="imgpreviewboxc">
@@ -320,7 +320,7 @@ if ( $curaudiopth != '' ) { echo '
     </script>	
 '; }
 
-echo '<p id="medaudiotut" style="text-decoration:underline;font-weight:bold;cursor:Pointer; color:#1A91F2 !important;">Video Tutorial</p><td id="audioupld"><input id="upload_audio" type="text" name="easmedia_meta['. $field['id'] .']" value="'. ($meta ? $meta : $field['std']) .'" style="margin-bottom:5px;"/><div style="color:red;" id="notifynovalidaudio"></div><div class="addmed"><a rel="audio" class="' . $uploaderclass . '" title="Add Media" data-editor="content" href="media-upload.php?type=image&TB_iframe=1"><span class="emg-media-buttons-icon"></span>Add Media</a></div>
+echo '<div id="medaudiotut" style="text-decoration:underline;font-weight:bold;cursor:Pointer; color:#1A91F2 !important; margin-bottom:8px;">Video Tutorial</div><td id="audioupld"><input id="upload_audio" type="text" name="easmedia_meta['. $field['id'] .']" value="'. ($meta ? $meta : $field['std']) .'" style="margin-bottom:5px;"/><div style="color:red;" id="notifynovalidaudio"></div><div class="addmed"><a rel="audio" class="' . $uploaderclass . '" title="Add Media" data-editor="content" href="media-upload.php?type=image&TB_iframe=1"><span class="emg-media-buttons-icon"></span>Add Media</a></div>
 <a onClick="return false;" style="'. $adsplynone .';" class="deleteaudio button" title="Delete Audio" href="#"><span class="emg-media-buttons-icon-del"></span>Delete Audio</a>
 
 <div style="'. $adsplynone .';" id="audioprev" class="vidpreviewboxc">
