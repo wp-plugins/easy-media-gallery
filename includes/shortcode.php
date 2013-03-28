@@ -21,19 +21,20 @@ global $post;
 $paged = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : 1; // for pagination
 
 if ( $med <= '0' && $cat > '0' ) {
-	$fnlterm = explode(",", $cat);
-	$args = array(
+$args = array( 
+    'post_type' => 'easymediagallery',
+    'showposts' => -1,
 	'posts_per_page' => -1,
-	'tax_query' => array(
-	array(
-        'taxonomy' => 'emediagallery',
-        'field' => 'id',
-		'orderby' => 'menu_order',
-		'paged' => $paged,
-        'terms' => $fnlterm
-    	)
-	)
-	);
+	'orderby' => 'menu_order',
+    'order' => 'ASC',
+    'tax_query' => array(
+        array(
+            'taxonomy' => 'emediagallery',
+            'terms' => $cat,
+            'field' => 'term_id',
+        )
+    ),
+);	
 }
 
 else if ( $cat <= '0' && $med > '0' ) {
