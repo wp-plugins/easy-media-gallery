@@ -777,7 +777,7 @@ function easymedia_comparison() {
           <h2 class="col2">Pro Version</h2>
         </li>
         <li class="header_row_2 align_center">
-          <h1 class="col2">$<span>14</span></h1>
+          <h1 class="col2">$<span>20</span></h1>
         </li>
         
         <li class="row_style_4 align_center"><span class="pricing_yes"></span></li>
