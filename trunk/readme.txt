@@ -106,6 +106,14 @@ The simplest way to install is to click on 'Plugins' then 'Add' and type 'Easy M
 
 == Frequently Asked Questions ==
 
+= Images not showing up or permanently loading icon appears where the gallery should be displayed =
+
+Sometimes you may face problem that your images are not displaying in the site. We use timthumb script to resize the images. To change permission, you can use a FTP program like FileZilla or you can even use File Manager from your cPanel. We would recommend you use FileZilla to do this task, you can [DOWNLOAD HERE](https://filezilla-project.org/download.php) . Okay, Changing permission is very easy.
+
+1. Firstly you should have FTP account, if you don't have, make one from cPanel.
+1. Now login to FTP, using FileZilla and navigate to Easy Media Gallery folder/directory in /wp-content/plugins/easy-media-gallery/includes/class/
+1. Make sure there is a folder with name <strong>cache</strong>, If not exist just create new one and right click on <strong>cache</strong> folder and click on Permissions. Type 755 and click on OK. If this still does not work, then try applying 777 permission to cache folder.
+
 = How do I use the shortcode to my post/page template? =
 
 There are 2 ways to use the shortcode, once you've created your media, you can use them in your website simply using the Easy Media Gallery shortcode wizard on top of each page or post editor.
