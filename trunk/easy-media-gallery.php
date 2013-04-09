@@ -388,6 +388,12 @@ add_filter( 'pre_get_posts', 'easmedia_set_custom_post_types_admin_order' );
 
 
 /*-------------------------------------------------------------------------------*/
+/*   Shortcodes in sidebar (text) widgets
+/*-------------------------------------------------------------------------------*/
+add_filter('widget_text', 'do_shortcode', 11);
+
+
+/*-------------------------------------------------------------------------------*/
 /*   Load Plugin Functions
 /*-------------------------------------------------------------------------------*/
 include_once( WPECBD_PLUGIN_DIR . 'includes/functions/functions.php' );
