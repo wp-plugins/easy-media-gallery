@@ -482,7 +482,7 @@ $i++;
 ?>
  
 <input type="hidden" name="action" value="save" />
-<p><a target="_blank" href="http://ghozylab.com/pro-version/" class="tsc_buttons2 red">Upgrade to Pro Version</a> <span style="color:#666666;margin-left:2px; font-size:11px;">&nbsp; Need More Features? Upgrade to Pro Version!</span></p>
+<p><a target="_blank" href="http://ghozylab.com/order" class="tsc_buttons2 red">Upgrade to Pro Version</a> <span style="color:#666666;margin-left:2px; font-size:11px;">&nbsp; Need More Features? Upgrade to Pro Version!</span></p>
  </div> </div>
  </form>
  
