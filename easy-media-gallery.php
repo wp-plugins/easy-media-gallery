@@ -74,7 +74,7 @@ define( 'EMG_THUMB_FILE', plugins_url( 'includes/class/timthumb.php' , __FILE__ 
 
 // Plugin Version
 if ( !defined( 'EASYMEDIA_VERSION' ) ) {
-	define( 'EASYMEDIA_VERSION', '1.0.0' );
+	define( 'EASYMEDIA_VERSION', '1.1.1' );
 }
 
 
