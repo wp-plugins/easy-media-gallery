@@ -648,7 +648,7 @@ function emg_upgradepro_message() {
 	
 	
             $message = '<div id="emg-discount-upgrade-notice">';
-			$message .= '<p><strong>Upgrade to Easy Media Gallery Pro Version - </strong> <a style="color:#fff !important;" target="_blank" href="http://ghozylab.com/pro-version/" class="tsc_buttons2 red">Upgrade Now</a> <strong>or you can </strong>  <a style="color:#fff !important;" href="edit.php?post_type=easymediagallery&page=comparison" class="tsc_buttons2 red">Learn More</a>';
+			$message .= '<p><strong>Upgrade to Easy Media Gallery Pro Version - </strong> <a style="color:#fff !important;" target="_blank" href="http://ghozylab.com/order" class="tsc_buttons2 red">Upgrade Now</a> <strong>or you can </strong>  <a style="color:#fff !important;" href="edit.php?post_type=easymediagallery&page=comparison" class="tsc_buttons2 red">Learn More</a>';
             $message .= '</p></div>';
             echo $message;
 	}
@@ -708,7 +708,7 @@ function easymedia_comparison() {
     <div class="wrap">
         <div id="icon-edit" class="icon32 icon32-posts-easymedia"><br /></div>
         <h2><?php _e('Comparison', 'easmedia'); ?></h2>
-  <div class="tsc_pricingtable03 tsc_pt3_style1" style="margin-bottom:110px; height:920px;">
+  <div class="tsc_pricingtable03 tsc_pt3_style1" style="margin-bottom:110px; height:940px;">
     <div class="caption_column">
       <ul>
         <li class="header_row_1 align_center radius5_topleft"></li>
@@ -736,6 +736,7 @@ function easymedia_comparison() {
         <li class="row_style_2"><span>Advanced Shortcode </span><a  class="thickbox" href="<?php echo plugins_url( 'images/pro-version-shortcode-manager.png' , dirname(__FILE__) ) ?>" style="text-decoration:underline !important;">Click for Screenshot</a></li>
         <li class="row_style_4"><span>Facebook, Twitter &amp; Pinterest Button</span></li>
         <li class="row_style_2"><span>Direct Support</span></li>
+        <li class="row_style_2"><span>Update</span></li>
         <li class="footer_row"></li>
       </ul>
     </div>
@@ -758,7 +759,7 @@ function easymedia_comparison() {
         <li class="row_style_3 align_center"><span>title &amp; subtitle ONLY</span></li>
         <li class="row_style_1 align_center"><span>center</span></li>
         <li class="row_style_3 align_center"><span class="pricing_yes"></span></li>
-        <li class="row_style_1 align_center"><span class="pricing_no"></span></li>
+        <li class="row_style_1 align_center"><span class="pricing_yes"></span></li>
         <li class="row_style_3 align_center"><span class="pricing_no"></span></li>
         <li class="row_style_1 align_center"><span class="pricing_no"></span></li>
         <li class="row_style_3 align_center"><span>light</span></li>
@@ -766,7 +767,8 @@ function easymedia_comparison() {
         <li class="row_style_3 align_center"><span class="pricing_no"></span></li>
         <li class="row_style_1 align_center"><span class="pricing_no"></span></li>
         <li class="row_style_3 align_center"><span class="pricing_no"></span></li>
-         <li class="row_style_1 align_center"><span class="pricing_no"></span></li>
+        <li class="row_style_1 align_center"><span class="pricing_no"></span></li>
+        <li class="row_style_1 align_center"><span class="pricing_yes"></span></li>
          
         <li class="footer_row"></li>
       </ul>
@@ -800,8 +802,8 @@ function easymedia_comparison() {
         <li class="row_style_2 align_center"><span class="pricing_yes"></span></li>
         <li class="row_style_4 align_center"><span class="pricing_yes"></span></li>
         <li class="row_style_2 align_center"><span class="pricing_yes"></span></li>
-        
-        <li class="footer_row"><a target="_blank" href="http://ghozylab.com/pro-version/" class="tsc_buttons2 red">Upgrade Now</a></li>
+        <li class="row_style_2 align_center"><span>1 year</span></li>
+        <li class="footer_row"><a target="_blank" href="http://ghozylab.com/order" class="tsc_buttons2 red">Upgrade Now</a></li>
       </ul>
     </div></div>
   </div>
