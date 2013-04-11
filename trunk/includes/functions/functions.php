@@ -379,7 +379,7 @@ function easymediagallery_add_footer_credits( $text ) {
 	$t = '';
 	if ( get_post_type() === 'easymediagallery' ) {
 		$t .= "<div id=\"credits\" style=\"line-height: 22px;\">";
-		$t .= "<p>Easy Media Gallery plugin is created by <a href=\"http://www.ghozylab.com/\" target=\"_blank\">GhozyLab, Inc</a>.</p>";
+		$t .= "<p>Easy Media Gallery plugin Lite is created by <a href=\"http://www.ghozylab.com/\" target=\"_blank\">GhozyLab, Inc</a>.</p>";
 		$t .= "<p>If you experience some problems with this plugin please tell us <a href=\"http://www.ghozylab.com/contactus\" target=\"_blank\">here</a>.</p>";
 		$t .= "</div>";
 	}else{
