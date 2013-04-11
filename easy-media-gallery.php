@@ -12,6 +12,7 @@ if ( ! defined('ABSPATH') ) {
 	die('Please do not load this file directly.');
 }
 
+
 /*
 |--------------------------------------------------------------------------
 | Requires Wordpress Version
