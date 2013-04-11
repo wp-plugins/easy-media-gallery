@@ -149,7 +149,7 @@ function easmedia_post_type() {
 	$labels = array(
 		'name' 				=> _x( 'Easy Media Gallery', 'post type general name' ),
 		'singular_name'		=> _x( 'Easy Media Gallery', 'post type singular name' ),
-		'add_new' 			=> __( 'Add New Media', 'ctslider' ),
+		'add_new' 			=> __( 'Add New Media', 'easmedia' ),
 		'add_new_item' 		=> __( 'Easy Media Item', 'easmedia' ),
 		'edit_item' 		=> __( 'Edit Media', 'easmedia' ),
 		'new_item' 			=> __( 'New Media', 'easmedia' ),
