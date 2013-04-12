@@ -1,7 +1,7 @@
 === Easy Media Gallery ===
 Contributors: GhozyLab
 Donate link: http://ghozylab.com/donate
-Tags: gallery, plugin, portfolio, media gallery, google maps plugin, video gallery, image gallery, audio gallery, gallery widget, wordpress portfolio plugin, post, admin, posts, sidebar, twitter, google, comments, images, page, links, wordpress gallery, wordpress portfolio, best gallery plugin, best portfolio plugin, reverbnation embed, soundcloud embed, embed soundcloud, image, widget
+Tags: gallery, image gallery, plugin, portfolio, media gallery, google maps plugin, video gallery, audio gallery, gallery widget, wordpress portfolio plugin, post, admin, posts, sidebar, twitter, google, comments, images, page, links, wordpress gallery, wordpress portfolio, best gallery plugin, best portfolio plugin, reverbnation embed, soundcloud embed, embed soundcloud, image, widget
 Requires at least: 3.3
 Tested up to: 3.5.1
 Stable tag: 1.1.3
@@ -43,9 +43,9 @@ Easy Media Gallery is a wordpress plugin designed to display portfolios and vari
 
 It is a very customizable plugin that allow you to set display whatever you want like adjust colors, positions, media sizes, hover effect and much more with one easy control panel. That easy control panel for experts it would save your time, and for you who do not have more knowledge about website styling, of course this plugin will allow you to manage your website much more easily. 
 
-Examples:
+= Examples =
+<p>http://www.youtube.com/watch?v=dXFBNY5t6E8</p>
 <p>http://www.youtube.com/watch?v=2T73wvt_wOA</p>
-<p>http://www.youtube.com/watch?v=LMBg0Zv8048</p>
 <p>http://www.youtube.com/watch?v=LBck-tnVYas</p>
 <p>http://www.youtube.com/watch?v=SYH8Yl2SQd4</p>
 
