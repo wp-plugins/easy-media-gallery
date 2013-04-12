@@ -4,7 +4,7 @@ Donate link: http://ghozylab.com/donate
 Tags: gallery, plugin, portfolio, media gallery, google maps plugin, video gallery, image gallery, audio gallery, gallery widget, wordpress portfolio plugin, post, admin, posts, sidebar, twitter, google, comments, images, page, links, wordpress gallery, wordpress portfolio, best gallery plugin, best portfolio plugin, reverbnation embed, soundcloud embed, embed soundcloud, image, widget
 Requires at least: 3.3
 Tested up to: 3.5.1
-Stable tag: 1.1.1
+Stable tag: 1.1.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -15,7 +15,7 @@ Easy Media Gallery for WordPress that's powerful and so easy to create beautiful
 
 Easy Media Gallery (EMG) is a wordpress plugin designed to display portfolios and various media support including gallery sets, single image, google maps, video, audio and link with very ease and elegant.
 
-**Live Demos**:
+= Live Demos =
 
 * [DEMO 1](http://ghozylab.com/sample-1)
 * [DEMO 2](http://ghozylab.com/sample-2)
@@ -70,7 +70,7 @@ Easy Media Gallery supports a wide range of media formats, and an even wider ran
 
 = Upgrade to Easy Media Gallery Pro =
 
-Take your media to the next level with [Easy Media Gallery Pro](http://ghozylab.com/), which gives you additional features such as:
+Take your media to the next level with [Easy Media Gallery Pro](http://ghozylab.com/order), which gives you additional features such as:
 
 * No coding, the plugin takes care of everything
 * Create unlimited number of media
@@ -177,6 +177,13 @@ But seriously, I just want to drink coffee for free, so help a developer out. Yo
 
 == Changelog ==
 
+= 1.1.3 =
+* Added function to allow shortcodes on widget
+* Added the option to keep data when uninstall/upgrade plugin
+* Added some help inside the Admin interface for very common questions
+* Improved loading for backend javascripts
+* Fixes for minor issues discovered since 1.1.1
+
 = 1.1.1 =
 * Add Resize thumbnails option
 * Removed the use of PHP function getimagesize()
@@ -198,5 +205,5 @@ But seriously, I just want to drink coffee for free, so help a developer out. Yo
 
 == Upgrade Notice ==
 
-= 1.1.1 =
+= 1.1.3 =
 New version availabe, update NOW!
