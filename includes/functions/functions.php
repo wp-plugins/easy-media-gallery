@@ -648,7 +648,7 @@ function emg_upgradepro_message() {
 	
 	
             $message = '<div id="emg-discount-upgrade-notice">';
-			$message .= '<p><strong>Upgrade to Easy Media Gallery Pro Version - </strong> <a style="color:#fff !important;" target="_blank" href="http://ghozylab.com/order" class="tsc_buttons2 red">UPGRADE NOW &nbsp;for only $14</a> <strong>or you can </strong>  <a style="color:#fff !important;" href="edit.php?post_type=easymediagallery&page=comparison" class="tsc_buttons2 red">Learn More</a>';
+			$message .= '<p><strong>Upgrade to Easy Media Gallery Pro Version - </strong> <a style="color:#fff !important;" target="_blank" href="http://ghozylab.com/" class="tsc_buttons2 red">UPGRADE NOW</a> <strong>or you can </strong>  <a style="color:#fff !important;" href="edit.php?post_type=easymediagallery&page=comparison" class="tsc_buttons2 red">Learn More</a>';
             $message .= '</p></div>';
             echo $message;
 	}
