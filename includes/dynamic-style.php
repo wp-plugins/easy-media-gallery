@@ -9,7 +9,6 @@ $shdcol = easy_get_option( 'easymedia_shdw_col' );
 $mrgnbox = easy_get_option( 'easymedia_margin_box' );
 $imgborder = easy_get_option( 'easymedia_frm_border' );
 $curstyle = strtolower( easy_get_option( 'easymedia_cur_style' ) );
-$cuscss = easy_get_option( 'easymedia_custom_css' );
 $imgbbrdrradius = easy_get_option( 'easymedia_brdr_rds' );
 $disenbor = easy_get_option( 'easymedia_disen_bor' );
 $disenshadow = easy_get_option( 'easymedia_disen_sdw' );
@@ -100,10 +99,4 @@ echo '.da-thumbs article{position: absolute; background: rgba('.$thumbhovcol.','
 				echo '.da-thumbs article{position: absolute; background: rgba('.$thumbhovcol.','.$thumbhovcolopcty.'); background-repeat:repeat; width: 100%; height: 100%;}';
 			} 
 
-
-// CUSTOM CSS
-if ( $cuscss != '' ) {
-echo $cuscss ; 
-echo "\n"; 
-}
 ?>
