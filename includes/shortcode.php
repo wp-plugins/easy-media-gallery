@@ -11,10 +11,7 @@ global $post;
 	  extract( shortcode_atts( array(
       'cat' => -1,
 	  'col' => '',
-	  'size' => '',
-	  'align' => '',
-	  'mark' => '',
-	  'style' => '',		  
+	  'align' => '',		  
 	  'med' => -1
    ), $atts ) );	
 
@@ -50,8 +47,14 @@ else if ( $cat <= '0' && $med > '0' ) {
 	);
 	}
 
+
+// Get media options
 $deff_img_limit = easy_get_option( 'easymedia_img_size_limit' ); // get the default image size limit
 $theopt = easy_get_option( 'easymedia_frm_size' ); 
+$cus_style = easy_get_option( 'easymedia_box_style' );
+$imwidth = stripslashes( $theopt['width'] );
+$imheight = stripslashes( $theopt['height'] );
+
 
 // Custom columns filter	
 if ( $col > 0 ) {
@@ -65,31 +68,6 @@ if ( $align != '' ) {
 	$cus_align = $align;
 	} else {
 		$cus_align = strtolower( easy_get_option( 'easymedia_alignstyle' ) ); // set media align	
-	}
-	
-// Custom Style		
-if ( $style != '' ) {
-	if ( easy_get_option( 'easymedia_disen_style_man' ) == '1' ) {
-	$cus_style = ucfirst( $style );
-		} else { $cus_style = easy_get_option( 'easymedia_box_style' ); }
-	} else {
-		$cus_style = easy_get_option( 'easymedia_box_style' );
-	}		
-
-// Custom size filter	
-	if ( $size != '' ) {
-		$sizeval = explode(",", $size);
-			if ( $sizeval[0] > 0 && $sizeval[1] > 0 && is_numeric( $sizeval[0] ) && is_numeric( $sizeval[1] ) ) { 
-				$imwidth = $sizeval[0];
-				$imheight = $sizeval[1];
-			} else {
-				$imwidth = stripslashes( $theopt['width'] );
-				$imheight = stripslashes( $theopt['height'] );
-				}	
-			}
-	else {
-		$imwidth = stripslashes( $theopt['width'] );
-		$imheight = stripslashes( $theopt['height'] );
 	}
 	
 query_posts( $args );
