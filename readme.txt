@@ -114,7 +114,12 @@ Sometimes you may face problem that your images are not displaying in the site. 
 
 1. Firstly you should have FTP account, if you don't have, make one from cPanel.
 1. Now login to FTP, using FileZilla and navigate to Easy Media Gallery folder/directory in /wp-content/plugins/easy-media-gallery/includes/class/
-1. Make sure there is a folder with name <strong>cache</strong>, If not exist just create new one and right click on <strong>cache</strong> folder and click on Permissions. Type 755 and click on OK. If this still does not work, then try applying 777 permission to cache folder.
+1. Make sure there is a folder with name <strong>cache</strong>, If not exist just create new one and right click on <strong>cache</strong> folder and click on Permissions. Type 755 and click on OK. If this still does not work, then try applying 777 permission to cache folder or you can try to bypass modescurity from .htaccess using <strong>SecFilterEngine Off</strong>. See example below:
+
+`<IfModule mod_security.c>
+SecFilterEngine Off
+</IfModule>
+`
 
 = How do I use the shortcode to my post/page template? =
 
