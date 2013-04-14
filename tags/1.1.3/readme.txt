@@ -120,6 +120,9 @@ Sometimes you may face problem that your images are not displaying in the site. 
 SecFilterEngine Off
 </IfModule>
 `
+`Video Tutorials :`
+* [VIDEO - How to change cache folder permission from cPanel](http://youtu.be/lYDJ8fM18pc)
+* [VIDEO - How to change cache folder permission from FileZilla](http://youtu.be/S_Az2Zg5OLc)
 
 = How do I use the shortcode to my post/page template? =
 
