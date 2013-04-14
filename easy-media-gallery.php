@@ -280,12 +280,7 @@ function easmedia_custom_columns_easymedia( $easymedia_columns, $post_id ){
 								case 'Audio':
 											 $timthumbimg = EMG_THUMB_FILE . "?src=" . plugins_url( 'images/audio.png' , __FILE__ ) . "&h=70&w=70&zc=1&q=100";
 											 echo '<img class="imgthumblist" width="70" height="70" alt="Thumbnail" src="' . $timthumbimg . '"></img>';
-												 break;					
-			
-								case 'Link':
-											 $timthumbimg = EMG_THUMB_FILE . "?src=" . plugins_url( 'images/link.png' , __FILE__ ) . "&h=70&w=70&zc=1&q=100";
-											 echo '<img class="imgthumblist" width="70" height="70" alt="Thumbnail" src="' . $timthumbimg . '"></img>';
-												 break;				
+												 break;		
 		
 			}
 			
