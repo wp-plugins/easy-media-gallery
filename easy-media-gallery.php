@@ -12,7 +12,6 @@ if ( ! defined('ABSPATH') ) {
 	die('Please do not load this file directly.');
 }
 
-
 /*
 |--------------------------------------------------------------------------
 | Requires Wordpress Version
@@ -21,12 +20,11 @@ if ( ! defined('ABSPATH') ) {
 function req_wordpress_version() {
 	global $wp_version;
 	$plugin = plugin_basename( __FILE__ );
-	$plugin_data = get_plugin_data( __FILE__, false );
 
 	if ( version_compare( $wp_version, "3.3", "<" ) ) {
 		if ( is_plugin_active( $plugin ) ) {
 			deactivate_plugins( $plugin );
-			wp_die( "'".$plugin_data['Name']."' requires WordPress 3.3 or higher, and has been deactivated! Please upgrade WordPress and try again.<br /><br />Back to <a href='".admin_url()."'>WordPress admin</a>." );
+			wp_die( "Easy Media Gallery Lite requires WordPress 3.3 or higher, and has been deactivated! Please upgrade WordPress and try again.<br /><br />Back to <a href='".admin_url()."'>WordPress admin</a>" );
 		}
 	}
 }
@@ -40,10 +38,25 @@ add_action( 'admin_init', 'req_wordpress_version' );
 */
 if ( version_compare(PHP_VERSION, '5.2', '<') ) {
 	if ( is_admin() && (!defined('DOING_AJAX') || !DOING_AJAX) ) {
-		$plugin_data = get_plugin_data( __FILE__, false );
 		require_once ABSPATH.'/wp-admin/includes/plugin.php';
 		deactivate_plugins( __FILE__ );
-	    wp_die( "'".$plugin_data['Name']."' requires PHP 5.2 or higher, as does WordPress 3.3 and higher. The plugin has now disabled itself. Please ask your hosting provider for this issue.<br /><br />Back to <a href='".admin_url()."'>WordPress admin</a>." );
+	    wp_die( "Easy Media Gallery Lite requires PHP 5.2 or higher. The plugin has now disabled itself. Please ask your hosting provider for this issue.<br /><br />Back to <a href='".admin_url()."'>WordPress admin</a>" );
+	} else {
+		return;
+	}
+}
+
+
+/*
+|--------------------------------------------------------------------------
+| Requires GD extension
+|--------------------------------------------------------------------------
+*/
+if (!extension_loaded('gd') && !function_exists('gd_info')) {
+	if ( is_admin() && (!defined('DOING_AJAX') || !DOING_AJAX) ) {
+		require_once ABSPATH.'/wp-admin/includes/plugin.php';
+		deactivate_plugins( __FILE__ );
+	    wp_die( "Easy Media Gallery Lite requires <strong>GD extension</strong>. The plugin has now disabled itself. If you are using shared hosting please contact your webhost and ask them to install the <strong>GD library</strong>.<br /><br />Back to <a href='".admin_url()."'>WordPress admin</a>" );
 	} else {
 		return;
 	}
