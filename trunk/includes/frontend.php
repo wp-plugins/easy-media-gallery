@@ -66,7 +66,10 @@ var audiosett = [];
  audiosett[2] = '<?php ( easy_get_option( 'easymedia_disen_autopl' )  == '1' ) ? $autoplay = 'true' : $autoplay = 'false'; echo $autoplay; ?>';
  audiosett[3] = '<?php ( easy_get_option( 'easymedia_disen_audio_loop' )  == '1' ) ? $audioloop = 'true' : $audioloop = 'false'; echo $audioloop; 
  ?>';
- 
+
+ var videosett = [];
+ videosett[0] = '<?php ( easy_get_option( 'easymedia_disen_autoplv' )  == '1' ) ? $autoplay = '&autoplay=1' : $autoplay = ''; echo $autoplay; ?>';
+ videosett[1] = '<?php ( easy_get_option( 'easymedia_disen_autoplv' )  == '1' ) ? $autoplay = '?autoplay=1' : $autoplay = ''; echo $autoplay; ?>'; 
  var cpanel = [];
  cpanel[0] = '<?php echo easy_get_option( 'easymedia_overlay_opcty' ) / 100 ; ?>';
 
