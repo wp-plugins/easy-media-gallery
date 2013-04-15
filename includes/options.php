@@ -51,7 +51,7 @@ array( "name" => "Video Size",
 	"pixopr" => "px"),
 	
 array( "name" => "Video Auto Play",
-	"desc" => "Use this to enable/disable video auto play. This option only work on Youtube and Vimeo.",
+	"desc" => "Use this to enable/disable video auto play. This option only work on Youtube, Vimeo, Google Video and Veoh.",
 	"id" => $theshort."_disen_autoplv",
 	"type" => "checkbox",
 	"std" => "1"),		
