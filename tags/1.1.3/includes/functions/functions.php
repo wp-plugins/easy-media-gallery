@@ -63,24 +63,6 @@ include_once( WPECBD_PLUGIN_DIR . 'includes/shortcode.php' );
 include_once( WPECBD_PLUGIN_DIR . 'includes/tinymce-dlg.php' ); 
 include_once( WPECBD_PLUGIN_DIR . 'includes/taxonomy.php' );
 
-/*
-|--------------------------------------------------------------------------
-| AJAX UPDATE GALLERY
-|--------------------------------------------------------------------------
-*/
-function emg_updt_gall_list() {
-	if ( !isset( $_POST['pstid'] ) ) {
-		echo '<p>Ajax request failed, please refresh your browser window.</p>';
-		die;
-		}
-		else {
-			update_post_meta( $_POST['pstid'] , 'easmedia_metabox_media_gallery', '' );
-			echo '<p>No images selected...</p>';
-			die;
-		}
-}
-add_action( 'wp_ajax_emg_updt_gall_list', 'emg_updt_gall_list' );
-
 
 /*
 |--------------------------------------------------------------------------
@@ -161,131 +143,6 @@ function easmedia_img_media_remv() {
 	}
 }
 add_action( 'wp_ajax_easmedia_img_media_remv', 'easmedia_img_media_remv' );
-
-
-function emg_gallery_list() {
-
-	if ( !isset( $_POST['page'] ) ) {$page = 1;}
-	else {$page = (int)addslashes( $_POST['page'] );}
-	
-	if ( !isset( $_POST['per_page'] ) ) {$per_page = 8;}
-	else {$per_page = (int)addslashes( $_POST['per_page'] );}
-	
-	$img_data = emg_library_images( $page, $per_page );
-	
-	echo '<ul>';
-	
-	if ( $img_data['totalimg'] == 0 ) {echo '<p>No images found .. </p>';}
-	else {
-		foreach( $img_data['img'] as $img ) {
-			echo '<li><img src="'.EMG_THUMB_FILE.'?src='.$img['url'].'&w=90&h=90" id="'.$img['id'].'" /></li>';	
-		}
-	}
-	
-	echo '
-	</ul>
-	<br class="metagal_clear" />
-	<table cellspacing="0" cellpadding="5" border="0" width="100%" style="border-top: 1px solid #DDD; margin-top:10px; padding-top:5px;">
-		<tr>
-			<td style="width: 35%;">';			
-			if ( $page > 1 )  {
-				echo '<input type="button" class="prev_page button-secondary" id="btnnav_'. ( $page - 1 ) .'" name="prevbtnnav" value="&laquo; Previous images" />';
-			}
-			
-		echo '</td><td style="width: 30%; text-align: center;">';
-		
-			if ( $img_data['totalimg'] > 0 && $img_data['page_count'] > 1 ) {
-				echo '<em>page '.$img_data['pag'].' of '.$img_data['page_count'].'</em><input style="display:none;" type="text" size="2" name="img_number" id="imgbutperpage" value="'.$per_page.'" />';	
-			}
-			else { echo '<input style="display:none;" type="text" size="2" name="img_number" id="imgbutperpage" value="'.$per_page.'" />';	}
-			
-		echo '</td><td style="width: 35%; text-align: right;">';
-			if ( $img_data['more'] != false )  {
-				echo '<input type="button" class="next_page button-secondary" id="btnnav_'. ($page + 1) .'" name="nextbtnnav" value="Next images &raquo;" />';
-			}
-		echo '</td>
-		</tr>
-	</table>
-	';
-
-	die();
-}
-add_action( 'wp_ajax_emg_gallery_list', 'emg_gallery_list' );
-
-function emg_sel_img_rld() {	
-	
-	if ( !isset( $_POST['images'] ) ) { $images = array();}
-	else { $images = $_POST['images'];}
-	
-	// get the titles
-	$images = emg_ext_sel( $images );
-	$new_img = '';
-	
-	if ( !$images ) {$new_img = '<p>No images selected...</p>';}
-	else {
-		foreach( $images as $img_id ) {
-			$img_data = get_post( $img_id );
-			$img_url = $img_data->guid;
-			
-			$new_img .= '
-			<li>
-				<input type="hidden" name="easmedia_metabox_img_slider[]" value="'.$img_id.'" />
-				<img src="'.EMG_THUMB_FILE.'?src='.$img_url.'&w=90&h=90" />
-				<span title="Remove Image"></span>
-			</li>
-			';	
-		}
-	}
-	
-	echo $new_img;
-	die();
-}
-add_action( 'wp_ajax_emg_sel_img_rld', 'emg_sel_img_rld' );
-
-
-/*
-|--------------------------------------------------------------------------
-| Get the images from the WP library
-|--------------------------------------------------------------------------
-*/
-function emg_library_images( $page = 1, $per_page = 10 ) {
-	$query_images_args = array(
-		'post_type' => 'attachment', 'post_mime_type' =>'image', 'post_status' => 'inherit', 'posts_per_page' => $per_page, 'paged' => $page
-	);
-	
-	$query_images = new WP_Query( $query_images_args );
-	$images = array();
-	
-	foreach ( $query_images->posts as $image ) { 
-		$images[] = array(
-			'id'	=> $image->ID,
-			'url' 	=> $image->guid
-		);
-	}
-	
-	$img_number = $query_images->found_posts;
-	$page_count = ceil( $img_number / $per_page );
-	$shown = $per_page * $page;
-	( $shown >= $img_number ) ? $more = false : $more = true; 
-	
-	return array( 'img' => $images, 'pag' => $page, 'page_count' =>$page_count, 'more' => $more, 'totalimg' => $img_number );
-}
-
-function emg_ext_sel( $media ) {
-	if ( is_array( $media ) ) {
-		$new_array = array();
-		
-		foreach( $media as $media_id ) {
-			if ( get_the_title( $media_id ) ) {	
-				$new_array[] = $media_id;
-			}
-		}
-		
-		if (count($new_array) == 0) {return false;}
-		else {return $new_array;}
-	}
-	else {return false;}	
-}
 
 /*
 |--------------------------------------------------------------------------
@@ -434,7 +291,6 @@ function get_attachment_id_from_src ($link) {
         return $wpdb->get_var("SELECT ID FROM {$wpdb->posts} WHERE guid='$link'");
 }
 
-
 /*-------------------------------------------------------------------------------*/
 /*  Image Resize ( Aspect Ratio )
 /*-------------------------------------------------------------------------------*/
@@ -469,7 +325,6 @@ function easymedia_imgresize($img, $limit, $isres, $imw, $imh) {
 	}
 return implode(",", $allimgdata);
 }
-
 
 /*-------------------------------------------------------------------------------*/
 /*  Image Resize ( Aspect Ratio ) AJAX
@@ -600,7 +455,6 @@ else if ( $text == 'Update' ) {
 return $translation;
 }
 
-
 /*-------------------------------------------------------------------------------*/
 /*   Load Dasboard News
 /*-------------------------------------------------------------------------------*/
@@ -637,7 +491,6 @@ function emg_dashboard_widget() {
     <?php
 }
 
-
 /*-------------------------------------------------------------------------------*/
 /*   Admin Notifications
 /*-------------------------------------------------------------------------------*/
@@ -654,8 +507,6 @@ function emg_upgradepro_message() {
 	}
 }
 add_action( 'admin_notices', 'emg_upgradepro_message' );
-
-
 
 /*-------------------------------------------------------------------------------*/
 /*   Metabox Donation
@@ -696,7 +547,6 @@ function easmedia_put_compare_style() {
 		}
 }
 add_action( 'admin_enqueue_scripts', 'easmedia_put_compare_style' );
-
 
 /*-------------------------------------------------------------------------------*/
 /*   Generate Comparison Page
