@@ -188,6 +188,7 @@ But seriously, I just want to drink coffee for free, so help a developer out. Yo
 = 1.1.3 =
 * Added function to allow shortcodes on widget
 * Added the option to keep data when uninstall/upgrade plugin
+* Added the option video autoplay
 * Added some help inside the Admin interface for very common questions
 * Improved loading for backend javascripts
 * Fixes for minor issues discovered since 1.1.1
