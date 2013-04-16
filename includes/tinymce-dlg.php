@@ -188,7 +188,7 @@ break;
 <div class="clearfix"></div>
 </div>
 
-<div class="sc_button">
+<div class="sc_button1">
 <input type="button" value="Insert Shortcode" name="emg_insert_scrt" id="emg_insert_scrt" class="button-secondary" />	
 <div class="clearfix"></div>
 </div>

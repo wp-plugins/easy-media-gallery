@@ -4,10 +4,6 @@
  * Copyright (c) 2012 GhozyLab, Inc. - http://ghozylab.com/
 */
 
-.sc_wrap{
-	width:740px;
-}
-
 .sc_section{
 	border:1px solid #ddd;
 	border-bottom:0;
@@ -128,7 +124,7 @@
 	width: 505px;
 }
 
-.sc_button {
+.sc_button1 {
 	position:relative;
 	bottom:0px;
 	padding:13px 0 2px 8px;
