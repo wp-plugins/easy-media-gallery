@@ -1,7 +1,7 @@
 === Easy Media Gallery ===
 Contributors: GhozyLab
 Donate link: http://ghozylab.com/donate
-Tags: gallery, image gallery, image slider, slider, plugin, portfolio, media gallery, google maps plugin, video gallery, audio gallery, gallery widget, wordpress portfolio plugin, post, admin, posts, sidebar, twitter, google, comments, images, page, links, wordpress gallery, wordpress portfolio, best gallery plugin, best portfolio plugin, reverbnation embed, soundcloud embed, embed soundcloud, image, widget
+Tags: gallery, image gallery, slider, plugin, portfolio, media gallery, google maps plugin, video gallery, audio gallery, gallery widget, wordpress portfolio plugin, post, admin, posts, sidebar, twitter, google, comments, images, page, links, wordpress gallery, wordpress portfolio, best gallery plugin, best portfolio plugin, reverbnation embed, soundcloud embed, embed soundcloud, image, widget
 Requires at least: 3.3
 Tested up to: 3.5.1
 Stable tag: 1.1.3
@@ -188,7 +188,6 @@ But seriously, I just want to drink coffee for free, so help a developer out. Yo
 = 1.1.3 =
 * Added function to allow shortcodes on widget
 * Added the option to keep data when uninstall/upgrade plugin
-* Added the option video autoplay
 * Added some help inside the Admin interface for very common questions
 * Improved loading for backend javascripts
 * Fixes for minor issues discovered since 1.1.1
