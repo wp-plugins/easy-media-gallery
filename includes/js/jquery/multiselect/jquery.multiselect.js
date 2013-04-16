@@ -3,7 +3,7 @@
  * jQuery MultiSelect UI Widget 1.14pre
  * Copyright (c) 2012 Eric Hynds
  *
- * http://www.erichynds.com/jquery/jquery-ui-multiselect-widget/
+ * http://www.erichynds.com/jquery/jquery-emg-multiselect-widget/
  *
  * Depends:
  *   - jQuery 1.4.2+
@@ -55,8 +55,8 @@
       // jQuery UI 1.9+, and otherwise fallback to a custom string.
       this._namespaceID = this.eventNamespace || ('multiselect' + multiselectID);
 
-      var button = (this.button = $('<button type="button"><span class="ui-icon ui-icon-triangle-2-n-s"></span></button>'))
-        .addClass('ui-multiselect ui-widget ui-state-default ui-corner-all')
+      var button = (this.button = $('<button type="button"><span class="emg-icon emg-icon-triangle-2-n-s"></span></button>'))
+        .addClass('emg-multiselect emg-widget emg-state-default emg-corner-all')
         .addClass(o.classes)
         .attr({ 'title':el.attr('title'), 'aria-haspopup':true, 'tabIndex':el.attr('tabIndex') })
         .insertAfter(el),
@@ -66,30 +66,30 @@
           .appendTo(button),
 
         menu = (this.menu = $('<div />'))
-          .addClass('ui-multiselect-menu ui-widget ui-widget-content ui-corner-all')
+          .addClass('emg-multiselect-menu emg-widget emg-widget-content emg-corner-all')
           .addClass(o.classes)
           .appendTo(document.body),
 
         header = (this.header = $('<div />'))
-          .addClass('ui-widget-header ui-corner-all ui-multiselect-header ui-helper-clearfix')
+          .addClass('emg-widget-header emg-corner-all emg-multiselect-header emg-helper-clearfix')
           .appendTo(menu),
 
         headerLinkContainer = (this.headerLinkContainer = $('<ul />'))
-          .addClass('ui-helper-reset')
+          .addClass('emg-helper-reset')
           .html(function() {
             if(o.header === true) {
-              return '<li><a class="ui-multiselect-all" href="#"><span class="ui-icon ui-icon-check"></span><span>' + o.checkAllText + '</span></a></li><li><a class="ui-multiselect-none" href="#"><span class="ui-icon ui-icon-closethick"></span><span>' + o.uncheckAllText + '</span></a></li>';
+              return '<li><a class="emg-multiselect-all" href="#"><span class="emg-icon emg-icon-check"></span><span>' + o.checkAllText + '</span></a></li><li><a class="emg-multiselect-none" href="#"><span class="emg-icon emg-icon-closethick"></span><span>' + o.uncheckAllText + '</span></a></li>';
             } else if(typeof o.header === "string") {
               return '<li>' + o.header + '</li>';
             } else {
               return '';
             }
           })
-          .append('<li class="ui-multiselect-close"><a href="#" class="ui-multiselect-close"><span class="ui-icon ui-icon-circle-close"></span></a></li>')
+          .append('<li class="emg-multiselect-close"><a href="#" class="emg-multiselect-close"><span class="emg-icon emg-icon-circle-close"></span></a></li>')
           .appendTo(header),
 
         checkboxContainer = (this.checkboxContainer = $('<ul />'))
-          .addClass('ui-multiselect-checkboxes ui-helper-reset')
+          .addClass('emg-multiselect-checkboxes emg-helper-reset')
           .appendTo(menu);
 
         // perform event bindings
@@ -100,7 +100,7 @@
 
         // some addl. logic for single selects
         if(!o.multiple) {
-          menu.addClass('ui-multiselect-single');
+          menu.addClass('emg-multiselect-single');
         }
 
         // bump unique ID
@@ -112,7 +112,7 @@
         this.header.hide();
       }
       if(!this.options.multiple) {
-        this.headerLinkContainer.find('.ui-multiselect-all, .ui-multiselect-none').hide();
+        this.headerLinkContainer.find('.emg-multiselect-all, .emg-multiselect-none').hide();
       }
       if(this.options.autoOpen) {
         this.open();
@@ -138,11 +138,11 @@
         var title = this.innerHTML;
         var description = this.title;
         var value = this.value;
-        var inputID = 'ui-multiselect-' + (this.id || id + '-option-' + i);
+        var inputID = 'emg-multiselect-' + (this.id || id + '-option-' + i);
         var isDisabled = this.disabled;
         var isSelected = this.selected;
-        var labelClasses = [ 'ui-corner-all' ];
-        var liClasses = (isDisabled ? 'ui-multiselect-disabled ' : ' ') + this.className;
+        var labelClasses = [ 'emg-corner-all' ];
+        var liClasses = (isDisabled ? 'emg-multiselect-disabled ' : ' ') + this.className;
         var optLabel;
 
         // is this an optgroup?
@@ -151,19 +151,19 @@
 
           // has this optgroup been added already?
           if($.inArray(optLabel, optgroups) === -1) {
-            html += '<li class="ui-multiselect-optgroup-label ' + parent.className + '"><a href="#">' + optLabel + '</a></li>';
+            html += '<li class="emg-multiselect-optgroup-label ' + parent.className + '"><a href="#">' + optLabel + '</a></li>';
             optgroups.push(optLabel);
           }
         }
 
         if(isDisabled) {
-          labelClasses.push('ui-state-disabled');
+          labelClasses.push('emg-state-disabled');
         }
 
         // browsers automatically select the first option
         // by default with single selects
         if(isSelected && !o.multiple) {
-          labelClasses.push('ui-state-active');
+          labelClasses.push('emg-state-active');
         }
 
         html += '<li class="' + liClasses + '">';
@@ -271,43 +271,43 @@
           }
         },
         mouseenter: function() {
-          if(!button.hasClass('ui-state-disabled')) {
-            $(this).addClass('ui-state-hover');
+          if(!button.hasClass('emg-state-disabled')) {
+            $(this).addClass('emg-state-hover');
           }
         },
         mouseleave: function() {
-          $(this).removeClass('ui-state-hover');
+          $(this).removeClass('emg-state-hover');
         },
         focus: function() {
-          if(!button.hasClass('ui-state-disabled')) {
-            $(this).addClass('ui-state-focus');
+          if(!button.hasClass('emg-state-disabled')) {
+            $(this).addClass('emg-state-focus');
           }
         },
         blur: function() {
-          $(this).removeClass('ui-state-focus');
+          $(this).removeClass('emg-state-focus');
         }
       });
 
       // header links
       this.header.delegate('a', 'click.multiselect', function(e) {
         // close link
-        if($(this).hasClass('ui-multiselect-close')) {
+        if($(this).hasClass('emg-multiselect-close')) {
           self.close();
 
           // check all / uncheck all
         } else {
-          self[$(this).hasClass('ui-multiselect-all') ? 'checkAll' : 'uncheckAll']();
+          self[$(this).hasClass('emg-multiselect-all') ? 'checkAll' : 'uncheckAll']();
         }
 
         e.preventDefault();
       });
 
       // optgroup label toggle support
-      this.menu.delegate('li.ui-multiselect-optgroup-label a', 'click.multiselect', function(e) {
+      this.menu.delegate('li.emg-multiselect-optgroup-label a', 'click.multiselect', function(e) {
         e.preventDefault();
 
         var $this = $(this);
-        var $inputs = $this.parent().nextUntil('li.ui-multiselect-optgroup-label').find('input:visible:not(:disabled)');
+        var $inputs = $this.parent().nextUntil('li.emg-multiselect-optgroup-label').find('input:visible:not(:disabled)');
         var nodes = $inputs.get();
         var label = $this.parent().text();
 
@@ -329,9 +329,9 @@
         });
       })
       .delegate('label', 'mouseenter.multiselect', function() {
-        if(!$(this).hasClass('ui-state-disabled')) {
-          self.labels.removeClass('ui-state-hover');
-          $(this).addClass('ui-state-hover').find('input').focus();
+        if(!$(this).hasClass('emg-state-disabled')) {
+          self.labels.removeClass('emg-state-hover');
+          $(this).addClass('emg-state-hover').find('input').focus();
         }
       })
       .delegate('label', 'keydown.multiselect', function(e) {
@@ -383,8 +383,8 @@
 
         // some additional single select-specific logic
         if(!self.options.multiple) {
-          self.labels.removeClass('ui-state-active');
-          $this.closest('label').toggleClass('ui-state-active', checked);
+          self.labels.removeClass('emg-state-active');
+          $this.closest('label').toggleClass('emg-state-active', checked);
 
           // close menu
           self.close();
@@ -439,7 +439,7 @@
       var moveToLast = which === 38 || which === 37;
 
       // select the first li that isn't an optgroup label / disabled
-      $next = $start.parent()[moveToLast ? 'prevAll' : 'nextAll']('li:not(.ui-multiselect-disabled, .ui-multiselect-optgroup-label)')[ moveToLast ? 'last' : 'first']();
+      $next = $start.parent()[moveToLast ? 'prevAll' : 'nextAll']('li:not(.emg-multiselect-disabled, .emg-multiselect-optgroup-label)')[ moveToLast ? 'last' : 'first']();
 
       // if at the first/last element
       if(!$next.length) {
@@ -508,7 +508,7 @@
     },
 
     _toggleDisabled: function(flag) {
-      this.button.attr({ 'disabled':flag, 'aria-disabled':flag })[ flag ? 'addClass' : 'removeClass' ]('ui-state-disabled');
+      this.button.attr({ 'disabled':flag, 'aria-disabled':flag })[ flag ? 'addClass' : 'removeClass' ]('emg-state-disabled');
 
       var inputs = this.menu.find('input');
       var key = "ech-multiselect-disabled";
@@ -525,7 +525,7 @@
 
       inputs
         .attr({ 'disabled':flag, 'arial-disabled':flag })
-        .parent()[ flag ? 'addClass' : 'removeClass' ]('ui-state-disabled');
+        .parent()[ flag ? 'addClass' : 'removeClass' ]('emg-state-disabled');
 
       this.element.attr({
         'disabled':flag,
@@ -543,7 +543,7 @@
       var args = [];
 
       // bail if the multiselectopen event returns false, this widget is disabled, or is already open
-      if(this._trigger('beforeopen') === false || button.hasClass('ui-state-disabled') || this._isOpen) {
+      if(this._trigger('beforeopen') === false || button.hasClass('emg-state-disabled') || this._isOpen) {
         return;
       }
 
@@ -576,7 +576,7 @@
       // will actually trigger mouseenter.  the mouseenter trigger is there for when it's eventually fixed
       this.labels.eq(0).trigger('mouseover').trigger('mouseenter').find('input').trigger('focus');
 
-      button.addClass('ui-state-active');
+      button.addClass('emg-state-active');
       this._isOpen = true;
       this._trigger('open');
     },
@@ -603,7 +603,7 @@
       }
 
       $.fn.hide.apply(this.menu, args);
-      this.button.removeClass('ui-state-active').trigger('blur').trigger('mouseleave');
+      this.button.removeClass('emg-state-active').trigger('blur').trigger('mouseleave');
       this._isOpen = false;
       this._trigger('close');
     },
@@ -685,13 +685,13 @@
 
       switch(key) {
         case 'header':
-          menu.find('div.ui-multiselect-header')[value ? 'show' : 'hide']();
+          menu.find('div.emg-multiselect-header')[value ? 'show' : 'hide']();
           break;
         case 'checkAllText':
-          menu.find('a.ui-multiselect-all span').eq(-1).text(value);
+          menu.find('a.emg-multiselect-all span').eq(-1).text(value);
           break;
         case 'uncheckAllText':
-          menu.find('a.ui-multiselect-none span').eq(-1).text(value);
+          menu.find('a.emg-multiselect-none span').eq(-1).text(value);
           break;
         case 'height':
           menu.find('ul').last().height(parseInt(value, 10));
@@ -711,7 +711,7 @@
           menu.add(this.button).removeClass(this.options.classes).addClass(value);
           break;
         case 'multiple':
-          menu.toggleClass('ui-multiselect-single', !value);
+          menu.toggleClass('emg-multiselect-single', !value);
           this.options.multiple = value;
           this.element[0].multiple = value;
           this.refresh();
