@@ -135,6 +135,17 @@ if(! isset($ALLOWED_SITES)){
 		'tinypic.com',
 	);
 }
+
+// Make sure CACHE DIRECTORY chmod is 755
+if(FILE_CACHE_DIRECTORY){
+	if(is_dir(FILE_CACHE_DIRECTORY)){
+		$chmodsts = substr(sprintf('%o', fileperms(FILE_CACHE_DIRECTORY)), -4);
+			if ($chmodsts != '0755' || $chmodsts != '0777') {
+				@chmod(FILE_CACHE_DIRECTORY, 0755);
+				}
+		}			
+	}
+
 // -------------------------------------------------------------
 // -------------- STOP EDITING CONFIGURATION HERE --------------
 // -------------------------------------------------------------
@@ -191,6 +202,7 @@ class timthumb {
 		if(FILE_CACHE_DIRECTORY){
 			if(! is_dir(FILE_CACHE_DIRECTORY)){
 				@mkdir(FILE_CACHE_DIRECTORY);
+				@chmod(FILE_CACHE_DIRECTORY, 0755);
 				if(! is_dir(FILE_CACHE_DIRECTORY)){
 					$this->error("Could not create the file cache directory.");
 					return false;
