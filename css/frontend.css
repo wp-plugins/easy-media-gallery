@@ -16,7 +16,7 @@
 	display: block;
 	position: relative;
 	max-width: 100%;
-	overflow: hidden;
+	overflow: hidden !important;
 	margin:auto;
 }
 
@@ -34,6 +34,7 @@
 	font: 16px/1 !important;
 	text-shadow:none !important;
 	left:0px!important;
+	overflow: hidden !important;
 }
 
 
@@ -52,6 +53,7 @@
 	-o-transition: all 0.2s ease-in-out;
 	-ms-transition: all 0.2s ease-in-out;
 	transition: all 0.2s ease-in-out;
+	overflow: hidden !important;
 }
 
 /* Initial state classes: */

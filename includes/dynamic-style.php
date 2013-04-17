@@ -42,8 +42,8 @@ else {
 echo '.da-thumbs img {cursor: '.$curstyle.';}';
 }
 
-( $imgbbrdrradius != '' ) ? $addborradius = '.view {border-radius:'.$imgbbrdrradius.'px;}' : $addborradius = '';
-echo $addborradius; 
+( $imgbbrdrradius != '' ) ? $addborradius = '.view,.view img,.da-thumbs,.da-thumbs article.da-animate {border-radius:'.$imgbbrdrradius.'px;}' : $addborradius = '';
+echo $addborradius;
 
 ( $disenbor == 1 ) ? $addborder = '.view {border: '.$imgborder.'px solid rgba('.$borderrgba.','.$borderrgbaopcty.');}' : $addborder = '';
 echo $addborder; 
