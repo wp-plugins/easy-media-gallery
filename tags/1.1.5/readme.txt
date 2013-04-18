@@ -1,7 +1,7 @@
 === Easy Media Gallery ===
 Contributors: GhozyLab
 Donate link: http://ghozylab.com/donate
-Tags: gallery, image gallery, image slider, slider, plugin, portfolio, media gallery, google maps plugin, video gallery, audio gallery, gallery widget, wordpress portfolio plugin, post, admin, posts, sidebar, twitter, google, comments, images, page, links, wordpress gallery, wordpress portfolio, best gallery plugin, best portfolio plugin, reverbnation embed, soundcloud embed, embed soundcloud, image, widget
+Tags: gallery, image gallery, image slider, slider, widget, plugin, portfolio, media gallery, google maps plugin, video gallery, audio gallery, gallery widget, wordpress portfolio plugin, post, admin, posts, sidebar, twitter, google, comments, images, page, links, wordpress gallery, wordpress portfolio, best gallery plugin, best portfolio plugin, reverbnation embed, soundcloud embed, embed soundcloud, image, images
 Requires at least: 3.3
 Tested up to: 3.5.1
 Stable tag: 1.1.5
