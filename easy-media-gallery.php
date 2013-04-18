@@ -4,7 +4,7 @@ Plugin Name: Easy Media Gallery
 Plugin URI: http://www.ghozylab.com/
 Description: Easy Media Gallery - Display videos, images, and audio files with very easy. Allows you to customize all media to get it looking exactly what you want (Lite Version).
 Author: GhozyLab, Inc.
-Version: 1.1.3
+Version: 1.1.5
 Author URI: http://www.ghozylab.com/
 */
 
@@ -88,7 +88,7 @@ define( 'EMG_THUMB_FILE', plugins_url( 'includes/class/timthumb.php' , __FILE__ 
 
 // Plugin Version
 if ( !defined( 'EASYMEDIA_VERSION' ) ) {
-	define( 'EASYMEDIA_VERSION', '1.1.3' );
+	define( 'EASYMEDIA_VERSION', '1.1.5' );
 }
 
 
