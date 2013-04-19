@@ -421,7 +421,7 @@ case 'slider':
 <div class="sps_input">
 	<label for="<?php echo $theval['id']; ?>"><?php echo $theval['name']; ?></label>
 	
-    <div class="spgslider" id="<?php echo $theval['id']; ?>_slider" ></div><input style="margin-left:10px; width:43px !important;" name="<?php echo $theval['id']; ?>" id="<?php echo $theval['id']; ?>" type="text" value="<?php if ( easy_get_option( $theval['id'] ) != "") { echo stripslashes( easy_get_option( $theval['id'] ) ); } else { echo $theval['std']; } ?>" /> <?php echo $theval['pixopr']; ?>
+    <div id="<?php echo $theval['id']; ?>_slider" ></div><input style="margin-left:10px; width:43px !important;" name="<?php echo $theval['id']; ?>" id="<?php echo $theval['id']; ?>" type="text" value="<?php if ( easy_get_option( $theval['id'] ) != "") { echo stripslashes( easy_get_option( $theval['id'] ) ); } else { echo $theval['std']; } ?>" /> <?php echo $theval['pixopr']; ?>
 
 	<small><?php echo $theval['desc']; ?></small><div class="clearfix"></div>
 </div>

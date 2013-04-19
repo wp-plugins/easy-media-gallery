@@ -90,6 +90,8 @@ padding: 4% ;
 #spg_container #header .logo {
 	float: left;
 	margin:17px 20px;
+	background: none;
+	width:auto;
 }
 #spg_container #header .logo h2 {
 	font-style:normal;
