@@ -135,17 +135,6 @@ span.link_post:hover{
 	margin-right: auto;
 }
 
-.easymedia_left {
-	display: inline;
-	float: left;
-	margin-right: 1.625em;
-}
-.easymedia_right {
-	display: inline;
-	float: right;
-	margin-left: 1.625em;
-}	
-	
 .easymedia_none {
 	float:none;
 }	

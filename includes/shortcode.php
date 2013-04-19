@@ -47,7 +47,6 @@ else if ( $cat <= '0' && $med > '0' ) {
 	);
 	}
 
-
 // Get media options
 $deff_img_limit = easy_get_option( 'easymedia_img_size_limit' ); // get the default image size limit
 $theopt = easy_get_option( 'easymedia_frm_size' ); 
@@ -57,18 +56,11 @@ $imheight = stripslashes( $theopt['height'] );
 
 
 // Custom columns filter	
-if ( $col > 0 ) {
-	$num_cols = $col; // set the number of columns here
-	} else {
-		$num_cols = easy_get_option( 'easymedia_columns' ); // set the number of columns here	
-	}
-	
-// Custom columns Align	
-if ( $align != '' ) {
-	$cus_align = $align;
-	} else {
-		$cus_align = strtolower( easy_get_option( 'easymedia_alignstyle' ) ); // set media align	
-	}
+$num_cols = easymedia_sc_handler( $col, '0' );
+
+// Custom Align	filter
+$cus_align = easymedia_sc_handler( $align, '1' );
+
 	
 query_posts( $args );
 ob_start();	
