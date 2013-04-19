@@ -283,6 +283,37 @@ function easymedia_hex2rgb($hex) {
 }
 
 /*-------------------------------------------------------------------------------*/
+/*  Shortcode Handler
+/*-------------------------------------------------------------------------------*/
+function easymedia_sc_handler( $scdata, $scl ) {
+	
+	switch ( $scl ) {
+		
+		case '0':
+			if ( $scdata != '' && $scdata <= 3 ) {
+				$finaldata = $scdata;
+				} else {
+					$finaldata = easy_get_option( 'easymedia_columns' );
+					}
+		break;
+
+		case '1':
+			if ( ( $scdata != '' && $scdata == 'center' ) || ( $scdata != '' && $scdata == 'none' ) ) {
+				$finaldata = $scdata;
+				} else {
+					$finaldata = strtolower( easy_get_option( 'easymedia_alignstyle' ) );
+					}			
+		break;	
+	
+		default:
+			break;	
+	}
+	
+return $finaldata;
+
+}
+
+/*-------------------------------------------------------------------------------*/
 /*  Get attachment image id 
 /*-------------------------------------------------------------------------------*/
 function get_attachment_id_from_src ($link) {
