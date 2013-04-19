@@ -61,17 +61,17 @@
 }
 
 .sps_input .ui-slider {
-	background-color: #F1F1F1;
-	background-image: -ms-linear-gradient(top,#F9F9F9,#ECECEC);
-	background-image: -moz-linear-gradient(top,#F9F9F9,#ECECEC);
-	background-image: -o-linear-gradient(top,#F9F9F9,#ECECEC);
-	background-image: -webkit-gradient(linear,left top,left bottom,from(#F9F9F9),to(#ECECEC));
-	background-image: -webkit-linear-gradient(top,#F9F9F9,#ECECEC);
-	background-image: linear-gradient(top,#F9F9F9,#ECECEC);
-	-moz-border-radius: 5px;
-	-khtml-border-radius:5px;
-	-webkit-border-radius: 5px;
-	border-radius: 5px;
+	background-color: #858585;
+	background-image: -ms-linear-gradient(top,#B2B2B2,#ACACAC);
+	background-image: -moz-linear-gradient(top,#B2B2B2,#ACACAC);
+	background-image: -o-linear-gradient(top,#B2B2B2,#ACACAC);
+	background-image: -webkit-gradient(linear,left top,left bottom,from(#B2B2B2),to(#ACACAC));
+	background-image: -webkit-linear-gradient(top,#B2B2B2,#ACACAC);
+	background-image: linear-gradient(top,#B2B2B2,#ACACAC);
+	-moz-border-radius: 8px;
+	-khtml-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	border-radius: 8px;
 	height: 13px;
 	width: 200px;
 	position: relative;
@@ -82,7 +82,7 @@
 	border-style: solid;
 	border-color: #333 #333 #777 #333;
 	
-	    box-shadow: inset 0 1px 5px 0px rgba(0, 0, 0, .5), 
+	    box-shadow: inset 0 1px 4px 0px rgba(0, 0, 0, .5), 
     				  0 1px 0 0px rgba(250, 250, 250, .5);
 					  float:none;
 }
