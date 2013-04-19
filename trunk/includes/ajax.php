@@ -17,7 +17,8 @@ function ajax_req_handle( $id ) {
 	$boxmediasbttl = get_post_meta( $id, 'easmedia_metabox_sub_title', true );
 	$imgsrc = get_post_meta( $id, 'easmedia_metabox_img', true );
 	$mediatype = get_post_meta( $id, 'easmedia_metabox_media_type', true );
-	
+	$domname = preg_replace( '/^www\./','',$_SERVER['SERVER_NAME'] );
+		
 	switch ( $mediatype ) {
 		case 'Single Image':
 		$boxlink = $imgsrc;
@@ -33,15 +34,9 @@ function ajax_req_handle( $id ) {
 					
 	}
 	
-	if ( $boxmediattl =='' ) { 
-	$boxmediattl = "Data not available.";
-	}
+	if ( $boxmediasbttl =='' ) {$boxmediasbttl = 'by '. $domname;}
+	if ( $boxmediattl == '' ) {$boxmediattl = 'Media';}	
 	
-	if ( $boxmediasbttl =='' ) { 
-	$boxmediasbttl = "Data not available.";
-	}	
-	
-
 $therest = array( $boxmediattl,$boxmediasbttl );
 echo json_encode( $therest );
 exit;
