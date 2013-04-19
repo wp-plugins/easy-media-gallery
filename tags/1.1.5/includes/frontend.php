@@ -74,7 +74,8 @@ var audiosett = [];
  
  var cpanel = [];
  cpanel[0] = '<?php echo easy_get_option( 'easymedia_overlay_opcty' ) / 100 ; ?>';
-
+ cpanel[1] = '<?php echo plugins_url( 'ajax.php' , __FILE__ ); ?>';
+ 
     /*]]>*/</script> 
 	<?php echo ob_get_clean();		
 }
