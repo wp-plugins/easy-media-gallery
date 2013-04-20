@@ -35,7 +35,8 @@ function ajax_req_handle( $id ) {
 	}
 	
 	if ( $boxmediasbttl =='' ) {$boxmediasbttl = 'by '. $domname;}
-	if ( $boxmediattl == '' ) {$boxmediattl = 'Media';}	
+	if ( $boxmediattl == '' && get_the_title( $id ) == '' ) {$boxmediattl = 'Media';}
+	else if ( $boxmediattl == '' && get_the_title( $id ) != '' ) {$boxmediattl = get_the_title( $id );}	
 	
 $therest = array( $boxmediattl,$boxmediasbttl );
 echo json_encode( $therest );
