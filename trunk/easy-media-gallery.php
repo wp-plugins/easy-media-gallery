@@ -9,7 +9,7 @@ Author URI: http://www.ghozylab.com/
 */
 
 if ( ! defined('ABSPATH') ) {
-	die('Please do not load this file directly.');
+	die('Please do not load this file directly!');
 }
 
 /*

@@ -28,7 +28,7 @@ array( "name" => "Columns",
 	"std" => "3"),	
 	
 array( "name" => "Alignment",
-	"desc" => "Select image block or single image alignment. Default: Center<br><br><a target='_blank' href='http://ghozylab.com/order'>Upgrade</a> to PRO and you can choose center, left or right alignment.",
+	"desc" => "Select thumbnails alignment. Default: Center<br><br><a target='_blank' href='http://ghozylab.com/order'>Upgrade</a> to PRO and you can choose center, left or right alignment.",
 	"id" => $theshort."_alignstyle",
 	"type" => "select",
 	"options" => array( "none", "Center" ),
