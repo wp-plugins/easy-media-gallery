@@ -116,6 +116,7 @@ padding:3px;
 	text-align:center;
 	z-index:1;
 	overflow: hidden;
+	float:none;	
 	}
 	
 span.zoom:hover{
@@ -181,5 +182,6 @@ span.link_post:hover{
 	margin:0 auto;
 	text-align:center;
 	overflow: hidden;
+	float:none;		
 	}
 }
