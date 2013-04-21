@@ -29,7 +29,7 @@
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8045484d', endColorstr='#80000000',GradientType=0 ); /* IE6-9 */
 }
 
-.sps_input .ui-slider-handle {
+.sps_section .sps_input .ui-slider-handle {
 	position: absolute;
 	z-index: 2;
 	width: 25px;
@@ -44,7 +44,7 @@
 	margin-left: -12px;
 }
 
-.sps_input .ui-slider-range {
+.sps_section .sps_input .ui-slider-range {
 	background: #ffffff; /* Old browsers */
 	background: -moz-linear-gradient(top,  #eaeaea 0%, #B4B4B4 100%); /* FF3.6+ */
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#eaeaea), color-stop(100%,#B4B4B4)); /* Chrome,Safari4+ */
@@ -60,7 +60,7 @@
 	border-radius: 25px;
 }
 
-.sps_input .ui-slider {
+.sps_section .sps_input .ui-slider {
 	background-color: #858585;
 	background-image: -ms-linear-gradient(top,#B2B2B2,#ACACAC);
 	background-image: -moz-linear-gradient(top,#B2B2B2,#ACACAC);
@@ -87,6 +87,6 @@
 					  float:none;
 }
 
-.sps_input .ui-state-default {
+.sps_section .sps_input .ui-state-default {
 	border:none;
 }
