@@ -68,17 +68,17 @@ if (!extension_loaded('gd') && !function_exists('gd_info')) {
 | Defines
 |--------------------------------------------------------------------------
 */
-if ( !defined( 'WPECBD_PLUGIN_BASENAME' ) )
-    define( 'WPECBD_PLUGIN_BASENAME', plugin_basename( __FILE__ ) );
+if ( !defined( 'EASYMEDG_PLUGIN_BASENAME' ) )
+    define( 'EASYMEDG_PLUGIN_BASENAME', plugin_basename( __FILE__ ) );
 
-if ( !defined( 'WPECBD_PLUGIN_NAME' ) )
-    define( 'WPECBD_PLUGIN_NAME', trim( dirname( WPECBD_PLUGIN_BASENAME ), '/') );
+if ( !defined( 'EASYMEDG_PLUGIN_NAME' ) )
+    define( 'EASYMEDG_PLUGIN_NAME', trim( dirname( EASYMEDG_PLUGIN_BASENAME ), '/') );
 
-if ( !defined( 'WPECBD_PLUGIN_DIR' ) )
-    define( 'WPECBD_PLUGIN_DIR', WP_PLUGIN_DIR . '/' . WPECBD_PLUGIN_NAME . '/' );
+if ( !defined( 'EASYMEDG_PLUGIN_DIR' ) )
+    define( 'EASYMEDG_PLUGIN_DIR', WP_PLUGIN_DIR . '/' . EASYMEDG_PLUGIN_NAME . '/' );
 
-if ( !defined( 'WPECBD_PLUGIN_URL' ) )
-    define( 'WPECBD_PLUGIN_URL', WP_PLUGIN_URL . '/' . WPECBD_PLUGIN_NAME . '/' );
+if ( !defined( 'EASYMEDG_PLUGIN_URL' ) )
+    define( 'EASYMEDG_PLUGIN_URL', WP_PLUGIN_URL . '/' . EASYMEDG_PLUGIN_NAME . '/' );
 	
 	
 $wp_plugin_dir = substr(plugin_dir_path(__FILE__), 0, -1);
@@ -121,15 +121,19 @@ if ( is_admin() ){
 
 /*
 |--------------------------------------------------------------------------
-| Avoid duplicate versions of the jQuery library. (wp_script_is())
+| Load WP jQuery library.
 |--------------------------------------------------------------------------
 */
-if ( !is_admin() ){
-	if ( wp_script_is( 'jquery' ) ) {
-return;
-	} else { 
-	wp_enqueue_script( 'jquery' );
-	}
+function easmedia_enqueue_scripts() {
+	if( !is_admin() )
+		{
+			wp_enqueue_script( 'jquery' );
+			}
+}
+
+if ( !is_admin() )
+{
+  add_action( 'init', 'easmedia_enqueue_scripts' );
 }
 
 
@@ -405,5 +409,5 @@ add_filter('widget_text', 'do_shortcode', 11);
 /*-------------------------------------------------------------------------------*/
 /*   Load Plugin Functions
 /*-------------------------------------------------------------------------------*/
-include_once( WPECBD_PLUGIN_DIR . 'includes/functions/functions.php' );
+include_once( EASYMEDG_PLUGIN_DIR . 'includes/functions/functions.php' );
 ?>
