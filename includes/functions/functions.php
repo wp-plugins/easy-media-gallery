@@ -42,26 +42,26 @@ function easymedia_reg_script() {
 add_action( 'admin_init', 'easymedia_reg_script' );
 
 /* These files build out the plugin specific options and associated functions. */
-require_once (WPECBD_PLUGIN_DIR . 'includes/options.php'); 
+require_once (EASYMEDG_PLUGIN_DIR . 'includes/options.php'); 
 
 /*-------------------------------------------------------------------------------*/
 /*   Load Control Panel
 /*-------------------------------------------------------------------------------*/
-include_once( WPECBD_PLUGIN_DIR . 'includes/settings.php' );
+include_once( EASYMEDG_PLUGIN_DIR . 'includes/settings.php' );
 
 /*-------------------------------------------------------------------------------*/
 /*   Load Front End Script
 /*-------------------------------------------------------------------------------*/
 if ( easy_get_option( 'easymedia_disen_plug' ) == '1' ) {	
-include_once( WPECBD_PLUGIN_DIR . 'includes/frontend.php' );
+include_once( EASYMEDG_PLUGIN_DIR . 'includes/frontend.php' );
 }
 /*-------------------------------------------------------------------------------*/
 /*  Add Metabox & Shortcode
 /*-------------------------------------------------------------------------------*/
-include_once( WPECBD_PLUGIN_DIR . 'includes/metaboxes.php' ); 
-include_once( WPECBD_PLUGIN_DIR . 'includes/shortcode.php' ); 
-include_once( WPECBD_PLUGIN_DIR . 'includes/tinymce-dlg.php' ); 
-include_once( WPECBD_PLUGIN_DIR . 'includes/taxonomy.php' );
+include_once( EASYMEDG_PLUGIN_DIR . 'includes/metaboxes.php' ); 
+include_once( EASYMEDG_PLUGIN_DIR . 'includes/shortcode.php' ); 
+include_once( EASYMEDG_PLUGIN_DIR . 'includes/tinymce-dlg.php' ); 
+include_once( EASYMEDG_PLUGIN_DIR . 'includes/taxonomy.php' );
 
 
 /*

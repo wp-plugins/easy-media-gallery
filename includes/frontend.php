@@ -7,7 +7,7 @@
 |--------------------------------------------------------------------------
 */
 function easymedia_frontend_stylesheet() {
-	        wp_enqueue_style( 'easymedia_styles', WPECBD_PLUGIN_URL .'css/frontend.css' );
+	        wp_enqueue_style( 'easymedia_styles', EASYMEDG_PLUGIN_URL .'css/frontend.css' );
 }
 add_action( 'wp_print_styles', 'easymedia_frontend_stylesheet' );
 
@@ -29,7 +29,7 @@ add_action( 'wp_enqueue_scripts', 'easymedia_frontend_script' );
 
 function easymedia_frontend_prop()
 {   
-		$boxstyle = WPECBD_PLUGIN_URL . 'css/styles/mediabox';
+		$boxstyle = EASYMEDG_PLUGIN_URL . 'css/styles/mediabox';
 		echo "<link rel=\"alternate stylesheet\" title=\"Light\" type=\"text/css\" media=\"screen,projection\" href=\"$boxstyle/Light.css\" />\n";
 		
 ob_start(); ?>
