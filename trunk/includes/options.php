@@ -97,7 +97,7 @@ array( "name" => "Cursor",
 	"std" => "3"),
 	
 array( "name" => "Thumbnail Size",
-	"desc" => "Allow for editing thumbnail sizes, you can also set this manually when adding shortcode. Default sizes width 180px, height : 180px",
+	"desc" => "Allow for editing thumbnail sizes. Default sizes width 180px, height : 180px.<br><br><a target='_blank' href='http://ghozylab.com/order'>Upgrade</a> to PRO so you can set this manually when adding shortcode.",
 	"id" => $theshort."_frm_size",
 	"type" => "size",
 	'std' => array( 'width' => '180', 'height' => '180' ),
