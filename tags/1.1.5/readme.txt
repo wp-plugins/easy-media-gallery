@@ -8,7 +8,7 @@ Stable tag: 1.1.5
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Easy Media Gallery for WordPress that's powerful and so easy to create beautiful portfolio or media gallery.
+Easy Media Gallery for WordPress that's powerful and so easy to create beautiful portfolio or gallery. Over 15,000 WordPress sites are already using Easy Media Gallery. Is Yours?
 
 
 == Description ==
