@@ -4,7 +4,7 @@ Donate link: http://ghozylab.com/donate
 Tags: gallery, image gallery, image slider, slider, widget, admin, twitter, plugin, portfolio, media gallery, google maps plugin, video gallery, audio gallery, gallery widget, wordpress portfolio plugin, post, admin, posts, sidebar, twitter, google, comments, images, page, links, wordpress gallery, wordpress portfolio, best gallery plugin, best portfolio plugin, reverbnation embed, mp4, embed mp4, soundcloud embed, embed soundcloud, image, images
 Requires at least: 3.3
 Tested up to: 3.5.1
-Stable tag: 1.1.5
+Stable tag: 1.1.7
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -186,6 +186,13 @@ But seriously, I just want to drink coffee for free, so help a developer out. Yo
 
 == Changelog ==
 
+= 1.1.7 =
+* Added : Embed Youtube playlist 
+* Fixed : jQuery UI (CSS) conflict 
+* Fixed : Double post with some themes
+* Many other code clean and optimization
+* Fixes for minor issues discovered since 1.1.5
+
 = 1.1.5 =
 * Added : parsing - parse youtu.be 
 * Fixed : overflow issue (chrome)
@@ -223,5 +230,5 @@ But seriously, I just want to drink coffee for free, so help a developer out. Yo
 
 == Upgrade Notice ==
 
-= 1.1.5 =
+= 1.1.7 =
 New version availabe, update NOW!
