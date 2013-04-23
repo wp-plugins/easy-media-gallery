@@ -79,8 +79,9 @@ Take your media to the next level with [Easy Media Gallery Pro](http://ghozylab.
 * Works with all modern browsers, degrades gracefully for others
 * Fully CSS3 compliant with text shadowing, box shadowing, gradients, etc
 * Color picker for unlimited color combinations
-* See your media on different color, overlay and more.
+* See your media on different theme and more.
 * Powerfull control panel and Shortcode Manager make getting started super easy
+* 24/7 Technical Support
 
 
 == Installation ==
