@@ -31,17 +31,17 @@ Easy Media Gallery supports a wide range of media formats, and an even wider ran
 * Vimeo
 * Veoh
 * DailyMotion
+* MetaCafe
+* YouKu
 * Facebook
 * Flickr video
 * Google video
 * Megavideo
-* MetaCafe
 * Quietube + Youtube
 * Quietube + Vimeo
 * Revver
 * RuTube
 * Tudou
-* YouKu
 * MP3, MP4, MOV, M4V, M4A, MP4, AIFF (<em>hosted videos</em>)
 
 = Full media support =
