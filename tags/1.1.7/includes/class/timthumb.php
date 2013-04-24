@@ -209,7 +209,39 @@ class timthumb {
 		$this->cleanCache();
 		
 		$this->myHost = preg_replace('/^www\./i', '', $_SERVER['HTTP_HOST']);
-		$this->src = $this->param('src');
+
+// START @since V 1.1.7 
+	
+		//$this->src = $this->param('src');
+		
+//check if tilde is found in src
+if(strstr($this->param('src'),'~'))
+{
+   $url_parts = explode('/',$this->param('src'));
+ 
+   foreach($url_parts as $url_part)
+   {
+      //do not include any part with a ~ when building new url
+      if(!strstr($url_part,'~'))
+      {
+         $new_dev_url .= $url_part.'/';
+      }
+   }
+ 
+   //remove trailing slash
+   $new_dev_url = substr($new_dev_url,0,-1);
+ 
+   $this->src = $new_dev_url;
+}
+else
+{
+   $this->src = $this->param('src');
+}				
+		
+		
+// END @since V 1.1.7 		
+		
+		
 		$this->url = parse_url($this->src);
 		$this->src = preg_replace('/https?:\/\/(?:www\.)?' . $this->myHost . '/i', '', $this->src);
 		
