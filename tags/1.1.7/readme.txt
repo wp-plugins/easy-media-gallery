@@ -24,11 +24,25 @@ Easy Media Gallery is a wordpress plugin designed to display portfolios and vari
 
 = Features =
 
-* Responsive
-* Support All Major Browser
-* Unlimited Media
-* Unlimited colors and layouts
-* Social Network Share
+Easy Media Gallery supports a wide range of media formats, and an even wider range of social media sites. Simply link to any image, flash video, or popular website, and the media will be automatically loaded into the overlay. Easy Media Gallery can be used to embed videos from :
+
+* YouTube
+* YouTube Playlist
+* Vimeo
+* Veoh
+* DailyMotion
+* Facebook
+* Flickr video
+* Google video
+* Megavideo
+* MetaCafe
+* Quietube + Youtube
+* Quietube + Vimeo
+* Revver
+* RuTube
+* Tudou
+* YouKu
+* MP3, MP4, MOV, M4V, M4A, MP4, AIFF (<em>hosted videos</em>)
 
 = Full media support =
 <p>Easy Media Gallery satisfy all your needs letting you create different types of portfolio. Each item can be:</p> 
@@ -45,29 +59,8 @@ It is a very customizable plugin that allow you to set display whatever you want
 
 = Examples =
 <p>http://www.youtube.com/watch?v=dXFBNY5t6E8</p>
-<p>http://www.youtube.com/watch?v=2T73wvt_wOA</p>
-<p>http://www.youtube.com/watch?v=LBck-tnVYas</p>
-<p>http://www.youtube.com/watch?v=SYH8Yl2SQd4</p>
 
-
-Easy Media Gallery supports a wide range of media formats, and an even wider range of social media sites. Simply link to any image, flash video, or popular website, and the media will be automatically loaded into the overlay. Easy Media Gallery can be used to embed videos from :
-
-* YouTube
-* Vimeo
-* Veoh
-* DailyMotion
-* Facebook
-* Flickr video
-* Google video
-* Megavideo
-* MetaCafe
-* Quietube + Youtube
-* Quietube + Vimeo
-* Revver
-* RuTube
-* Tudou
-* YouKu
-* MP4 (<em>hosted videos</em>)
+* You can learn more by watching the video from [our youtube channel](http://www.youtube.com/GhozyLab).
 
 = Upgrade to Easy Media Gallery Pro =
 
