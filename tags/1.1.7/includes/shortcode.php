@@ -99,13 +99,13 @@ echo '<div class="pfwrpr"><div id="alignstyle" class="easymedia_'.$cus_align.'">
 		if ( $mediatype == 'Video' && $isvidsize == 'off' ) {
 			$cusvidw = get_post_meta( get_the_id(), 'easmedia_metabox_media_video_size_vidw', true );
 			$cusvidh = get_post_meta( get_the_id(), 'easmedia_metabox_media_video_size_vidh', true );
-			$therell = "easymedia[".$cusvidw." " .$cusvidh."]";
+			$therell = "easymedia&#91;".$cusvidw." " .$cusvidh."&#93;";
 			}
 		elseif ( $mediatype == 'Video' && $isvidsize == 'on' ) {
 			$getarry = easy_get_option( 'easymedia_vid_size' );
 			$defvidw = stripslashes( $getarry['width'] );
 			$defvidh = stripslashes( $getarry['height'] );
-			$therell = "easymedia[".$defvidw." " .$defvidh."]";
+			$therell = "easymedia&#91;".$defvidw." " .$defvidh."&#93;";
 			}
 		else {
 			$therell = "easymedia";
@@ -118,7 +118,7 @@ echo '<div class="pfwrpr"><div id="alignstyle" class="easymedia_'.$cus_align.'">
 				$medialink = easymedia_imgresize( $attid[0], $deff_img_limit, $isresize1, $attid[1], $attid[2] );
 				$medialink = explode(",", $medialink); $medialink = $medialink[0];
 					if ( $mark ) {
-				$therell = "easymedia[" .$mark."]";
+				$therell = "easymedia&#91;" .$mark."&#93;";
 				} else {
 					$therell = "easymedia";
 					}
@@ -135,7 +135,7 @@ echo '<div class="pfwrpr"><div id="alignstyle" class="easymedia_'.$cus_align.'">
 				$mediahovttl = "Audio";
 				
 					if ( $mark ) {
-				$therell = "easymedia[" .$mark."]";
+				$therell = "easymedia&#91;" .$mark."&#93;";
 				} else {
 					$therell = "easymedia";
 					}
