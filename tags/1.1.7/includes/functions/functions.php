@@ -566,6 +566,62 @@ echo $emgdonatefrm;
 /*-------------------------------------------------------------------------------*/
 /*   Comparison Page
 /*-------------------------------------------------------------------------------*/
+function easmedia_create_docs_page() {
+    $easmedia_docs_page = add_submenu_page('edit.php?post_type=easymediagallery', 'Documentation', __('Documentation', 'easmedia'), 'edit_posts', 'docs', 'easmedia_easymedia_docs');
+}
+add_action( 'admin_menu', 'easmedia_create_docs_page' );
+
+
+function easmedia_easymedia_docs() {
+	?>
+    <div class="wrap">
+        <div id="icon-edit" class="icon32 icon32-posts-easymedia"><br /></div>
+        <h2><?php _e('Documentation', 'easmedia'); ?></h2>
+        <p><?php _e('This plugin comes with instructional training videos that walk you through every aspect of setting up your new media gallery. We recommend following these videos to setup your media gallery. This user manual is only intended to be a reference guide.', 'easmedia'); ?></p>
+
+		<div class="metabox-holder">
+			<div class="postbox">
+				<h3><?php _e( 'Basic Functions', 'easmedia' ); ?></h3>
+        <div id="easymedia_docs1" style="padding-left:10px !important;">
+        <ul style="list-style: square; position:relative; margin-left:15px; margin-bottom:25px">
+        <li><a href="http://www.youtube.com/watch?v=dXFBNY5t6E8" target="_blank" >How to Create Single Image Media</a></li>
+        <li><a href="http://www.youtube.com/watch?v=htxwZw_aPF0" target="_blank" >How to Create Video Media Types</a></li>  
+        <li><a href="http://www.youtube.com/watch?v=Bsn-CB5Hpbw" target="_blank" >How to Create Audio (mp3) Media Types</a></li>
+        <li><a href="http://www.youtube.com/watch?v=Z2qwXz7GIRw" target="_blank" >How to Publish Easy Media Gallery</a></li>                  
+        <li><a href="http://www.youtube.com/watch?v=2T73wvt_wOA" target="_blank" >How to Change Media Border Size and Color</a></li>
+        <li><a href="http://www.youtube.com/watch?v=56f_C7OXiAE" target="_blank" >How to Change Media Columns</a></li>                 
+        <li><a href="http://www.youtube.com/watch?v=skCMKvVLD5o" target="_blank" >How to Set Order of Image (Pro version)</a></li>
+        <li><a href="http://www.youtube.com/watch?v=Oee2cpKT-kE" target="_blank" >How to Create Audio Soundcloud  (Pro version)</a></li>
+        <li><a href="http://www.youtube.com/watch?v=SYH8Yl2SQd4" target="_blank" >How to Create Audio Reverbnation (Pro version)</a></li>    
+        <li><a href="http://www.youtube.com/watch?v=PEgfleRf6hg" target="_blank" >How to Create Google Maps (Pro version)</a></li>               
+        <li><a href="http://www.youtube.com/watch?v=9cuYyBMKx2k" target="_blank" >How to Insert Image into Media Description  (Pro version)</a></li>        
+                          
+        </ul>
+    </div>
+    </div>     
+ 		<div class="metabox-holder">
+			<div class="postbox">
+				<h3><?php _e( 'Troubleshooting ', 'easmedia' ); ?></h3>
+        <div id="easymedia_docs2" style="padding-left:10px !important;">
+        <ul style="list-style: square; position:relative; margin-left:15px;">
+        <li><a href="http://wordpress.org/extend/plugins/easy-media-gallery/faq/" target="_blank" >Images not showing up</a></li>        
+        <li><a href="http://www.youtube.com/watch?v=lYDJ8fM18pc" target="_blank" >How to change cache folder permission from cPanel</a></li>
+        <li><a href="http://www.youtube.com/watch?v=S_Az2Zg5OLc" target="_blank" >How to change cache folder permission from FileZilla</a></li>
+        <li><a href="http://wordpress.org/extend/plugins/easy-media-gallery/faq/" target="_blank" >FAQ (Wordpress.org)</a></li>       
+        </ul>
+    </div>
+    </div>    
+
+  </div>
+ </div>  
+	<?php 
+}
+
+
+
+/*-------------------------------------------------------------------------------*/
+/*   Comparison Page
+/*-------------------------------------------------------------------------------*/
 function easmedia_create_comparison_page() {
     $easmedia_comparison_page = add_submenu_page('edit.php?post_type=easymediagallery', 'Comparison', __('Get More Features', 'easmedia'), 'edit_posts', 'comparison', 'easymedia_comparison');
 }
