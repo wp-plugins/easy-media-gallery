@@ -2,7 +2,7 @@
 /*
 Plugin Name: Easy Media Gallery
 Plugin URI: http://www.ghozylab.com/
-Description: Easy Media Gallery - Display videos, images, and audio files with very easy. Allows you to customize all media to get it looking exactly what you want (Lite Version).
+Description: Easy Media Gallery Lite - Display videos, images, and audio files with very easy. Allows you to customize all media to get it looking exactly what you want (Lite Version).
 Author: GhozyLab, Inc.
 Version: 1.1.7
 Author URI: http://www.ghozylab.com/
