@@ -175,6 +175,12 @@ array( "name" => "Keep data when uninstall/update",
 	"type" => "checkbox",
 	"std" => "1"),		
 	
+array( "name" => "Admin Notification",
+	"desc" => "Enable/Disable admin notifications.",
+	"id" => $theshort."_disen_admnotify",
+	"type" => "checkbox",
+	"std" => "1"),		
+	
 array( "name" => "Plugin Core Compatibility Mode",
 	"desc" => "Could solve issues on old plugin core versions, Use it ONLY IF you notice some issues. Default: core-1.4.5-min",
 	"id" => $theshort."_plugin_core",
@@ -231,6 +237,7 @@ function easymedia_restore_to_default($cmd) {
 				$theshort.'_disen_autopl' => '1',
 				$theshort.'_disen_autoplv' => '1',								
 				$theshort.'_disen_hovstyle' => '1',
+				$theshort.'_disen_admnotify' => '1',				
 				$theshort.'_disen_plug' => '1',
 				$theshort.'_frm_size' => array('width' => '180','height' => '180',),
 				$theshort.'_vid_size' => array('width' => '700','height' => '400',)											
@@ -284,7 +291,8 @@ function easymedia_1st_config() {
 				$thshort.'_disen_hovstyle' => '1',
 				$thshort.'_disen_plug' => '1',
 				$thshort.'_disen_autopl' => '1',
-				$thshort.'_disen_autoplv' => '1',								
+				$thshort.'_disen_autoplv' => '1',	
+				$thshort.'_disen_admnotify' => '1',											
 				$thshort.'_frm_size' => array( 'width' => '180','height' => '180', ),
 				$thshort.'_vid_size' => array( 'width' => '700','height' => '400', ));
 				
