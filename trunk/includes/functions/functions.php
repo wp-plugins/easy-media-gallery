@@ -525,6 +525,8 @@ function emg_dashboard_widget() {
 /*-------------------------------------------------------------------------------*/
 /*   Admin Notifications
 /*-------------------------------------------------------------------------------*/
+
+if ( easy_get_option( 'easymedia_disen_admnotify' ) == '1' ) {
 function emg_upgradepro_message() {
 	
 	global $pagenow;
@@ -538,6 +540,7 @@ function emg_upgradepro_message() {
 	}
 }
 add_action( 'admin_notices', 'emg_upgradepro_message' );
+}
 
 /*-------------------------------------------------------------------------------*/
 /*   Metabox Donation
