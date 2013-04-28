@@ -103,7 +103,7 @@ The simplest way to install is to click on 'Plugins' then 'Add' and type 'Easy M
 
 == Frequently Asked Questions ==
 
-= Images not showing up or permanently loading icon appears where the gallery should be displayed =
+= Images not showing up =
 
 Sometimes you may face problem that your images are not displaying in the site. We use timthumb script to resize the images. To change permission, you can use a FTP program like FileZilla or you can even use File Manager from your cPanel. We would recommend you use FileZilla to do this task, you can [DOWNLOAD HERE](https://filezilla-project.org/download.php) . Okay, Changing permission is very easy.
 
