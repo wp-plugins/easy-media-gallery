@@ -534,7 +534,7 @@ function emg_upgradepro_message() {
 	
 	
             $message = '<div id="emg-discount-upgrade-notice">';
-			$message .= '<p><strong>Upgrade to Easy Media Gallery Pro Version - </strong> <a style="color:#fff !important;" target="_blank" href="http://ghozylab.com/order" class="tsc_buttons2 red">UPGRADE NOW &nbsp;for only $14</a> <strong>or you can </strong>  <a style="color:#fff !important;" href="edit.php?post_type=easymediagallery&page=comparison" class="tsc_buttons2 red">Learn More</a>';
+			$message .= '<p><strong>Upgrade to Easy Media Gallery Pro Version - </strong> <a style="color:#fff !important;" target="_blank" href="http://ghozylab.com/order" class="tsc_buttons2 red">UPGRADE NOW &nbsp;for only $18</a> <strong>or you can </strong>  <a style="color:#fff !important;" href="edit.php?post_type=easymediagallery&page=comparison" class="tsc_buttons2 red">Learn More</a>';
             $message .= '</p></div>';
             echo $message;
 	}
@@ -722,7 +722,7 @@ function easymedia_comparison() {
           <h2 class="col2">Pro Version</h2>
         </li>
         <li class="header_row_2 align_center">
-          <h1 class="col2">$<span>14</span></h1>
+          <h1 class="col2">$<span>18</span></h1>
         </li>
         
         <li class="row_style_4 align_center"><span class="pricing_yes"></span></li>
