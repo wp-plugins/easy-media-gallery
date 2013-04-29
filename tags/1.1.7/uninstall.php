@@ -5,12 +5,12 @@ if ( ! defined( 'WP_UNINSTALL_PLUGIN' ) )
 // Remove plugin options from database.
 function spg_clean_data() {
 	
-	delete_option( 'easy_media_opt' );
-	
 	    $easymedia_values = get_option( 'easy_media_opt' );
 		if ( is_array( $easymedia_values ) && array_key_exists( $name, $easymedia_values ) ) $keepornot = $easymedia_values['easymedia_disen_databk'];
 	
 	if ( $keepornot != '1' ) {	
+	
+	delete_option( 'easy_media_opt' );
 
 // Remove plugin-specific custom post type entries.	
 		$posts = get_posts( array(
