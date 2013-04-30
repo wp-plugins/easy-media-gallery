@@ -83,8 +83,9 @@ if ( !defined( 'EASYMEDG_PLUGIN_URL' ) )
 	
 $wp_plugin_dir = substr(plugin_dir_path(__FILE__), 0, -1);
 define( 'EMG_DIR', $wp_plugin_dir );	
-define( 'EMG_THUMB_FILE', plugins_url( 'includes/class/timthumb.php' , __FILE__ ) );
-	
+//define( 'EMG_THUMB_FILE', plugins_url( 'includes/class/timthumb.php' , __FILE__ ) );
+
+require_once( EASYMEDG_PLUGIN_DIR . 'includes/class/easymedia_resizer.php' ); 	
 
 // Plugin Version
 if ( !defined( 'EASYMEDIA_VERSION' ) ) {
@@ -267,7 +268,9 @@ function easmedia_custom_columns_easymedia( $easymedia_columns, $post_id ){
 										$thumbmedia = get_post_meta( $post_id, 'easmedia_metabox_img', true );
 	       								
 										 if ( isset( $thumbmedia ) ) {
-											 $timthumbimg = EMG_THUMB_FILE . "?src=" . $thumbmedia . "&h=70&w=70&zc=1&q=100";
+											 //$timthumbimg = EMG_THUMB_FILE . "?src=" . $thumbmedia . "&h=70&w=70&zc=1&q=100";
+											 $globalimgsize = wp_get_attachment_image_src( get_attachment_id_from_src( $thumbmedia ), 'full' );
+											 $timthumbimg = easymedia_resizer( $thumbmedia, $globalimgsize[1], $globalimgsize[2], 70, 70, true );
 											 echo '<img class="imgthumblist" width="70" height="70" alt="Thumbnail" src="' . $timthumbimg . '"></img>';
 											 } 
 											 else {
@@ -277,13 +280,13 @@ function easmedia_custom_columns_easymedia( $easymedia_columns, $post_id ){
 											
 
 								case 'Video':
-											 $timthumbimg = EMG_THUMB_FILE . "?src=" . plugins_url( 'images/video.png' , __FILE__ ) . "&h=70&w=70&zc=1&q=100";
-											 echo '<img class="imgthumblist" width="70" height="70" alt="Thumbnail" src="' . $timthumbimg . '"></img>';
+											 //$timthumbimg = EMG_THUMB_FILE . "?src=" . plugins_url( 'images/video.png' , __FILE__ ) . "&h=70&w=70&zc=1&q=100";
+											 echo '<img class="imgthumblist" width="70" height="70" alt="Thumbnail" src="' . plugins_url( 'images/video.png' , __FILE__ ) . '"></img>';
 												 break;			
 			
 								case 'Audio':
-											 $timthumbimg = EMG_THUMB_FILE . "?src=" . plugins_url( 'images/audio.png' , __FILE__ ) . "&h=70&w=70&zc=1&q=100";
-											 echo '<img class="imgthumblist" width="70" height="70" alt="Thumbnail" src="' . $timthumbimg . '"></img>';
+											 //$timthumbimg = EMG_THUMB_FILE . "?src=" . plugins_url( 'images/audio.png' , __FILE__ ) . "&h=70&w=70&zc=1&q=100";
+											 echo '<img class="imgthumblist" width="70" height="70" alt="Thumbnail" src="' . plugins_url( 'images/audio.png' , __FILE__ ) . '"></img>';
 												 break;		
 		
 			}

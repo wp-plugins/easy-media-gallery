@@ -83,6 +83,7 @@ echo '<div class="pfwrpr"><div id="alignstyle" class="easymedia_'.$cus_align.'">
 	while ( $emg_query->have_posts() ) : $emg_query->the_post();
 
 		$image = get_post_meta( get_the_id(), 'easmedia_metabox_img', true );
+		$globalsize = wp_get_attachment_image_src( get_attachment_id_from_src( $image ), 'full' );
 		$mediattl = get_post_meta( get_the_id(), 'easmedia_metabox_title', true );	
 		$mediatype = get_post_meta( get_the_id(), 'easmedia_metabox_media_type', true );
 		$isvidsize = get_post_meta( get_the_id(), 'easmedia_metabox_media_video_size', true );
@@ -146,10 +147,10 @@ echo '<div class="pfwrpr"><div id="alignstyle" class="easymedia_'.$cus_align.'">
 		
       if( $counter%$num_cols == 0 ) :
 	  if ( easy_get_option( 'easymedia_disen_hovstyle' ) == '1' ) { ?>
-     <div style="width:<?php echo $imwidth; ?>px; height:<?php echo $imheight; ?>px;" class="view da-thumbs" title="<?php echo $mediahovttl; ?>"><div class="iehand"><img src="<?php echo EMG_THUMB_FILE; ?>?src=<?php echo $image; ?>&h=<?php echo $imheight; ?>&w=<?php echo $imwidth; ?>&zc=1&q=100" /><a onclick="easyActiveStyleSheet('<?php echo $cus_style; ?>');return true;" class="<?php echo $thepostid; ?>" rel="<?php echo $therell; ?>" href="<?php echo $medialink; ?>" <?php if ( $link_type == 'on' ) { echo 'target="_blank"'; } ?>><article class="da-animate da-slideFromRight"><p <?php if ( $mediattl == '' ) { echo 'style="display:none !important;"'; } ?> class="<?php echo $mediauniqueid; ?>"><?php echo $mediattl; ?></p><div class="forspan"><span class="zoom"></span></div></article></a></div></div>
+     <div style="width:<?php echo $imwidth; ?>px; height:<?php echo $imheight; ?>px;" class="view da-thumbs" title="<?php echo $mediahovttl; ?>"><div class="iehand"><img src="<?php echo easymedia_resizer( $image, $globalsize[1], $globalsize[2], $imwidth, $imheight, true ); ?>" /><a onclick="easyActiveStyleSheet('<?php echo $cus_style; ?>');return true;" class="<?php echo $thepostid; ?>" rel="<?php echo $therell; ?>" href="<?php echo $medialink; ?>" <?php if ( $link_type == 'on' ) { echo 'target="_blank"'; } ?>><article class="da-animate da-slideFromRight"><p <?php if ( $mediattl == '' ) { echo 'style="display:none !important;"'; } ?> class="<?php echo $mediauniqueid; ?>"><?php echo $mediattl; ?></p><div class="forspan"><span class="zoom"></span></div></article></a></div></div>
             
 <?php } elseif ( easy_get_option( 'easymedia_disen_hovstyle' ) == '' ) { ?>
-<div class="view da-thumbs" title="<?php echo $mediahovttl; ?>"><div class="iehand"><a onclick="easyActiveStyleSheet('<?php echo $cus_style; ?>');return true;" class="<?php echo $thepostid; ?>" rel="<?php echo $therell; ?>" href="<?php echo $medialink; ?>" <?php if ( $link_type == 'on' && $mediatype == 'Link' ) { echo 'target="_blank"'; } ?>><img src="<?php echo EMG_THUMB_FILE; ?>?src=<?php echo $image; ?>&h=<?php echo $imheight; ?>&w=<?php echo $imwidth; ?>&zc=1&q=100"/></a></div></div>
+<div class="view da-thumbs" title="<?php echo $mediahovttl; ?>"><div class="iehand"><a onclick="easyActiveStyleSheet('<?php echo $cus_style; ?>');return true;" class="<?php echo $thepostid; ?>" rel="<?php echo $therell; ?>" href="<?php echo $medialink; ?>" <?php if ( $link_type == 'on' && $mediatype == 'Link' ) { echo 'target="_blank"'; } ?>><img src="<?php echo easymedia_resizer( $image, $globalsize[1], $globalsize[2], $imwidth, $imheight, true ); ?>" /></a></div></div>
 <?php	}
 
 	  endif;
