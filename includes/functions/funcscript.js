@@ -64,7 +64,7 @@ if (msgclk == 'image'){
     });	
 	
 // -------- RESIZE DONATE DIALOX BOX	
-	jQuery('#easymediadonatebtn').live("click", function () {
+	jQuery('#easymediadonatebtn').on("click", function () {
 		
 			emg_H = 200;
 			emg_W = 400;
