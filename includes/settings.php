@@ -51,7 +51,7 @@ die;
 | REGISTER & ENQUEUE SCRIPTS/STYLES ONLY for a Specific Post Type 
 |--------------------------------------------------------------------------
 */			
-if ( is_admin() && ( $_GET['page'] == 'settings' ) ){
+if ( is_admin() && ( isset( $_GET['page'] ) == 'settings' ) ){
 	
 	add_action( "admin_head", 'easymedia_admin_head_script' );
 	add_action( 'admin_enqueue_scripts', 'easymedia_cp_script' );
