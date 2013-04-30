@@ -77,6 +77,11 @@ var audiosett = [];
  cpanel[1] = '<?php echo plugins_url( 'ajax.php' , __FILE__ ); ?>';
  
     /*]]>*/</script> 
+    
+    <!--[if lt IE 9]>
+<script src="<?php echo plugins_url( 'js/func/html5.js' , __FILE__ );  ?>" type="text/javascript"></script>
+<![endif]-->  
+    
 	<?php echo ob_get_clean();		
 }
 add_action( 'wp_head', 'easymedia_frontend_prop' );
