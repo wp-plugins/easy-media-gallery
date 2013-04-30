@@ -76,7 +76,7 @@ jQuery("#emgtinymce_select_method").multiselect({
 
 // END LOAD MEDIA
 
-	jQuery('#add_emg_shortcode_button').live("click", function () {
+	jQuery('#add_emg_shortcode_button').on("click", function () {
 		
 			mg_H = 300;
 			mg_W = 550;
@@ -172,7 +172,7 @@ jQuery(function(){
 	});
 	
 	// add the shortcode to the post
-	jQuery('#emg_insert_scrt').live("click", function () {
+	jQuery('#emg_insert_scrt').on("click", function () {
 		
 	if ( jQuery( "#emgtinymce_select_method" ).val() != '' && document.getElementById("emgtinymce_select_method").selectedIndex != '0' ) {
 		var custcol;
