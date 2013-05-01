@@ -34,7 +34,7 @@
 				});
 	
 // -------- COPY IMAGE URL 	
-   jQuery(".addmed a").bind("click", function() {
+   jQuery(".addmed a").on("click", function() {
        var msgclk = jQuery(this).attr( 'rel' );
 
 window.send_to_editor = function(html) {
