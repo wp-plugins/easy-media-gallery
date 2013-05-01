@@ -118,11 +118,8 @@ echo '<div class="pfwrpr"><div id="alignstyle" class="easymedia_'.$cus_align.'">
 				$attid = wp_get_attachment_image_src( get_attachment_id_from_src( $image ), 'full' );
 				$medialink = easymedia_imgresize( $attid[0], $deff_img_limit, $isresize1, $attid[1], $attid[2] );
 				$medialink = explode(",", $medialink); $medialink = $medialink[0];
-					if ( $mark ) {
-				$therell = "easymedia&#91;" .$mark."&#93;";
-				} else {
-					$therell = "easymedia";
-					}
+				$therell = "easymedia";
+
 	    	break;
 			
 						
@@ -134,13 +131,7 @@ echo '<div class="pfwrpr"><div id="alignstyle" class="easymedia_'.$cus_align.'">
 			case 'Audio':
 				$medialink = get_post_meta( get_the_id(), 'easmedia_metabox_media_audio', true );
 				$mediahovttl = "Audio";
-				
-					if ( $mark ) {
-				$therell = "easymedia&#91;" .$mark."&#93;";
-				} else {
-					$therell = "easymedia";
-					}
-				
+				$therell = "easymedia";
 	        break;			
 			
 		}
@@ -170,11 +161,7 @@ endif;
 wp_reset_postdata();
 echo '<div style="clear:both;"></div>';
 echo '</div></div>';
-		
-		if ( $mediatype != '' ) {
-			echo $galle;
-		}
-		
+	
 $content = ob_get_clean();
 return $content;
 
