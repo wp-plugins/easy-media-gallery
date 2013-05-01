@@ -103,20 +103,6 @@ if ( is_admin() && ( isset( $_GET['page'] ) == 'settings' ) ){
 					jQuery(this).find(".background").animate({left: "-2px"}, 200);
 				}
 				// Toggle state of checkbox
-								 <?php 
-				 global $theopt;
-				 foreach ( $theopt as $theval ) {
-					 if ( $theval['type'] == 'slider' ){
-					 $valtmp = easy_get_option( $theval['id'] ); 
-				 //echo $valtmp;
-				 ?>	
-
-				jQuery('#<?php echo $theval['id']; ?>').attr('checked', true);
-				
-				<?php
-				
-					 }} ?>
-					 
 				jQuery(this).next()[0].checked = !jQuery(this).next()[0].checked;
 			});
 			
@@ -161,7 +147,7 @@ if ( is_admin() && ( isset( $_GET['page'] ) == 'settings' ) ){
 		});
 
 	// Pattern Selector
-	jQuery('.pattern_overlay').live('click', function() {
+	jQuery('.pattern_overlay').on('click', function() {
 		var pattern = jQuery(this).attr('id');
 		
 		jQuery('.pattern_overlay').removeClass('pattern_selected');
