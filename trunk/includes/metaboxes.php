@@ -164,7 +164,7 @@ function IsValidAuUrl1(aurl1) {
 								jQuery("#audioprev").show("slow");
 								},
 								
-								error : function (xhr, d, e) {
+								fail : function (xhr, d, e) {
 									if (xhr.status != 200) {
 										jQuery("#notifynovalidaudio").show("slow");
 										jQuery('#notifynovalidaudio').html("Unable to load audio from url above. Please make sure it's the <strong>full</strong> URL and a valid one at that.");
@@ -180,7 +180,7 @@ function IsValidAuUrl1(aurl1) {
  function IsValidImageUrl(url) {
     jQuery("<img>", {
         src: url,
-        error: function() {
+        fail: function() {
 			jQuery("#notifynovalidimg").show("slow");
 			jQuery('#notifynovalidimg').html("Unable to load image from url above. Please make sure it's the <strong>full</strong> URL and a valid one at that.");
 			   // jQuery('#imgthumbnailprv').attr('src','http://placehold.it/300x190');

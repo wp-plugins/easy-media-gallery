@@ -47,11 +47,18 @@ if (msgclk == 'image'){
 	if (imgurl.length > 0 ) {
 		tb_remove();
 		IsValidImageUrl(imgurl);
+		jQuery('#notifynovalidimg').html("Loading...");
 		return false;
 		};}
 	
 	else if(msgclk == 'audio'){
-		fileurl = jQuery(html).attr('href');
+			 
+	 if ( html.indexOf("[audio mp3=") > -1 ) {
+		 var realaudiourl = html.match(/\"(.*?)\"/);
+		 fileurl = realaudiourl[1];
+	 } else {
+		fileurl = jQuery(html).attr('href'); 
+	 }
 		jQuery('#upload_audio').val(fileurl);
 		
 	if (fileurl.length > 0 ) {
