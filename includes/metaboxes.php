@@ -291,6 +291,9 @@ $curimgpth = explode(",", $curimgpth);
 ( $curimgpth[0] > '10' ) ? $dsplynone = '' : $dsplynone = 'display:none;';	
 } else {
 	 $dsplynone = 'display:none;';
+	 $curimgpth[0] = '';
+	 $curimgpth[1] = '';
+	 $curimgpth[2] = '';
 	}	
 
 echo '<div id="medsingimgtut" style="text-decoration:underline;font-weight:bold;cursor:Pointer; color:#1A91F2 !important; margin-bottom:8px;">Video Tutorial</div><td id="imgupld"><input id="upload_image" type="text" name="easmedia_meta['. $field['id'] .']" value="'. ($meta ? $meta : $field['std']) .'" style="margin-bottom:5px;"/><div style="color:red;" id="notifynovalidimg"></div><div class="addmed"><a rel="image" class="' . $uploaderclass . '" title="Add Media" data-editor="content" href="media-upload.php?type=image&TB_iframe=1"><span class="emg-media-buttons-icon"></span>Add Media</a></div>
