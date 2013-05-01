@@ -36,6 +36,9 @@ ob_start(); ?>
 
 <link rel="stylesheet" href="<?php echo plugins_url('dynamic-style.php' , __FILE__) ?>" type="text/css" media="screen" />    
 <script type="text/javascript" src="<?php echo plugins_url('js/func/frontend.js' , __FILE__) ?>"></script>    
+
+
+<!-- Easy Media Gallery Lite START (version <?php echo EASYMEDIA_VERSION; ?>)-->       
     
     <script type="text/javascript">
 	/*<![CDATA[*/
@@ -81,6 +84,9 @@ var audiosett = [];
     <!--[if lt IE 9]>
 <script src="<?php echo plugins_url( 'js/func/html5.js' , __FILE__ );  ?>" type="text/javascript"></script>
 <![endif]-->  
+
+
+<!-- Easy Media Gallery Lite  END  -->   
     
 	<?php echo ob_get_clean();		
 }

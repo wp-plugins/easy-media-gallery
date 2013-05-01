@@ -83,7 +83,6 @@ echo '<div class="pfwrpr"><div id="alignstyle" class="easymedia_'.$cus_align.'">
 	while ( $emg_query->have_posts() ) : $emg_query->the_post();
 
 		$image = get_post_meta( get_the_id(), 'easmedia_metabox_img', true );
-		$globalsize = wp_get_attachment_image_src( get_attachment_id_from_src( $image ), 'full' );
 		$mediattl = get_post_meta( get_the_id(), 'easmedia_metabox_title', true );	
 		$mediatype = get_post_meta( get_the_id(), 'easmedia_metabox_media_type', true );
 		$isvidsize = get_post_meta( get_the_id(), 'easmedia_metabox_media_video_size', true );
@@ -95,6 +94,7 @@ echo '<div class="pfwrpr"><div id="alignstyle" class="easymedia_'.$cus_align.'">
 			}
 		else {
 			$image = $image;
+			$globalsize = wp_get_attachment_image_src( get_attachment_id_from_src( $image ), 'full' );
 		}
 
 		if ( $mediatype == 'Video' && $isvidsize == 'off' ) {
@@ -115,9 +115,14 @@ echo '<div class="pfwrpr"><div id="alignstyle" class="easymedia_'.$cus_align.'">
 		switch ( $mediatype ) {
 			case 'Single Image':
 				$mediahovttl = "Single Image";
+				if ( basename( $image ) == 'no-image-available.jpg' ) {
+					$medialink = $image;
+				}
+					else {
 				$attid = wp_get_attachment_image_src( get_attachment_id_from_src( $image ), 'full' );
 				$medialink = easymedia_imgresize( $attid[0], $deff_img_limit, $isresize1, $attid[1], $attid[2] );
 				$medialink = explode(",", $medialink); $medialink = $medialink[0];
+					}
 				$therell = "easymedia";
 
 	    	break;
@@ -137,11 +142,19 @@ echo '<div class="pfwrpr"><div id="alignstyle" class="easymedia_'.$cus_align.'">
 		}
 		
       if( $counter%$num_cols == 0 ) :
+
+	  	$curimgnmane = basename($image);
+	if ( $curimgnmane == 'no-image-available.jpg' ) {
+		$image = $image;
+		} else {
+			$image = easymedia_resizer( $image, $globalsize[1], $globalsize[2], $imwidth, $imheight, true );
+			}
+	  
 	  if ( easy_get_option( 'easymedia_disen_hovstyle' ) == '1' ) { ?>
-     <div style="width:<?php echo $imwidth; ?>px; height:<?php echo $imheight; ?>px;" class="view da-thumbs" title="<?php echo $mediahovttl; ?>"><div class="iehand"><img src="<?php echo easymedia_resizer( $image, $globalsize[1], $globalsize[2], $imwidth, $imheight, true ); ?>" /><a onclick="easyActiveStyleSheet('<?php echo $cus_style; ?>');return true;" class="<?php echo $thepostid; ?>" rel="<?php echo $therell; ?>" href="<?php echo $medialink; ?>" <?php if ( $link_type == 'on' ) { echo 'target="_blank"'; } ?>><article class="da-animate da-slideFromRight"><p <?php if ( $mediattl == '' ) { echo 'style="display:none !important;"'; } ?> class="<?php echo $mediauniqueid; ?>"><?php echo $mediattl; ?></p><div class="forspan"><span class="zoom"></span></div></article></a></div></div>
+     <div style="width:<?php echo $imwidth; ?>px; height:<?php echo $imheight; ?>px;" class="view da-thumbs" title="<?php echo $mediahovttl; ?>"><div class="iehand"><img src="<?php echo $image; ?>" /><a onclick="easyActiveStyleSheet('<?php echo $cus_style; ?>');return true;" class="<?php echo $thepostid; ?>" rel="<?php echo $therell; ?>" href="<?php echo $medialink; ?>"><article class="da-animate da-slideFromRight"><p <?php if ( $mediattl == '' ) { echo 'style="display:none !important;"'; } ?> class="<?php echo $mediauniqueid; ?>"><?php echo $mediattl; ?></p><div class="forspan"><span class="zoom"></span></div></article></a></div></div>
             
 <?php } elseif ( easy_get_option( 'easymedia_disen_hovstyle' ) == '' ) { ?>
-<div class="view da-thumbs" title="<?php echo $mediahovttl; ?>"><div class="iehand"><a onclick="easyActiveStyleSheet('<?php echo $cus_style; ?>');return true;" class="<?php echo $thepostid; ?>" rel="<?php echo $therell; ?>" href="<?php echo $medialink; ?>" <?php if ( $link_type == 'on' && $mediatype == 'Link' ) { echo 'target="_blank"'; } ?>><img src="<?php echo easymedia_resizer( $image, $globalsize[1], $globalsize[2], $imwidth, $imheight, true ); ?>" /></a></div></div>
+<div class="view da-thumbs" title="<?php echo $mediahovttl; ?>"><div class="iehand"><a onclick="easyActiveStyleSheet('<?php echo $cus_style; ?>');return true;" class="<?php echo $thepostid; ?>" rel="<?php echo $therell; ?>" href="<?php echo $medialink; ?>"><img src="<?php echo $image; ?>" /></a></div></div>
 <?php	}
 
 	  endif;
