@@ -108,7 +108,7 @@ add_action( 'init', 'emg_opt_init', 2 );
 
 if ( is_admin() ){
 	$tmp = get_option( 'easy_media_opt' );
-		if ( $tmp['easymedia_deff_init'] != '1' ) {
+		if ( isset( $tmp['easymedia_deff_init'] ) != '1' ) {
 			
 			function easymedia_initialize_options() {
 				
