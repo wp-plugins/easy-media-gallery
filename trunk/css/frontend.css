@@ -56,6 +56,9 @@
 	-ms-transition: all 0.2s ease-in-out;
 	transition: all 0.2s ease-in-out;
 	overflow: hidden !important;
+	border: none !important;
+	margin: 0 !important;
+	padding: 0 !important;	
 }
 
 /* Initial state classes: */
