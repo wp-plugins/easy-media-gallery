@@ -116,7 +116,7 @@ array( "name" => "Thumbnail Title Color",
 	"std" => "#C7C7C7"),	
 	
 array( "name" => "Thumbnail Border Radius",
-	"desc" => "Set the border radius for the image box. Default : 3px",
+	"desc" => "This style not work in IE7-8 due to lack of border-radius support. Default border radius : 3px",
 	"id" => $theshort."_brdr_rds",
 	"type" => "slider",
 	"usestep" => "0",	
