@@ -47,9 +47,12 @@ function easymedia_resizer( $url, $orig_w, $orig_h, $width, $height = null, $cro
 	//list($orig_w,$orig_h) = getimagesize($img_path);
 	
 	//get image size after cropping
-	$dims = image_resize_dimensions($orig_w, $orig_h, $width, $height, $crop);
-	$dst_w = $dims[4];
-	$dst_h = $dims[5];
+	//$dims = image_resize_dimensions($orig_w, $orig_h, $width, $height, $crop);
+	//$dst_w = $dims[4];
+	//$dst_h = $dims[5];
+	
+	$dst_w = $width;
+	$dst_h = $height;
 	
 	//use this to check if cropped image already exists, so we can return that instead
 	$suffix = "{$dst_w}x{$dst_h}";
