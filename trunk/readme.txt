@@ -182,7 +182,7 @@ But seriously, I just want to drink coffee for free, so help a developer out. Yo
 
 = 1.1.9 =
 * Added : admin notify option 
-* Fixed : timthumb chmod issue 
+* Replace timthumb with Aqua-Resizer
 * Fixed : IE 8 issue
 * Fixed : uninstall issue
 * Fixed : dailymotion compatible iPhone, iPad, Android 
