@@ -52,7 +52,7 @@ if ( version_compare(PHP_VERSION, '5.2', '<') ) {
 | Requires GD extension
 |--------------------------------------------------------------------------
 */
-if (!extension_loaded('gd') && !function_exists('gd_info')) {
+/*if (!extension_loaded('gd') && !function_exists('gd_info')) {
 	if ( is_admin() && (!defined('DOING_AJAX') || !DOING_AJAX) ) {
 		require_once ABSPATH.'/wp-admin/includes/plugin.php';
 		deactivate_plugins( __FILE__ );
@@ -61,7 +61,7 @@ if (!extension_loaded('gd') && !function_exists('gd_info')) {
 		return;
 	}
 }
-
+*/
 
 /*
 |--------------------------------------------------------------------------
