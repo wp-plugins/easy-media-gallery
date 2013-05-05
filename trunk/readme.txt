@@ -4,7 +4,7 @@ Donate link: http://ghozylab.com/donate
 Tags: gallery, image gallery, image slider, slider, responsive, plugin, admin, widget, portfolio, video gallery, media gallery, google maps plugin, audio gallery, gallery widget, wordpress portfolio plugin, post, admin, posts, sidebar, twitter, google, comments, images, page, links, wordpress gallery, wordpress portfolio, best gallery plugin, best portfolio plugin, reverbnation embed, mp4, embed mp4, embed vimeo, embed youtube, embed dailymotion, embed metacafe, soundcloud embed, embed soundcloud, image, images
 Requires at least: 3.3
 Tested up to: 3.5.1
-Stable tag: 1.1.9
+Stable tag: 1.2.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -180,6 +180,14 @@ But seriously, I just want to drink coffee for free, so help a developer out. Yo
 
 == Changelog ==
 
+= 1.2.0 =
+* Fixed : Aqua-Resizer optimization
+* Fixed : caption overflow (CSS)
+* Fixed : hover effect in IE 8
+* Updated : pro version price
+* Many other PHP and CSS clean and optimization
+* Fixes for minor issues discovered since 1.1.9
+
 = 1.1.9 =
 * Added : admin notify option 
 * Replace timthumb with Aqua-Resizer
@@ -234,5 +242,5 @@ But seriously, I just want to drink coffee for free, so help a developer out. Yo
 
 == Upgrade Notice ==
 
-= 1.1.9 =
+= 1.2.0 =
 New version availabe, update NOW!
