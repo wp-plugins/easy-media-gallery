@@ -182,7 +182,7 @@ But seriously, I just want to drink coffee for free, so help a developer out. Yo
 
 = 1.2.0 =
 * Fixed : Aqua-Resizer optimization
-* Fixed : caption overflow (CSS)
+* Fixed : caption overflow (CSS and jQuery)
 * Fixed : hover effect in IE 8
 * Updated : pro version price
 * Many other PHP and CSS clean and optimization
