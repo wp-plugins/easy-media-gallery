@@ -49,7 +49,7 @@ if ( version_compare(PHP_VERSION, '5.2', '<') ) {
 
 /*
 |--------------------------------------------------------------------------
-| Requires GD extension
+| Requires GD extension 
 |--------------------------------------------------------------------------
 */
 /*if (!extension_loaded('gd') && !function_exists('gd_info')) {
@@ -92,6 +92,10 @@ if ( !defined( 'EASYMEDIA_VERSION' ) ) {
 	define( 'EASYMEDIA_VERSION', '1.1.9' );
 }
 
+// Pro Price
+if ( !defined( 'EASYMEDIA_PRICE' ) ) {
+	define( 'EASYMEDIA_PRICE', '18' );
+}
 
 /*
 |--------------------------------------------------------------------------
