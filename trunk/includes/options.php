@@ -100,7 +100,7 @@ array( "name" => "Thumbnail Size",
 	"desc" => "Allow for editing thumbnail sizes. Default sizes width 180px, height : 180px.<br><br><a target='_blank' href='http://ghozylab.com/order'>Upgrade</a> to PRO so you can set this manually when adding shortcode.",
 	"id" => $theshort."_frm_size",
 	"type" => "size",
-	'std' => array( 'width' => '180', 'height' => '180' ),
+	'std' => array( 'width' => '160', 'height' => '160' ),
 	"pixopr" => "px"),		
 	
 array( "name" => "Thumbnail Border Color",
@@ -239,7 +239,7 @@ function easymedia_restore_to_default($cmd) {
 				$theshort.'_disen_hovstyle' => '1',
 				$theshort.'_disen_admnotify' => '1',				
 				$theshort.'_disen_plug' => '1',
-				$theshort.'_frm_size' => array('width' => '180','height' => '180',),
+				$theshort.'_frm_size' => array('width' => '160','height' => '160',),
 				$theshort.'_vid_size' => array('width' => '700','height' => '400',)											
 				);
 				update_option('easy_media_opt', $arr);
@@ -293,7 +293,7 @@ function easymedia_1st_config() {
 				$thshort.'_disen_autopl' => '1',
 				$thshort.'_disen_autoplv' => '1',	
 				$thshort.'_disen_admnotify' => '1',											
-				$thshort.'_frm_size' => array( 'width' => '180','height' => '180', ),
+				$thshort.'_frm_size' => array( 'width' => '160','height' => '160', ),
 				$thshort.'_vid_size' => array( 'width' => '700','height' => '400', ));
 				
 				update_option( 'easy_media_opt', $arr, '', 'yes' );
