@@ -184,6 +184,7 @@ But seriously, I just want to drink coffee for free, so help a developer out. Yo
 * Fixed : Aqua-Resizer optimization
 * Fixed : caption overflow (CSS and jQuery)
 * Fixed : hover effect in IE 8
+* Fixed : media width issue
 * Updated : pro version price
 * Many other PHP and CSS clean and optimization
 * Fixes for minor issues discovered since 1.1.9
