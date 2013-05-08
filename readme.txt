@@ -47,7 +47,7 @@ Easy Media Gallery supports a wide range of media formats, and an even wider ran
 = Full media support =
 <p>Easy Media Gallery satisfy all your needs letting you create different types of portfolio. Each item can be:</p> 
 
-* An image
+* An image (<em>self-hosted/media library</em>)
 * An image gallery (<em>Pro Version</em>)
 * A video
 * An mp3 player
