@@ -149,7 +149,7 @@ To make the plugin easy for everyone, the documentation comes with detailed vide
 * [How to Change Media Columns](http://www.youtube.com/watch?v=56f_C7OXiAE)
 * [How to Change Media Border Size and Color](http://www.youtube.com/watch?v=2T73wvt_wOA)
 * [How to Publish Easy Media Gallery ( Standard Method )](http://www.youtube.com/watch?v=Z2qwXz7GIRw)
-* [How to Publish Easy Media Gallery ( Advance Method )](http://www.youtube.com/watch?v=LMBg0Zv8048)
+* [How to Publish Easy Media Gallery ( Advanced Method )](http://www.youtube.com/watch?v=LMBg0Zv8048)
 
 
 = How can I get support? =
