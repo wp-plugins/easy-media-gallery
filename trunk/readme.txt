@@ -170,7 +170,7 @@ But seriously, I just want to drink coffee for free, so help a developer out. Yo
 == Screenshots ==
 
 1. Easy Media Gallery Control Panel
-2. Easy Media Gallery Metabox (Gallery)
+2. Easy Media Gallery Media Builder (Gallery)
 3. Easy Media Gallery Media List
 4. Easy Media Gallery Admin Panel
 5. Easy Media Gallery Shortcode Manager
