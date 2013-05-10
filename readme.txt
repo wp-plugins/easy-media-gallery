@@ -48,7 +48,7 @@ Easy Media Gallery supports a wide range of media formats, and an even wider ran
 <p>Easy Media Gallery satisfy all your needs letting you create different types of portfolio. Each item can be:</p> 
 
 * An image (<em>self-hosted/media library</em>)
-* An image gallery (<em>Pro Version</em>)
+* An image gallery (<em>Pro Version/self-hosted/media library</em>)
 * A video
 * An mp3 player
 * Embed from Reverbnation or Soundcloud (<em>Pro Version</em>)
