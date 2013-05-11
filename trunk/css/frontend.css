@@ -17,7 +17,7 @@
 	padding:0px !important;
 	display: block;
 	position: relative;
-	max-width: 100%;
+	max-width: none;
 	overflow: hidden !important;
 	margin:auto;
 }
