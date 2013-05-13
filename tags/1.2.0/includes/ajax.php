@@ -2,8 +2,8 @@
 $parse_uri = explode( 'wp-content', $_SERVER['SCRIPT_FILENAME'] );
 require_once( $parse_uri[0] . 'wp-load.php' );
 
-if ( isset( $_POST['id'] ) && !empty( $_POST['id'] ) ) {
-ajax_req_handle( $_POST['id'] );
+if ( isset( $_GET['id'] ) && !empty( $_GET['id'] ) ) {
+ajax_req_handle( $_GET['id'] );
 }
 
 else {
