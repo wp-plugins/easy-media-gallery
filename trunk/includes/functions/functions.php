@@ -604,7 +604,7 @@ function easmedia_easymedia_docs() {
     </div>     
  		<div class="metabox-holder">
 			<div class="postbox">
-				<h3><?php _e( 'Troubleshooting ', 'easmedia' ); ?></h3>
+				<h3><?php _e( 'Troubleshooting (issue for version 1.1.7 and below)', 'easmedia' ); ?></h3>
         <div id="easymedia_docs2" style="padding-left:10px !important;">
         <ul style="list-style: square; position:relative; margin-left:15px;">
         <li><a href="http://wordpress.org/extend/plugins/easy-media-gallery/faq/" target="_blank" >Images not showing up</a></li>        
