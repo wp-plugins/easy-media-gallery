@@ -42,7 +42,7 @@ Easy Media Gallery supports a wide range of media formats, and an even wider ran
 * Revver
 * RuTube
 * Tudou
-* MP3, MP4, MOV, M4V, M4A, AIFF (<em>self-hosted videos/audio</em>)
+* MP3, MP4, MOV, M4V, M4A, FLV, AIFF (<em>self-hosted videos/audio</em>)
 
 = Full media support =
 <p>Easy Media Gallery satisfy all your needs letting you create different types of portfolio. Each item can be:</p> 
