@@ -78,6 +78,7 @@ padding: 4% ;
 
 #spg_container #header {
 	height: 80px;
+	width:auto;	
 	background:#dfdfdf url(../images/gray-grad.png) repeat-x left top;
 	border: 1px solid #ccc;
 	border-top-left-radius: 6px;
