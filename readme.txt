@@ -88,7 +88,7 @@ The simplest way to install is to click on 'Plugins' then 'Add' and type 'Easy M
 1. Login to your website and go to the Plugins section of your admin panel.
 1. Click the Add New button.
 1. Under Install Plugins, click the Upload link.
-1. Select the plugin zip file (easy-media-gallery.zip) from your computer then click the Install Now button.
+1. Select the plugin zip file (easy-media-gallery.x.x.x.zip) from your computer then click the Install Now button.
 1. You should see a message stating that the plugin was installed successfully.
 1. Click the Activate Plugin link.
 
