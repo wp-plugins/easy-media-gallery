@@ -6,6 +6,12 @@
  * http://wordpress.org/extend/plugins/easy-media-gallery/
 */
 
+#mbMedia, #mbContainer, #mbCenter, #mbBottom {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing:    border-box;
+	box-sizing:         border-box;
+}
+
 .thecol {display:inline-block; vertical-align:top !important;}
 
 .view {
