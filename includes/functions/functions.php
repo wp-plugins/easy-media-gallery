@@ -649,7 +649,7 @@ function easymedia_comparison() {
     <div class="wrap">
         <div id="icon-edit" class="icon32 icon32-posts-easymedia"><br /></div>
         <h2><?php _e('Comparison', 'easmedia'); ?></h2>
-  <div class="tsc_pricingtable03 tsc_pt3_style1" style="margin-bottom:110px; height:990px;">
+  <div class="tsc_pricingtable03 tsc_pt3_style1" style="margin-bottom:110px; height:1030px;">
     <div class="caption_column">
       <ul>
         <li class="header_row_1 align_center radius5_topleft"></li>
@@ -657,9 +657,10 @@ function easymedia_comparison() {
           <h2 class="caption">Easy Media Gallery</h2>
         </li>
         
-        <li class="row_style_4"><span>Single Image</span></li>
-        <li class="row_style_2"><span>Video Media</span></li>
-        <li class="row_style_4"><span>Audio Media</span></li>
+        <li class="row_style_2"><span>Single Image</span></li>
+        <li class="row_style_4"><span>Video Media</span></li>
+        <li class="row_style_2"><span>Audio Media</span></li>
+        <li class="row_style_4"><span>HTML5 Video/Audio (mp4, webm, ogv)</span></li>        
         <li class="row_style_2"><span>Image Gallery</span></li>
         <li class="row_style_4"><span>Link Media</span></li>
         <li class="row_style_2"><span>Google Maps</span></li>
@@ -690,9 +691,10 @@ function easymedia_comparison() {
         <li class="header_row_2 align_center">
           <h1 class="col1">$<span>0</span></h1>
         </li>
-        <li class="row_style_3 align_center"><span class="pricing_yes"></span></li>
         <li class="row_style_1 align_center"><span class="pricing_yes"></span></li>
-        <li class="row_style_3 align_center"><span class="pricing_yes"></span></li>  
+        <li class="row_style_3 align_center"><span class="pricing_yes"></span></li>
+        <li class="row_style_1 align_center"><span class="pricing_yes"></span></li>  
+        <li class="row_style_3 align_center"><span class="pricing_no"></span></li>        
         <li class="row_style_1 align_center"><span class="pricing_no"></span></li>
         <li class="row_style_3 align_center"><span class="pricing_no"></span></li>
         <li class="row_style_1 align_center"><span class="pricing_no"></span></li>
@@ -725,10 +727,11 @@ function easymedia_comparison() {
           <h1 class="col2">$<span><?php echo EASYMEDIA_PRICE; ?></span></h1>
         </li>
         
+        <li class="row_style_2 align_center"><span class="pricing_yes"></span></li>
         <li class="row_style_4 align_center"><span class="pricing_yes"></span></li>
-        <li class="row_style_2 align_center"><span class="pricing_yes"></span></li>
-        <li class="row_style_4 align_center"><span class="pricing_yes"></span></li>        
-        <li class="row_style_2 align_center"><span class="pricing_yes"></span></li>
+        <li class="row_style_2 align_center"><span class="pricing_yes"></span></li>        
+        <li class="row_style_4 align_center"><span class="pricing_yes"></span></li>
+        <li class="row_style_2 align_center"><span class="pricing_yes"></span></li>        
         <li class="row_style_4 align_center"><span class="pricing_yes"></span></li>
         <li class="row_style_2 align_center"><span class="pricing_yes"></span></li>
         <li class="row_style_4 align_center"><span class="pricing_yes"></span></li>
