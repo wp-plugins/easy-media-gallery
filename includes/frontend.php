@@ -23,6 +23,9 @@ function easymedia_frontend_script() {
 	wp_register_script( 'easymedia-core', plugins_url( 'js/mootools/easymedia.js' , __FILE__ ) );	
 	wp_enqueue_script( 'easymedia-core' );	
 	
+	wp_register_script( 'easymedia-frontend', plugins_url( 'js/func/frontend.js' , __FILE__ ) );	
+	wp_enqueue_script( 'easymedia-frontend' );	
+	
 }
 add_action( 'wp_enqueue_scripts', 'easymedia_frontend_script' );
 
@@ -35,7 +38,6 @@ function easymedia_frontend_prop()
 ob_start(); ?>
 
 <link rel="stylesheet" href="<?php echo plugins_url('dynamic-style.php' , __FILE__) ?>" type="text/css" media="screen" />    
-<script type="text/javascript" src="<?php echo plugins_url('js/func/frontend.js' , __FILE__) ?>"></script>    
 
 
 <!-- Easy Media Gallery Lite START (version <?php echo EASYMEDIA_VERSION; ?>)-->       
@@ -44,11 +46,7 @@ ob_start(); ?>
 	/*<![CDATA[*/
 	/* Easy Media Gallery */
     jQuery(document).ready(function($) {
-		
-$(function() {
-	$('div.da-thumbs').hoverdir();
-});
-		
+
 	/* Mediabox init */		
 		var add = "easymedia";
 jQuery('.da-thumbs a[rel!="easymedia"]').attr('rel', function (i, old) {
@@ -63,22 +61,17 @@ jQuery('.da-thumbs a[rel!="easymedia"]').attr('rel', function (i, old) {
 	
 	easyActiveStyleSheet('<?php echo easy_get_option( 'easymedia_box_style' ); ?>');
 	
-var audiosett = [];
+var audiosett = []; var videosett = []; var cpanel = [];
  audiosett[0] = '<?php echo plugins_url( '/swf/NonverBlaster.swf' , __FILE__ ); ?>';
  audiosett[1] = '<?php echo easy_get_option( 'easymedia_audio_vol' ); ?>';
  audiosett[2] = '<?php ( easy_get_option( 'easymedia_disen_autopl' )  == '1' ) ? $autoplay = 'true' : $autoplay = 'false'; echo $autoplay; ?>';
- audiosett[3] = '<?php ( easy_get_option( 'easymedia_disen_audio_loop' )  == '1' ) ? $audioloop = 'true' : $audioloop = 'false'; echo $audioloop; 
- ?>';
-
- var videosett = [];
+ audiosett[3] = '<?php ( easy_get_option( 'easymedia_disen_audio_loop' )  == '1' ) ? $audioloop = 'true' : $audioloop = 'false'; echo $audioloop; ?>';
  videosett[0] = '<?php ( easy_get_option( 'easymedia_disen_autoplv' )  == '1' ) ? $autoplay = '&autoplay=1' : $autoplay = ''; echo $autoplay; ?>';
  videosett[1] = '<?php ( easy_get_option( 'easymedia_disen_autoplv' )  == '1' ) ? $autoplay = '?autoplay=1' : $autoplay = ''; echo $autoplay; ?>';
  videosett[2] = '<?php ( easy_get_option( 'easymedia_disen_autoplv' )  == '1' ) ? $autoplay = '1' : $autoplay = '0'; echo $autoplay; ?>';
- 
- var cpanel = [];
  cpanel[0] = '<?php echo easy_get_option( 'easymedia_overlay_opcty' ) / 100 ; ?>';
  cpanel[1] = '<?php echo plugins_url( 'ajax.php' , __FILE__ ); ?>';
- 
+
     /*]]>*/</script> 
     
     <!--[if lt IE 9]>
