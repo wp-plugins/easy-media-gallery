@@ -89,7 +89,7 @@ require_once( EASYMEDG_PLUGIN_DIR . 'includes/class/easymedia_resizer.php' );
 
 // Plugin Version
 if ( !defined( 'EASYMEDIA_VERSION' ) ) {
-	define( 'EASYMEDIA_VERSION', '1.2.0' );
+	define( 'EASYMEDIA_VERSION', '1.2.1' );
 }
 
 // Pro Price
