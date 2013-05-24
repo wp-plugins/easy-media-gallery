@@ -21,7 +21,7 @@ requires:
 provides: [Mediabox.open, Mediabox.close, Mediabox.recenter, Mediabox.scanPage]
 
 --------------------------------------------------------------------------------------+
-Easy Media Gallery Lite v1.2.0 rev.1.1.1.3
+Easy Media Gallery Lite v1.2.1 rev.1.2.1
 
 Changelog :
 

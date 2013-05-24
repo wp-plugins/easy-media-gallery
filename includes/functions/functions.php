@@ -663,7 +663,7 @@ function easymedia_comparison() {
         <li class="row_style_4"><span>HTML5 Video/Audio (mp4, webm, ogv)</span></li>        
         <li class="row_style_2"><span>Image Gallery</span></li>
         <li class="row_style_4"><span>Link Media</span></li>
-        <li class="row_style_2"><span>Google Maps</span></li>
+        <li class="row_style_2"><span>Google Maps / Street View</span></li>
         <li class="row_style_4"><span>Custom CSS</span></li>
         <li class="row_style_2"><span>Custom Columns</span></li>
         <li class="row_style_4"><span>Custom Content</span></li>
