@@ -106,7 +106,6 @@ echo '<div class="pfwrpr"><div id="alignstyle" class="easymedia_'.$cus_align.'">
 
 		switch ( $mediatype ) {
 			case 'Single Image':
-				$mediahovttl = "Single Image";
 				if ( basename( $image ) == 'no-image-available.jpg' ) {
 					$medialink = $image;
 				}
@@ -122,12 +121,10 @@ echo '<div class="pfwrpr"><div id="alignstyle" class="easymedia_'.$cus_align.'">
 						
 			case 'Video':
 				$medialink = get_post_meta( get_the_id(), 'easmedia_metabox_media_video', true );
-				$mediahovttl = "Video";
 	        break;
 			
 			case 'Audio':
 				$medialink = get_post_meta( get_the_id(), 'easmedia_metabox_media_audio', true );
-				$mediahovttl = "Audio";
 				$therell = "easymedia";
 	        break;			
 			
@@ -143,10 +140,10 @@ echo '<div class="pfwrpr"><div id="alignstyle" class="easymedia_'.$cus_align.'">
 			}
 	  
 	  if ( easy_get_option( 'easymedia_disen_hovstyle' ) == '1' ) { ?>
-     <div style="width:<?php echo $imwidth; ?>px; height:<?php echo $imheight; ?>px;" class="view da-thumbs" title="<?php echo $mediahovttl; ?>"><div class="iehand"><img src="<?php echo $image; ?>" /><a onclick="easyActiveStyleSheet('<?php echo $cus_style; ?>');return true;" class="<?php echo $thepostid; ?>" rel="<?php echo $therell; ?>" href="<?php echo $medialink; ?>"><article class="da-animate da-slideFromRight"><p <?php if ( $mediattl == '' ) { echo 'style="display:none !important;"'; } ?> class="emgfittext"><?php echo $mediattl; ?></p><div class="forspan"><span class="zoom"></span></div></article></a></div></div>
+     <div style="width:<?php echo $imwidth; ?>px; height:<?php echo $imheight; ?>px;" class="view da-thumbs"><div class="iehand"><img src="<?php echo $image; ?>" /><a onclick="easyActiveStyleSheet('<?php echo $cus_style; ?>');return true;" class="<?php echo $thepostid; ?>" rel="<?php echo $therell; ?>" href="<?php echo $medialink; ?>"><article class="da-animate da-slideFromRight"><p <?php if ( $mediattl == '' ) { echo 'style="display:none !important;"'; } ?> class="emgfittext"><?php echo $mediattl; ?></p><div class="forspan"><span class="zoom"></span></div></article></a></div></div>
             
 <?php } elseif ( easy_get_option( 'easymedia_disen_hovstyle' ) == '' ) { ?>
-<div class="view da-thumbs" title="<?php echo $mediahovttl; ?>"><div class="iehand"><a onclick="easyActiveStyleSheet('<?php echo $cus_style; ?>');return true;" class="<?php echo $thepostid; ?>" rel="<?php echo $therell; ?>" href="<?php echo $medialink; ?>"><img src="<?php echo $image; ?>" /></a></div></div>
+<div class="view da-thumbs"><div class="iehand"><a onclick="easyActiveStyleSheet('<?php echo $cus_style; ?>');return true;" class="<?php echo $thepostid; ?>" rel="<?php echo $therell; ?>" href="<?php echo $medialink; ?>"><img src="<?php echo $image; ?>" /></a></div></div>
 <?php	}
 
 	  endif;
