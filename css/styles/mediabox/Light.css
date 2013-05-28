@@ -6,7 +6,7 @@
 
 #mbOverlay {
 	position: fixed;
-	z-index: 9999;
+	z-index: 1000000;
 	top: 0;
 	left: 0;
 	width: 100%;
@@ -42,7 +42,7 @@
 
 #mbCenter {
 	position: absolute;
-	z-index: 9999;
+	z-index: 1000000;
 	left: 50%;
 	padding: 10px;
 	background-color: #fff;
