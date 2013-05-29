@@ -17,10 +17,12 @@ Easy Media Gallery is a wordpress plugin designed to display portfolios and vari
 
 = Live Demos =
 
-* [DEMO 1](http://ghozylab.com/sample-1)
-* [DEMO 2](http://ghozylab.com/sample-2)
-* [DEMO 3](http://ghozylab.com/sample-3)
-* [DEMO 4](http://ghozylab.com/sample-4)
+* [DEMO 1](http://ghozylab.com/new-feature-sample-1/)
+* [DEMO 2](http://ghozylab.com/new-feature-sample-2/)
+* [DEMO 3](http://ghozylab.com/sample-1)
+* [DEMO 4](http://ghozylab.com/sample-2)
+* [DEMO 5](http://ghozylab.com/sample-3)
+* [DEMO 6](http://ghozylab.com/sample-4)
 
 = Features =
 

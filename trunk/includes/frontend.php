@@ -14,17 +14,30 @@ add_action( 'wp_print_styles', 'easymedia_frontend_stylesheet' );
 
 function easymedia_frontend_script() {
 	
-	wp_deregister_script('fittext'); // deregister
-	wp_enqueue_script('fittext', plugins_url('js/jquery/jquery.fittext.js', __FILE__), array("jquery"), '1.1');
-	
-	wp_register_script( 'mootools-core', plugins_url( 'js/mootools/mootools-' .easy_get_option( 'easymedia_plugin_core' ). '.js' , __FILE__ ) );	
+	wp_enqueue_script( 'fittext' );	
 	wp_enqueue_script( 'mootools-core' );
-	
-	wp_register_script( 'easymedia-core', plugins_url( 'js/mootools/easymedia.js' , __FILE__ ) );	
 	wp_enqueue_script( 'easymedia-core' );	
-	
-	wp_register_script( 'easymedia-frontend', plugins_url( 'js/func/frontend.js' , __FILE__ ) );	
 	wp_enqueue_script( 'easymedia-frontend' );	
+	
+	( easy_get_option( 'easymedia_disen_autopl' ) == '1' ) ? $audautoplay = 'true' : $audautoplay = 'false';
+	( easy_get_option( 'easymedia_disen_audio_loop' ) == '1' ) ? $audioloop = 'true' : $audioloop = 'false';
+	( easy_get_option( 'easymedia_disen_autoplv' ) == '1' ) ? $autoplaya = '&autoplay=1' : $autoplaya = '';
+	( easy_get_option( 'easymedia_disen_autoplv' ) == '1' ) ? $autoplayb = '?autoplay=1' : $autoplayb = '';
+	( easy_get_option( 'easymedia_disen_autoplv' ) == '1' ) ? $autoplayc = '1' : $autoplayc = '0';	
+
+	$eparams = array(
+		'nblaswf' => plugins_url( '/swf/NonverBlaster.swf' , __FILE__ ),
+  		'audiovol' => easy_get_option( 'easymedia_audio_vol' ),
+  		'audioautoplay' => $audautoplay,
+  		'audioloop' => $audioloop,
+  		'vidautopa' => $autoplaya,
+  		'vidautopb' => $autoplayb,  
+  		'vidautopc' => $autoplayc, 
+  		'ajaxpth' => plugins_url( 'ajax.php' , __FILE__ ),  
+  		'ovrlayop' => easy_get_option( 'easymedia_overlay_opcty' ) / 100,   
+		);
+
+	wp_localize_script( 'easymedia-core', 'EasyLite', $eparams );		
 	
 }
 add_action( 'wp_enqueue_scripts', 'easymedia_frontend_script' );
@@ -37,6 +50,7 @@ function easymedia_frontend_prop()
 		
 ob_start(); ?>
 
+<script src="<?php echo plugins_url('js/func/styleswitcher.js' , __FILE__) ?>"></script>
 <link rel="stylesheet" href="<?php echo plugins_url('dynamic-style.php' , __FILE__) ?>" type="text/css" media="screen" />    
 
 
@@ -45,35 +59,15 @@ ob_start(); ?>
     <script type="text/javascript">
 	/*<![CDATA[*/
 	/* Easy Media Gallery */
-    jQuery(document).ready(function($) {
-
-	/* Mediabox init */		
+    jQuery(document).ready(function($) {	
 		var add = "easymedia";
 jQuery('.da-thumbs a[rel!="easymedia"]').attr('rel', function (i, old) {
     return old ? old + ' ' + add : add; });		
-		
     });
-    /*]]>*/</script>	
-
-    <script type="text/javascript">
-	/*<![CDATA[*/
-	/* Easy Media Gallery */
 	
 	easyActiveStyleSheet('<?php echo easy_get_option( 'easymedia_box_style' ); ?>');
-	
-var audiosett = []; var videosett = []; var cpanel = [];
- audiosett[0] = '<?php echo plugins_url( '/swf/NonverBlaster.swf' , __FILE__ ); ?>';
- audiosett[1] = '<?php echo easy_get_option( 'easymedia_audio_vol' ); ?>';
- audiosett[2] = '<?php ( easy_get_option( 'easymedia_disen_autopl' )  == '1' ) ? $autoplay = 'true' : $autoplay = 'false'; echo $autoplay; ?>';
- audiosett[3] = '<?php ( easy_get_option( 'easymedia_disen_audio_loop' )  == '1' ) ? $audioloop = 'true' : $audioloop = 'false'; echo $audioloop; ?>';
- videosett[0] = '<?php ( easy_get_option( 'easymedia_disen_autoplv' )  == '1' ) ? $autoplay = '&autoplay=1' : $autoplay = ''; echo $autoplay; ?>';
- videosett[1] = '<?php ( easy_get_option( 'easymedia_disen_autoplv' )  == '1' ) ? $autoplay = '?autoplay=1' : $autoplay = ''; echo $autoplay; ?>';
- videosett[2] = '<?php ( easy_get_option( 'easymedia_disen_autoplv' )  == '1' ) ? $autoplay = '1' : $autoplay = '0'; echo $autoplay; ?>';
- cpanel[0] = '<?php echo easy_get_option( 'easymedia_overlay_opcty' ) / 100 ; ?>';
- cpanel[1] = '<?php echo plugins_url( 'ajax.php' , __FILE__ ); ?>';
+    /*]]>*/</script>	
 
-    /*]]>*/</script> 
-    
     <!--[if lt IE 9]>
 <script src="<?php echo plugins_url( 'js/func/html5.js' , __FILE__ );  ?>" type="text/javascript"></script>
 <![endif]-->  

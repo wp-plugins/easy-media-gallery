@@ -9,6 +9,17 @@
 */
  
  
+ /*
+|--------------------------------------------------------------------------
+| Easymedia Get Control Panel Options
+|--------------------------------------------------------------------------
+*/
+function easy_get_option( $name ){
+    $easymedia_values = get_option( 'easy_media_opt' );
+    if ( is_array( $easymedia_values ) && array_key_exists( $name, $easymedia_values ) ) return $easymedia_values[$name];
+    return false;
+}
+ 
 /*-------------------------------------------------------------------------------*/
 /*   ADMIN Register JS & CSS
 /*-------------------------------------------------------------------------------*/
@@ -40,6 +51,18 @@ function easymedia_reg_script() {
 		
 }
 add_action( 'admin_init', 'easymedia_reg_script' );
+
+
+function easymedia_frontend_js() {
+	// JS ( frontend.php ) 		
+	wp_register_script( 'fittext', plugins_url( 'js/jquery/jquery.fittext.js' , dirname(__FILE__) ) );		
+	wp_register_script( 'mootools-core', plugins_url( 'js/mootools/mootools-' .easy_get_option( 'easymedia_plugin_core' ). '.js' , dirname(__FILE__) ) );	
+	wp_register_script( 'easymedia-core', plugins_url( 'js/mootools/easymedia.js' , dirname(__FILE__) ) );			
+	wp_register_script( 'easymedia-frontend', plugins_url( 'js/func/frontend.js' , dirname(__FILE__) ) );		
+
+}
+add_action( 'wp_enqueue_scripts', 'easymedia_frontend_js' );
+
 
 /* These files build out the plugin specific options and associated functions. */
 require_once (EASYMEDG_PLUGIN_DIR . 'includes/options.php'); 
@@ -143,17 +166,6 @@ function easmedia_img_media_remv() {
 	}
 }
 add_action( 'wp_ajax_easmedia_img_media_remv', 'easmedia_img_media_remv' );
-
-/*
-|--------------------------------------------------------------------------
-| Easymedia Get Control Panel Options
-|--------------------------------------------------------------------------
-*/
-function easy_get_option( $name ){
-    $easymedia_values = get_option( 'easy_media_opt' );
-    if ( is_array( $easymedia_values ) && array_key_exists( $name, $easymedia_values ) ) return $easymedia_values[$name];
-    return false;
-}
 
 /*
 |--------------------------------------------------------------------------
@@ -649,7 +661,7 @@ function easymedia_comparison() {
     <div class="wrap">
         <div id="icon-edit" class="icon32 icon32-posts-easymedia"><br /></div>
         <h2><?php _e('Comparison', 'easmedia'); ?></h2>
-  <div class="tsc_pricingtable03 tsc_pt3_style1" style="margin-bottom:110px; height:1030px;">
+  <div class="tsc_pricingtable03 tsc_pt3_style1" style="margin-bottom:110px; height:1160px;">
     <div class="caption_column">
       <ul>
         <li class="header_row_1 align_center radius5_topleft"></li>
@@ -662,6 +674,8 @@ function easymedia_comparison() {
         <li class="row_style_2"><span>Audio Media</span></li>
         <li class="row_style_4"><span>HTML5 Video/Audio (mp4, webm, ogv)</span></li>        
         <li class="row_style_2"><span>Image Gallery</span></li>
+        <li class="row_style_4"><span>Grid Gallery</span></li>       
+        <li class="row_style_2"><span>Filterable Media</span></li>        
         <li class="row_style_4"><span>Link Media</span></li>
         <li class="row_style_2"><span>Google Maps / Street View</span></li>
         <li class="row_style_4"><span>Custom CSS</span></li>
@@ -677,6 +691,7 @@ function easymedia_comparison() {
         <li class="row_style_4"><span>Powerfull Control Panel </span> <a href="<?php echo plugins_url( 'images/pro-version-control-panel.png' , dirname(__FILE__) ) ?>   " style="text-decoration:underline !important;">Click for Screenshot</a></li>
         <li class="row_style_2"><span>Advanced Shortcode </span><a  class="thickbox" href="<?php echo plugins_url( 'images/pro-version-shortcode-manager.png' , dirname(__FILE__) ) ?>" style="text-decoration:underline !important;">Click for Screenshot</a></li>
         <li class="row_style_4"><span>Facebook, Twitter &amp; Pinterest Button</span></li>
+         <li class="row_style_2"><span>AJAX page/post load Support</span></li>
         <li class="row_style_2"><span>WP Multisite</span></li>
         <li class="row_style_4"><span>Direct Support</span></li>
         <li class="row_style_2"><span>Update</span></li>
@@ -697,6 +712,8 @@ function easymedia_comparison() {
         <li class="row_style_3 align_center"><span class="pricing_no"></span></li>        
         <li class="row_style_1 align_center"><span class="pricing_no"></span></li>
         <li class="row_style_3 align_center"><span class="pricing_no"></span></li>
+        <li class="row_style_1 align_center"><span class="pricing_no"></span></li>        
+        <li class="row_style_3 align_center"><span class="pricing_no"></span></li>
         <li class="row_style_1 align_center"><span class="pricing_no"></span></li>
         <li class="row_style_3 align_center"><span class="pricing_no"></span></li>        
         <li class="row_style_1 align_center"><span>max 3 columns</span></li>
@@ -711,9 +728,10 @@ function easymedia_comparison() {
         <li class="row_style_3 align_center"><span class="pricing_no"></span></li>
         <li class="row_style_1 align_center"><span class="pricing_no"></span></li>
         <li class="row_style_3 align_center"><span class="pricing_no"></span></li>
-        <li class="row_style_1 align_center"><span class="pricing_no"></span></li>
+		<li class="row_style_1 align_center"><span class="pricing_no"></span></li>        
         <li class="row_style_3 align_center"><span class="pricing_no"></span></li>
-        <li class="row_style_1 align_center"><span class="pricing_yes"></span></li>
+        <li class="row_style_1 align_center"><span class="pricing_no"></span></li>
+        <li class="row_style_3 align_center"><span class="pricing_yes"></span></li>
          
         <li class="footer_row"></li>
       </ul>
@@ -731,7 +749,9 @@ function easymedia_comparison() {
         <li class="row_style_4 align_center"><span class="pricing_yes"></span></li>
         <li class="row_style_2 align_center"><span class="pricing_yes"></span></li>        
         <li class="row_style_4 align_center"><span class="pricing_yes"></span></li>
-        <li class="row_style_2 align_center"><span class="pricing_yes"></span></li>        
+        <li class="row_style_2 align_center"><span class="pricing_yes"></span></li> 
+        <li class="row_style_4 align_center"><span class="pricing_yes"></span></li>
+        <li class="row_style_2 align_center"><span class="pricing_yes"></span></li>              
         <li class="row_style_4 align_center"><span class="pricing_yes"></span></li>
         <li class="row_style_2 align_center"><span class="pricing_yes"></span></li>
         <li class="row_style_4 align_center"><span class="pricing_yes"></span></li>
@@ -747,9 +767,10 @@ function easymedia_comparison() {
         <li class="row_style_4 align_center"><span class="pricing_yes"></span></li>
         <li class="row_style_2 align_center"><span class="pricing_yes"></span></li>
         <li class="row_style_4 align_center"><span class="pricing_yes"></span></li>
-        <li class="row_style_2 align_center"><span class="pricing_no"></span></li>
-        <li class="row_style_4 align_center"><span class="pricing_yes"></span></li>
-        <li class="row_style_2 align_center"><span>1 year</span></li>
+		<li class="row_style_2 align_center"><span class="pricing_yes"></span></li>        
+        <li class="row_style_4 align_center"><span class="pricing_no"></span></li>
+        <li class="row_style_2 align_center"><span class="pricing_yes"></span></li>
+        <li class="row_style_4 align_center"><span>1 year</span></li>
         <li class="footer_row"><a target="_blank" href="http://ghozylab.com/order" class="tsc_buttons2 red">Upgrade Now</a></li>
       </ul>
     </div></div>
