@@ -674,8 +674,8 @@ function easymedia_comparison() {
         <li class="row_style_2"><span>Audio Media</span></li>
         <li class="row_style_4"><span>HTML5 Video/Audio (mp4, webm, ogv)</span></li>        
         <li class="row_style_2"><span>Image Gallery</span></li>
-        <li class="row_style_4"><span>Grid Gallery</span></li>       
-        <li class="row_style_2"><span>Filterable Media</span></li>        
+        <li class="row_style_4"><span>Grid Gallery</span><a target="_blank" href="http://ghozylab.com/new-feature-sample-1/" style="text-decoration:underline !important;"> Click for Sample</a></li>       
+        <li class="row_style_2"><span>Filterable Media</span><a target="_blank" href="http://ghozylab.com/new-feature-sample-2/" style="text-decoration:underline !important;"> Click for Sample</a></li>        
         <li class="row_style_4"><span>Link Media</span></li>
         <li class="row_style_2"><span>Google Maps / Street View</span></li>
         <li class="row_style_4"><span>Custom CSS</span></li>
