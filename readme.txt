@@ -4,7 +4,7 @@ Donate link: http://ghozylab.com/donate
 Tags: gallery, wordpress gallery plugin, portfolio wordpress plugin, admin, widget, plugin, portfolio, media gallery, post, admin, posts, images
 Requires at least: 3.3
 Tested up to: 3.5.1
-Stable tag: 1.2.1
+Stable tag: 1.2.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -182,6 +182,16 @@ But seriously, I just want to drink coffee for free, so help a developer out. Yo
 
 == Changelog ==
 
+= 1.2.3 =
+* Remove thumbnails hover title
+* Remove default text for empty title and sub title  
+* Fixed : re-upload missing file
+* Fixed : frontend script
+* Fixed : responsive video 
+* Updated : pro version description
+* Many other PHP and CSS clean and optimization
+* Fixes for minor issues discovered since 1.2.1
+
 = 1.2.1 =
 * Fixed : image max-width
 * Fixed : change AJAX method POST to GET 
@@ -257,5 +267,5 @@ But seriously, I just want to drink coffee for free, so help a developer out. Yo
 
 == Upgrade Notice ==
 
-= 1.2.1 =
+= 1.2.3 =
 New version availabe, update NOW!
