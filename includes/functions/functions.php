@@ -59,9 +59,16 @@ function easymedia_frontend_js() {
 	wp_register_script( 'mootools-core', plugins_url( 'js/mootools/mootools-' .easy_get_option( 'easymedia_plugin_core' ). '.js' , dirname(__FILE__) ) );	
 	wp_register_script( 'easymedia-core', plugins_url( 'js/mootools/easymedia.js' , dirname(__FILE__) ) );			
 	wp_register_script( 'easymedia-frontend', plugins_url( 'js/func/frontend.js' , dirname(__FILE__) ) );		
-
+	wp_register_script( 'easymedia-ajaxfrontend', plugins_url( 'js/func/ajax-frontend.js' , dirname(__FILE__) ) );	
 }
 add_action( 'wp_enqueue_scripts', 'easymedia_frontend_js' );
+
+/*
+|--------------------------------------------------------------------------
+| Defines
+|--------------------------------------------------------------------------
+*/
+define( 'EMG_IS_AJAX', easy_get_option( 'easymedia_disen_ajax' ) );
 
 
 /* These files build out the plugin specific options and associated functions. */
@@ -728,7 +735,7 @@ function easymedia_comparison() {
         <li class="row_style_3 align_center"><span class="pricing_no"></span></li>
         <li class="row_style_1 align_center"><span class="pricing_no"></span></li>
         <li class="row_style_3 align_center"><span class="pricing_no"></span></li>
-		<li class="row_style_1 align_center"><span class="pricing_no"></span></li>        
+		<li class="row_style_1 align_center"><span class="pricing_yes"></span></li>        
         <li class="row_style_3 align_center"><span class="pricing_no"></span></li>
         <li class="row_style_1 align_center"><span class="pricing_no"></span></li>
         <li class="row_style_3 align_center"><span class="pricing_yes"></span></li>
