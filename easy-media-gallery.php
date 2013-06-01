@@ -84,6 +84,7 @@ if ( !defined( 'EASYMEDG_PLUGIN_URL' ) )
 $wp_plugin_dir = substr(plugin_dir_path(__FILE__), 0, -1);
 define( 'EMG_DIR', $wp_plugin_dir );	
 //define( 'EMG_THUMB_FILE', plugins_url( 'includes/class/timthumb.php' , __FILE__ ) );
+define( 'EMG_AJAX_SELL_ID', "#content" );	
 
 require_once( EASYMEDG_PLUGIN_DIR . 'includes/class/easymedia_resizer.php' ); 	
 
