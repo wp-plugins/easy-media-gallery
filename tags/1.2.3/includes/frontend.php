@@ -19,6 +19,8 @@ function easymedia_frontend_script() {
 	wp_enqueue_script( 'easymedia-core' );	
 	wp_enqueue_script( 'easymedia-frontend' );	
 	
+	if ( EMG_IS_AJAX == '1' ) { wp_enqueue_script( 'easymedia-ajaxfrontend' ); }	
+	
 	( easy_get_option( 'easymedia_disen_autopl' ) == '1' ) ? $audautoplay = 'true' : $audautoplay = 'false';
 	( easy_get_option( 'easymedia_disen_audio_loop' ) == '1' ) ? $audioloop = 'true' : $audioloop = 'false';
 	( easy_get_option( 'easymedia_disen_autoplv' ) == '1' ) ? $autoplaya = '&autoplay=1' : $autoplaya = '';
@@ -66,6 +68,7 @@ jQuery('.da-thumbs a[rel!="easymedia"]').attr('rel', function (i, old) {
     });
 	
 	easyActiveStyleSheet('<?php echo easy_get_option( 'easymedia_box_style' ); ?>');
+	var fend = []; fend[1] = '<?php echo EMG_AJAX_SELL_ID ; ?>';
     /*]]>*/</script>	
 
     <!--[if lt IE 9]>
