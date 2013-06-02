@@ -409,6 +409,31 @@ add_filter( 'pre_get_posts', 'easmedia_set_custom_post_types_admin_order' );
 
 
 /*-------------------------------------------------------------------------------*/
+/*   Hide View, Quick Edit and Preview Button
+/*-------------------------------------------------------------------------------*/
+function emg_hide_post_view() {
+    global $post_type;
+    $post_types = array(
+                        'easymediagallery'
+                  );
+    if(in_array($post_type, $post_types))
+    echo '<style type="text/css">#post-preview, #view-post-btn{display: none;}</style>';
+}
+
+add_action( 'admin_head-post-new.php', 'emg_hide_post_view' );
+add_action( 'admin_head-post.php', 'emg_hide_post_view' );
+add_filter( 'post_row_actions', 'emg_remove_row_actions', 10, 1 );
+
+function emg_remove_row_actions( $actions )
+{
+    if( get_post_type() === 'easymediagallery' )
+        unset( $actions['view'] );
+		unset( $actions['inline hide-if-no-js'] );
+    return $actions;
+}
+
+
+/*-------------------------------------------------------------------------------*/
 /*   Shortcodes in sidebar (text) widgets
 /*-------------------------------------------------------------------------------*/
 add_filter('widget_text', 'do_shortcode', 11);
