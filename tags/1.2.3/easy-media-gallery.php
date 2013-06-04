@@ -98,32 +98,6 @@ if ( !defined( 'EASYMEDIA_PRICE' ) ) {
 	define( 'EASYMEDIA_PRICE', '18' );
 }
 
-/*
-|--------------------------------------------------------------------------
-| CHECK PLUGIN DEFAULT SETTINGS
-|--------------------------------------------------------------------------
-*/
-function emg_opt_init()
-{
-    // Incase it is first install and option doesn't exist
-    $emg_optval = get_option( 'easy_media_opt' );
-    if ( !is_array( $emg_optval ) ) update_option( 'easy_media_opt', array() );
-}
-add_action( 'init', 'emg_opt_init', 2 );
-
-if ( is_admin() ){
-	$tmp = get_option( 'easy_media_opt' );
-		if ( isset( $tmp['easymedia_deff_init'] ) != '1' ) {
-			
-			function easymedia_initialize_options() {
-				
-				// Plugin 1st Configuration
-				easymedia_1st_config();
-			}
-			add_action( 'admin_init', 'easymedia_initialize_options' );
-		}
-}
-
 
 /*
 |--------------------------------------------------------------------------
@@ -443,4 +417,33 @@ add_filter('widget_text', 'do_shortcode', 11);
 /*   Load Plugin Functions
 /*-------------------------------------------------------------------------------*/
 include_once( EASYMEDG_PLUGIN_DIR . 'includes/functions/functions.php' );
+
+
+/*
+|--------------------------------------------------------------------------
+| CHECK PLUGIN DEFAULT SETTINGS
+|--------------------------------------------------------------------------
+*/
+function emg_opt_init()
+{
+    // Incase it is first install and option doesn't exist
+    $emg_optval = get_option( 'easy_media_opt' );
+    if ( !is_array( $emg_optval ) ) update_option( 'easy_media_opt', array() );
+}
+add_action( 'init', 'emg_opt_init', 2 );
+
+if ( is_admin() ){
+	$tmp = get_option( 'easy_media_opt' );
+		if ( isset( $tmp['easymedia_deff_init'] ) != '1' ) {
+			
+			function easymedia_initialize_options() {
+				
+				// Plugin 1st Configuration
+				easymedia_1st_config();
+			}
+			add_action( 'admin_init', 'easymedia_initialize_options' );
+		}
+}
+
+
 ?>
