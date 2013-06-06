@@ -51,7 +51,6 @@ else if ( $cat <= '0' && $med > '0' ) {
 // Get media options
 $deff_img_limit = easy_get_option( 'easymedia_img_size_limit' ); // get the default image size limit
 $theopt = easy_get_option( 'easymedia_frm_size' ); 
-$cus_style = easy_get_option( 'easymedia_box_style' );
 $imwidth = stripslashes( $theopt['width'] );
 $imheight = stripslashes( $theopt['height'] );
 
@@ -140,10 +139,10 @@ echo '<div class="pfwrpr"><div id="alignstyle" class="easymedia_'.$cus_align.'">
 			}
 	  
 	  if ( easy_get_option( 'easymedia_disen_hovstyle' ) == '1' ) { ?>
-     <div style="width:<?php echo $imwidth; ?>px; height:<?php echo $imheight; ?>px;" class="view da-thumbs"><div class="iehand"><img src="<?php echo $image; ?>" /><a onclick="easyActiveStyleSheet('<?php echo $cus_style; ?>');return true;" class="<?php echo $thepostid; ?>" rel="<?php echo $therell; ?>" href="<?php echo $medialink; ?>"><article class="da-animate da-slideFromRight"><p <?php if ( $mediattl == '' ) { echo 'style="display:none !important;"'; } ?> class="emgfittext"><?php echo $mediattl; ?></p><div class="forspan"><span class="zoom"></span></div></article></a></div></div>
+     <div style="width:<?php echo $imwidth; ?>px; height:<?php echo $imheight; ?>px;" class="view da-thumbs"><div class="iehand"><img src="<?php echo $image; ?>" /><a class="<?php echo $thepostid; ?>" rel="<?php echo $therell; ?>" href="<?php echo $medialink; ?>"><article class="da-animate da-slideFromRight"><p <?php if ( $mediattl == '' ) { echo 'style="display:none !important;"'; } ?> class="emgfittext"><?php echo $mediattl; ?></p><div class="forspan"><span class="zoom"></span></div></article></a></div></div>
             
 <?php } elseif ( easy_get_option( 'easymedia_disen_hovstyle' ) == '' ) { ?>
-<div class="view da-thumbs"><div class="iehand"><a onclick="easyActiveStyleSheet('<?php echo $cus_style; ?>');return true;" class="<?php echo $thepostid; ?>" rel="<?php echo $therell; ?>" href="<?php echo $medialink; ?>"><img src="<?php echo $image; ?>" /></a></div></div>
+<div class="view da-thumbs"><div class="iehand"><a class="<?php echo $thepostid; ?>" rel="<?php echo $therell; ?>" href="<?php echo $medialink; ?>"><img src="<?php echo $image; ?>" /></a></div></div>
 <?php	}
 
 	  endif;
