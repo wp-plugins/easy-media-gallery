@@ -28,14 +28,14 @@ Easy Media Gallery is a wordpress plugin designed to display portfolios and vari
 <p>Easy Media Gallery satisfy all your needs letting you create different types of portfolio. Each item can be:</p> 
 
 * An image
-* An image gallery (<em>Pro Version</em>)
-* Grid Gallery (<em>Pro Version</em>)
-* Filterable Media (<em>Pro Version</em>)
+* An image gallery (<em>[Pro Version](http://ghozylab.com/new-feature-sample-2/)</em>)
+* Grid Gallery (<em>[Pro Version](http://ghozylab.com/new-feature-sample-1/)</em>)
+* Filterable Media (<em>[Pro Version](http://ghozylab.com/new-feature-sample-1/)</em>)
 * A video
 * An mp3 player
-* Embed from Reverbnation or Soundcloud (<em>Pro Version</em>)
-* Google Maps (<em>Pro Version</em>)
-* A link (<em>Pro Version</em>)
+* Embed from Reverbnation or Soundcloud (<em>[Pro Version](http://ghozylab.com/sample-1/)</em>)
+* Google Maps (<em>[Pro Version](http://ghozylab.com/sample-1/)</em>)
+* A link (<em>[Pro Version](http://ghozylab.com/sample-1/)</em>)
 
 = Features =
 Easy Media Gallery supports a wide range of media formats, and an even wider range of social media sites. Simply link to any image, flash video, or popular website, and the media will be automatically loaded into the overlay. Easy Media Gallery can be used to embed videos from :
