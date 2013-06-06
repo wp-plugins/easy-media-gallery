@@ -48,11 +48,10 @@ add_action( 'wp_enqueue_scripts', 'easymedia_frontend_script' );
 function easymedia_frontend_prop()
 {   
 		$boxstyle = EASYMEDG_PLUGIN_URL . 'css/styles/mediabox';
-		echo "<link rel=\"alternate stylesheet\" title=\"Light\" type=\"text/css\" media=\"screen,projection\" href=\"$boxstyle/Light.css\" />\n";
+		echo "<link rel=\"stylesheet\" type=\"text/css\" media=\"screen,projection\" href=\"$boxstyle/Light.css\" />\n";
 		
 ob_start(); ?>
 
-<script src="<?php echo plugins_url('js/func/styleswitcher.js' , __FILE__) ?>"></script>
 <link rel="stylesheet" href="<?php echo plugins_url('dynamic-style.php' , __FILE__) ?>" type="text/css" media="screen" />    
 
 
@@ -67,7 +66,6 @@ jQuery('.da-thumbs a[rel!="easymedia"]').attr('rel', function (i, old) {
     return old ? old + ' ' + add : add; });		
     });
 	
-	easyActiveStyleSheet('<?php echo easy_get_option( 'easymedia_box_style' ); ?>');
 	var fend = []; fend[1] = '<?php echo EMG_AJAX_SELL_ID ; ?>';
     /*]]>*/</script>	
 
