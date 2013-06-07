@@ -25,36 +25,6 @@ Easy Media Gallery Lite v1.2.5 rev.1.1.1.7
 
 http://ghozylab.com/
 http://wordpress.org/extend/plugins/easy-media-gallery/
---------------------------------------------------------------------------------------+
-*/
-
-/*
-mediaboxAdvanced v1.5.4 - The ultimate extension of Slimbox and Mediabox; an all-media script
-updated 2011.2.19
-	(c) 2007-2011 John Einselen - http://iaian7.com
-based on Slimbox v1.64 - The ultimate lightweight Lightbox clone
-	(c) 2007-2008 Christophe Beyls - http://www.digitalia.be
-
-description: The ultimate extension of Slimbox and Mediabox; an all-media script
-
-license: MIT-style
-
-authors:
-- John Einselen
-- Christophe Beyls
-- Contributions from many others
-
-requires:
-- core/1.3.2: [Core, Array, String, Number, Function, Object, Event, Browser, Class, Class.Extras, Slick.*, Element.*, FX.*, DOMReady, Swiff]
-- Quickie/2.1: '*'
-
-provides: [Mediabox.open, Mediabox.close, Mediabox.recenter, Mediabox.scanPage]
-
---------------------------------------------------------------------------------------+
-Easy Media Gallery Lite v1.2.0 rev.1.1.1.3
-
-http://ghozylab.com/
-http://wordpress.org/extend/plugins/easy-media-gallery/
 --------------------------------------------------------------------------------------+*/
 
 
