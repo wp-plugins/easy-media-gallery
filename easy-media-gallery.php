@@ -402,7 +402,7 @@ function emg_remove_row_actions( $actions )
 {
     if( get_post_type() === 'easymediagallery' )
         unset( $actions['view'] );
-		unset( $actions['inline hide-if-no-js'] );
+		//unset( $actions['inline hide-if-no-js'] );
     return $actions;
 }
 
