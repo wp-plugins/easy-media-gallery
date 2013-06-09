@@ -468,12 +468,17 @@ function easmedia_easymedia_sort() {
                     <li id="<?php the_id(); ?>" class="menu-item">
                         <dl class="menu-item-bar">
                             <dt class="menu-item-handle">
-                                <img style="float:left; vertical-align:middle;padding-top: 4px; margin-right:10px;" src="<?php echo plugins_url( 'images/sort.png' , dirname(__FILE__) ) ?>" height="28px;" width="28px;"/><span class="item-title"><?php the_title(); ?></span>
+                                <img style="float:left; vertical-align:middle;padding-top: 4px; margin-right:10px;" src="<?php echo plugins_url( 'images/sort.png' , dirname(__FILE__) ) ?>" height="28px;" width="28px;"/><span class="item-title"><?php echo esc_html(esc_js(the_title(NULL, NULL, FALSE))); ?></span>
                             </dt>
                         </dl>
                         <ul class="menu-item-transport"></ul>
                     </li>
-            <?php endwhile; ?>
+            <?php endwhile; 
+/*
+Thanks to Kevin Falcoz (aka 0pc0deFR) for this discovery and this patch.
+::: esc_html(esc_js(the_title(NULL, NULL, FALSE))); :::
+*/ 
+?>
 
 				<?php else: ?>
 <div class="wrap">

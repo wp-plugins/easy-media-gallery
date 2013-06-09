@@ -75,6 +75,7 @@ echo '<div class="pfwrpr"><div id="alignstyle" class="easymedia_'.$cus_align.'">
 
 		$image = get_post_meta( get_the_id(), 'easmedia_metabox_img', true );
 		$mediattl = get_post_meta( get_the_id(), 'easmedia_metabox_title', true );	
+		$mediattl = esc_html(esc_js($mediattl));
 		$mediatype = get_post_meta( get_the_id(), 'easmedia_metabox_media_type', true );
 		$isvidsize = get_post_meta( get_the_id(), 'easmedia_metabox_media_video_size', true );
 		$isresize1 = get_post_meta( get_the_id(), 'easmedia_metabox_media_image_opt1', true );

@@ -142,8 +142,13 @@ $args = array(
 
 $myposts = get_posts( $args );
 foreach( $myposts as $post ) :	setup_postdata($post); ?>
-<option id="<?php echo $post->ID; ?>" type="text" value="<?php echo $post->ID; ?>" /><?php echo the_title(); ?></option>
+<option id="<?php echo $post->ID; ?>" type="text" value="<?php echo $post->ID; ?>" /><?php echo esc_html(esc_js(the_title(NULL, NULL, FALSE))); ?></option>
 <?php endforeach; 
+
+/*
+Thanks to Kevin Falcoz (aka 0pc0deFR) for this discovery and this patch.
+::: esc_html(esc_js(the_title(NULL, NULL, FALSE))); :::
+*/
 
 ?>
 </select>
