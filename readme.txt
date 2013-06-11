@@ -54,7 +54,7 @@ Easy Media Gallery supports a wide range of media formats, and an even wider ran
 * Quietube + Vimeo
 * Revver
 * RuTube
-* MP3, MP4, MOV, M4V, M4A, FLV, AIFF
+* HTML5 MP3 and MP4, MOV, M4V, M4A, FLV, AIFF
 
 It is a very customizable plugin that allow you to set display whatever you want like adjust colors, positions, media sizes, hover effect and much more with one easy control panel. That easy control panel for experts it would save your time, and for you who do not have more knowledge about website styling, of course this plugin will allow you to manage your website much more easily. 
 
