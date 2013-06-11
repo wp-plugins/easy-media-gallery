@@ -165,10 +165,8 @@ span.link_post:hover{
 .pfwrpr {width: 100%;}	
 	
 .view {
-   width:auto !important;
-   height:auto !important;
 	max-width: 200px !important;
-   display:block;
+	display:block;
     }
 
 .view img {
