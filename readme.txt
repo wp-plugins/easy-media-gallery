@@ -77,6 +77,9 @@ Take your media to the next level with [Easy Media Gallery Pro](http://ghozylab.
 * Powerfull control panel and Shortcode Manager make getting started super easy
 * 24/7 Technical Support
 
+= Examples =
+<p>http://www.youtube.com/watch?v=CAant75j98g</p>
+
 
 == Installation ==
 
