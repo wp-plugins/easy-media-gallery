@@ -15,7 +15,7 @@ This plugin enables you to create an awesome portfolio or gallery. Over 20,000 W
 
 Easy Media Gallery is a wordpress plugin designed to display portfolios and various media support including gallery sets, single image, google maps, video, audio and link with very ease and elegant.
 
-= Live Demos ( primary site is temporary under maintenance ) =
+= Live Demos =
 
 * [DEMO 1](http://ghozylab.com/new-feature-sample-1/)
 * [DEMO 2](http://ghozylab.com/new-feature-sample-2/)
