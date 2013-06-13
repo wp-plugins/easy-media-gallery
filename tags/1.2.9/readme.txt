@@ -34,7 +34,7 @@ Easy Media Gallery is a wordpress plugin designed to display portfolios and vari
 * A video
 * An mp3 player
 * Embed from Reverbnation or Soundcloud (<em>[Pro Version](http://ghozylab.com/sample-1/)</em>)
-* Google Maps (<em>[Pro Version](http://ghozylab.com/sample-1/)</em>)
+* Google Maps / Google Street View (<em>[Pro Version](http://ghozylab.com/sample-1/)</em>)
 * A link (<em>[Pro Version](http://ghozylab.com/sample-1/)</em>)
 
 = Features =
