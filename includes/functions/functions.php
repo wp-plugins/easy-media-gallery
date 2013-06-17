@@ -512,6 +512,15 @@ else if ( $text == 'Update' ) {
 return $translation;
 }
 
+add_filter( 'gettext', 'change_insert_media', 10, 2 );
+function change_insert_media( $translation, $text ) {
+if ( 'easymediagallery' == get_post_type())
+if ( $text == 'Insert into post' ) {
+    return 'Insert into media'; }	
+
+return $translation;
+}
+
 /*-------------------------------------------------------------------------------*/
 /*   Load Dasboard News
 /*-------------------------------------------------------------------------------*/
