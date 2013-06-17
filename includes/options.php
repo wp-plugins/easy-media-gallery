@@ -192,7 +192,7 @@ array( "name" => "Plugin Core Compatibility Mode",
 	"desc" => "Could solve issues on old plugin core versions, Use it ONLY IF you notice some issues. Default: core-1.4.5-min",
 	"id" => $theshort."_plugin_core",
 	"type" => "select",
-	"options" => array( "core-1.4.5-min", "core-1.4.5-full-compat-yc", "core-1.2.5-core-yc" ),
+	"options" => array( "core-1.4.5-min", "core-1.4.5-full-compat-yc", "core-1.2.5-core-yc", "none" ),
 	"std" => "core-1.4.5-min"),		
 	
 array( "type" => "close")
