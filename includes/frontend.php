@@ -15,7 +15,7 @@ add_action( 'wp_print_styles', 'easymedia_frontend_stylesheet' );
 function easymedia_frontend_script() {
 	
 	wp_enqueue_script( 'fittext' );	
-	wp_enqueue_script( 'mootools-core' );
+	if ( easy_get_option( 'easymedia_plugin_core' ) != 'none' ) {wp_enqueue_script( 'mootools-core' ); }
 	wp_enqueue_script( 'easymedia-core' );	
 	wp_enqueue_script( 'easymedia-frontend' );	
 	
