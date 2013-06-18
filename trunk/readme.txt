@@ -78,7 +78,7 @@ Take your media to the next level with [Easy Media Gallery Pro](http://ghozylab.
 * 24/7 Technical Support
 
 = Examples =
-<p>http://www.youtube.com/watch?v=CAant75j98g</p>
+<p>http://www.youtube.com/watch?v=TQ1MMxhsyD8</p>
 
 
 == Installation ==
