@@ -800,11 +800,59 @@ function easymedia_comparison() {
   </div>
 <!-- DC Pricing Tables:3 End -->
 <div class="tsc_clear"></div> <!-- line break/clear line -->
-
-
 <?php
+}
 
+/*-------------------------------------------------------------------------------*/
+/*  Add WordPress Pointers 
+/*-------------------------------------------------------------------------------*/
 
+add_action( 'admin_enqueue_scripts', 'easmedia_pointer_pointer_header' );
+function easmedia_pointer_pointer_header() {
+    $enqueue = false;
+
+    $dismissed = explode( ',', (string) get_user_meta( get_current_user_id(), 'dismissed_wp_pointers', true ) );
+
+    if ( ! in_array( 'easmedia_pointer_pointer', $dismissed ) ) {
+        $enqueue = true;
+        add_action( 'admin_print_footer_scripts', 'easmedia_pointer_pointer_footer' );
+    }
+
+    if ( $enqueue ) {
+        // Enqueue pointers
+        wp_enqueue_script( 'wp-pointer' );
+        wp_enqueue_style( 'wp-pointer' );
+    }
+}
+
+function easmedia_pointer_pointer_footer() {
+    $pointer_content = '<h3>Congratulations!</h3>';
+	  $pointer_content .= '<p>You&#39;ve just installed Easy Media Gallery Lite Version. Click <a class="close"href="edit.php?post_type=easymediagallery&page=docs">here</a> to watch video tutorials and user guide plugin.</p>';
+?>
+
+<script type="text/javascript">// <![CDATA[
+jQuery(document).ready(function($) {
+	
+if (typeof(jQuery().pointer) != 'undefined') {	
+    $('#menu-posts-easymediagallery').pointer({
+        content: '<?php echo $pointer_content; ?>',
+        position: {
+            edge: 'left',
+            align: 'center'
+        },
+        close: function() {
+            $.post( ajaxurl, {
+                pointer: 'easmedia_pointer_pointer',
+               action: 'dismiss-wp-pointer'
+            });
+        }
+    }).pointer('open');
+	
+}
+
+});
+// ]]></script>
+<?php
 }
 
 
