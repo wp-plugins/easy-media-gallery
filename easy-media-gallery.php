@@ -2,7 +2,7 @@
 /*
 Plugin Name: Easy Media Gallery
 Plugin URI: http://www.ghozylab.com/
-Description: Easy Media Gallery Lite - Display videos, images, and audio files with very easy. Allows you to customize all media to get it looking exactly what you want (Lite Version).
+Description: Easy Media Gallery Lite - Display videos (MP4, M4V, Youtube, Vimeo), images, and audio files with very easy. Allows you to customize all media to get it looking exactly what you want (Lite Version).
 Author: GhozyLab, Inc.
 Version: 1.2.11
 Author URI: http://www.ghozylab.com/
@@ -49,22 +49,6 @@ if ( version_compare(PHP_VERSION, '5.2', '<') ) {
 
 /*
 |--------------------------------------------------------------------------
-| Requires GD extension 
-|--------------------------------------------------------------------------
-*/
-/*if (!extension_loaded('gd') && !function_exists('gd_info')) {
-	if ( is_admin() && (!defined('DOING_AJAX') || !DOING_AJAX) ) {
-		require_once ABSPATH.'/wp-admin/includes/plugin.php';
-		deactivate_plugins( __FILE__ );
-	    wp_die( "Easy Media Gallery Lite requires <strong>GD extension</strong>. The plugin has now disabled itself. If you are using shared hosting please contact your webhost and ask them to install the <strong>GD library</strong>.<br /><br />Back to <a href='".admin_url()."'>WordPress admin</a>" );
-	} else {
-		return;
-	}
-}
-*/
-
-/*
-|--------------------------------------------------------------------------
 | Defines
 |--------------------------------------------------------------------------
 */
@@ -82,8 +66,7 @@ if ( !defined( 'EASYMEDG_PLUGIN_URL' ) )
 	
 	
 $wp_plugin_dir = substr(plugin_dir_path(__FILE__), 0, -1);
-define( 'EMG_DIR', $wp_plugin_dir );	
-//define( 'EMG_THUMB_FILE', plugins_url( 'includes/class/timthumb.php' , __FILE__ ) );
+define( 'EMG_DIR', $wp_plugin_dir );
 define( 'EMG_AJAX_SELL_ID', "#content" );	
 
 require_once( EASYMEDG_PLUGIN_DIR . 'includes/class/easymedia_resizer.php' ); 	
@@ -247,7 +230,6 @@ function easmedia_custom_columns_easymedia( $easymedia_columns, $post_id ){
 										$thumbmedia = get_post_meta( $post_id, 'easmedia_metabox_img', true );
 	       								
 										 if ( isset( $thumbmedia ) ) {
-											 //$timthumbimg = EMG_THUMB_FILE . "?src=" . $thumbmedia . "&h=70&w=70&zc=1&q=100";
 											 $globalimgsize = wp_get_attachment_image_src( get_attachment_id_from_src( $thumbmedia ), 'full' );
 											 $timthumbimg = easymedia_resizer( $thumbmedia, $globalimgsize[1], $globalimgsize[2], 70, 70, true );
 											 echo '<img class="imgthumblist" width="70" height="70" alt="Thumbnail" src="' . $timthumbimg . '"></img>';
@@ -259,12 +241,10 @@ function easmedia_custom_columns_easymedia( $easymedia_columns, $post_id ){
 											
 
 								case 'Video':
-											 //$timthumbimg = EMG_THUMB_FILE . "?src=" . plugins_url( 'images/video.png' , __FILE__ ) . "&h=70&w=70&zc=1&q=100";
 											 echo '<img class="imgthumblist" width="70" height="70" alt="Thumbnail" src="' . plugins_url( 'images/video.png' , __FILE__ ) . '"></img>';
 												 break;			
 			
 								case 'Audio':
-											 //$timthumbimg = EMG_THUMB_FILE . "?src=" . plugins_url( 'images/audio.png' , __FILE__ ) . "&h=70&w=70&zc=1&q=100";
 											 echo '<img class="imgthumblist" width="70" height="70" alt="Thumbnail" src="' . plugins_url( 'images/audio.png' , __FILE__ ) . '"></img>';
 												 break;		
 		
