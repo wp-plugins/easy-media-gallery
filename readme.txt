@@ -1,7 +1,7 @@
 === Easy Media Gallery ===
 Contributors: GhozyLab
 Donate link: http://ghozylab.com/donate
-Tags: gallery, wordpress gallery plugin, portfolio wordpress plugin, admin, widget, plugin, portfolio, media gallery, post, admin, posts, images, html5 video audio, google street view, html5 mp4
+Tags: gallery, wordpress gallery plugin, portfolio wordpress plugin, widget, admin, plugin, portfolio, media gallery, post, admin, posts, images, html5 video audio, google street view, google maps, html5 mp4
 Requires at least: 3.3
 Tested up to: 3.5.1
 Stable tag: 1.2.12
