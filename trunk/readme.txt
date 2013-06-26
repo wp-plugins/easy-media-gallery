@@ -62,19 +62,19 @@ It is a very customizable plugin that allow you to set display whatever you want
 
 * You can learn more by watching the video from [our youtube channel](http://www.youtube.com/GhozyLab).
 
-= Upgrade to Easy Media Gallery Pro =
 
-Take your media to the next level with [Easy Media Gallery Pro](http://ghozylab.com/pricing/), which gives you additional features such as:
+> #### **Upgrade to Easy Media Gallery Pro**
+> Take your media to the next level with [Easy Media Gallery Pro](http://ghozylab.com/pricing/), which gives you additional features such as:
 
-* No coding, the plugin takes care of everything
-* Create unlimited number of media
-* Media are built on-the-fly as you enter and select options
-* Works with all modern browsers, degrades gracefully for others
-* Fully CSS3 compliant with text shadowing, box shadowing, gradients, etc
-* Color picker for unlimited color combinations
-* See your media on different theme and more.
-* Powerfull control panel and Shortcode Manager make getting started super easy
-* 24/7 Technical Support
+> * No coding, the plugin takes care of everything
+> * Create unlimited number of media
+> * Media are built on-the-fly as you enter and select options
+> * Works with all modern browsers, degrades gracefully for others
+> * Fully CSS3 compliant with text shadowing, box shadowing, gradients, etc
+> * Color picker for unlimited color combinations
+> * See your media on different theme and more.
+> * Powerfull control panel and Shortcode Manager make getting started super easy
+> * 24/7 Technical Support
 
 = Examples =
 <p>http://www.youtube.com/watch?v=TQ1MMxhsyD8</p>
