@@ -194,7 +194,7 @@ break;
 </div>
 
 <div class="sc_input sc_select" id="upd_topro">
-<p>Update to PRO Version so you can get Advanced Shortcode, <a target="_blank" href="<?php echo plugins_url( 'includes/images/pro-version-shortcode-manager.png' , dirname(__FILE__) ) ?>" style="text-decoration:underline !important;">Click for Screenshot</a></p>
+<p>Update to PRO Version and get Advanced Shortcode, <a target="_blank" href="<?php echo plugins_url( 'includes/images/pro-version-shortcode-manager.png' , dirname(__FILE__) ) ?>" style="text-decoration:underline !important;">Click for Screenshot</a></p>
 <div class="clearfix"></div>
 </div>
 
