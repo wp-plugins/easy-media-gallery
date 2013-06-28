@@ -1,7 +1,7 @@
 <?php
 
 /*------------------------------------------------------------------------------------*/
-/*  Easy Media Gallery
+/*  Easy Media Gallery Lite Version
 /*  Option Control Panel
 /*  require_once settings.php
 /*------------------------------------------------------------------------------------*/
@@ -21,14 +21,14 @@ array( "name" => "General",
 array( "type" => "open"),
 
 array( "name" => "Columns",
-	"desc" => "Select default Column for each media block, you can also set this manually when adding shortcode.<br><br><a target='_blank' href='http://ghozylab.com/order'>Upgrade</a> to PRO and you can choose up to 8 columns.",
+	"desc" => "Select default Column for each media block, you can also set this manually when adding shortcode.<br><br><a target='_blank' href='http://ghozylab.com/pricing/'>Upgrade</a> to PRO and you can choose up to 8 columns.",
 	"id" => $theshort."_columns",
 	"type" => "select",
 	"options" => array( "1", "2", "3" ),
 	"std" => "3"),	
 	
 array( "name" => "Alignment",
-	"desc" => "Select thumbnails alignment. Default: Center<br><br><a target='_blank' href='http://ghozylab.com/order'>Upgrade</a> to PRO and you can choose center, left or right alignment.",
+	"desc" => "Select thumbnails alignment. Default: Center<br><br><a target='_blank' href='http://ghozylab.com/pricing/'>Upgrade</a> to PRO and you can choose center, left or right alignment.",
 	"id" => $theshort."_alignstyle",
 	"type" => "select",
 	"options" => array( "none", "Center" ),
@@ -76,7 +76,7 @@ array( "name" => "Audio Volume",
 	"usestep" => "1",	
 	"max" => "100",
 	"pixopr" => "",	
-	"std" => "75"),	
+	"std" => "100"),	
 	
 array( "type" => "close"),
 array( "name" => "Style Options",
@@ -84,7 +84,7 @@ array( "name" => "Style Options",
 array( "type" => "open"),
 
 array( "name" => "Media Box Style",
-	"desc" => "Select media box style. Default: Light<br><br><a target='_blank' href='http://ghozylab.com/order'>Upgrade</a> to PRO and get more styles.",
+	"desc" => "Select media box style. Default: Light<br><br><a target='_blank' href='http://ghozylab.com/pricing/'>Upgrade</a> to PRO and get more styles.",
 	"id" => $theshort."_box_style",
 	"type" => "select",
 	"options" => array( "Light" ),
@@ -98,7 +98,7 @@ array( "name" => "Cursor",
 	"std" => "3"),
 	
 array( "name" => "Thumbnail Size",
-	"desc" => "Allow for editing thumbnail sizes. Default sizes width 180px, height : 180px.<br><br><a target='_blank' href='http://ghozylab.com/order'>Upgrade</a> to PRO so you can set this manually when adding shortcode.",
+	"desc" => "Allow for editing thumbnail sizes. Default sizes width 180px, height : 180px.<br><br><a target='_blank' href='http://ghozylab.com/pricing/'>Upgrade</a> to PRO so you can set this manually when adding shortcode.",
 	"id" => $theshort."_frm_size",
 	"type" => "size",
 	'std' => array( 'width' => '160', 'height' => '160' ),
@@ -142,7 +142,7 @@ array( "name" => "Thumbnail Hover Opacity",
 	"std" => "40"),			
 	
 array( "name" => "Pattern Overlay",
-	"desc" => "Please define pattern for box overlay.<br><br><a target='_blank' href='http://ghozylab.com/order'>Upgrade</a> to PRO and you can choose up to 15 patterns.",
+	"desc" => "Please define pattern for box overlay.<br><br><a target='_blank' href='http://ghozylab.com/pricing/'>Upgrade</a> to PRO and you can choose up to 15 patterns.",
 	"id" => $theshort."_style_pattern",
 	"type" => "pattern",
 	"std" => "pattern-01.png"),	
