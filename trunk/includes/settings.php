@@ -471,16 +471,6 @@ $i++;
 <p><a target="_blank" href="http://ghozylab.com/order" class="tsc_buttons2 red">Upgrade to Pro Version  &nbsp;for only $<?php echo EASYMEDIA_PRICE; ?></a> <span style="color:#666666;margin-left:2px; font-size:11px;">&nbsp; Need More Features? Upgrade to Pro Version!</span></p>
  </div> </div>
  </form>
- 
-<br /><hr style="color: #E8E8E8 !important;"><p><span style="color:#666666;margin-left:2px; font-size:12px;">If you love Easy Media Gallery, any donation would be appreciated! It helps to continue the development and support of the plugin. But seriously, I just want to drink coffee for free, so help a developer out.</span><br />
-<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
-<input type="hidden" name="cmd" value="_s-xclick">
-<input type="hidden" name="hosted_button_id" value="BDUYH4QK698CY">
-<input type="image" src="https://www.paypalobjects.com/en_GB/i/btn/btn_donate_LG.gif" border="0" name="submit" alt="PayPal — The safer, easier way to pay online.">
-<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-</form>
-</p>
- 
  </div>
  
 <form method="post">
