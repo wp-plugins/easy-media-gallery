@@ -3,7 +3,7 @@ Contributors: GhozyLab
 Donate link: http://ghozylab.com/donate
 Tags: gallery, wordpress gallery plugin, portfolio wordpress plugin, widget, image album, photo album, admin, plugin, portfolio, media gallery, post, admin, posts, images, html5 video audio, google street view, html5 mp4
 Requires at least: 3.3
-Tested up to: 3.5.1
+Tested up to: 3.5.2
 Stable tag: 1.2.13
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
