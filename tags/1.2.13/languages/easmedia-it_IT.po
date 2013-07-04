@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Easy Media Gallery v1.2.13\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2013-07-03 22:27:21+0000\n"
+"PO-Revision-Date: 2013-07-04 23:41:45+0000\n"
 "Last-Translator: GhozyLab <lang@ghozylab.com>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -128,7 +128,7 @@ msgstr ""
 msgid "Most Used"
 msgstr ""
 
-#. translators: %s: add new taxonomy label 
+#. translators: %s: add new taxonomy label
 #: includes/functions/functions.php:219
 #, php-format
 #@ default
@@ -213,7 +213,7 @@ msgstr ""
 #: includes/metaboxes.php:517
 #@ easmedia
 msgid "<div class=\"emginfobox\">Upgrade to PRO and you can select Image Gallery, Grid Gallery, Filterable Media, HTML5 Video/Audio, Google Maps/Street View, embed from Soundcloud or Reverbnation and also Link to specific URL. You can learn more and see version comparison <a href=\"edit.php?post_type=easymediagallery&page=comparison\">here</a></div><br>Select videos, images, gallery or audio files."
-msgstr ""
+msgstr "<div class=\"emginfobox\">Upgrade to Pro ed è possibile selezionare Image Gallery, Galleria griglia, Media filtrabili, HTML5 Video / Audio, Google Maps / Street View, incorporare da Soundcloud o Reverbnation e anche link a specifici URL. Potete saperne di più e vedere confronto delle versioni <a href=\"edit.php?post_type=easymediagallery&page=comparison\">qui</a></div><br>Select videos, images, gallery or audio files."
 
 #: includes/metaboxes.php:524
 #@ easmedia
