@@ -40,7 +40,7 @@ if ( strstr( $_SERVER['REQUEST_URI'], 'wp-admin/post-new.php' ) || strstr( $_SER
 	
 	add_action( "admin_footer", 'emg_showhide_metabox' );
 	function emg_showhide_metabox() { 
-	
+	if ( get_post_type( get_the_ID() ) == 'easymediagallery' ) { 
 	?>
     
         <script type="text/javascript">
@@ -217,6 +217,7 @@ function IsValidAuUrl1(aurl1) {
   	/*]]>*/
 		</script> 
 		<?php
+		}
 	}	
 } 
 
