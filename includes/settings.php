@@ -13,7 +13,7 @@ add_action( 'admin_init', 'register_easy_setting' );
 
 function spg_add_admin() {
 global $plugname, $theshort, $theopt;
-if ( isset( $_GET['page'] ) && $_GET['page'] == 'settings' ) {
+if ( is_admin() && ( isset( $_GET['page'] ) == 'settings' ) && ( isset( $_GET['post_type'] ) == 'easymediagallery' ) ){
  
 	if ( isset( $_REQUEST['action'] ) && 'save' == $_REQUEST['action'] ) {
 		$curtosv = get_option( 'easy_media_opt' );
@@ -51,7 +51,7 @@ die;
 | REGISTER & ENQUEUE SCRIPTS/STYLES ONLY for a Specific Post Type 
 |--------------------------------------------------------------------------
 */			
-if ( is_admin() && ( isset( $_GET['page'] ) == 'settings' ) ){
+if ( is_admin() && ( isset( $_GET['page'] ) == 'settings' ) && ( isset( $_GET['post_type'] ) == 'easymediagallery' ) ){
 	
 	add_action( "admin_head", 'easymedia_admin_head_script' );
 	add_action( 'admin_enqueue_scripts', 'easymedia_cp_script' );
