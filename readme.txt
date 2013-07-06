@@ -46,6 +46,7 @@ Easy Media Gallery supports a wide range of media formats, and an even wider ran
 * Veoh
 * DailyMotion
 * MetaCafe
+* Livestream
 * YouKu
 * Facebook
 * Google video
