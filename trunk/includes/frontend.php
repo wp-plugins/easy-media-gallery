@@ -26,7 +26,8 @@ function easymedia_frontend_script() {
 	( easy_get_option( 'easymedia_disen_autoplv' ) == '1' ) ? $autoplaya = '&autoplay=1' : $autoplaya = '';
 	( easy_get_option( 'easymedia_disen_autoplv' ) == '1' ) ? $autoplayb = '?autoplay=1' : $autoplayb = '';
 	( easy_get_option( 'easymedia_disen_autoplv' ) == '1' ) ? $autoplayc = '1' : $autoplayc = '0';	
-
+	( easy_get_option( 'easymedia_disen_autoplv' ) == '1' ) ? $autoplayd = 'true' : $autoplayd = 'false';		
+		
 	$eparams = array(
 		'nblaswf' => plugins_url( '/swf/NonverBlaster.swf' , __FILE__ ),
   		'audiovol' => easy_get_option( 'easymedia_audio_vol' ),
@@ -35,6 +36,7 @@ function easymedia_frontend_script() {
   		'vidautopa' => $autoplaya,
   		'vidautopb' => $autoplayb,  
   		'vidautopc' => $autoplayc, 
+		'vidautopd' => $autoplayd,		
   		'ajaxpth' => plugins_url( 'ajax.php' , __FILE__ ),  
   		'ovrlayop' => easy_get_option( 'easymedia_overlay_opcty' ) / 100,   
 		);
