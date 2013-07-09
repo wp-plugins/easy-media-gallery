@@ -4,7 +4,7 @@ Donate link: http://ghozylab.com/donate
 Tags: gallery, wordpress gallery plugin, portfolio wordpress plugin, widget, photo album, image album, admin, plugin, portfolio, media gallery, post, admin, posts, images, html5 video, google street view, html5 mp4
 Requires at least: 3.3
 Tested up to: 3.5.2
-Stable tag: 1.2.13
+Stable tag: 1.2.14
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -29,7 +29,7 @@ Easy Media Gallery is a wordpress plugin designed to display portfolios and vari
 
 * An image
 * Grid Gallery (<em>[Pro Version](http://ghozylab.com/new-feature-sample-1/)</em>)
-* Filterable Media (<em>[Pro Version](http://ghozylab.com/new-feature-sample-1/)</em>)
+* Filterable Media (<em>[Pro Version](http://ghozylab.com/new-feature-sample-2/)</em>)
 * An image gallery (<em>[Pro Version](http://ghozylab.com/sample-1/)</em>)
 * A video
 * An mp3 player
@@ -184,6 +184,12 @@ But seriously, I just want to drink coffee for free, so help a developer out. Yo
 
 == Changelog ==
 
+= 1.2.14 =
+* Added : Livestream video embed support
+* Fixed : Malfunction at 3rd party Plugin detected 
+* Fixed : Thumbnails size when cover not set 
+* Many other PHP and CSS clean and optimization
+
 = 1.2.13 =
 * Remove Donation button from Control Panel
 * Many other PHP optimization
@@ -301,5 +307,5 @@ But seriously, I just want to drink coffee for free, so help a developer out. Yo
 
 == Upgrade Notice ==
 
-= 1.2.13 =
+= 1.2.14 =
 New version availabe, update NOW!
