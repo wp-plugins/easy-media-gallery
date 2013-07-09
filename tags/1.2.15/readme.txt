@@ -184,7 +184,7 @@ But seriously, I just want to drink coffee for free, so help a developer out. Yo
 
 == Changelog ==
 
-= 1.2.14 =
+= 1.2.15 =
 * Fixed : update for 1.2.14
 
 = 1.2.14 =
