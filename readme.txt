@@ -4,7 +4,7 @@ Donate link: http://ghozylab.com/donate
 Tags: gallery, wordpress gallery plugin, portfolio wordpress plugin, widget, photo album, image album, admin, plugin, portfolio, media gallery, post, admin, posts, images, html5 video, google street view, html5 mp4
 Requires at least: 3.3
 Tested up to: 3.5.2
-Stable tag: 1.2.14
+Stable tag: 1.2.15
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -185,6 +185,9 @@ But seriously, I just want to drink coffee for free, so help a developer out. Yo
 == Changelog ==
 
 = 1.2.14 =
+* Fixed : update for 1.2.14
+
+= 1.2.14 =
 * Added : Livestream video embed support
 * Fixed : Malfunction at 3rd party Plugin detected 
 * Fixed : Thumbnails size when cover not set 
@@ -307,5 +310,5 @@ But seriously, I just want to drink coffee for free, so help a developer out. Yo
 
 == Upgrade Notice ==
 
-= 1.2.14 =
+= 1.2.15 =
 New version availabe, update NOW!
