@@ -1,7 +1,7 @@
 === Easy Media Gallery ===
 Contributors: GhozyLab
 Donate link: http://ghozylab.com/donate
-Tags: gallery, wordpress gallery plugin, portfolio wordpress plugin, widget, photo album, image album, admin, plugin, portfolio, media gallery, post, admin, posts, images, html5 video, google street view, html5 mp4
+Tags: gallery, wordpress gallery plugin, portfolio wordpress plugin, widget, photo album, google, image album, admin, plugin, portfolio, media gallery, post, admin, posts, images, html5 video, google street view, html5 mp4
 Requires at least: 3.3
 Tested up to: 3.5.2
 Stable tag: 1.2.15
@@ -185,13 +185,13 @@ But seriously, I just want to drink coffee for free, so help a developer out. Yo
 == Changelog ==
 
 = 1.2.15 =
-* Fixed : update for 1.2.14
-
-= 1.2.14 =
 * Added : Livestream video embed support
 * Fixed : Malfunction at 3rd party Plugin detected 
 * Fixed : Thumbnails size when cover not set 
 * Many other PHP and CSS clean and optimization
+
+= 1.2.14 =
+* Empty
 
 = 1.2.13 =
 * Remove Donation button from Control Panel
