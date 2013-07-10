@@ -586,7 +586,7 @@ $emgdonate .= '</p>';
 echo $emgdonate;
 }
 
-add_filter('admin_footer','easmedia_donate_metabox_form');
+//add_filter('admin_footer','easmedia_donate_metabox_form');
 function easmedia_donate_metabox_form(){
 $emgdonatefrm = '<div id="easymedia_donate" style="display:none">';	
 $emgdonatefrm .= '<p style="padding:1px;"><span style="color:#666666;margin-left:2px; font-size:12px;">If you love Easy Media Gallery, any donation would be appreciated! It helps to continue the development and support of the plugin.</span></p><form action="https://www.paypal.com/cgi-bin/webscr" method="post">
