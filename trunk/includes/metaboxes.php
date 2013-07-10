@@ -8,7 +8,7 @@ function customposttype_image_box() {
 	remove_meta_box( 'postimagediv', 'easymediagallery', 'side' );
 	remove_meta_box( 'emediagallerydiv', 'easymediagallery', 'side' );
 	add_meta_box( 'categorydiv', __( 'Item Categories' ), 'easymediagallery_categories_meta_box', 'easymediagallery', 'normal', 'high' );
-	add_meta_box( 'donatediv', __( 'Donate Us' ), 'easmedia_donate_metabox', 'easymediagallery', 'side', 'default' );
+	//add_meta_box( 'donatediv', __( 'Donate Us' ), 'easmedia_donate_metabox', 'easymediagallery', 'side', 'default' );
 }
 add_action( 'do_meta_boxes', 'customposttype_image_box' );
 
