@@ -1,7 +1,7 @@
 === Easy Media Gallery ===
 Contributors: GhozyLab
 Donate link: http://ghozylab.com/donate
-Tags: gallery, wordpress gallery plugin, portfolio wordpress plugin, widget, photo album, google, image album, twitter, admin, plugin, portfolio, media gallery, post, page, admin, posts, images, html5 video, google street view, html5 mp4
+Tags: gallery, wordpress gallery plugin, portfolio wordpress plugin, widget, photo album, google, image album, twitter, admin, plugin, portfolio, reverbnation embed, mp4, embed mp4, embed vimeo, embed youtube, embed dailymotion, embed metacafe, soundcloud embed, embed soundcloud, media gallery, post, page, admin, posts, images, html5 video, google street view, html5 mp4
 Requires at least: 3.3
 Tested up to: 3.5.2
 Stable tag: 1.2.15
