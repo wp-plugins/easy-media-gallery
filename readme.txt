@@ -50,8 +50,6 @@ Easy Media Gallery supports a wide range of media formats, and an even wider ran
 * YouKu
 * Facebook
 * Google video
-* Quietube + Youtube
-* Quietube + Vimeo
 * Revver
 * RuTube
 * HTML5 MP3 and MP4, MOV, M4V, M4A, FLV, AIFF
