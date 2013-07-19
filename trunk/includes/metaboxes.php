@@ -7,7 +7,7 @@
 function customposttype_image_box() {
 	remove_meta_box( 'postimagediv', 'easymediagallery', 'side' );
 	remove_meta_box( 'emediagallerydiv', 'easymediagallery', 'side' );
-	add_meta_box( 'categorydiv', __( 'Item Categories' ), 'easymediagallery_categories_meta_box', 'easymediagallery', 'normal', 'high' );
+	add_meta_box( 'categorydiv', __( 'Media Categories' ), 'easymediagallery_categories_meta_box', 'easymediagallery', 'normal', 'high' );
 	//add_meta_box( 'donatediv', __( 'Donate Us' ), 'easmedia_donate_metabox', 'easymediagallery', 'side', 'default' );
 }
 add_action( 'do_meta_boxes', 'customposttype_image_box' );
@@ -70,16 +70,13 @@ jQuery(document).ready(function($) {
           new Messi('<iframe width="853" height="480" src="http://www.youtube.com/embed/htxwZw_aPF0" frameborder="0" allowfullscreen></iframe>', {title: 'Video Tutorial', modal: true});
 		  });			  
 	  	
-
 		jQuery('#medsingimgtut').on('click', function() {
           new Messi('<iframe width="853" height="480" src="http://www.youtube.com/embed/dXFBNY5t6E8" frameborder="0" allowfullscreen></iframe>', {title: 'Video Tutorial', modal: true});
 		  });	
-		  
-		  
+		  		  
 		jQuery('#medaudiotut').on('click', function() {
           new Messi('<iframe width="853" height="480" src="http://www.youtube.com/embed/Bsn-CB5Hpbw" frameborder="0" allowfullscreen></iframe>', {title: 'Video Tutorial', modal: true});
 		  });			  
-
 	
 // -------- DELETE MEDIA IMAGE (AJAX)
 			function easmedia_img_media_remv(type) {
@@ -140,8 +137,7 @@ jQuery(document).ready(function($) {
 						jQuery(".deleteaudio").hide("fast");
 						jQuery("#audioprev").hide("fast");
 						} 
-				});				
-				
+				});								
 			});   
 									
 function IsValidAuUrl1(aurl1) {
@@ -156,7 +152,6 @@ function IsValidAuUrl1(aurl1) {
 					volume: 100,
 					wmode: "window"
 	});
-
 }
 
 			
@@ -657,8 +652,8 @@ function easmedia_metabox_work(){
 				),
 				
 			array(
-					'name' => __( 'Media Sub Title', 'easmedia' ),
-					'desc' => __( 'You can use this sub title field for (ex: author, title track, etc...)', 'easmedia' ),
+					'name' => __( 'Media Subtitle', 'easmedia' ),
+					'desc' => __( 'You can use this field for (ex: author, title track, etc.)', 'easmedia' ),
 					'id' => 'easmedia_metabox_sub_title',
 					'type' => 'text',
 					'defflimit' => '0',
