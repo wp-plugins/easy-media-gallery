@@ -169,13 +169,14 @@
 	background-position: bottom;
 }
 
-.colorSelector {
+.sps_opts .colorSelector {
 	position: relative;
 	width: 27px;
 	height: 27px;
 	background: url(../images/colorpicker/select.png);
 	display:inline-block;
 	top:9px;
+	float:none !important;
 }
 .colorSelector div {
 	position: absolute;
