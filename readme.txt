@@ -1,19 +1,19 @@
 === Easy Media Gallery ===
 Contributors: GhozyLab
 Donate link: http://ghozylab.com/donate
-Tags: gallery, wordpress gallery plugin, widget, photo album, grid gallery, portfolio wordpress plugin, wordpress portfolio plugin, filterable portfolio, filterable gallery, portfolio grid, best gallery plugin, google, image album, twitter, admin, plugin, portfolio, embed reverbnation, embed mp4, vimeo embed youtube, embed dailymotion, embed livestream, embed metacafe, embed soundcloud, media gallery, post, page, admin, posts, images, html5 video, google street view, html5 mp4
+Tags: gallery, wordpress gallery plugin, widget, photo albums, grid gallery, portfolio wordpress plugin, wordpress portfolio plugin, filterable portfolio, filterable gallery, portfolio grid, best gallery plugin, google, image album, twitter, admin, plugin, portfolio, embed reverbnation, embed mp4, vimeo embed youtube, embed dailymotion, embed livestream, embed metacafe, embed soundcloud, media gallery, post, page, admin, posts, images, html5 video, google street view, html5 mp4
 Requires at least: 3.3
 Tested up to: 3.5.2
 Stable tag: 1.2.15
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-This plugin enables you to create an awesome portfolio or gallery. Over 20,000 WordPress sites are already using Easy Media Gallery. Is Yours?
+This plugin enables you to create an awesome portfolio or photo gallery. Over 30,000 WordPress sites are already using Easy Media Gallery. Is Yours?
 
 
 == Description ==
 
-Easy Media Gallery is a wordpress plugin designed to display portfolios and various media support including gallery sets, single image, google maps, video, audio and link with very ease and elegant.
+Easy Media Gallery is a wordpress plugin designed to display portfolios and various media support including gallery sets, photo gallery, single image, google maps, video, audio and link with very ease and elegant.
 
 = Live Demos =
 
@@ -52,7 +52,7 @@ Easy Media Gallery supports a wide range of media formats, and an even wider ran
 * Google video
 * Revver
 * RuTube
-* HTML5 MP3 and MP4, MOV, M4V, M4A, FLV, AIFF
+* HTML5 MP3 and MP4, WAV, MOV, M4V, M4A, FLV, AIFF
 
 It is a very customizable plugin that allow you to set display whatever you want like adjust colors, positions, media sizes, hover effect and much more with one easy control panel. That easy control panel for experts it would save your time, and for you who do not have more knowledge about website styling, of course this plugin will allow you to manage your website much more easily. 
 
