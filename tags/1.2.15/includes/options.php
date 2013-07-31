@@ -7,13 +7,13 @@
 /*------------------------------------------------------------------------------------*/
 
 // VARIABLES
-$plugname = "Easy Media Gallery";
+$emgplugname = "Easy Media Gallery";
 $theshort = "easymedia";
 
 // Set the Options Array
 $theopt = array (
  
-array( "name" => $plugname." Options",
+array( "name" => $emgplugname." Options",
 	"type" => "title"),
  
 array( "name" => "General",
