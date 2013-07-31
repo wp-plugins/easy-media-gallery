@@ -12,7 +12,7 @@ add_action( 'admin_init', 'register_easy_setting' );
 
 
 function spg_add_admin() {
-global $plugname, $theshort, $theopt;
+global $emgplugname, $theshort, $theopt;
 if ( is_admin() && ( isset( $_GET['page'] ) == 'settings' ) && ( isset( $_GET['post_type'] ) == 'easymediagallery' ) ){
  
 	if ( isset( $_REQUEST['action'] ) && 'save' == $_REQUEST['action'] ) {
@@ -268,7 +268,7 @@ END REGISTER & ENQUEUE SCRIPTS/STYLES
 |--------------------------------------------------------------------------
 */		
 function spg_admin() {
-	global $plugname, $theshort, $theopt;
+	global $emgplugname, $theshort, $theopt;
 	$i=0;
 	$msgicon = plugins_url( 'images/confirm-check.png' , __FILE__ );
 if ( isset( $_REQUEST['saved'] ) ) { echo '<script type="text/javascript">
@@ -289,7 +289,7 @@ if ( isset( $_REQUEST['reset'] ) ) { echo '<script type="text/javascript">
 <div class="wrap" id="spg_container">
     <div id="header">
       <div class="logo">
-        <h2><?php echo $plugname . "  LITE (v " . easymedia_get_plugin_version() . ")"; ?></h2>
+        <h2><?php echo $emgplugname . "  LITE (v " . easymedia_get_plugin_version() . ")"; ?></h2>
       </div>
       <div class="icon-option"> </div>
       <div style="clear: both;"></div>
