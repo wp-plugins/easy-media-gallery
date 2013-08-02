@@ -37,7 +37,7 @@ function easymedia_reg_script() {
 	wp_register_style( 'jquery-messi-css', plugins_url( 'css/messi.css' , dirname(__FILE__) ), false, EASYMEDIA_VERSION );
 	
 	// JS ( settings.php ) 
-	wp_register_script( 'easymedia-jquery-easing', plugins_url( 'js/jquery/jquery.easing.1.3.js' , dirname(__FILE__) ) );	
+	wp_register_script( 'easymedia-jquery-easing', plugins_url( 'js/jquery/jquery.easing.js' , dirname(__FILE__) ) );	
 	wp_register_script( 'easymedia-colorpicker', plugins_url( 'js/colorpicker/colorpicker.js' , dirname(__FILE__) ) );	
 	wp_register_script( 'colorpicker-eye', plugins_url( 'js/colorpicker/eye.js' , dirname(__FILE__) ) );
 	wp_register_script( 'colorpicker-utils', plugins_url( 'js/colorpicker/utils.js' , dirname(__FILE__) ) );
