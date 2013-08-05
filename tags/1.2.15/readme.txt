@@ -1,7 +1,7 @@
 === Easy Media Gallery ===
 Contributors: GhozyLab
 Donate link: http://ghozylab.com/donate
-Tags: gallery, wordpress gallery plugin, widget, grid gallery, photo albums, portfolio wordpress plugin, wordpress portfolio plugin, filterable portfolio, filterable gallery, best gallery plugin, image album, admin, plugin, portfolio, embed mp4, post, page, admin, posts, images, html5 video
+Tags: gallery, wordpress gallery plugin, widget, grid gallery, photo albums, portfolio wordpress plugin, wordpress portfolio plugin, filterable portfolio, filterable gallery, best gallery plugin, image album, admin, plugin, portfolio, html5 mp4, post, page, admin, posts, images
 Requires at least: 3.3
 Tested up to: 3.5.2
 Stable tag: 1.2.15
@@ -40,8 +40,7 @@ Easy Media Gallery is a wordpress plugin designed to display portfolios and vari
 = Features =
 Easy Media Gallery supports a wide range of media formats, and an even wider range of social media sites. Simply link to any image, flash video, or popular website, and the media will be automatically loaded into the overlay. Easy Media Gallery can be used to embed videos from :
 
-* YouTube
-* YouTube Playlist
+* YouTube / YouTube Playlist
 * Vimeo
 * Veoh
 * DailyMotion
