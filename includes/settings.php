@@ -286,7 +286,7 @@ if ( isset( $_REQUEST['reset'] ) ) { echo '<script type="text/javascript">
 	$saveresmsg = 'Settings reset...'; }
  
 ?>
-<div class="wrap" id="spg_container">
+<div id="spg_container">
     <div id="header">
       <div class="logo">
         <h2><?php echo $emgplugname . "  LITE (v " . easymedia_get_plugin_version() . ")"; ?></h2>
@@ -298,7 +298,7 @@ if ( isset( $_REQUEST['reset'] ) ) { echo '<script type="text/javascript">
 <div id="main">
 <div class="infoboxsaveorreset"><?php echo $saveresmsg; ?></div>
 <form method="post">
-<div class="wrap sps_wrap">
+<div class="sps_wrap">
 <div class="sps_opts">
 
 

@@ -95,7 +95,9 @@ padding: 4% ;
 	width:auto;
 }
 #spg_container #header .logo h2 {
-	font-style:normal;
+	font-style:normal !important;
+	font-weight:normal !important;
+	font-size:21px !important;
 }
 #spg_container #header .icon-option {
 	float: right;
