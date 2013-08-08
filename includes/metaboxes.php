@@ -50,12 +50,20 @@ if ( strstr( $_SERVER['REQUEST_URI'], 'wp-admin/post-new.php' ) || strstr( $_SER
 jQuery(document).ready(function($) {
 	
 		jQuery("#easmedia_metabox_media_video").change(function() {
-		vdo_url = jQuery("#easmedia_metabox_media_video").val();
-		if (vdo_url.match('http://new\.livestream\.com')) {
-			vdols = vdo_url.replace(/.*src="([^&]*)\?autoPlay.*/,'$1');
-			jQuery('#easmedia_metabox_media_video').val(vdols);
+			vdo_url = jQuery("#easmedia_metabox_media_video").val();
+				if (vdo_url.match('http://new\.livestream\.com')) {
+				vdols = vdo_url.replace(/.*src="([^&]*)\?autoPlay.*/,'$1');
+				jQuery('#easmedia_metabox_media_video').val(vdols);
 			}
 		})
+		
+		jQuery("#easmedia_metabox_media_video").change(function() {
+			vdo_url = jQuery("#easmedia_metabox_media_video").val();
+				if (vdo_url.match(/ustream\.tv/i)) {
+				vdols = vdo_url.replace(/.*src="([^&]*)\?v=.*/,'$1');
+				jQuery('#easmedia_metabox_media_video').val(vdols);
+			}
+		})		
 	
 		jQuery('select[id=easmedia_metabox_media_type] option').each(function() {
     if (jQuery(this).text().indexOf('PRO ONLY') >= 0) jQuery(this).attr('disabled', 'disabled');
