@@ -180,21 +180,23 @@
 }
 
 #mbTitle {
-	font-family:Verdana, Geneva, sans-serif !important;
-	font-size: 1.6em !important;
+	font-family: "helvetica neue",Helvetica,Arial,Verdana,sans-serif; !important;
+	font-size: 1.7em !important;
 	display: inline;
 	color: #333;
-	font-weight: bold;
+	font-weight: normal;
+	letter-spacing: 0.2em;	
+	
 }
 
 #mbSbtitle {
-	font-family:Verdana, Geneva, sans-serif !important;
+	font-family: "helvetica neue",Helvetica,Arial,Verdana,sans-serif; !important;	
 	color: #777;
 	display: block;
-	font-size: 1.1em !important;
+	font-size: 1.2em !important;
 	margin-top:10px;
-	font-style:italic;
-	width:100% !important;	
+	font-style:italic;	
+	width:100% !important;		
 }
 
 #mbCaption {
