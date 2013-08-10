@@ -68,7 +68,7 @@ jQuery('.da-thumbs a[rel!="easymedia"]').attr('rel', function (i, old) {
     return old ? old + ' ' + add : add; });		
     });
 	
-	var fend = []; fend[1] = '<?php echo EMG_AJAX_SELL_ID ; ?>';
+	var fend = []; fend[1] = '<?php echo easy_get_option( 'easymedia_ajax_con_id' ); ?>';
     /*]]>*/</script>	
 
     <!--[if lt IE 9]>
