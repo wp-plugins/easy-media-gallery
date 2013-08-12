@@ -98,5 +98,15 @@ echo '.da-thumbs article{position: absolute; background: rgba('.$thumbhovcol.','
 		else {
 				echo '.da-thumbs article{position: absolute; background: rgba('.$thumbhovcol.','.$thumbhovcolopcty.'); background-repeat:repeat; width: 100%; height: 100%;}';
 			} 
+			
+// Magnify Icon
+if ( easy_get_option( 'easymedia_mag_icon' ) != '' && $disenico == 1 ) {	
+echo '	
+span.zoom{
+background-image:url(../css/images/magnify/'.easy_get_option( 'easymedia_mag_icon' ).'.png); background-repeat:no-repeat; background-position:center;
+}';	
+
+}			
+			
 
 ?>
