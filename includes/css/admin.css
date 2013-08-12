@@ -252,6 +252,11 @@ width:300px;
 	
 	
 /* METABOX IMAGE PICKER */
+
+#newemediagallery_parent {
+	display:none !important;
+}
+
 #g-img-wrap li,
 #g-img_list li {
 	float: left;
