@@ -8,7 +8,7 @@ Stable tag: 1.2.15
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-This plugin enables you to create an awesome portfolio or photo gallery. Over 30,000 WordPress sites are already using Easy Media Gallery. Is Yours?
+This plugin enables you to create an awesome portfolio or photo gallery. Over 30,000 WordPress sites are already using Easy Media Gallery.
 
 
 == Description ==
@@ -25,7 +25,7 @@ Easy Media Gallery is a wordpress plugin designed to display portfolios and vari
 > * [DEMO 6](http://ghozylab.com/sample-4)
 
 = Full media support =
-<p>Easy Media Gallery satisfy all your needs letting you create different types of portfolio. Each item can be:</p> 
+<p>Easy Media Gallery satisfy all your needs letting you create different types of portfolio or gallery. Each item can be:</p> 
 
 * An image
 * Grid Gallery (<em>[Pro Version](http://ghozylab.com/new-feature-sample-1/)</em>)
@@ -72,7 +72,7 @@ It is a very customizable plugin that allow you to set display whatever you want
 > * Powerfull control panel and Shortcode Manager make getting started super easy
 > * 24/7 Technical Support
 
-= Examples =
+= PRO VERSION Examples =
 <p>http://www.youtube.com/watch?v=TQ1MMxhsyD8</p>
 
 
