@@ -17,7 +17,6 @@ $marginhlf = $mrgnbox / 2;
 $theoptstl = easy_get_option( 'easymedia_frm_size' );
 $globalwidth = stripslashes( $theoptstl[ 'width' ] );
 $pattover = easy_get_option( 'easymedia_style_pattern' );
-$overcol = easy_get_option( 'easymedia_overlay_col' );
 $ttlcol = easy_get_option( 'easymedia_ttl_col' );
 $thumbhov = ucfirst( easy_get_option( 'easymedia_hover_style' ) ) . '.png';
 $thumbhov = plugins_url( 'css/images/' . $thumbhov . '', dirname(__FILE__) );
@@ -59,11 +58,6 @@ echo $addshadow;
 // MEDIA BOX Patterns
 if ( $pattover != '' || $pattover != 'no_pattern' ) {	
 echo '#mbOverlay {background: url(../css/images/patterns/'.$pattover.'); background-repeat: repeat;}';
-}
-
-// MEDIA BOX Color Overlay
-if ( $overcol != '' ) {	
-echo '#mbOverlay {background-color:'.$overcol.';}';
 }
 
 // IE <8 Handle
