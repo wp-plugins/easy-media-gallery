@@ -109,6 +109,8 @@ Sometimes you may face problem that your images are not displaying in the site. 
 1. Firstly try to re-upload your image to the media library, this issue usually occurs when you do import data from localhost or temporarily site to the main site. If this still does not work please try the second option. 
 1. Click the add media button and choose the image you want, then look at the bottom right option (Attachment Display Settings), make sure to select Media File from Link to dropdown and select Full Size from Size dropdown. Please see this [SCREENSHOT](http://ghozylab.com/images/sshot.jpg)
 
+`Make sure you are using the image with a size greater than the size of a thumbnail on Easy Media> settings> Style Options> Thumbnail Size
+`
 
 = How do I use the shortcode to my post/page template? =
 
