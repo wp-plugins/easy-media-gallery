@@ -104,19 +104,11 @@ The simplest way to install is to click on 'Plugins' then 'Add' and type 'Easy M
 
 = Images not showing up (issue for version 1.1.7 and below) =
 
-Sometimes you may face problem that your images are not displaying in the site. We use timthumb script to resize the images. To change permission, you can use a FTP program like FileZilla or you can even use File Manager from your cPanel. We would recommend you use FileZilla to do this task, you can [DOWNLOAD HERE](https://filezilla-project.org/download.php) . Okay, Changing permission is very easy.
+Sometimes you may face problem that your images are not displaying in the site. Here are some ways that you can try:
 
-1. Firstly you should have FTP account, if you don't have, make one from cPanel.
-1. Now login to FTP, using FileZilla and navigate to Easy Media Gallery folder/directory in /wp-content/plugins/easy-media-gallery/includes/class/
-1. Make sure there is a folder with name <strong>cache</strong>, If not exist just create new one and right click on <strong>cache</strong> folder and click on Permissions. Type 755 and click on OK. If this still does not work, then try applying 777 permission to cache folder (<em>Not Recommended - Less secure</em>) or you can try to bypass modescurity from .htaccess using <strong>SecFilterEngine Off</strong>. See example below:
+1. Firstly try to re-upload your image to the media library, this issue usually occurs when you do import data from localhost or temporarily site to the main site. If this still does not work please try the second option. 
+1. Click the add media button and choose the image you want, then look at the bottom right option (Attachment Display Settings), make sure to select Media File from Link to dropdown and select Full Size from Size dropdown. Please see this [SCREENSHOT](http://ghozylab.com/images/sshot.jpg)
 
-`<IfModule mod_security.c>
-SecFilterEngine Off
-</IfModule>
-`
-
-* [VIDEO - How to change cache folder permission from cPanel](http://youtu.be/lYDJ8fM18pc)
-* [VIDEO - How to change cache folder permission from FileZilla](http://youtu.be/S_Az2Zg5OLc)
 
 = How do I use the shortcode to my post/page template? =
 
