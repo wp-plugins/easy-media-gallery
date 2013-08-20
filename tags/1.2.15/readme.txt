@@ -102,7 +102,7 @@ The simplest way to install is to click on 'Plugins' then 'Add' and type 'Easy M
 
 == Frequently Asked Questions ==
 
-= Images not showing up (issue for version 1.1.7 and below) =
+= Images not showing up =
 
 Sometimes you may face problem that your images are not displaying in the site. Here are some ways that you can try:
 
@@ -110,7 +110,7 @@ Sometimes you may face problem that your images are not displaying in the site. 
 1. Click the add media button and choose the image you want, then look at the bottom right option (Attachment Display Settings), make sure to select Media File from Link to dropdown and select Full Size from Size dropdown. Please see this [SCREENSHOT](http://ghozylab.com/images/sshot.jpg)
 
 > #### **NOTE**
-> Make sure you are using the image with a size greater than the size of a thumbnail on Easy Media> settings> Style Options> Thumbnail Size
+> Make sure you are using the image with a size greater than the size of a thumbnail on Easy Media > settings > Style Options > Thumbnail Size
 
 
 = How do I use the shortcode to my post/page template? =
