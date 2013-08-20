@@ -114,6 +114,13 @@ Sometimes you may face problem that your images are not displaying in the site. 
 > Make sure you are using the image with a size greater than the size of a thumbnail on Easy Media > settings > Style Options > Thumbnail Size
 
 
+= How to show media in sidebar widget =
+
+1. Create new Post/Page. Click Easy Media Shortcode and create and copy the shortcode.
+1. Go to Appearance > Widgets > and drag the Text widget from the left side to the sidebar area that you want it in on the right side.
+1. Paste the shortcode code and click save. Done!
+
+
 = How do I use the shortcode to my post/page template? =
 
 There are 2 ways to use the shortcode, once you've created your media, you can use them in your website simply using the Easy Media Gallery shortcode wizard on top of each page or post editor.
