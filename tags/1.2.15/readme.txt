@@ -116,7 +116,7 @@ Sometimes you may face problem that your images are not displaying in the site. 
 
 = How to show media in sidebar widget =
 
-1. Create new Post/Page. Click Easy Media Shortcode and create and copy the shortcode.
+1. Create new Post/Page. Click Easy Media Shortcode button and create a shortcode, after that copy the shortcode.
 1. Go to Appearance > Widgets > and drag the Text widget from the left side to the sidebar area that you want it in on the right side.
 1. Paste the shortcode code and click save. Done!
 
