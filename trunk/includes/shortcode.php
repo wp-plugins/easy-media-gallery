@@ -64,8 +64,7 @@ $cus_align = easymedia_sc_handler( $align, '1' );
 // Load Media
 $emg_query = new WP_Query( $emgargs );
 if ( $emg_query->have_posts() ):
-$mediauniqueid = RandomString(6); //Random class for fitText
- 	
+
 echo '<div class="pfwrpr"><div id="alignstyle" class="easymedia_'.$cus_align.'">';
   for ( $i=1 ; $i <= $num_cols; $i++ ) :
     echo '<div id="col-'.$i.'" class="thecol">';
