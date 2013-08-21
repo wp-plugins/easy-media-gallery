@@ -429,15 +429,6 @@ function easymedia_get_plugin_version() {
 }
 
 /*-------------------------------------------------------------------------------*/
-/*  Random String
-/*-------------------------------------------------------------------------------*/
-function RandomString($length) {
-        $original_string = array_merge(range(0,9), range('a','z'), range('A', 'Z'));
-        $original_string = implode('', $original_string);
-        return substr(str_shuffle($original_string), 0, $length);
-    }
-	
-/*-------------------------------------------------------------------------------*/
 /*  Enable Sorting of the Media 
 /*-------------------------------------------------------------------------------*/
 function easmedia_create_easymedia_sort_page() {
