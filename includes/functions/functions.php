@@ -567,30 +567,6 @@ add_action( 'admin_notices', 'emg_upgradepro_message' );
 }
 
 /*-------------------------------------------------------------------------------*/
-/*   Metabox Donation
-/*-------------------------------------------------------------------------------*/
-function easmedia_donate_metabox() {
-$emgdonate = '<p>';
-$emgdonate .= '<span style="color:#666666;margin-left:2px; font-size:12px;">If you love Easy Media Gallery, any donation would be appreciated! It helps to continue the development and support of the plugin.</span><br /><br />
-<a id="easymediadonatebtn" class="thickbox"><img style="cursor:pointer;" src="'.plugins_url( 'images/btn_donate_LG.gif' , dirname(__FILE__) ).'" width="92" height="26" alt="Donate Us" ></a>';
-$emgdonate .= '</p>';
-echo $emgdonate;
-}
-
-//add_filter('admin_footer','easmedia_donate_metabox_form');
-function easmedia_donate_metabox_form(){
-$emgdonatefrm = '<div id="easymedia_donate" style="display:none">';	
-$emgdonatefrm .= '<p style="padding:1px;"><span style="color:#666666;margin-left:2px; font-size:12px;">If you love Easy Media Gallery, any donation would be appreciated! It helps to continue the development and support of the plugin.</span></p><form action="https://www.paypal.com/cgi-bin/webscr" method="post">
-<input type="hidden" name="cmd" value="_s-xclick">
-<input type="hidden" name="hosted_button_id" value="BDUYH4QK698CY">
-<input type="image" src="https://www.paypalobjects.com/en_GB/i/btn/btn_donate_LG.gif" border="0" name="submit" alt="PayPal — The safer, easier way to pay online.">
-<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-</form>';
-$emgdonatefrm .= '</div>';
-echo $emgdonatefrm;
-}
-
-/*-------------------------------------------------------------------------------*/
 /*   Comparison Page
 /*-------------------------------------------------------------------------------*/
 function easmedia_create_docs_page() {
@@ -645,8 +621,6 @@ function easmedia_easymedia_docs() {
  </div>  
 	<?php 
 }
-
-
 
 /*-------------------------------------------------------------------------------*/
 /*   Comparison Page
