@@ -1,14 +1,14 @@
 === Easy Media Gallery ===
 Contributors: GhozyLab
 Donate link: http://ghozylab.com/donate
-Tags: gallery, wordpress gallery plugin, portfolio wordpress plugin, gallery wordpress plugin, widget, grid gallery, photo albums, wordpress portfolio plugin, filterable portfolio, filterable gallery, best gallery plugin, image album, admin, plugin, portfolio, html5 mp4, post, page, admin, posts, images
+Tags: gallery, wordpress gallery plugin, portfolio wordpress plugin, gallery wordpress plugin, widget, portfolio gallery, grid gallery, photo albums, wordpress portfolio plugin, filterable portfolio, filterable gallery, best gallery plugin, image album, admin, plugin, portfolio, html5 mp4, post, page, admin, posts, images
 Requires at least: 3.3
 Tested up to: 3.6
 Stable tag: 1.2.15
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-This plugin enables you to create an awesome portfolio or photo gallery. Over 30,000 WordPress sites are already using Easy Media Gallery.
+This plugin enables you to create an awesome portfolio or photo gallery. Over 40,000 WordPress sites are already using Easy Media Gallery.
 
 
 == Description ==
@@ -106,7 +106,7 @@ The simplest way to install is to click on 'Plugins' then 'Add' and type 'Easy M
 
 Sometimes you may face problem that your images are not displaying in the site. Here are some ways that you can try:
 
-1. Firstly try to re-upload your image to the media library, this issue usually occurs when you do import data from localhost or temporarily site to the main site. If this still does not work please try the second option. 
+1. Firstly try to re-upload your image to the media library, this issue usually occurs when you do import data from localhost (temporarily site) to the main site. If this still does not work please try the second option. 
 1. Click the add media button and choose the image you want, then look at the bottom right option (Attachment Display Settings), make sure to select Media File from Link to dropdown and select Full Size from Size dropdown. Please see this [SCREENSHOT](http://ghozylab.com/images/sshot.jpg)
 1. If this still does not work please open thread from support forum [here](http://wordpress.org/support/plugin/easy-media-gallery) or you can contact us [here](http://ghozylab.com/contactus).
 
