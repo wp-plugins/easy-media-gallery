@@ -238,7 +238,7 @@ function easmedia_custom_columns_easymedia( $easymedia_columns, $post_id ){
 										$thumbmedia = get_post_meta( $post_id, 'easmedia_metabox_img', true );
 	       								
 										 if ( isset( $thumbmedia ) ) {
-											 $globalimgsize = wp_get_attachment_image_src( get_attachment_id_from_src( $thumbmedia ), 'full' );
+											 $globalimgsize = wp_get_attachment_image_src( emg_get_attachment_id_from_src( $thumbmedia ), 'full' );
 											 $timthumbimg = easymedia_resizer( $thumbmedia, $globalimgsize[1], $globalimgsize[2], 70, 70, true );
 											 echo '<img class="imgthumblist" width="70" height="70" alt="Thumbnail" src="' . $timthumbimg . '"></img>';
 											 } 

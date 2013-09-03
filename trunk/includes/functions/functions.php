@@ -335,7 +335,7 @@ return $finaldata;
 /*-------------------------------------------------------------------------------*/
 /*  Get attachment image id 
 /*-------------------------------------------------------------------------------*/
-function get_attachment_id_from_src ($link) {
+function emg_get_attachment_id_from_src ($link) {
     global $wpdb;
         $link = preg_replace('/-\d+x\d+(?=\.(jpg|jpeg|png|gif)$)/i', '', $link);
         return $wpdb->get_var("SELECT ID FROM {$wpdb->posts} WHERE guid='$link'");
@@ -389,7 +389,7 @@ function easymedia_imgresize_ajax() {
 			
 		$imgurl = $_POST['imgurl'];
 		$limiter = $_POST['limiter'];
-		$attid = wp_get_attachment_image_src( get_attachment_id_from_src( $imgurl ), 'full' );
+		$attid = wp_get_attachment_image_src( emg_get_attachment_id_from_src( $imgurl ), 'full' );
 	
 		/*if ( strpos( $imgurl, $_SERVER['HTTP_HOST'] ) === FALSE ) {
 			$imgurl = "http://".$_SERVER['HTTP_HOST'].$imgurl;
