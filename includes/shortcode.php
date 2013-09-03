@@ -85,7 +85,7 @@ echo '<div class="pfwrpr"><div id="alignstyle" class="easymedia_'.$cus_align.'">
 			}
 		else {
 			$image = $image;
-			$globalsize = wp_get_attachment_image_src( get_attachment_id_from_src( $image ), 'full' );
+			$globalsize = wp_get_attachment_image_src( emg_get_attachment_id_from_src( $image ), 'full' );
 		}
 
 		if ( $mediatype == 'Video' && $isvidsize == 'off' ) {
@@ -109,7 +109,7 @@ echo '<div class="pfwrpr"><div id="alignstyle" class="easymedia_'.$cus_align.'">
 					$medialink = $image;
 				}
 					else {
-				$attid = wp_get_attachment_image_src( get_attachment_id_from_src( $image ), 'full' );
+				$attid = wp_get_attachment_image_src( emg_get_attachment_id_from_src( $image ), 'full' );
 				$medialink = easymedia_imgresize( $attid[0], $deff_img_limit, $isresize1, $attid[1], $attid[2] );
 				$medialink = explode(",", $medialink); $medialink = $medialink[0];
 					}
