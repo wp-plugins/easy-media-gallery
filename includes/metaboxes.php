@@ -295,7 +295,7 @@ $uploaderclass = 'thickbox button add_media';} else {$uploaderclass = 'button in
 			
 $dsplynone = 'display:none;';		
 if ( get_post_meta( $post->ID, 'easmedia_metabox_img', true ) ) {
-$attid = wp_get_attachment_image_src( get_attachment_id_from_src( get_post_meta( $post->ID, 'easmedia_metabox_img', true ) ), 'full' );
+$attid = wp_get_attachment_image_src( emg_get_attachment_id_from_src( get_post_meta( $post->ID, 'easmedia_metabox_img', true ) ), 'full' );
 $curimgpth = easymedia_imgresize( $attid[0], '210', 'on', $attid[1], $attid[2] );
 $curimgpth = explode(",", $curimgpth);
 
