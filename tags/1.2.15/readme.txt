@@ -13,7 +13,7 @@ This plugin enables you to create an awesome portfolio or photo gallery. Over 50
 
 == Description ==
 
-Easy Media Gallery is a wordpress plugin designed to display portfolios and various media support including gallery sets, photo gallery, single image, google maps, video, audio and link with very ease and elegant.
+Easy Media Gallery is a wordpress plugin designed to display portfolios and various media support including gallery sets, photo gallery or image gallery, google maps, video, audio and link with very ease and elegant.
 
 > #### **Live Demos**
 
@@ -51,7 +51,7 @@ Easy Media Gallery supports a wide range of media formats, and an even wider ran
 * Google video
 * HTML5 MP3 and MP4, WAV, MOV, M4V, M4A, FLV, AIFF
 
-It is a very customizable gallery and portfolio plugin that allow you to set display whatever you want like adjust colors, positions, media sizes, hover effect and much more with one easy control panel. That easy control panel for experts it would save your time, and for you who do not have more knowledge about website styling, of course this plugin will allow you to manage your website much more easily. 
+It is a very customizable gallery and portfolio plugin that allow you to set display whatever you want like adjust colors, positions, grid, media sizes, hover effect and much more with one easy control panel. That easy control panel for experts it would save your time, and for you who do not have more knowledge about website styling, of course this plugin will allow you to manage your website much more easily. 
 
 = Examples =
 <p>http://www.youtube.com/watch?v=dXFBNY5t6E8</p>
@@ -111,7 +111,7 @@ Sometimes you may face problem that your images are not displaying in the site. 
 1. If this still does not work please open thread from support forum [here](http://wordpress.org/support/plugin/easy-media-gallery) or you can contact us [here](http://ghozylab.com/contactus).
 
 > #### **NOTE**
-> Make sure you are using the image with a size greater than the size of a thumbnail on Easy Media > settings > Style Options > Thumbnail Size
+> Make sure you are using the image with a size greater than the size of a thumbnail on Easy Media > Settings > Style Options > Thumbnail Size
 
 
 = How to show media in sidebar widget =
