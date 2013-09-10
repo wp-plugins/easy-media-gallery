@@ -4,7 +4,7 @@ Donate link: http://ghozylab.com/donate
 Tags: gallery, wordpress gallery plugin, portfolio wordpress plugin, gallery wordpress plugin, grid portfolio, widget, portfolio gallery, grid gallery, photo albums, wordpress portfolio plugin, filterable portfolio, filterable gallery, best gallery plugin, image album, admin, plugin, portfolio, html5 mp4, post, page, admin, posts, images
 Requires at least: 3.3
 Tested up to: 3.6
-Stable tag: 1.2.15
+Stable tag: 1.2.16
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -182,6 +182,9 @@ But seriously, I just want to drink coffee for free, so help a developer out. Yo
 
 == Changelog ==
 
+= 1.2.16 =
+* Many other PHP and CSS clean and optimization
+
 = 1.2.15 =
 * Added : Livestream video embed support
 * Fixed : Malfunction at 3rd party Plugin detected 
@@ -308,5 +311,5 @@ But seriously, I just want to drink coffee for free, so help a developer out. Yo
 
 == Upgrade Notice ==
 
-= 1.2.15 =
+= 1.2.16 =
 New version availabe, update NOW!
