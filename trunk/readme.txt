@@ -183,6 +183,10 @@ But seriously, I just want to drink coffee for free, so help a developer out. Yo
 == Changelog ==
 
 = 1.2.16 =
+* Fixed : missing Magnify Icon
+* Fixed : AJAX Support
+* Fixed : define conflict with Better WP Security Plugin
+* Removed : Quietube video support
 * Many other PHP and CSS clean and optimization
 
 = 1.2.15 =
