@@ -13,7 +13,7 @@ This plugin enables you to create an awesome portfolio or photo gallery. Over 50
 
 == Description ==
 
-Easy Media Gallery is a wordpress plugin designed to display portfolios and various media support including gallery sets, photo gallery or image gallery, google maps, video, audio and link with very ease and elegant.
+Easy Media Gallery is a wordpress plugin designed to display portfolios and various media support including gallery sets, photo gallery or image gallery, google maps and google street view, video, audio and link with very ease and elegant.
 
 > #### **Live Demos**
 
