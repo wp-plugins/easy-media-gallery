@@ -98,7 +98,7 @@ array( "name" => "Cursor",
 	"std" => "3"),
 	
 array( "name" => "Zoom Icon",
-	"desc" => "Select Zoom Icon. Default: Icon-1",
+	"desc" => "Select Zoom Icon (hover icon). Default: Icon-1",
 	"id" => $theshort."_mag_icon",
 	"type" => "select",
 	"options" => array( "Icon-1", "Icon-2", "Icon-3", "Icon-4" ),

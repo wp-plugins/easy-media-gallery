@@ -322,7 +322,7 @@ function easmedia_print_sort_styles() {
 
 
 /*-------------------------------------------------------------------------------*/
-/*  Add The Custom Columns ( Thanks & Credit to Captain Slider ) 
+/*  Add The Custom Columns ( Thanks & Credit to Captain Slider Plugin ) 
 /*-------------------------------------------------------------------------------*/
 function easmedia_add_new_easymediagallery_column( $easmedia_col ) {
 	$easmedia_col['emg_menu_order'] = "Order";
