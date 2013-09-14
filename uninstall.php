@@ -2,7 +2,7 @@
 if ( ! defined( 'WP_UNINSTALL_PLUGIN' ) )
 	exit();
 
-// Remove plugin options from database.
+// Remove plugin options from wordpress database.
 function spg_clean_data() {
 	
 	    $easymedia_values = get_option( 'easy_media_opt' );
@@ -21,7 +21,7 @@ function spg_clean_data() {
 			foreach ( $posts as $post )
 				wp_delete_post( $post->ID, true );
 	
-// Remove plugin-specific custom taxonomies and terms.
+// Remove plugin-specific custom taxonomies and terms ( not work ).
 
 		$tax = 'emediagallery' ;
 			if( is_taxonomy( $tax ) ) {
