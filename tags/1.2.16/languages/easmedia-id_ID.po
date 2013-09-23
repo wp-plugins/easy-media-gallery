@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Easy Media Gallery v1.2.16\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2013-09-20 07:40:45+0000\n"
+"PO-Revision-Date: 2013-09-24 00:42:39+0000\n"
 "Last-Translator: admin <langmaster@ghozylab.com>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -41,7 +41,7 @@ msgstr ""
 #: easy-media-gallery.php:141
 #@ easmedia
 msgid "Add New Media"
-msgstr ""
+msgstr "Tambah Media Baru"
 
 #: easy-media-gallery.php:142
 #@ easmedia
@@ -110,7 +110,7 @@ msgstr ""
 #@ easmedia
 #@ default
 msgid "Categories"
-msgstr ""
+msgstr "Kategori"
 
 #: easy-media-gallery.php:224
 #@ easmedia
@@ -213,7 +213,7 @@ msgstr "<div class=\"emginfobox\">Upgrade ke PRO dan Anda dapat memilih Image Ga
 #: includes/metaboxes.php:536
 #@ easmedia
 msgid "Media Type"
-msgstr ""
+msgstr "Jenis Media"
 
 #: includes/metaboxes.php:537
 #@ easmedia
@@ -243,7 +243,7 @@ msgstr ""
 #: includes/metaboxes.php:572
 #@ easmedia
 msgid "If ON, video size will use the default settings on the control panel."
-msgstr ""
+msgstr "Jika ON, ukuran video akan menggunakan ukuran pada kontrol panel."
 
 #: includes/metaboxes.php:590
 #@ easmedia
@@ -253,7 +253,7 @@ msgstr ""
 #: includes/metaboxes.php:591
 #@ easmedia
 msgid "Upload audio or paste audio URL on field below."
-msgstr ""
+msgstr "Upload atau tulis URL untuk file audio pada kolom dibawah."
 
 #: includes/metaboxes.php:599
 #@ easmedia
@@ -263,12 +263,12 @@ msgstr ""
 #: includes/metaboxes.php:615
 #@ easmedia
 msgid "Select Image"
-msgstr ""
+msgstr "Pilih Gambar"
 
 #: includes/metaboxes.php:616
 #@ easmedia
 msgid "You can upload image with supported file types: jpg, jpeg, gif, png."
-msgstr ""
+msgstr "Anda dapat menggunakan gambar dengan ekstensi jpg, jpeg, gif atau png."
 
 #: includes/metaboxes.php:622
 #@ easmedia
@@ -278,7 +278,7 @@ msgstr ""
 #: includes/metaboxes.php:623
 #@ easmedia
 msgid "Select or upload your image."
-msgstr ""
+msgstr "Pilih atau upload gambar Anda."
 
 #: includes/metaboxes.php:631
 #@ easmedia
@@ -293,7 +293,7 @@ msgstr "Jika ON, gambar yang melebihi batas ukuran yang ditentukan otomatis akan
 #: includes/metaboxes.php:647
 #@ easmedia
 msgid "Media Informations"
-msgstr ""
+msgstr "Informasi Media"
 
 #: includes/metaboxes.php:648
 #@ easmedia
@@ -303,22 +303,22 @@ msgstr ""
 #: includes/metaboxes.php:654
 #@ easmedia
 msgid "Media Title"
-msgstr ""
+msgstr "Judul Media"
 
 #: includes/metaboxes.php:655
 #@ easmedia
 msgid "Enter a media title."
-msgstr ""
+msgstr "Tulis judul untuk media."
 
 #: includes/metaboxes.php:663
 #@ easmedia
 msgid "Media Subtitle"
-msgstr ""
+msgstr "Sub-judul Media"
 
 #: includes/metaboxes.php:664
 #@ easmedia
 msgid "You can use this field for (ex: author, title track, etc.)"
-msgstr ""
+msgstr "Anda dapat menggunakan kolom berikut untuk, misal : penulis, judul album dll."
 
 #: includes/settings.php:39
 #@ easmedia
