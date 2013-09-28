@@ -17,7 +17,7 @@ function ajax_req_handle( $id ) {
 	$boxmediasbttl = get_post_meta( $id, 'easmedia_metabox_sub_title', true );
 	$imgsrc = get_post_meta( $id, 'easmedia_metabox_img', true );
 	$mediatype = get_post_meta( $id, 'easmedia_metabox_media_type', true );
-	$domname = preg_replace( '/^www\./','',$_SERVER['SERVER_NAME'] );
+	//$domname = preg_replace( '/^www\./','',$_SERVER['SERVER_NAME'] );
 		
 	switch ( $mediatype ) {
 		case 'Single Image':
