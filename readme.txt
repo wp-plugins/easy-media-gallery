@@ -8,7 +8,7 @@ Stable tag: 1.2.16
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-This plugin enables you to create an awesome portfolio or photo gallery. Over 50,000 WordPress sites are already using Easy Media Gallery.
+This plugin enables you to create an awesome portfolio or photo gallery. Over 70,000 WordPress sites are already using Easy Media Gallery.
 
 
 == Description ==
@@ -38,7 +38,7 @@ Easy Media Gallery is a wordpress plugin designed to display portfolios and vari
 * A link (<em>[Pro Version](http://ghozylab.com/sample-1/)</em>)
 
 = Features =
-Easy Media Gallery supports a wide range of media formats, and an even wider range of social media sites. Simply link to any image, flash video, or popular website, and the media will be automatically loaded into the overlay. Easy Media Gallery can be used to embed videos from :
+Easy Media Gallery supports a wide range of media formats, and an even wider range of social media sites. Simply link to any image, flash video, hosted video, mp3 audio or popular website, and the media will be automatically loaded into the overlay. Easy Media Gallery can be used to embed videos from :
 
 * YouTube / YouTube Playlist
 * Vimeo
