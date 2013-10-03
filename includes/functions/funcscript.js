@@ -118,7 +118,7 @@ if (msgclk == 'image'){
 					jQuery("#easmedia_metaboxmediavideo").show("slow");
 					jQuery('#easmedia_metaboxmedialink').hide("slow");
 					jQuery("#medsingimgtut").hide();				
-					jQuery('#emediaimagediv .hndle span').text("Select the Cover Video");					
+					jQuery('#emediaimagediv .hndle span').text("Select Cover Image for Video");					
 					jQuery('#easmedia_metaboxmediagallery').hide("slow");	
 					jQuery('.easmedia_metabox_media_image_opt1').hide();
 									
@@ -131,7 +131,7 @@ if (msgclk == 'image'){
 					jQuery('#easmedia_metaboxmediaaudio').show("slow");			
 					jQuery("#easmedia_metaboxmediavideo").hide("slow");
 					jQuery("#medsingimgtut").hide();
-					jQuery('#emediaimagediv .hndle span').text("Select the Cover Audio");					
+					jQuery('#emediaimagediv .hndle span').text("Select Cover Image for Audio");					
 					jQuery('#easmedia_metaboxmediagallery').hide("slow");
 					jQuery('.easmedia_metabox_media_image_opt1').hide();				
 					jQuery('#easmedia_metaboxmedialink').hide("slow");}												
