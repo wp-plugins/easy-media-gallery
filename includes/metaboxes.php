@@ -644,7 +644,7 @@ function easmedia_metabox_work(){
 	// MEDIA DESC METABOX
     $meta_box = array(
 		'id' => 'easmedia_metabox_media_desc',
-		'title' =>  __( 'Media Informations', 'easmedia' ),
+		'title' =>  __( 'Media Information', 'easmedia' ),
 		'description' => __( 'Input basic info for this media.', 'easmedia' ),
 		'page' => 'easymediagallery',
 		'context' => 'normal',
