@@ -2,6 +2,7 @@
 
 
 /**
+* Easy Media Gallery Lite Version
 * Get a Easy Media Gallery specific option
 *
 * @param string $name The option name

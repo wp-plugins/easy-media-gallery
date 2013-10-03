@@ -37,7 +37,7 @@ function easymedia_frontend_script() {
   		'vidautopb' => $autoplayb,  
   		'vidautopc' => $autoplayc, 
 		'vidautopd' => $autoplayd,		
-  		'ajaxpth' => plugins_url( 'ajax.php' , __FILE__ ),  
+  		'ajaxpth' => plugins_url( 'easyloader.php' , __FILE__ ),  
   		'ovrlayop' => easy_get_option( 'easymedia_overlay_opcty' ) / 100,   
 		);
 
