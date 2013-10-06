@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Easy Media Gallery v1.2.15\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2013-07-13 01:56:19+0000\n"
+"PO-Revision-Date: 2013-10-07 07:18:00+0000\n"
 "Last-Translator: GhozyLab <lang@ghozylab.com>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -24,7 +24,7 @@ msgstr ""
 #: includes/settings.php:40
 #@ easmedia
 msgid "Settings"
-msgstr ""
+msgstr "Configuración"
 
 #: easy-media-gallery.php:139
 #@ default
@@ -41,7 +41,7 @@ msgstr ""
 #: easy-media-gallery.php:141
 #@ easmedia
 msgid "Add New Media"
-msgstr ""
+msgstr "Añadir Nuevos Medios"
 
 #: easy-media-gallery.php:142
 #@ easmedia
@@ -110,7 +110,7 @@ msgstr ""
 #@ easmedia
 #@ default
 msgid "Categories"
-msgstr ""
+msgstr "Categorías"
 
 #: easy-media-gallery.php:224
 #@ easmedia
@@ -168,12 +168,12 @@ msgstr ""
 #: includes/functions/functions.php:615
 #@ easmedia
 msgid "Documentation"
-msgstr ""
+msgstr "Documentación"
 
 #: includes/functions/functions.php:616
 #@ easmedia
 msgid "This plugin comes with instructional training videos that walk you through every aspect of setting up your new media gallery. We recommend following these videos to setup your media gallery. This user manual is only intended to be a reference guide."
-msgstr ""
+msgstr "Este plugin viene con videos de entrenamiento de instrucción que le guiarán a través de cada aspecto de la creación de su nueva galería multimedia. Se recomienda seguir estos vídeos para configurar su galería multimedia. Este manual sólo pretende ser una guía de referencia."
 
 #: includes/functions/functions.php:620
 #@ easmedia
@@ -188,7 +188,7 @@ msgstr ""
 #: includes/functions/functions.php:664
 #@ easmedia
 msgid "Get More Features"
-msgstr ""
+msgstr "Obtenga Más Características"
 
 #: includes/functions/functions.php:686
 #@ easmedia
