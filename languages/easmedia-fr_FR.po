@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Easy Media Gallery v1.2.16\n"
+"Project-Id-Version: Easy Media Gallery v1.2.20\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2013-09-27 16:18:22+0000\n"
+"PO-Revision-Date: 2013-10-07 14:16:56+0000\n"
 "Last-Translator: GhozyLab <lang@ghozylab.com>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -24,7 +24,7 @@ msgstr ""
 #: includes/settings.php:40
 #@ easmedia
 msgid "Settings"
-msgstr ""
+msgstr "Réglages"
 
 #: easy-media-gallery.php:139
 #@ default
@@ -110,7 +110,7 @@ msgstr ""
 #@ easmedia
 #@ default
 msgid "Categories"
-msgstr ""
+msgstr "Catégories"
 
 #: easy-media-gallery.php:224
 #@ easmedia
@@ -123,77 +123,77 @@ msgstr ""
 msgid "None"
 msgstr ""
 
-#: includes/functions/functions.php:195
+#: includes/functions/functions.php:196
 #@ default
 msgid "Most Used"
 msgstr ""
 
 #. translators: %s: add new taxonomy label
-#: includes/functions/functions.php:219
+#: includes/functions/functions.php:220
 #, php-format
 #@ default
 msgid "+ %s"
 msgstr ""
 
-#: includes/functions/functions.php:435
-#: includes/functions/functions.php:449
-#: includes/functions/functions.php:477
+#: includes/functions/functions.php:436
+#: includes/functions/functions.php:450
+#: includes/functions/functions.php:478
 #@ easmedia
 msgid "Sorter"
 msgstr ""
 
-#: includes/functions/functions.php:450
+#: includes/functions/functions.php:451
 #@ easmedia
 msgid "Simply drag the Media up or down and they will be saved in that order. Media at the top will appear first."
 msgstr ""
 
-#: includes/functions/functions.php:454
-#: includes/functions/functions.php:480
+#: includes/functions/functions.php:455
+#: includes/functions/functions.php:481
 #@ easmedia
 msgid "Sort Media"
 msgstr ""
 
-#: includes/functions/functions.php:481
+#: includes/functions/functions.php:482
 #, php-format
 #@ easmedia
 msgid "No items found, why not %screate one%s?\t"
 msgstr ""
 
-#: includes/functions/functions.php:520
+#: includes/functions/functions.php:521
 #@ easmedia
 msgid "Easy Media Gallery (Lite)"
 msgstr ""
 
-#: includes/functions/functions.php:573
-#: includes/functions/functions.php:582
+#: includes/functions/functions.php:574
+#: includes/functions/functions.php:583
 #@ easmedia
 msgid "Documentation"
 msgstr ""
 
-#: includes/functions/functions.php:583
+#: includes/functions/functions.php:584
 #@ easmedia
 msgid "This plugin comes with instructional training videos that walk you through every aspect of setting up your new media gallery. We recommend following these videos to setup your media gallery. This user manual is only intended to be a reference guide."
 msgstr "Ce plugin est livré avec des vidéos de formation pédagogique qui vous guidera à travers tous les aspects de la création de votre nouvelle galerie de la presse. Nous vous recommandons de suivre ces vidéos pour configurer votre galerie des médias. Ce manuel est uniquement destiné à être un guide de référence."
 
-#: includes/functions/functions.php:587
+#: includes/functions/functions.php:588
 #@ easmedia
 msgid "Basic Functions"
 msgstr ""
 
-#: includes/functions/functions.php:609
+#: includes/functions/functions.php:610
 #@ easmedia
 msgid "Troubleshooting (issue for version 1.1.7 and below)"
 msgstr ""
 
-#: includes/functions/functions.php:629
+#: includes/functions/functions.php:630
 #@ easmedia
 msgid "Get More Features"
 msgstr ""
 
-#: includes/functions/functions.php:651
+#: includes/functions/functions.php:652
 #@ easmedia
 msgid "Comparison"
-msgstr ""
+msgstr "Comparaison"
 
 #: includes/metaboxes.php:528
 #@ easmedia
@@ -283,11 +283,6 @@ msgstr ""
 #: includes/metaboxes.php:632
 #@ easmedia
 msgid "If ON, image which exceeds the specified size limit will be automatically resized. You can change image size limit through plugin control panel."
-msgstr ""
-
-#: includes/metaboxes.php:647
-#@ easmedia
-msgid "Media Informations"
 msgstr ""
 
 #: includes/metaboxes.php:648
@@ -381,5 +376,10 @@ msgstr ""
 #: includes/metaboxes.php:664
 #@ easmedia
 msgid "You can use this field for (ex: author, title track, etc.)"
+msgstr ""
+
+#: includes/metaboxes.php:647
+#@ easmedia
+msgid "Media Information"
 msgstr ""
 
