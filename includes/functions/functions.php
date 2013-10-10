@@ -679,7 +679,7 @@ function easymedia_comparison() {
         <li class="row_style_2"><span>Pattern Overlay</span></li>
         <li class="row_style_4"><span>Powerfull Control Panel </span> <a href="<?php echo plugins_url( 'images/pro-version-control-panel.png' , dirname(__FILE__) ) ?>   " style="text-decoration:underline !important;">Click for Screenshot</a></li>
         <li class="row_style_2"><span>Advanced Shortcode </span><a  class="thickbox" href="<?php echo plugins_url( 'images/pro-version-shortcode-manager.png' , dirname(__FILE__) ) ?>" style="text-decoration:underline !important;">Click for Screenshot</a></li>
-        <li class="row_style_4"><span>Facebook, Twitter &amp; Pinterest Button</span></li>
+        <li class="row_style_4"><span>Facebook, Twitter &amp; Pinterest share buttons</span></li>
          <li class="row_style_2"><span>AJAX page/post load Support</span></li>
         <li class="row_style_2"><span>WP Multisite</span></li>
         <li class="row_style_4"><span>Direct Support</span></li>
@@ -693,7 +693,7 @@ function easymedia_comparison() {
           <h2 class="col1">Lite Version</h2>
         </li>
         <li class="header_row_2 align_center">
-          <h1 class="col1">$<span>0</span></h1>
+          <h1 class="col1">Free</h1>
         </li>
         <li class="row_style_3 align_center">None</li>
         <li class="row_style_1 align_center"><span class="pricing_yes"></span></li>
