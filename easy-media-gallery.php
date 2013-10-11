@@ -78,7 +78,7 @@ if ( !defined( 'EASYMEDIA_VERSION' ) ) {
 
 // Pro Price
 if ( !defined( 'EASYMEDIA_PRICE' ) ) {
-	define( 'EASYMEDIA_PRICE', '30' );
+	define( 'EASYMEDIA_PRICE', '24' );
 }
 
 // Dev Price
