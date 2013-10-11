@@ -8,7 +8,7 @@ Stable tag: 1.2.21
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-This plugin enables you to create an awesome portfolio or photo gallery. Over 70,000 WordPress sites are already using Easy Media Gallery.
+This plugin enables you to create an awesome portfolio or photo gallery. Over 90,000 WordPress sites are already using Easy Media Gallery.
 
 
 == Description ==
@@ -52,6 +52,10 @@ Easy Media Gallery supports a wide range of media formats, and an even wider ran
 * HTML5 MP3 and MP4, WAV, MOV, M4V, M4A, FLV, AIFF
 
 It is a very customizable gallery and portfolio plugin that allow you to set display whatever you want like adjust colors, positions, grid, media sizes, hover effect and much more with one easy control panel. That easy control panel for experts it would save your time, and for you who do not have more knowledge about website styling, of course this plugin will allow you to manage your website much more easily. 
+
+= What's Next? =
+
+* Adding watermarks to images
 
 = Examples =
 <p>http://www.youtube.com/watch?v=dXFBNY5t6E8</p>
