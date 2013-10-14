@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Easy Media Gallery v1.2.20\n"
+"Project-Id-Version: Easy Media Gallery v1.2.21\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2013-10-05 08:11:01+0000\n"
+"PO-Revision-Date: 2013-10-14 22:38:53+0000\n"
 "Last-Translator: GhozyLab <lang@ghozylab.com>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -20,105 +20,105 @@ msgstr ""
 "X-Poedit-SearchPath-0: .\n"
 "X-Textdomain-Support: yes"
 
-#: easy-media-gallery.php:123
+#: easy-media-gallery.php:128
 #: includes/settings.php:40
 #@ easmedia
 msgid "Settings"
 msgstr ""
 
-#: easy-media-gallery.php:139
+#: easy-media-gallery.php:144
 #@ default
 msgctxt "post type general name"
 msgid "Easy Media Gallery"
 msgstr ""
 
-#: easy-media-gallery.php:140
+#: easy-media-gallery.php:145
 #@ default
 msgctxt "post type singular name"
 msgid "Easy Media Gallery"
 msgstr ""
 
-#: easy-media-gallery.php:141
+#: easy-media-gallery.php:146
 #@ easmedia
 msgid "Add New Media"
 msgstr ""
 
-#: easy-media-gallery.php:142
+#: easy-media-gallery.php:147
 #@ easmedia
 msgid "Easy Media Item"
 msgstr ""
 
-#: easy-media-gallery.php:143
+#: easy-media-gallery.php:148
 #@ easmedia
 msgid "Edit Media"
 msgstr ""
 
-#: easy-media-gallery.php:144
+#: easy-media-gallery.php:149
 #@ easmedia
 msgid "New Media"
 msgstr ""
 
-#: easy-media-gallery.php:145
+#: easy-media-gallery.php:150
 #@ easmedia
 msgid "View Media"
 msgstr ""
 
-#: easy-media-gallery.php:146
+#: easy-media-gallery.php:151
 #@ easmedia
 msgid "Search Media"
 msgstr ""
 
-#: easy-media-gallery.php:147
+#: easy-media-gallery.php:152
 #@ easmedia
 msgid "No Media Found"
 msgstr ""
 
-#: easy-media-gallery.php:148
+#: easy-media-gallery.php:153
 #@ easmedia
 msgid "No Media Found In Trash"
 msgstr ""
 
-#: easy-media-gallery.php:149
+#: easy-media-gallery.php:154
 #@ easmedia
 msgid "Parent Media"
 msgstr ""
 
-#: easy-media-gallery.php:150
-#: easy-media-gallery.php:158
+#: easy-media-gallery.php:155
+#: easy-media-gallery.php:163
 #@ easmedia
 msgid "Easy Media"
 msgstr ""
 
-#: easy-media-gallery.php:220
+#: easy-media-gallery.php:225
 #@ easmedia
 msgctxt "column name"
 msgid "Title"
 msgstr ""
 
-#: easy-media-gallery.php:221
+#: easy-media-gallery.php:226
 #@ easmedia
 msgid "Thumbnails"
 msgstr ""
 
-#: easy-media-gallery.php:222
+#: easy-media-gallery.php:227
 #@ easmedia
 msgid "Type"
 msgstr ""
 
-#: easy-media-gallery.php:223
+#: easy-media-gallery.php:228
 #: includes/taxonomy.php:18
 #@ easmedia
 #@ default
 msgid "Categories"
 msgstr ""
 
-#: easy-media-gallery.php:224
+#: easy-media-gallery.php:229
 #@ easmedia
 msgid "ID"
 msgstr ""
 
-#: easy-media-gallery.php:246
-#: easy-media-gallery.php:275
+#: easy-media-gallery.php:251
+#: easy-media-gallery.php:280
 #@ easmedia
 msgid "None"
 msgstr ""
@@ -238,7 +238,7 @@ msgstr ""
 #: includes/metaboxes.php:572
 #@ easmedia
 msgid "If ON, video size will use the default settings on the control panel."
-msgstr ""
+msgstr "Als ON, zal video grootte van de standaard instellingen op het bedieningspaneel gebruiken."
 
 #: includes/metaboxes.php:590
 #@ easmedia
@@ -248,7 +248,7 @@ msgstr ""
 #: includes/metaboxes.php:591
 #@ easmedia
 msgid "Upload audio or paste audio URL on field below."
-msgstr ""
+msgstr "Upload audio of pasta audio-URL op onderstaande veld."
 
 #: includes/metaboxes.php:599
 #@ easmedia
@@ -263,7 +263,7 @@ msgstr ""
 #: includes/metaboxes.php:616
 #@ easmedia
 msgid "You can upload image with supported file types: jpg, jpeg, gif, png."
-msgstr ""
+msgstr "U kunt afbeeldingen uploaden met ondersteunde bestandstypen: jpg, jpeg, gif, png."
 
 #: includes/metaboxes.php:622
 #@ easmedia
@@ -283,7 +283,7 @@ msgstr ""
 #: includes/metaboxes.php:632
 #@ easmedia
 msgid "If ON, image which exceeds the specified size limit will be automatically resized. You can change image size limit through plugin control panel."
-msgstr ""
+msgstr "Wanneer AAN, wordt beeld dat de opgegeven grootte overschrijdt automatisch verkleind. U kunt beeldgrootte limiet te veranderen door middel plugin bedieningspaneel."
 
 #: includes/metaboxes.php:648
 #@ easmedia
@@ -293,7 +293,7 @@ msgstr ""
 #: includes/metaboxes.php:654
 #@ easmedia
 msgid "Media Title"
-msgstr ""
+msgstr "media Titel"
 
 #: includes/metaboxes.php:655
 #@ easmedia
@@ -371,12 +371,12 @@ msgstr ""
 #: includes/metaboxes.php:647
 #@ easmedia
 msgid "Media Information"
-msgstr ""
+msgstr "media Informatie"
 
 #: includes/metaboxes.php:663
 #@ easmedia
 msgid "Media Subtitle"
-msgstr ""
+msgstr "media Ondertitel"
 
 #: includes/metaboxes.php:664
 #@ easmedia
