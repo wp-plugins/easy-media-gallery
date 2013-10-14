@@ -516,9 +516,22 @@ return $translation;
 /*-------------------------------------------------------------------------------*/
 /*   Load Dasboard News
 /*-------------------------------------------------------------------------------*/
+
+function emg_download_count() {
+	
+    $args = (object) array( 'slug' => 'easy-media-gallery' );
+    $request = array( 'action' => 'plugin_information', 'timeout' => 15, 'request' => serialize( $args) );
+    $url = 'http://api.wordpress.org/plugins/info/1.0/';
+    $response = wp_remote_post( $url, array( 'body' => $request ) );
+    $plugin_info = unserialize( $response['body'] );
+	$ttldl = $plugin_info->downloaded;
+    $ttldls = 'Downloaded : ' .number_format( $ttldl ) . ' times';
+	return $ttldls;
+}
+
 function emg_register_dashboard_widgets() {
 	if ( current_user_can( apply_filters( 'emg_dashboard_stats_cap', 'edit_pages' ) ) ) {
-		wp_add_dashboard_widget( 'emg_dashboard_stat', __('Easy Media Gallery (Lite)', 'easmedia'), 'emg_dashboard_widget' );
+		wp_add_dashboard_widget( 'emg_dashboard_stat', __('Easy Media Gallery (Lite) '.emg_download_count().'', 'easmedia'), 'emg_dashboard_widget' );
 	}
 }
 add_action('wp_dashboard_setup', 'emg_register_dashboard_widgets' );
