@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Easy Media Gallery v1.2.16\n"
+"Project-Id-Version: Easy Media Gallery v1.2.21\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2013-09-24 00:42:39+0000\n"
+"PO-Revision-Date: 2013-10-16 03:42:05+0000\n"
 "Last-Translator: admin <langmaster@ghozylab.com>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -20,177 +20,172 @@ msgstr ""
 "X-Poedit-SearchPath-0: .\n"
 "X-Textdomain-Support: yes"
 
-#: easy-media-gallery.php:123
+#: easy-media-gallery.php:128
 #: includes/settings.php:40
 #@ easmedia
 msgid "Settings"
 msgstr "Pengaturan"
 
-#: easy-media-gallery.php:139
+#: easy-media-gallery.php:144
 #@ default
 msgctxt "post type general name"
 msgid "Easy Media Gallery"
 msgstr ""
 
-#: easy-media-gallery.php:140
+#: easy-media-gallery.php:145
 #@ default
 msgctxt "post type singular name"
 msgid "Easy Media Gallery"
 msgstr ""
 
-#: easy-media-gallery.php:141
+#: easy-media-gallery.php:146
 #@ easmedia
 msgid "Add New Media"
 msgstr "Tambah Media Baru"
 
-#: easy-media-gallery.php:142
+#: easy-media-gallery.php:147
 #@ easmedia
 msgid "Easy Media Item"
 msgstr ""
 
-#: easy-media-gallery.php:143
+#: easy-media-gallery.php:148
 #@ easmedia
 msgid "Edit Media"
 msgstr ""
 
-#: easy-media-gallery.php:144
+#: easy-media-gallery.php:149
 #@ easmedia
 msgid "New Media"
 msgstr ""
 
-#: easy-media-gallery.php:145
+#: easy-media-gallery.php:150
 #@ easmedia
 msgid "View Media"
 msgstr ""
 
-#: easy-media-gallery.php:146
+#: easy-media-gallery.php:151
 #@ easmedia
 msgid "Search Media"
 msgstr ""
 
-#: easy-media-gallery.php:147
+#: easy-media-gallery.php:152
 #@ easmedia
 msgid "No Media Found"
 msgstr ""
 
-#: easy-media-gallery.php:148
+#: easy-media-gallery.php:153
 #@ easmedia
 msgid "No Media Found In Trash"
 msgstr ""
 
-#: easy-media-gallery.php:149
+#: easy-media-gallery.php:154
 #@ easmedia
 msgid "Parent Media"
 msgstr ""
 
-#: easy-media-gallery.php:150
-#: easy-media-gallery.php:158
+#: easy-media-gallery.php:155
+#: easy-media-gallery.php:163
 #@ easmedia
 msgid "Easy Media"
 msgstr ""
 
-#: easy-media-gallery.php:220
+#: easy-media-gallery.php:225
 #@ easmedia
 msgctxt "column name"
 msgid "Title"
 msgstr ""
 
-#: easy-media-gallery.php:221
+#: easy-media-gallery.php:226
 #@ easmedia
 msgid "Thumbnails"
 msgstr ""
 
-#: easy-media-gallery.php:222
+#: easy-media-gallery.php:227
 #@ easmedia
 msgid "Type"
 msgstr ""
 
-#: easy-media-gallery.php:223
+#: easy-media-gallery.php:228
 #: includes/taxonomy.php:18
 #@ easmedia
 #@ default
 msgid "Categories"
 msgstr "Kategori"
 
-#: easy-media-gallery.php:224
+#: easy-media-gallery.php:229
 #@ easmedia
 msgid "ID"
 msgstr ""
 
-#: easy-media-gallery.php:246
-#: easy-media-gallery.php:275
+#: easy-media-gallery.php:251
+#: easy-media-gallery.php:280
 #@ easmedia
 msgid "None"
 msgstr ""
 
-#: includes/functions/functions.php:195
+#: includes/functions/functions.php:196
 #@ default
 msgid "Most Used"
 msgstr ""
 
 #. translators: %s: add new taxonomy label
-#: includes/functions/functions.php:219
+#: includes/functions/functions.php:220
 #, php-format
 #@ default
 msgid "+ %s"
 msgstr ""
 
-#: includes/functions/functions.php:435
-#: includes/functions/functions.php:449
-#: includes/functions/functions.php:477
+#: includes/functions/functions.php:436
+#: includes/functions/functions.php:450
+#: includes/functions/functions.php:478
 #@ easmedia
 msgid "Sorter"
-msgstr ""
+msgstr "Urutkan"
 
-#: includes/functions/functions.php:450
+#: includes/functions/functions.php:451
 #@ easmedia
 msgid "Simply drag the Media up or down and they will be saved in that order. Media at the top will appear first."
 msgstr "Cukup geser media ke atas atau ke bawah dan urutan akan tersimpan otomatis. Media pada paling atas akan muncul diurutan pertama."
 
-#: includes/functions/functions.php:454
-#: includes/functions/functions.php:480
+#: includes/functions/functions.php:455
+#: includes/functions/functions.php:481
 #@ easmedia
 msgid "Sort Media"
-msgstr ""
+msgstr "Urutkan Media"
 
-#: includes/functions/functions.php:481
+#: includes/functions/functions.php:482
 #, php-format
 #@ easmedia
 msgid "No items found, why not %screate one%s?\t"
 msgstr ""
 
-#: includes/functions/functions.php:520
-#@ easmedia
-msgid "Easy Media Gallery (Lite)"
-msgstr ""
-
-#: includes/functions/functions.php:573
-#: includes/functions/functions.php:582
+#: includes/functions/functions.php:587
+#: includes/functions/functions.php:596
 #@ easmedia
 msgid "Documentation"
 msgstr "Dokumentasi"
 
-#: includes/functions/functions.php:583
+#: includes/functions/functions.php:597
 #@ easmedia
 msgid "This plugin comes with instructional training videos that walk you through every aspect of setting up your new media gallery. We recommend following these videos to setup your media gallery. This user manual is only intended to be a reference guide."
 msgstr "Plugin ini dilengkapi dengan video pelatihan instruksional yang memandu Anda melalui setiap aspek mendirikan galeri Anda. Sebaiknya mengikuti video ini untuk men-setup galeri Anda. Panduan ini hanya dimaksudkan untuk menjadi panduan referensi."
 
-#: includes/functions/functions.php:587
+#: includes/functions/functions.php:601
 #@ easmedia
 msgid "Basic Functions"
-msgstr ""
+msgstr "Fungsi Dasar"
 
-#: includes/functions/functions.php:609
+#: includes/functions/functions.php:623
 #@ easmedia
 msgid "Troubleshooting (issue for version 1.1.7 and below)"
-msgstr ""
+msgstr "Pemecahan Masalah (untuk versi 1.1.7 ke bawah)"
 
-#: includes/functions/functions.php:629
+#: includes/functions/functions.php:643
 #@ easmedia
 msgid "Get More Features"
 msgstr "Dapatkan Fitur Lebih"
 
-#: includes/functions/functions.php:651
+#: includes/functions/functions.php:665
 #@ easmedia
 msgid "Comparison"
 msgstr "Perbandingan Versi"
@@ -218,7 +213,7 @@ msgstr "Jenis Media"
 #: includes/metaboxes.php:537
 #@ easmedia
 msgid "Choose the item type."
-msgstr ""
+msgstr "Pilih jenis item"
 
 #: includes/metaboxes.php:552
 #@ easmedia
@@ -248,7 +243,7 @@ msgstr "Jika ON, ukuran video akan menggunakan ukuran pada kontrol panel."
 #: includes/metaboxes.php:590
 #@ easmedia
 msgid "Audio Options"
-msgstr ""
+msgstr "Opsi Audio"
 
 #: includes/metaboxes.php:591
 #@ easmedia
@@ -258,7 +253,7 @@ msgstr "Upload atau tulis URL untuk file audio pada kolom dibawah."
 #: includes/metaboxes.php:599
 #@ easmedia
 msgid "Audio Path"
-msgstr ""
+msgstr "URL audio"
 
 #: includes/metaboxes.php:615
 #@ easmedia
@@ -289,11 +284,6 @@ msgstr ""
 #@ easmedia
 msgid "If ON, image which exceeds the specified size limit will be automatically resized. You can change image size limit through plugin control panel."
 msgstr "Jika ON, gambar yang melebihi batas ukuran yang ditentukan otomatis akan diubah. Anda dapat mengubah batas ukuran gambar melalui control panel Plugin."
-
-#: includes/metaboxes.php:647
-#@ easmedia
-msgid "Media Informations"
-msgstr "Informasi Media"
 
 #: includes/metaboxes.php:648
 #@ easmedia
@@ -382,4 +372,9 @@ msgstr ""
 #@ easmedia
 msgid "Emediagallery"
 msgstr ""
+
+#: includes/metaboxes.php:647
+#@ easmedia
+msgid "Media Information"
+msgstr "Informasi Media"
 
