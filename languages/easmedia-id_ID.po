@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Easy Media Gallery v1.2.21\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2013-10-16 03:42:05+0000\n"
+"PO-Revision-Date: 2013-10-19 22:50:39+0000\n"
 "Last-Translator: admin <langmaster@ghozylab.com>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -198,7 +198,7 @@ msgstr ""
 #: includes/metaboxes.php:528
 #@ easmedia
 msgid "Media Options"
-msgstr ""
+msgstr "Opsi Media"
 
 #: includes/metaboxes.php:529
 #@ easmedia
@@ -218,7 +218,7 @@ msgstr "Pilih jenis item"
 #: includes/metaboxes.php:552
 #@ easmedia
 msgid "Video Options"
-msgstr ""
+msgstr "Opsi Video"
 
 #: includes/metaboxes.php:553
 #@ easmedia
@@ -278,7 +278,7 @@ msgstr "Pilih atau upload gambar Anda."
 #: includes/metaboxes.php:631
 #@ easmedia
 msgid "Full-size image control"
-msgstr ""
+msgstr "Kontrol Gambar Besar"
 
 #: includes/metaboxes.php:632
 #@ easmedia
