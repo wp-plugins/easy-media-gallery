@@ -529,6 +529,7 @@ function emg_download_count() {
 	return $ttldls;
 }
 
+if ( easy_get_option( 'easymedia_disen_dasnews' ) == '1' ) {
 function emg_register_dashboard_widgets() {
 	if ( current_user_can( apply_filters( 'emg_dashboard_stats_cap', 'edit_pages' ) ) ) {
 		wp_add_dashboard_widget( 'emg_dashboard_stat', __('Easy Media Gallery (Lite) '.emg_download_count().'', 'easmedia'), 'emg_dashboard_widget' );
@@ -558,6 +559,7 @@ function emg_dashboard_widget() {
 </div></div>
 
     <?php
+	}
 }
 
 /*-------------------------------------------------------------------------------*/
