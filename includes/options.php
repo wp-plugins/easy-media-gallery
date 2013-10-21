@@ -195,6 +195,12 @@ array( "name" => "Admin Notification",
 	"type" => "checkbox",
 	"std" => "1"),	
 	
+array( "name" => "Dashboard News",
+	"desc" => "Enable or temporarily disable dashboard news.",
+	"id" => $theshort."_disen_dasnews",
+	"type" => "checkbox",
+	"std" => "1"),		
+	
 array( "name" => "Enable AJAX support",
 	"desc" => "Turn this on if your site use AJAX page load.",
 	"id" => $theshort."_disen_ajax",
