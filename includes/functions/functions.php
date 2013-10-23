@@ -598,6 +598,19 @@ function easmedia_easymedia_docs() {
         <h2><?php _e('Documentation', 'easmedia'); ?></h2>
         <p><?php _e('This plugin comes with instructional training videos that walk you through every aspect of setting up your new media gallery. We recommend following these videos to setup your media gallery. This user manual is only intended to be a reference guide.', 'easmedia'); ?></p>
 
+
+<div class="metabox-holder">
+			<div class="postbox">
+				<h3><?php _e( 'Subscribe and Get Free Updates', 'easmedia' ); ?></h3>
+        <div id="easymedia_docs2" style="padding:10px !important; ">
+<script src="https://apis.google.com/js/plusone.js"></script>  <div class="g-ytsubscribe" data-channel="GhozyLab" data-layout="full"></div>
+    </div>
+    </div>    
+
+  </div>
+
+
+
 		<div class="metabox-holder">
 			<div class="postbox">
 				<h3><?php _e( 'Basic Functions', 'easmedia' ); ?></h3>
