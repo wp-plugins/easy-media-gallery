@@ -605,15 +605,21 @@ function easmedia_easymedia_docs() {
         <div id="easymedia_docs2" style="padding:10px !important; ">
 <script src="https://apis.google.com/js/plusone.js"></script>  <div class="g-ytsubscribe" data-channel="GhozyLab" data-layout="full"></div>
     </div>
-    </div>    
-
+    </div>
   </div>
-
-
+  
+ <div class="metabox-holder">
+			<div class="postbox">
+				<h3><?php _e( 'Share Easy Media Gallery', 'easmedia' ); ?></h3>
+        <div id="easymedia_docs2" style="padding: 3px 3px 3px 17px !important; ">
+        <?php emg_dashboard_widget(); ?>
+    </div>
+    </div>
+  </div>
 
 		<div class="metabox-holder">
 			<div class="postbox">
-				<h3><?php _e( 'Basic Functions', 'easmedia' ); ?></h3>
+				<h3><?php _e( 'Video Tutorials', 'easmedia' ); ?></h3>
         <div id="easymedia_docs1" style="padding-left:10px !important;">
         <ul style="list-style: square; position:relative; margin-left:15px; margin-bottom:25px">
         <li><a href="http://www.youtube.com/watch?v=dXFBNY5t6E8" target="_blank" >How to Create Single Image Media</a></li>
@@ -632,7 +638,8 @@ function easmedia_easymedia_docs() {
                           
         </ul>
     </div>
-    </div>     
+  </div> 
+ </div>     
  		<div class="metabox-holder">
 			<div class="postbox">
 				<h3><?php _e( 'Troubleshooting (issue for version 1.1.7 and below)', 'easmedia' ); ?></h3>
@@ -645,9 +652,8 @@ function easmedia_easymedia_docs() {
         </ul>
     </div>
     </div>    
-
-  </div>
- </div>  
+ </div>
+  </div> 
 	<?php 
 }
 
