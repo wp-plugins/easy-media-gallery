@@ -608,6 +608,8 @@ function easmedia_easymedia_docs() {
     </div>
   </div>
   
+ <?php 
+ if ( easy_get_option( 'easymedia_disen_dasnews' ) == '1' ) {  ?>
  <div class="metabox-holder">
 			<div class="postbox">
 				<h3><?php _e( 'Share Easy Media Gallery', 'easmedia' ); ?></h3>
@@ -616,6 +618,7 @@ function easmedia_easymedia_docs() {
     </div>
     </div>
   </div>
+  <?php } ?>
 
 		<div class="metabox-holder">
 			<div class="postbox">
