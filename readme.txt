@@ -3,7 +3,7 @@ Contributors: GhozyLab
 Donate link: http://ghozylab.com/donate
 Tags: gallery, wordpress gallery plugin, portfolio wordpress plugin, best portfolio plugin, gallery wordpress plugin, grid portfolio, widget, portfolio gallery, grid gallery, photo albums, wordpress portfolio plugin, filterable portfolio, filterable gallery, best gallery plugin, image album, admin, plugin, portfolio, html5 mp4, post, page, admin, posts, images
 Requires at least: 3.3
-Tested up to: 3.6
+Tested up to: 3.7
 Stable tag: 1.2.21
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
