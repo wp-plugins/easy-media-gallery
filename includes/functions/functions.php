@@ -687,21 +687,24 @@ function easymedia_comparison() {
     <div class="wrap">
         <div id="icon-edit" class="icon32 icon32-posts-easymedia"><br /></div>
         <h2><?php _e('Comparison', 'easmedia'); ?></h2>
-  <div class="tsc_pricingtable03 tsc_pt3_style1" style="margin-bottom:110px; height:1190px;">
+  <div class="tsc_pricingtable03 tsc_pt3_style1" style="margin-bottom:110px; height:1330px;">
     <div class="caption_column">
       <ul>
         <li class="header_row_1 align_center radius5_topleft"></li>
         <li class="header_row_2">
           <h2 class="caption">Easy Media Gallery</h2>
         </li> 
-        <li class="row_style_4"><span>License</span></li>
-        <li class="row_style_2"><span>Single Image</span></li>
-        <li class="row_style_4"><span>Video Media</span></li>
-        <li class="row_style_2"><span>Audio Media</span></li>
-        <li class="row_style_4"><span>HTML5 Video/Audio (mp4, webm, ogv)</span></li>        
-        <li class="row_style_2"><span>Image Gallery</span></li>
-        <li class="row_style_4"><span>Grid Gallery</span><a target="_blank" href="http://ghozylab.com/new-feature-sample-1/" style="text-decoration:underline !important;"> Click for Sample</a></li>       
-        <li class="row_style_2"><span>Filterable Media</span><a target="_blank" href="http://ghozylab.com/new-feature-sample-2/" style="text-decoration:underline !important;"> Click for Sample</a></li>        
+        <li class="row_style_2"><span>License</span></li>
+        <li class="row_style_4"><span>Single Image</span></li>
+        <li class="row_style_2"><span>Video Media</span></li>       
+        <li class="row_style_4"><span>Audio Media</span></li>
+        <li class="row_style_2"><span>HTML5 Video/Audio (mp4, webm, ogv)</span></li>   
+        <li class="row_style_4"><span>Auto Fetch Youtube/Vimeo Thumbnail</span><span class="newftr"></span></li>    
+        <li class="row_style_2"><span>Image Gallery</span></li>                 
+        <li class="row_style_4"><span>Image Slider</span><a target="_blank" href="http://ghozylab.com/new-feature-demo-4/" style="text-decoration:underline !important;"> Click for Sample</a>&nbsp;&nbsp;<span class="newftr"></span></li>
+        <li class="row_style_2"><span>Grid Gallery</span><a target="_blank" href="http://ghozylab.com/new-feature-sample-1/" style="text-decoration:underline !important;"> Click for Sample</a></li>  
+         <li class="row_style_4"><span>Filterable Media</span><a target="_blank" href="http://ghozylab.com/new-feature-sample-2/" style="text-decoration:underline !important;"> Click for Sample</a></li>                     
+        <li class="row_style_2"><span>Pagination</span><a target="_blank" href="http://ghozylab.com/new-feature-demo-3/" style="text-decoration:underline !important;"> Click for Sample</a>&nbsp;&nbsp;<span class="newftr"></span></li>        
         <li class="row_style_4"><span>Link Media</span></li>
         <li class="row_style_2"><span>Google Maps / Street View</span></li>
         <li class="row_style_4"><span>Custom CSS</span></li>
@@ -736,29 +739,32 @@ function easymedia_comparison() {
         <li class="row_style_1 align_center"><span class="pricing_yes"></span></li>
         <li class="row_style_3 align_center"><span class="pricing_yes"></span></li>
         <li class="row_style_1 align_center"><span class="pricing_yes"></span></li>  
-        <li class="row_style_3 align_center"><span class="pricing_no"></span></li>        
-        <li class="row_style_1 align_center"><span class="pricing_no"></span></li>
+        <li class="row_style_3 align_center"><span class="pricing_no"></span></li>  
+        <li class="row_style_1 align_center"><span class="pricing_no"></span></li>      
         <li class="row_style_3 align_center"><span class="pricing_no"></span></li>
+        <li class="row_style_1 align_center"><span class="pricing_no"></span></li>
+        <li class="row_style_3 align_center"><span class="pricing_no"></span></li>        
         <li class="row_style_1 align_center"><span class="pricing_no"></span></li>        
         <li class="row_style_3 align_center"><span class="pricing_no"></span></li>
-        <li class="row_style_1 align_center"><span class="pricing_no"></span></li>
-        <li class="row_style_3 align_center"><span class="pricing_no"></span></li>        
-        <li class="row_style_1 align_center"><span>max 3 columns</span></li>
-        <li class="row_style_3 align_center"><span>title &amp; subtitle ONLY</span></li>
-        <li class="row_style_1 align_center"><span>center</span></li>
-        <li class="row_style_3 align_center"><span class="pricing_yes"></span></li>
+        <li class="row_style_1 align_center"><span class="pricing_no"></span></li>      
+        <li class="row_style_3 align_center"><span class="pricing_no"></span></li>
+        <li class="row_style_1 align_center"><span class="pricing_no"></span></li>        
+        <li class="row_style_3 align_center"><span>max 3 columns</span></li>
+        <li class="row_style_1 align_center"><span>title &amp; subtitle ONLY</span></li>
+        <li class="row_style_3 align_center"><span>center</span></li>
         <li class="row_style_1 align_center"><span class="pricing_yes"></span></li>
-        <li class="row_style_3 align_center"><span class="pricing_no"></span></li>
-        <li class="row_style_1 align_center"><span class="pricing_no"></span></li>
-        <li class="row_style_3 align_center"><span>light</span></li>
-        <li class="row_style_1 align_center"><span>3 patterns</span></li>
-        <li class="row_style_3 align_center"><span class="pricing_no"></span></li>
-        <li class="row_style_1 align_center"><span class="pricing_no"></span></li>
-        <li class="row_style_3 align_center"><span class="pricing_no"></span></li>
-		<li class="row_style_1 align_center"><span class="pricing_yes"></span></li>        
-        <li class="row_style_3 align_center"><span class="pricing_no"></span></li>
-        <li class="row_style_1 align_center"><span class="pricing_no"></span></li>
         <li class="row_style_3 align_center"><span class="pricing_yes"></span></li>
+        <li class="row_style_1 align_center"><span class="pricing_no"></span></li>
+        <li class="row_style_3 align_center"><span class="pricing_no"></span></li>
+        <li class="row_style_1 align_center"><span>light</span></li>
+        <li class="row_style_3 align_center"><span>3 patterns</span></li>
+        <li class="row_style_1 align_center"><span class="pricing_no"></span></li>
+        <li class="row_style_3 align_center"><span class="pricing_no"></span></li>
+        <li class="row_style_1 align_center"><span class="pricing_no"></span></li>
+		<li class="row_style_3 align_center"><span class="pricing_yes"></span></li>        
+        <li class="row_style_1 align_center"><span class="pricing_no"></span></li>
+        <li class="row_style_3 align_center"><span class="pricing_no"></span></li>
+        <li class="row_style_1 align_center"><span class="pricing_yes"></span></li>
          
         <li class="footer_row"></li>
       </ul>
@@ -776,28 +782,31 @@ function easymedia_comparison() {
         <li class="row_style_4 align_center"><span class="pricing_yes"></span></li>
         <li class="row_style_2 align_center"><span class="pricing_yes"></span></li>        
         <li class="row_style_4 align_center"><span class="pricing_yes"></span></li>
-        <li class="row_style_2 align_center"><span class="pricing_yes"></span></li> 
-        <li class="row_style_4 align_center"><span class="pricing_yes"></span></li>
-        <li class="row_style_2 align_center"><span class="pricing_yes"></span></li>              
-        <li class="row_style_4 align_center"><span class="pricing_yes"></span></li>
         <li class="row_style_2 align_center"><span class="pricing_yes"></span></li>
-        <li class="row_style_4 align_center"><span class="pricing_yes"></span></li>
-        <li class="row_style_2 align_center"><span>up to 8 columns</span></li>
-        <li class="row_style_4 align_center"><span>title, subtitle &amp; unlimited content</span></li>
-        <li class="row_style_2 align_center"><span>left, right, center</span></li>
-        <li class="row_style_4 align_center"><span class="pricing_yes"></span></li>
+        <li class="row_style_4 align_center"><span class="pricing_yes"></span></li> 
+        <li class="row_style_2 align_center"><span class="pricing_yes"></span></li>
+        <li class="row_style_4 align_center"><span class="pricing_yes"></span></li> 
+        <li class="row_style_2 align_center"><span class="pricing_yes"></span></li>
+        <li class="row_style_4 align_center"><span class="pricing_yes"></span></li>                             
         <li class="row_style_2 align_center"><span class="pricing_yes"></span></li>
         <li class="row_style_4 align_center"><span class="pricing_yes"></span></li>
         <li class="row_style_2 align_center"><span class="pricing_yes"></span></li>
-        <li class="row_style_4 align_center"><span>light, dark &amp; transparent</span></li>
-        <li class="row_style_2 align_center"><span>15 patterns</span></li>
+        <li class="row_style_4 align_center"><span>up to 8 columns</span></li>
+        <li class="row_style_2 align_center"><span>title, subtitle &amp; unlimited content</span></li>
+        <li class="row_style_4 align_center"><span>left, right, center</span></li>
+        <li class="row_style_2 align_center"><span class="pricing_yes"></span></li>
         <li class="row_style_4 align_center"><span class="pricing_yes"></span></li>
         <li class="row_style_2 align_center"><span class="pricing_yes"></span></li>
         <li class="row_style_4 align_center"><span class="pricing_yes"></span></li>
-		<li class="row_style_2 align_center"><span class="pricing_yes"></span></li>        
-        <li class="row_style_4 align_center"><span class="pricing_no"></span></li>
+        <li class="row_style_2 align_center"><span>light, dark &amp; transparent</span></li>
+        <li class="row_style_4 align_center"><span>15 patterns</span></li>
         <li class="row_style_2 align_center"><span class="pricing_yes"></span></li>
-        <li class="row_style_4 align_center"><span>1 year</span></li>
+        <li class="row_style_4 align_center"><span class="pricing_yes"></span></li>
+        <li class="row_style_2 align_center"><span class="pricing_yes"></span></li>
+		<li class="row_style_4 align_center"><span class="pricing_yes"></span></li>        
+        <li class="row_style_2 align_center"><span class="pricing_no"></span></li>
+        <li class="row_style_4 align_center"><span class="pricing_yes"></span></li>
+        <li class="row_style_2 align_center"><span>1 year</span></li>
         <li class="footer_row"><a target="_blank" href="http://ghozylab.com/order" class="tsc_buttons2 red">Upgrade Now</a></li>
       </ul>
     </div>
@@ -815,28 +824,31 @@ function easymedia_comparison() {
         <li class="row_style_3 align_center"><span class="pricing_yes"></span></li>
         <li class="row_style_1 align_center"><span class="pricing_yes"></span></li>        
         <li class="row_style_3 align_center"><span class="pricing_yes"></span></li>
-        <li class="row_style_1 align_center"><span class="pricing_yes"></span></li> 
-        <li class="row_style_3 align_center"><span class="pricing_yes"></span></li>
-        <li class="row_style_1 align_center"><span class="pricing_yes"></span></li>              
-        <li class="row_style_3 align_center"><span class="pricing_yes"></span></li>
+        <li class="row_style_1 align_center"><span class="pricing_yes"></span></li>        
+        <li class="row_style_3 align_center"><span class="pricing_yes"></span></li> 
         <li class="row_style_1 align_center"><span class="pricing_yes"></span></li>
-        <li class="row_style_3 align_center"><span class="pricing_yes"></span></li>
-        <li class="row_style_1 align_center"><span>up to 8 columns</span></li>
-        <li class="row_style_3 align_center"><span>title, subtitle &amp; unlimited content</span></li>
-        <li class="row_style_1 align_center"><span>left, right, center</span></li>
-        <li class="row_style_3 align_center"><span class="pricing_yes"></span></li>
+        <li class="row_style_3 align_center"><span class="pricing_yes"></span></li>  
+        <li class="row_style_1 align_center"><span class="pricing_yes"></span></li>
+        <li class="row_style_3 align_center"><span class="pricing_yes"></span></li>                            
         <li class="row_style_1 align_center"><span class="pricing_yes"></span></li>
         <li class="row_style_3 align_center"><span class="pricing_yes"></span></li>
         <li class="row_style_1 align_center"><span class="pricing_yes"></span></li>
-        <li class="row_style_3 align_center"><span>light, dark &amp; transparent</span></li>
-        <li class="row_style_1 align_center"><span>15 patterns</span></li>
+        <li class="row_style_3 align_center"><span>up to 8 columns</span></li>
+        <li class="row_style_1 align_center"><span>title, subtitle &amp; unlimited content</span></li>
+        <li class="row_style_3 align_center"><span>left, right, center</span></li>
+        <li class="row_style_1 align_center"><span class="pricing_yes"></span></li>
         <li class="row_style_3 align_center"><span class="pricing_yes"></span></li>
         <li class="row_style_1 align_center"><span class="pricing_yes"></span></li>
         <li class="row_style_3 align_center"><span class="pricing_yes"></span></li>
-		<li class="row_style_1 align_center"><span class="pricing_yes"></span></li>        
+        <li class="row_style_1 align_center"><span>light, dark &amp; transparent</span></li>
+        <li class="row_style_3 align_center"><span>15 patterns</span></li>
+        <li class="row_style_1 align_center"><span class="pricing_yes"></span></li>
         <li class="row_style_3 align_center"><span class="pricing_yes"></span></li>
         <li class="row_style_1 align_center"><span class="pricing_yes"></span></li>
-        <li class="row_style_3 align_center"><span>1 year</span></li>
+		<li class="row_style_3 align_center"><span class="pricing_yes"></span></li>        
+        <li class="row_style_1 align_center"><span class="pricing_yes"></span></li>
+        <li class="row_style_3 align_center"><span class="pricing_yes"></span></li>
+        <li class="row_style_1 align_center"><span>1 year</span></li>
         <li class="footer_row"><a target="_blank" href="http://ghozylab.com/order" class="tsc_buttons2 red">Upgrade Now</a></li>
       </ul>
     </div>   
