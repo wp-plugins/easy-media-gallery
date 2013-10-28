@@ -633,8 +633,14 @@ function easmedia_easymedia_docs() {
         <li><a href="http://www.youtube.com/watch?v=56f_C7OXiAE" target="_blank" >How to Change Media Columns</a></li>
         <li><a href="http://www.youtube.com/watch?v=TQ1MMxhsyD8" target="_blank" >How to Create Grid Gallery</a>&nbsp;&nbsp;<i>(Pro version)</i></li> 
 		<li><a href="http://www.youtube.com/watch?v=OEoNB2LpnSE" target="_blank" >How to Create Filterable Media</a>&nbsp;&nbsp;<i>(Pro version)</i></li>
+        
+		<li><a href="http://www.youtube.com/watch?v=-N0JNcToHOI" target="_blank" >How to Create Grid Gallery with Pagination</a>&nbsp;&nbsp;<i>(Pro version)</i></li>        
+        
 		<li><a href="http://www.youtube.com/watch?v=skCMKvVLD5o" target="_blank" >How to Set Order of Image</a>&nbsp;&nbsp;<i>(Pro version)</i></li>
         <li><a href="http://www.youtube.com/watch?v=Oee2cpKT-kE" target="_blank" >How to Create Audio Soundcloud</a>&nbsp;&nbsp;<i>(Pro version)</i></li>
+        
+<li><a href="http://www.youtube.com/watch?v=uAGWUcs5ofE" target="_blank" >How to Fetch Youtube or Vimeo Thumbnail</a>&nbsp;&nbsp;<i>(Pro version)</i></li>        
+        
         <li><a href="http://www.youtube.com/watch?v=SYH8Yl2SQd4" target="_blank" >How to Create Audio Reverbnation</a>&nbsp;&nbsp;<i>(Pro version)</i></li>    
         <li><a href="http://www.youtube.com/watch?v=PEgfleRf6hg" target="_blank" >How to Create Google Maps</a>&nbsp;&nbsp;<i>(Pro version)</i></li>               
         <li><a href="http://www.youtube.com/watch?v=9cuYyBMKx2k" target="_blank" >How to Insert Image into Media Description</a>&nbsp;&nbsp;<i>(Pro version)</i></li>        
