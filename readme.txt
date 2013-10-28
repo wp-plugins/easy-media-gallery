@@ -1,14 +1,14 @@
 === Easy Media Gallery ===
 Contributors: GhozyLab
 Donate link: http://ghozylab.com/donate
-Tags: gallery, best gallery plugin, wordpress gallery plugin, portfolio wordpress plugin, best portfolio plugin, gallery wordpress plugin, grid portfolio, widget, portfolio gallery, grid gallery, photo albums, wordpress portfolio plugin, filterable portfolio, filterable gallery, image album, admin, plugin, portfolio, html5 mp4, post, page, admin, posts, images
+Tags: gallery, best gallery plugin, wordpress gallery plugin, portfolio wordpress plugin, pagination gallery, pagination portfolio, image slider, best portfolio plugin, gallery wordpress plugin, grid portfolio, widget, portfolio gallery, grid gallery, photo albums, wordpress portfolio plugin, filterable portfolio, filterable gallery, image album, admin, plugin, portfolio, html5 mp4, post, page, admin, posts, images
 Requires at least: 3.3
 Tested up to: 3.7
 Stable tag: 1.2.23
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-This plugin enables you to create an awesome portfolio or photo gallery. Over 90,000 WordPress sites are already using Easy Media Gallery.
+This plugin enables you to create an awesome portfolio or photo gallery. Over 100,000 WordPress sites are already using Easy Media Gallery.
 
 
 == Description ==
@@ -31,6 +31,7 @@ Easy Media Gallery is a wordpress plugin designed to display portfolios and vari
 
 * An image
 * Grid Gallery (<em>[Pro Version](http://ghozylab.com/new-feature-sample-1/)</em>)
+* Grid Gallery with Pagination (<em>[Pro Version](http://ghozylab.com/new-feature-demo-3/)</em>)
 * Filterable Media (<em>[Pro Version](http://ghozylab.com/new-feature-sample-2/)</em>)
 * An image gallery (<em>[Pro Version](http://ghozylab.com/sample-1/)</em>)
 * Image/Media Slider (<em>[Pro Version](http://ghozylab.com/new-feature-demo-4/)</em>)
@@ -39,8 +40,7 @@ Easy Media Gallery is a wordpress plugin designed to display portfolios and vari
 * Embed from Reverbnation or Soundcloud (<em>[Pro Version](http://ghozylab.com/sample-1/)</em>)
 * Google Maps / Google Street View (<em>[Pro Version](http://ghozylab.com/sample-1/)</em>)
 * A link (<em>[Pro Version](http://ghozylab.com/sample-1/)</em>)
-* Grid Gallery with Pagination (<em>[Pro Version](http://ghozylab.com/new-feature-demo-3/)</em>)
-* Auto-retrieve YouTube and Vimeo Thumbnail (<em>Pro Version</em>)
+* Auto-retrieve YouTube and Vimeo Thumbnail (<em>Pro Version [learn more here](http://www.youtube.com/watch?v=uAGWUcs5ofE)</em>)
 
 = Features =
 Easy Media Gallery supports a wide range of media formats, and an even wider range of social media sites. Simply link to any image, flash video, hosted video, mp3 audio or popular website, and the media will be automatically loaded into the overlay. Easy Media Gallery can be used to embed videos from :
