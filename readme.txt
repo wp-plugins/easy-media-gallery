@@ -17,14 +17,10 @@ Easy Media Gallery is a wordpress plugin designed to display portfolios and vari
 
 > #### **Live Demos**
 
-> * [DEMO 1](http://ghozylab.com/new-feature-sample-1/)
-> * [DEMO 2](http://ghozylab.com/new-feature-sample-2/)
-> * [DEMO 3](http://ghozylab.com/new-feature-demo-3/)
-> * [DEMO 4](http://ghozylab.com/new-feature-demo-4/)
-> * [DEMO 5](http://ghozylab.com/sample-1)
-> * [DEMO 6](http://ghozylab.com/sample-2)
-> * [DEMO 7](http://ghozylab.com/sample-3)
-> * [DEMO 8](http://ghozylab.com/sample-4)
+> * [DEMO – Grid Gallery](http://ghozylab.com/best-wordpress-grid-gallery-and-grid-portfolio-plugin/)
+> * [DEMO – Filterable Media](http://ghozylab.com/wordpress-filterable-gallery-and-filterable-media-plugin/)
+> * [DEMO – Gallery with Pagination](http://ghozylab.com/wordpress-grid-gallery-with-pagination-plugin/)
+> * [DEMO – Image / Media Slider](http://ghozylab.com/wordpress-image-slider-and-media-slider-plugin/)
 
 = Full media support =
 <p>Easy Media Gallery satisfy all your needs letting you create different types of portfolio or image gallery. Each item can be:</p> 
