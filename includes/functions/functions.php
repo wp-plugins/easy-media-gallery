@@ -347,13 +347,6 @@ function emg_get_attachment_id_from_src ($link) {
 /*-------------------------------------------------------------------------------*/
 function easymedia_imgresize($img, $limit, $isres, $imw, $imh) {
 	
-	/*if ( strpos( $img, $_SERVER['HTTP_HOST'] ) === FALSE ) {
-		$img= "http://".$_SERVER['HTTP_HOST'].$img;
-		}
-		else {
-			$img= $img;
-			}*/
-	
 	if ( $img == '' ) {
 		$img = plugins_url( 'images/no-image-available.jpg' , dirname(__FILE__) ) ;
 	}
@@ -391,13 +384,6 @@ function easymedia_imgresize_ajax() {
 		$imgurl = $_POST['imgurl'];
 		$limiter = $_POST['limiter'];
 		$attid = wp_get_attachment_image_src( emg_get_attachment_id_from_src( $imgurl ), 'full' );
-	
-		/*if ( strpos( $imgurl, $_SERVER['HTTP_HOST'] ) === FALSE ) {
-			$imgurl = "http://".$_SERVER['HTTP_HOST'].$imgurl;
-			}
-			else {
-				$imgurl = $imgurl;
-				}*/
 				
 				$tmpimgratio = $attid[2] / $attid[1]; //get image aspec ratio
 
