@@ -691,10 +691,10 @@ function easymedia_comparison() {
         <li class="row_style_2"><span>HTML5 Video/Audio (mp4, webm, ogv)</span></li>   
         <li class="row_style_4"><span>Auto Fetch Youtube/Vimeo Thumbnail</span><span class="newftr"></span></li>    
         <li class="row_style_2"><span>Image Gallery</span></li>                 
-        <li class="row_style_4"><span>Image Slider</span><a target="_blank" href="http://ghozylab.com/new-feature-demo-4/" style="text-decoration:underline !important;"> Click for Sample</a>&nbsp;&nbsp;<span class="newftr"></span></li>
-        <li class="row_style_2"><span>Grid Gallery</span><a target="_blank" href="http://ghozylab.com/new-feature-sample-1/" style="text-decoration:underline !important;"> Click for Sample</a></li>  
-         <li class="row_style_4"><span>Filterable Media</span><a target="_blank" href="http://ghozylab.com/new-feature-sample-2/" style="text-decoration:underline !important;"> Click for Sample</a></li>                     
-        <li class="row_style_2"><span>Pagination</span><a target="_blank" href="http://ghozylab.com/new-feature-demo-3/" style="text-decoration:underline !important;"> Click for Sample</a>&nbsp;&nbsp;<span class="newftr"></span></li>        
+        <li class="row_style_4"><span>Image Slider</span><a target="_blank" href="http://ghozylab.com/wordpress-image-slider-and-media-slider-plugin/" style="text-decoration:underline !important;"> Click for Sample</a>&nbsp;&nbsp;<span class="newftr"></span></li>
+        <li class="row_style_2"><span>Grid Gallery</span><a target="_blank" href="http://ghozylab.com/best-wordpress-grid-gallery-and-grid-portfolio-plugin/" style="text-decoration:underline !important;"> Click for Sample</a></li>  
+         <li class="row_style_4"><span>Filterable Media</span><a target="_blank" href="http://ghozylab.com/wordpress-filterable-gallery-and-filterable-media-plugin/" style="text-decoration:underline !important;"> Click for Sample</a></li>                     
+        <li class="row_style_2"><span>Pagination</span><a target="_blank" href="http://ghozylab.com/wordpress-grid-gallery-with-pagination-plugin/" style="text-decoration:underline !important;"> Click for Sample</a>&nbsp;&nbsp;<span class="newftr"></span></li>        
         <li class="row_style_4"><span>Link Media</span></li>
         <li class="row_style_2"><span>Google Maps / Street View</span></li>
         <li class="row_style_4"><span>Custom CSS</span></li>
