@@ -298,7 +298,6 @@ function easymedia_hex2rgb($hex) {
       $b = hexdec(substr($hex,4,2));
    }
    $rgb = array($r, $g, $b);
-   //return implode(",", $rgb); // returns the rgb values separated by commas
    return implode(",", $rgb); // returns an array with the rgb values
 }
 
@@ -359,7 +358,6 @@ function easymedia_imgresize($img, $limit, $isres, $imw, $imh) {
 			$tempimgratio = $imh / $imw;
 			$fih = (int)($tempimgratio * $limit); // final image height
 			$fiw = $limit; // fixed image width
-			//$allimgdata = array( EMG_THUMB_FILE . "?src=" . $img . "&h=" . $fih . "&w=" . $fiw . "&zc=1&q=100", $fiw, $fih );
 			$allimgdata = array( easymedia_resizer( $img, $imw, $imh, $fiw, $fih, true ), $fiw, $fih );
 			}
 		else {
@@ -390,7 +388,6 @@ function easymedia_imgresize_ajax() {
 		if ( $attid[1] > $limiter ) {
 			$tmph = (int)($tmpimgratio * $limiter); // final image height
 			$tmpw = $limiter; // fixed image width
-			//$finimgurl = EMG_THUMB_FILE . "?src=" . $imgurl . "&h=" . $tmph . "&w=" . $tmpw . "&zc=1&q=100";
 			$finimgurl = easymedia_resizer( $imgurl, $attid[1], $attid[2], $tmpw, $tmph, true );
 			$allimgdata = array( $finimgurl, $tmpw, $tmph );
 			echo implode(",", $allimgdata);
