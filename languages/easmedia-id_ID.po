@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Easy Media Gallery v1.2.21\n"
+"Project-Id-Version: Easy Media Gallery v1.2.23\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2013-10-19 22:50:39+0000\n"
+"PO-Revision-Date: 2013-11-07 01:21:13+0000\n"
 "Last-Translator: admin <langmaster@ghozylab.com>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -51,27 +51,27 @@ msgstr ""
 #: easy-media-gallery.php:148
 #@ easmedia
 msgid "Edit Media"
-msgstr ""
+msgstr "Ubah Media"
 
 #: easy-media-gallery.php:149
 #@ easmedia
 msgid "New Media"
-msgstr ""
+msgstr "Buat Media"
 
 #: easy-media-gallery.php:150
 #@ easmedia
 msgid "View Media"
-msgstr ""
+msgstr "Lihat Media"
 
 #: easy-media-gallery.php:151
 #@ easmedia
 msgid "Search Media"
-msgstr ""
+msgstr "Cari Media"
 
 #: easy-media-gallery.php:152
 #@ easmedia
 msgid "No Media Found"
-msgstr ""
+msgstr "Tidak ada Media"
 
 #: easy-media-gallery.php:153
 #@ easmedia
@@ -121,7 +121,7 @@ msgstr ""
 #: easy-media-gallery.php:280
 #@ easmedia
 msgid "None"
-msgstr ""
+msgstr "None"
 
 #: includes/functions/functions.php:196
 #@ default
@@ -135,57 +135,52 @@ msgstr ""
 msgid "+ %s"
 msgstr ""
 
-#: includes/functions/functions.php:436
-#: includes/functions/functions.php:450
-#: includes/functions/functions.php:478
+#: includes/functions/functions.php:419
+#: includes/functions/functions.php:433
+#: includes/functions/functions.php:461
 #@ easmedia
 msgid "Sorter"
 msgstr "Urutkan"
 
-#: includes/functions/functions.php:451
+#: includes/functions/functions.php:434
 #@ easmedia
 msgid "Simply drag the Media up or down and they will be saved in that order. Media at the top will appear first."
 msgstr "Cukup geser media ke atas atau ke bawah dan urutan akan tersimpan otomatis. Media pada paling atas akan muncul diurutan pertama."
 
-#: includes/functions/functions.php:455
-#: includes/functions/functions.php:481
+#: includes/functions/functions.php:438
+#: includes/functions/functions.php:464
 #@ easmedia
 msgid "Sort Media"
 msgstr "Urutkan Media"
 
-#: includes/functions/functions.php:482
+#: includes/functions/functions.php:465
 #, php-format
 #@ easmedia
 msgid "No items found, why not %screate one%s?\t"
 msgstr ""
 
-#: includes/functions/functions.php:587
-#: includes/functions/functions.php:596
+#: includes/functions/functions.php:572
+#: includes/functions/functions.php:581
 #@ easmedia
 msgid "Documentation"
 msgstr "Dokumentasi"
 
-#: includes/functions/functions.php:597
+#: includes/functions/functions.php:582
 #@ easmedia
 msgid "This plugin comes with instructional training videos that walk you through every aspect of setting up your new media gallery. We recommend following these videos to setup your media gallery. This user manual is only intended to be a reference guide."
 msgstr "Plugin ini dilengkapi dengan video pelatihan instruksional yang memandu Anda melalui setiap aspek mendirikan galeri Anda. Sebaiknya mengikuti video ini untuk men-setup galeri Anda. Panduan ini hanya dimaksudkan untuk menjadi panduan referensi."
 
-#: includes/functions/functions.php:601
-#@ easmedia
-msgid "Basic Functions"
-msgstr "Fungsi Dasar"
-
-#: includes/functions/functions.php:623
+#: includes/functions/functions.php:637
 #@ easmedia
 msgid "Troubleshooting (issue for version 1.1.7 and below)"
 msgstr "Pemecahan Masalah (untuk versi 1.1.7 ke bawah)"
 
-#: includes/functions/functions.php:643
+#: includes/functions/functions.php:654
 #@ easmedia
 msgid "Get More Features"
 msgstr "Dapatkan Fitur Lebih"
 
-#: includes/functions/functions.php:665
+#: includes/functions/functions.php:676
 #@ easmedia
 msgid "Comparison"
 msgstr "Perbandingan Versi"
@@ -268,7 +263,7 @@ msgstr "Anda dapat menggunakan gambar dengan ekstensi jpg, jpeg, gif atau png."
 #: includes/metaboxes.php:622
 #@ easmedia
 msgid "Image URL"
-msgstr ""
+msgstr "URL Gambar"
 
 #: includes/metaboxes.php:623
 #@ easmedia
@@ -377,4 +372,19 @@ msgstr ""
 #@ easmedia
 msgid "Media Information"
 msgstr "Informasi Media"
+
+#: includes/functions/functions.php:587
+#@ easmedia
+msgid "Subscribe and Get Free Updates"
+msgstr "Subscribe dan Dapatkan Update Video Gratis"
+
+#: includes/functions/functions.php:598
+#@ easmedia
+msgid "Share Easy Media Gallery"
+msgstr "Bagikan Easy Media Gallery"
+
+#: includes/functions/functions.php:608
+#@ easmedia
+msgid "Video Tutorials"
+msgstr ""
 
