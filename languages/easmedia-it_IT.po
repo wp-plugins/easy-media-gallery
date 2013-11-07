@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Easy Media Gallery v1.2.21\n"
+"Project-Id-Version: Easy Media Gallery v1.2.23\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2013-10-19 22:46:09+0000\n"
+"PO-Revision-Date: 2013-11-07 22:58:15+0000\n"
 "Last-Translator: GhozyLab <lang@ghozylab.com>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -51,17 +51,17 @@ msgstr ""
 #: easy-media-gallery.php:148
 #@ easmedia
 msgid "Edit Media"
-msgstr ""
+msgstr "Modificare Media"
 
 #: easy-media-gallery.php:149
 #@ easmedia
 msgid "New Media"
-msgstr ""
+msgstr "Nuovo Media"
 
 #: easy-media-gallery.php:150
 #@ easmedia
 msgid "View Media"
-msgstr ""
+msgstr "Visuale Media"
 
 #: easy-media-gallery.php:151
 #@ easmedia
@@ -103,7 +103,7 @@ msgstr ""
 #: easy-media-gallery.php:227
 #@ easmedia
 msgid "Type"
-msgstr ""
+msgstr "Tipo"
 
 #: easy-media-gallery.php:228
 #: includes/taxonomy.php:18
@@ -135,57 +135,52 @@ msgstr ""
 msgid "+ %s"
 msgstr ""
 
-#: includes/functions/functions.php:436
-#: includes/functions/functions.php:450
-#: includes/functions/functions.php:478
+#: includes/functions/functions.php:419
+#: includes/functions/functions.php:433
+#: includes/functions/functions.php:461
 #@ easmedia
 msgid "Sorter"
 msgstr ""
 
-#: includes/functions/functions.php:451
+#: includes/functions/functions.php:434
 #@ easmedia
 msgid "Simply drag the Media up or down and they will be saved in that order. Media at the top will appear first."
 msgstr ""
 
-#: includes/functions/functions.php:455
-#: includes/functions/functions.php:481
+#: includes/functions/functions.php:438
+#: includes/functions/functions.php:464
 #@ easmedia
 msgid "Sort Media"
 msgstr ""
 
-#: includes/functions/functions.php:482
+#: includes/functions/functions.php:465
 #, php-format
 #@ easmedia
 msgid "No items found, why not %screate one%s?\t"
 msgstr ""
 
-#: includes/functions/functions.php:587
-#: includes/functions/functions.php:596
+#: includes/functions/functions.php:572
+#: includes/functions/functions.php:581
 #@ easmedia
 msgid "Documentation"
 msgstr "Documentazione"
 
-#: includes/functions/functions.php:597
+#: includes/functions/functions.php:582
 #@ easmedia
 msgid "This plugin comes with instructional training videos that walk you through every aspect of setting up your new media gallery. We recommend following these videos to setup your media gallery. This user manual is only intended to be a reference guide."
 msgstr "Questo plugin è dotato di video di formazione didattici che vi guiderà attraverso ogni aspetto della configurazione del nuovo media gallery. Si consiglia di seguire questi video per impostare la tua galleria multimediale. Questo manuale è destinato solo ad essere una guida di riferimento."
 
-#: includes/functions/functions.php:601
-#@ easmedia
-msgid "Basic Functions"
-msgstr ""
-
-#: includes/functions/functions.php:623
+#: includes/functions/functions.php:637
 #@ easmedia
 msgid "Troubleshooting (issue for version 1.1.7 and below)"
 msgstr ""
 
-#: includes/functions/functions.php:643
+#: includes/functions/functions.php:654
 #@ easmedia
 msgid "Get More Features"
 msgstr "Ottenere Più Funzioni"
 
-#: includes/functions/functions.php:665
+#: includes/functions/functions.php:676
 #@ easmedia
 msgid "Comparison"
 msgstr "Comparazione"
@@ -376,5 +371,20 @@ msgstr ""
 #: includes/metaboxes.php:647
 #@ easmedia
 msgid "Media Information"
+msgstr ""
+
+#: includes/functions/functions.php:587
+#@ easmedia
+msgid "Subscribe and Get Free Updates"
+msgstr ""
+
+#: includes/functions/functions.php:598
+#@ easmedia
+msgid "Share Easy Media Gallery"
+msgstr ""
+
+#: includes/functions/functions.php:608
+#@ easmedia
+msgid "Video Tutorials"
 msgstr ""
 
