@@ -26,6 +26,7 @@ Easy Media Gallery is a wordpress plugin designed to display portfolios and vari
 <p>Easy Media Gallery satisfy all your needs letting you create different types of portfolio or image gallery. Each item can be:</p> 
 
 * An image
+* Facebook Photo Album (<em>coming soon</em>)
 * Grid Gallery (<em>[Pro Version](http://ghozylab.com/best-wordpress-grid-gallery-and-grid-portfolio-plugin/)</em>)
 * Grid Gallery with Pagination (<em>[Pro Version](http://ghozylab.com/wordpress-grid-gallery-with-pagination-plugin/)</em>)
 * Filterable Media (<em>[Pro Version](http://ghozylab.com/wordpress-filterable-gallery-and-filterable-media-plugin/)</em>)
