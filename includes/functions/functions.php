@@ -798,7 +798,7 @@ function easymedia_comparison() {
       </ul>
     </div>
     
-     <div class="column_2">
+     <div class="column_3">
       <ul>
         <li class="header_row_1 align_center">
           <h2 class="col2">Dev Version</h2>
