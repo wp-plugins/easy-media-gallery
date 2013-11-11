@@ -29,12 +29,11 @@ Easy Media Gallery is a wordpress plugin designed to display portfolios and vari
 * Grid Gallery (<em>[Pro Version](http://ghozylab.com/best-wordpress-grid-gallery-and-grid-portfolio-plugin/)</em>)
 * Grid Gallery with Pagination (<em>[Pro Version](http://ghozylab.com/wordpress-grid-gallery-with-pagination-plugin/)</em>)
 * Filterable Media (<em>[Pro Version](http://ghozylab.com/wordpress-filterable-gallery-and-filterable-media-plugin/)</em>)
-* An image gallery (<em>[Pro Version](http://ghozylab.com/sample-1/)</em>)
-* Image/Media Slider (<em>[Pro Version](http://ghozylab.com/wordpress-image-slider-and-media-slider-plugin/)</em>)
+* An image gallery/Photo Albums (<em>[Pro Version](http://ghozylab.com/sample-1/)</em>)
+* Media/Image Slider (<em>[Pro Version](http://ghozylab.com/wordpress-image-slider-and-media-slider-plugin/)</em>)
 * A video
 * Auto-retrieve YouTube and Vimeo Thumbnail (<em>Pro Version [learn more here](http://www.youtube.com/watch?v=uAGWUcs5ofE)</em>)
-* An mp3 player
-* Embed from Reverbnation or Soundcloud (<em>[Pro Version](http://ghozylab.com/sample-1/)</em>)
+* An mp3 player, embed from Reverbnation or Soundcloud (<em>[Pro Version](http://ghozylab.com/sample-1/)</em>)
 * Google Maps / Google Street View (<em>[Pro Version](http://ghozylab.com/sample-1/)</em>)
 * A link (<em>[Pro Version](http://ghozylab.com/sample-1/)</em>)
 
@@ -51,7 +50,7 @@ Easy Media Gallery supports a wide range of media formats, and an even wider ran
 * Facebook
 * Google video
 * Showecho
-* HTML5 MP3 and MP4, WAV, MOV, M4V, M4A, FLV, AIFF
+* HTML5 MP3 and MP4, MOV, M4V, M4A, FLV
 
 It is a very customizable gallery and portfolio plugin that allow you to set display whatever you want like adjust colors, positions, grid, media sizes, hover effect and much more with one easy control panel. That easy control panel for experts it would save your time, and for you who do not have more knowledge about website styling, of course this plugin will allow you to manage your website much more easily. 
 
