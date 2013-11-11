@@ -545,6 +545,29 @@ function emg_dashboard_widget() {
 	}
 }
 
+
+function emg_share() {
+?>
+<div style="position:relative; margin-top:6px;">
+<ul class='easymedia-social' id='easymedia-cssanime'>
+<li class='easymedia-facebook'>
+<a onclick="window.open('http://www.facebook.com/sharer.php?s=100&amp;p[title]=Check out the Best Wordpress Portfolio and Gallery plugin&amp;p[summary]=Easy Media Gallery for WordPress that is powerful and so easy to create portfolio or media gallery&amp;p[url]=http://ghozylab.com/best-wordpress-grid-gallery-and-grid-portfolio-plugin/&amp;p[images][0]=<?php echo plugins_url( 'images/easymediabox.png' , dirname(__FILE__) ) ?>', 'sharer', 'toolbar=0,status=0,width=548,height=325');" href="javascript: void(0)" title="Share"><strong>Facebook</strong></a>
+</li>
+<li class='easymedia-twitter'>
+<a onclick="window.open('https://twitter.com/share?text=Check out the Best Wordpress Portfolio and Gallery Plugin &url=http://ghozylab.com/', 'sharer', 'toolbar=0,status=0,width=548,height=325');" title="Twitter" class="circle"><strong>Twitter</strong></a>
+</li>
+<li class='easymedia-googleplus'>
+<a onclick="window.open('https://plus.google.com/share?url=http://ghozylab.com/','','width=415,height=450');"><strong>Google+</strong></a>
+</li>
+<li class='easymedia-pinterest'>
+<a onclick="window.open('http://pinterest.com/pin/create/button/?url=http://ghozylab.com/;media=<?php echo plugins_url( 'images/easymediabox.png' , dirname(__FILE__) ) ?>;description=Easy Media Gallery for WordPress that is powerful and so easy to create portfolio or media gallery','','width=600,height=300');"><strong>Pinterest</strong></a>
+</li>
+</ul>
+</div>
+
+    <?php
+	}
+
 /*-------------------------------------------------------------------------------*/
 /*   Admin Notifications
 /*-------------------------------------------------------------------------------*/
@@ -677,7 +700,7 @@ function easymedia_comparison() {
   <div class="tsc_pricingtable03 tsc_pt3_style1" style="margin-bottom:110px; height:1330px;">
     <div class="caption_column">
       <ul>
-        <li class="header_row_1 align_center radius5_topleft"></li>
+        <li class="header_row_1 align_center radius5_topleft"><?php emg_share(); ?></li>
         <li class="header_row_2">
           <h2 class="caption">Easy Media Gallery</h2>
         </li> 
