@@ -1,7 +1,7 @@
 === Easy Media Gallery ===
 Contributors: GhozyLab
 Donate link: http://ghozylab.com/donate
-Tags: gallery, gallery wordpress plugin, best gallery plugin, album, wordpress gallery plugin, wp gallery, grid portfolio, photo album, widget, portfolio gallery, grid gallery, photo albums, wordpress portfolio plugin, filterable portfolio, filterable gallery, image album, admin, plugin, portfolio, html5 mp4, post, page, admin, posts, images, easy media gallery, responsive gallery plugin, responsive portfolio plugin, wp gallery plugin, photo slider, gallery album, portfolio wordpress plugin, pagination gallery, pagination portfolio, image slider, best portfolio plugin 
+Tags: gallery, gallery wordpress plugin, best gallery plugin, album, grid gallery, photo albums, wordpress portfolio plugin, filterable portfolio, filterable gallery, image album, admin, plugin, portfolio, html5 mp4, post, page, admin, posts, images, easy media gallery, responsive gallery plugin, responsive portfolio plugin, wp gallery plugin, photo slider, gallery album, portfolio wordpress plugin, pagination gallery, pagination portfolio, image slider, best portfolio plugin, wordpress gallery plugin, wp gallery, grid portfolio, photo album, widget, portfolio gallery
 Requires at least: 3.3
 Tested up to: 3.7.1
 Stable tag: 1.2.23
@@ -31,8 +31,7 @@ Easy Media Gallery is a wordpress plugin designed to display portfolios and vari
 * Filterable Media (<em>[Pro Version](http://ghozylab.com/wordpress-filterable-gallery-and-filterable-media-plugin/)</em>)
 * An image gallery/Photo Albums (<em>[Pro Version](http://ghozylab.com/sample-1/)</em>)
 * Media/Image Slider (<em>[Pro Version](http://ghozylab.com/wordpress-image-slider-and-media-slider-plugin/)</em>)
-* A video
-* Auto-retrieve YouTube and Vimeo Thumbnail (<em>Pro Version [learn more here](http://www.youtube.com/watch?v=uAGWUcs5ofE)</em>)
+* A video, Auto-retrieve YouTube and Vimeo Thumbnail (<em>Pro Version [learn more here](http://www.youtube.com/watch?v=uAGWUcs5ofE)</em>)
 * An mp3 player, embed from Reverbnation or Soundcloud (<em>[Pro Version](http://ghozylab.com/sample-1/)</em>)
 * Google Maps / Google Street View (<em>[Pro Version](http://ghozylab.com/sample-1/)</em>)
 * A link (<em>[Pro Version](http://ghozylab.com/sample-1/)</em>)
@@ -48,7 +47,6 @@ Easy Media Gallery supports a wide range of media formats, and an even wider ran
 * Livestream
 * YouKu
 * Facebook
-* Google video
 * Showecho
 * HTML5 MP3 and MP4, MOV, M4V, M4A, FLV
 
