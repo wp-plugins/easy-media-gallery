@@ -705,11 +705,11 @@ function easymedia_comparison() {
         <li class="row_style_4"><span>Media Style</span><a target="_blank" href="http://ghozylab.com/" style="text-decoration:underline !important;"> Click for Sample</a></li>
         <li class="row_style_2"><span>Pattern Overlay</span></li>
         <li class="row_style_4"><span>Powerfull Control Panel </span> <a href="<?php echo plugins_url( 'images/pro-version-control-panel.png' , dirname(__FILE__) ) ?>   " style="text-decoration:underline !important;">Click for Screenshot</a></li>
-        <li class="row_style_2"><span>Advanced Shortcode </span><a  class="thickbox" href="<?php echo plugins_url( 'images/pro-version-shortcode-manager.png' , dirname(__FILE__) ) ?>" style="text-decoration:underline !important;">Click for Screenshot</a></li>
+        <li class="row_style_2"><span>Advanced Shortcode </span><a href="<?php echo plugins_url( 'images/pro-version-shortcode-manager.png' , dirname(__FILE__) ) ?>" style="text-decoration:underline !important;">Click for Screenshot</a></li>
         <li class="row_style_4"><span>Facebook, Twitter &amp; Pinterest share buttons</span></li>
          <li class="row_style_2"><span>AJAX page/post load Support</span></li>
         <li class="row_style_2"><span>WP Multisite</span></li>
-        <li class="row_style_4"><span>Direct Support</span></li>
+        <li class="row_style_4"><span>Support</span></li>
         <li class="row_style_2"><span>Update</span></li>
         <li class="footer_row"></li>
       </ul>
