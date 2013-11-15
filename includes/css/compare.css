@@ -32,11 +32,10 @@ background:url("../images/yes.png") center top no-repeat;
 }
 
 div.tsc_pricingtable03 h1,
-div.tsc_pricingtable03 h2,
-div.tsc_pricingtable03 h3 { margin:1px; padding:1px !important; font-weight:normal !important; border:0 !important; line-height:normal !important;}
-div.tsc_pricingtable03 h1 { font-size:42px;}
+div.tsc_pricingtable03 h3 { margin-top:14px; padding:1px !important; font-weight:normal !important; border:0 !important; line-height:normal !important;}
+div.tsc_pricingtable03 h1 { font-size:44px;}
 div.tsc_pricingtable03 h1 span { font-size:49px;}
-div.tsc_pricingtable03 h2 { font-size:28px;}
+div.tsc_pricingtable03 h2 { font-size:20px; font-family: Verdana, Geneva, sans-serif; !important;  font-weight: normal !important;}
 div.tsc_pricingtable03 h3 { font-size:12px;}
 
 
