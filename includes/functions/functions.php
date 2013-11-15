@@ -824,7 +824,7 @@ function easymedia_comparison() {
      <div class="column_3">
       <ul>
         <li class="header_row_1 align_center">
-          <h2 class="col2">Dev Version</h2>
+          <h2 class="col2">Developer Version</h2>
         </li>
         <li class="header_row_2 align_center">
           <h1 class="col2">$<span><?php echo EASYMEDIA_DEV_PRICE; ?></span></h1>
