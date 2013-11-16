@@ -8,7 +8,7 @@ Stable tag: 1.2.23
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-This plugin enables you to create an awesome portfolio or photo gallery. Over 100,000 WordPress sites are already using Easy Media Gallery.
+This plugin enables you to create an awesome portfolio or photo gallery. Over 110,000 WordPress sites are already using Easy Media Gallery.
 
 
 == Description ==
