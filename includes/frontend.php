@@ -38,7 +38,8 @@ function easymedia_frontend_script() {
   		'vidautopb' => $autoplayb,  
   		'vidautopc' => $autoplayc, 
 		'vidautopd' => $autoplayd,	
-		'drclick' => $disenrclck,			
+		'drclick' => $disenrclck,
+		'ajaxcid' => easy_get_option( 'easymedia_ajax_con_id' ),					
   		'ajaxpth' => plugins_url( 'easyloader.php' , __FILE__ ),  
   		'ovrlayop' => easy_get_option( 'easymedia_overlay_opcty' ) / 100,   
 		);
@@ -69,8 +70,6 @@ ob_start(); ?>
 jQuery('.da-thumbs a[rel!="easymedia"]').attr('rel', function (i, old) {
     return old ? old + ' ' + add : add; });		
     });
-	
-	var fend = []; fend[1] = '<?php echo easy_get_option( 'easymedia_ajax_con_id' ); ?>';
     /*]]>*/</script>	
 
     <!--[if lt IE 9]>
