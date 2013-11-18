@@ -76,7 +76,7 @@ jQuery("#emgtinymce_select_method").multiselect({
 
 // END LOAD MEDIA
 
-	jQuery('#add_emg_shortcode_button').on("click", function () {
+	jQuery("body").delegate("#add_emg_shortcode_button","click",function(){	
 		
 			mg_H = 300;
 			mg_W = 550;
