@@ -90,3 +90,8 @@
 .sps_section .sps_input .ui-state-default {
 	border:none;
 }
+
+.sps_section .sps_input .ui-widget-content {
+    padding-bottom: 0px !important;
+    padding-top: 0px !important;
+}
