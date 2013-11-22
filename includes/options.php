@@ -161,7 +161,7 @@ array( "name" => "Thumbnail Border",
 	"std" => "1"),	
 	
 array( "name" => "Hover Style",
-	"desc" => "Enable or disable image hover effect.",
+	"desc" => "Enable or disable image hover effect.<br><br><a target='_blank' href='http://ghozylab.com/pricing/'>Upgrade</a> to PRO and you can set the title to show permanent on top or bottom position.",
 	"id" => $theshort."_disen_hovstyle",
 	"type" => "checkbox",
 	"std" => "1"),
