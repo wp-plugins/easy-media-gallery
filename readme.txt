@@ -120,6 +120,27 @@ Sometimes you may face problem that your images are not displaying in the site. 
 1. Paste the shortcode code and click save. Done!
 
 
+= Show a spinning icon and never finish loading =
+
+1. Firstly you should have FTP account, if you don't have, make one from cPanel.
+1. Now login to FTP and navigate to wordpress wp-content folder/directory in /wp-content/
+1. Look for a file named. htaccess, is there a line of code like the example below :
+
+`<Files *.php>
+
+deny from all
+
+</Files>`
+
+1. If exist, you have to remove it and try again to open your media. If still error please go to the next step.
+1. You can open the following URL in your browser, make sure to change <strong>XXX</strong> with your own domain name and what see what you get there? If you get Error message it means there is a php error caused by one of your plugin or theme. You can contact us [here](http://ghozylab.com/submit-support-request/) and provide your site URL, we will help you to solve it.
+
+<strong>Lite Version</strong>
+`http://www.XXX.com/wp-content/plugins/easy-media-gallery/includes/dynamic-style.php`
+
+<strong>PRO Version</strong>
+`http://www.XXX.com/wp-content/plugins/easy-media-gallery-pro/includes/dynamic-style.php`
+
 = How do I use the shortcode to my post/page template? =
 
 There are 2 ways to use the shortcode, once you've created your media, you can use them in your website simply using the Easy Media Gallery shortcode wizard on top of each page or post editor.
