@@ -84,7 +84,7 @@ array( "name" => "Style Options",
 array( "type" => "open"),
 
 array( "name" => "Media Box Style",
-	"desc" => "Select media box style. Default: Light<br><br><a target='_blank' href='http://ghozylab.com/pricing/'>Upgrade</a> to PRO and get more styles.",
+	"desc" => "Select media box style. Default: Light<br><br><a target='_blank' href='http://ghozylab.com/pricing/'>Upgrade</a> to PRO and get more styles such as Dark Style or Transparent Style.",
 	"id" => $theshort."_box_style",
 	"type" => "select",
 	"options" => array( "Light" ),
