@@ -2,7 +2,7 @@
 /*
 Plugin Name: Easy Media Gallery
 Plugin URI: http://www.ghozylab.com/
-Description: Easy Media Gallery Lite - Display videos (MP4, M4V, Youtube, Vimeo), images, and audio files with very easy and elegant. Allows you to customize all media to get it looking exactly what you want (Lite Version).
+Description: Easy Media Gallery (Lite Version) - Displaying your images, videos (MP4, M4V, Youtube, Vimeo) and audio files in elegant lightbox with very easy. Allows you to customize all media to get it looking exactly what you want. <a href="http://ghozylab.com/order" target="_blank"><strong> Upgrade to Pro Version Now</strong></a> and get a tons of awesome features.
 Author: GhozyLab, Inc.
 Version: 1.2.23
 Author URI: http://www.ghozylab.com/
