@@ -124,8 +124,8 @@ deny from all
 
 </Files>`
 
-1. If exist, you have to remove it and try again to open your media. If still error please go to the next step.
-1. You can open the following URL in your browser, make sure to change <strong>XXX</strong> with your own domain name and what see what you get there? If you get Error message it means there is a php error caused by one of your plugin or theme. You can contact us [here](http://ghozylab.com/submit-support-request/) and provide your site URL, we will help you to solve it.
+1. If exist, you have to remove it and try again to open your media. If still error please try the next step.
+1. You can open the following URL in your browser, make sure to change <strong>XXX</strong> with your own domain name and see what you get there? If you get Error message it means there is a php error caused by one of your plugin or theme. You can contact us [here](http://ghozylab.com/submit-support-request/) and provide your site URL, we will help you to solve it.
 
 <strong>Lite Version</strong>
 `http://www.XXX.com/wp-content/plugins/easy-media-gallery/includes/dynamic-style.php`
