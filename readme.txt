@@ -8,7 +8,7 @@ Stable tag: 1.2.23
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-This best gallery plugin enables you to create an awesome portfolio or photo gallery. Over 110,000 WordPress sites are already using Easy Media Gallery.
+The best Wordpress gallery plugin enables you to create an awesome portfolio or photo gallery. Over 110,000 sites are already using Easy Media Gallery
 
 
 == Description ==
