@@ -596,7 +596,7 @@ function easmedia_metabox_work(){
 	    $meta_box = array(
 		'id' => 'easmedia_metaboxmediaaudio',
 		'title' =>  __( 'Audio Options', 'easmedia' ),
-		'description' => __( 'Upload audio or paste audio URL on field below.', 'easmedia' ),
+		'description' => __( 'Upload audio or paste audio URL on field below. Is it possible to use audio external source.', 'easmedia' ),
 		'page' => 'easymediagallery',
 		'context' => 'normal',
 		'priority' => 'default',
