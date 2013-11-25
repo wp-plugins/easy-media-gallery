@@ -23,7 +23,7 @@ Easy Media Gallery is a wordpress plugin designed to display portfolios and vari
 > * [DEMO – Image / Media Slider](http://ghozylab.com/wordpress-image-slider-and-media-slider-plugin/)
 
 = Full media support =
-<p>Easy Media Gallery satisfy all your needs letting you create different types of portfolio or image gallery. Each item can be:</p> 
+<p>Easy Media Gallery plugin satisfy all your needs letting you create different types of wordpress portfolio or wordpress image gallery. Each item can be:</p> 
 
 * An image
 * Grid Gallery (<em>[Pro Version](http://ghozylab.com/best-wordpress-grid-gallery-and-grid-portfolio-plugin/)</em>)
@@ -37,7 +37,7 @@ Easy Media Gallery is a wordpress plugin designed to display portfolios and vari
 * A link (<em>[Pro Version](http://ghozylab.com/sample-1/)</em>)
 
 = Features =
-Easy Media Gallery supports a wide range of media formats, and an even wider range of social media sites. Simply link to any image, flash video, hosted video, mp3 audio or popular website, and the media will be automatically loaded into the overlay. Easy Media Gallery can be used to embed videos from :
+Easy Media Gallery supports a wide range of media formats. Simply link to any image, flash video, hosted video, mp3 audio or popular website, and the media will be automatically loaded into the overlay. Easy Media Gallery can be used to embed videos from :
 
 * YouTube / YouTube Playlist
 * Vimeo
