@@ -93,7 +93,7 @@ include_once( EASYMEDG_PLUGIN_DIR . 'includes/metaboxes.php' );
 include_once( EASYMEDG_PLUGIN_DIR . 'includes/shortcode.php' ); 
 include_once( EASYMEDG_PLUGIN_DIR . 'includes/tinymce-dlg.php' ); 
 include_once( EASYMEDG_PLUGIN_DIR . 'includes/taxonomy.php' );
-
+include_once( EASYMEDG_PLUGIN_DIR . 'includes/easywidget.php' );
 
 /*
 |--------------------------------------------------------------------------
