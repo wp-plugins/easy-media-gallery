@@ -4,7 +4,7 @@ class emg_sc_widget extends WP_Widget {
 
     // Create Widget
     function emg_sc_widget() {
-        parent::WP_Widget(false, $name = 'Easy Media Gallery', array('description' => 'Use this widget to add one of your media as a widget.'));
+        parent::WP_Widget(false, $name = 'Easy Media Gallery', array('description' => 'Use this widget to display your media as a widget.'));
     }
 
     // Widget Content
