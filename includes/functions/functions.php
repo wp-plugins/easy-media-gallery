@@ -697,6 +697,7 @@ function easymedia_comparison() {
     <div class="wrap">
         <div id="icon-edit" class="icon32 icon32-posts-easymedia"><br /></div>
         <h2><?php _e('Comparison', 'easmedia'); ?></h2>
+         <div class="emg-badge-com"><div class="badge-com-item"><img src="<?php echo plugins_url( 'images/best-seller.png' , dirname(__FILE__) ) ?>" /></div><div class="badge-com-item"><img src="<?php echo plugins_url( 'images/satisfaction-guaranteed.png' , dirname(__FILE__) ) ?>" /></div><div class="badge-com-item"><img src="<?php echo plugins_url( 'images/excelent-support.png' , dirname(__FILE__) ) ?>" /></div></div>       
   <div class="tsc_pricingtable03 tsc_pt3_style1" style="margin-bottom:110px; height:1330px;">
     <div class="caption_column">
       <ul>
