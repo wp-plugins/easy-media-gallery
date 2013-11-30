@@ -8,7 +8,7 @@ Stable tag: 1.2.23
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-The best Wordpress gallery plugin enables you to create an awesome portfolio or photo gallery. Over 110,000 sites are already using Easy Media Gallery
+The best Wordpress gallery plugin enables you to create an awesome portfolio or photo gallery. Over 110,000 sites are already using Easy Media Gallery.
 
 
 == Description ==
@@ -24,7 +24,7 @@ Easy Media Gallery is a wordpress plugin designed to display portfolios and vari
 > * [DEMO – Image / Media Slider](http://ghozylab.com/wordpress-image-slider-and-media-slider-plugin/)
 
 = Full media support =
-<p>Easy Media Gallery plugin satisfy all your needs letting you create different types of wordpress portfolio or wordpress image gallery. Each item can be:</p> 
+<p>Easy Media Gallery plugin satisfy all your needs letting you create different types of wordpress portfolio or wordpress media gallery. Each item can be:</p> 
 
 * An image
 * Grid Gallery (<em>[Pro Version](http://ghozylab.com/best-wordpress-grid-gallery-and-grid-portfolio-plugin/)</em>)
@@ -51,7 +51,7 @@ Easy Media Gallery supports a wide range of media formats. Simply link to any im
 * Showecho
 * HTML5 MP4, MOV, SWF, M4V, M4A, FLV
 
-It is a very customizable gallery and portfolio plugin that allow you to set display whatever you want like adjust colors, positions, grid, media sizes, hover effect and much more with one easy control panel. That easy control panel for experts it would save your time, and for you who do not have more knowledge about website styling, of course this plugin will allow you to manage your website much more easily. 
+It is a very customizable wordpress gallery and portfolio plugin that allow you to set display whatever you want like adjust colors, positions, grid, media sizes, hover effect and much more with one easy control panel. That easy control panel for experts it would save your time, and for you who do not have more knowledge about website styling, of course this plugin will allow you to manage your website much more easily. 
 
 = Examples =
 <p>http://www.youtube.com/watch?v=dXFBNY5t6E8</p>
