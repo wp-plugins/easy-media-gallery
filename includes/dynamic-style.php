@@ -100,7 +100,6 @@ span.zoom{
 background-image:url(../css/images/magnify/'.easy_get_option( 'easymedia_mag_icon' ).'.png); background-repeat:no-repeat; background-position:center;
 }';	
 
-}			
-			
+}
 
 ?>

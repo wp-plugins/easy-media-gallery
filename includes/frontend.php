@@ -57,8 +57,7 @@ function easymedia_frontend_prop()
 		
 ob_start(); ?>
 
-<link rel="stylesheet" href="<?php echo plugins_url('dynamic-style.php' , __FILE__) ?>" type="text/css" media="screen" />    
-
+<link rel="stylesheet" href="<?php echo plugins_url('dynamic-style.php' , __FILE__) ?>" type="text/css" media="screen" />
 
 <!-- Easy Media Gallery Lite START (version <?php echo EASYMEDIA_VERSION; ?>)-->       
     
