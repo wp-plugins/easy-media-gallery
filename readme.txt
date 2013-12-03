@@ -45,7 +45,10 @@ Easy Media Gallery supports a wide range of media formats. Simply link to any im
 * Veoh
 * DailyMotion
 * MetaCafe
+* Google Video
+* Ustream
 * Livestream
+* Rutube
 * YouKu
 * Facebook
 * Showecho
