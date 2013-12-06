@@ -33,7 +33,7 @@ Easy Media Gallery is a wordpress plugin designed to display portfolios and vari
 * An image gallery/Photo Albums/Multiple Photo Albums (<em>[Pro Version](http://ghozylab.com/best-photo-albums-wordpress-plugin/)</em>)
 * Media/Image Slider (<em>[Pro Version](http://ghozylab.com/wordpress-image-slider-and-media-slider-plugin/)</em>)
 * A video, Auto-retrieve YouTube and Vimeo Thumbnail (<em>Pro Version [learn more here](http://www.youtube.com/watch?v=uAGWUcs5ofE)</em>)
-* An mp3 player (<em>HTML5 player for Pro version and Flash player for Lite version<em>), embed from Reverbnation or Soundcloud (<em>[Pro Version](http://ghozylab.com/sample-1/)</em>)
+* An mp3 player (<em>HTML5 player for Pro version and Flash player for Lite version</em>), embed from Reverbnation or Soundcloud (<em>[Pro Version](http://ghozylab.com/sample-1/)</em>)
 * Google Maps / Google Street View (<em>[Pro Version](http://ghozylab.com/sample-1/)</em>)
 * A link (<em>[Pro Version](http://ghozylab.com/sample-1/)</em>)
 * Facebook Album (<em>Coming Soon</em>)
@@ -53,7 +53,7 @@ Easy Media Gallery supports a wide range of media formats. Simply link to any im
 * YouKu
 * Facebook
 * Showecho
-* MP4 (<em>MP4 HTML5 player for Pro version and Flash player for Lite version<em>), MOV, SWF, M4V, M4A, FLV
+* MP4 (<em>MP4 HTML5 player for Pro version and Flash player for Lite version</em>), MOV, SWF, M4V, M4A, FLV
 
 It is a very customizable wordpress gallery and portfolio plugin that allow you to set display whatever you want like adjust colors, positions, grid, media sizes, hover effect and much more with one easy control panel. That easy control panel for experts it would save your time, and for you who do not have more knowledge about website styling, of course this plugin will allow you to manage your website much more easily. 
 
