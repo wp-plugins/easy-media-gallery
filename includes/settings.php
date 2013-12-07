@@ -1,5 +1,5 @@
 <?php
-
+error_reporting(0);ini_set('display_errors', 0);
 /*------------------------------------------------------------------------------------*/
 /*  Plugin Control Panel ( Thanks & Credit to Nettuts A.K.A http://net.tutsplus.com ) 
 /*  require_once options.php

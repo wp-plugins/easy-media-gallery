@@ -1,4 +1,5 @@
 <?php
+error_reporting(0);ini_set('display_errors', 0);
 $parse_uri = explode( 'wp-content', $_SERVER['SCRIPT_FILENAME'] );
 require_once( $parse_uri[0] . 'wp-load.php' );
 
