@@ -4,7 +4,7 @@ Donate link: http://ghozylab.com/donate
 Tags: gallery, gallery wordpress plugin, best gallery plugin, album, twitter, links, grid gallery, photo albums, wordpress portfolio plugin, filterable portfolio, image album, image, google, filterable gallery, admin, plugin, post, page, admin, posts, images, easy media gallery, responsive gallery plugin, portfolio, html5 mp4, responsive portfolio plugin, wp gallery plugin, photo slider, gallery album, portfolio wordpress plugin, pagination gallery, pagination portfolio, image slider, best portfolio plugin, wordpress gallery plugin, wp gallery, grid portfolio, photo album, widget, portfolio gallery
 Requires at least: 3.3
 Tested up to: 3.7.1
-Stable tag: 1.2.23
+Stable tag: 1.2.25
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -206,6 +206,9 @@ But seriously, I just want to drink coffee for free, so help a developer out. Yo
 
 == Changelog ==
 
+= 1.2.25 =
+* Many other PHP, Javascript and CSS clean and optimization
+
 = 1.2.23 =
 * added : New Feature in pricing table
 * Update : New Price for DEV Version
@@ -359,5 +362,5 @@ But seriously, I just want to drink coffee for free, so help a developer out. Yo
 
 == Upgrade Notice ==
 
-= 1.2.23 =
+= 1.2.25 =
 New version available, update NOW!
