@@ -124,7 +124,7 @@ function easmedia_settings_link( $link, $file ) {
 		$this_plugin = plugin_basename( __FILE__ );
 
 	if ( $file == $this_plugin ) {
-		$settings_link = '<a href="' . admin_url( 'edit.php?post_type=easymediagallery&page=settings' ) . '">' . __( 'Settings', 'easmedia' ) . '</a>';
+		$settings_link = '<a href="' . admin_url( 'edit.php?post_type=easymediagallery&page=emg_settings' ) . '">' . __( 'Settings', 'easmedia' ) . '</a>';
 		array_unshift( $link, $settings_link );
 	}
 	

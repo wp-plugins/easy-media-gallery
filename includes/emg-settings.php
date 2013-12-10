@@ -13,14 +13,14 @@ add_action( 'admin_init', 'register_easy_setting' );
 
 function spg_add_admin() {
 global $emgplugname, $theshort, $theopt;
-if ( is_admin() && ( isset( $_GET['page'] ) == 'settings' ) && ( isset( $_GET['post_type'] ) == 'easymediagallery' ) ){
+if ( is_admin() && ( isset( $_GET['page'] ) == 'emg_settings' ) && ( isset( $_GET['post_type'] ) == 'easymediagallery' ) ){
  
 	if ( isset( $_REQUEST['action'] ) && 'save' == $_REQUEST['action'] ) {
 		$curtosv = get_option( 'easy_media_opt' );
 		foreach ( $theopt as $theval ) {
 					$curtosv[ $theval['id'] ] = $_REQUEST[ $theval['id'] ];
 		update_option( 'easy_media_opt', $curtosv ); }
-	header("Location: edit.php?post_type=easymediagallery&page=settings&saved=true");
+	header("Location: edit.php?post_type=easymediagallery&page=emg_settings&saved=true");
 die;
  
 } 
@@ -30,7 +30,7 @@ else if ( isset( $_REQUEST['action'] ) && 'reset' == $_REQUEST['action'] ) {
  easymedia_restore_to_default($_REQUEST['action']);
 // END
 
-header("Location: edit.php?post_type=easymediagallery&page=settings&reset=true");
+header("Location: edit.php?post_type=easymediagallery&page=emg_settings&reset=true");
 die;
 }}
  
@@ -39,7 +39,7 @@ die;
 		__('Easy Media Gallery Settings', 'easmedia' ),
 		__( 'Settings', 'easmedia' ),
 		'manage_options',
-		'settings',
+		'emg_settings',
 		'spg_admin'
 	);
 	
@@ -51,7 +51,7 @@ die;
 | REGISTER & ENQUEUE SCRIPTS/STYLES ONLY for a Specific Post Type 
 |--------------------------------------------------------------------------
 */			
-if ( is_admin() && ( isset( $_GET['page'] ) == 'settings' ) && ( isset( $_GET['post_type'] ) == 'easymediagallery' ) ){
+if ( is_admin() && ( isset( $_GET['page'] ) == 'emg_settings' ) && ( isset( $_GET['post_type'] ) == 'easymediagallery' ) ){
 	
 	add_action( "admin_head", 'easymedia_admin_head_script' );
 	add_action( 'admin_enqueue_scripts', 'easymedia_cp_script' );
