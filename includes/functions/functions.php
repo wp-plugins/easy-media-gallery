@@ -25,7 +25,7 @@ function easy_get_option( $name ){
 /*   ADMIN Register JS & CSS
 /*-------------------------------------------------------------------------------*/
 function easymedia_reg_script() {
-	// CSS ( settings.php, tinymce-dlg.php, metaboxes.php )
+	// CSS ( emg-settings.php, tinymce-dlg.php, metaboxes.php )
 	wp_register_style( 'easymedia-cpstyles', plugins_url( 'css/funcstyle.css' , dirname(__FILE__) ), false, EASYMEDIA_VERSION, 'all');
 	wp_register_style( 'easymedia-colorpickercss', plugins_url( 'css/colorpicker.css' , dirname(__FILE__) ), false, EASYMEDIA_VERSION );
 	wp_register_style( 'easymedia-sldr', plugins_url( 'css/slider.css' , dirname(__FILE__) ), false, EASYMEDIA_VERSION );
@@ -37,13 +37,13 @@ function easymedia_reg_script() {
 	wp_register_style( 'easymedia-comparison-css', plugins_url( 'css/compare.css' , dirname(__FILE__) ), false, EASYMEDIA_VERSION );
 	wp_register_style( 'jquery-messi-css', plugins_url( 'css/messi.css' , dirname(__FILE__) ), false, EASYMEDIA_VERSION );
 	
-	// JS ( settings.php ) 
+	// JS ( emg-settings.php ) 
 	wp_register_script( 'easymedia-jquery-easing', plugins_url( 'js/jquery/jquery.easing.js' , dirname(__FILE__) ) );	
 	wp_register_script( 'easymedia-colorpicker', plugins_url( 'js/colorpicker/colorpicker.js' , dirname(__FILE__) ) );	
 	wp_register_script( 'colorpicker-eye', plugins_url( 'js/colorpicker/eye.js' , dirname(__FILE__) ) );
 	wp_register_script( 'colorpicker-utils', plugins_url( 'js/colorpicker/utils.js' , dirname(__FILE__) ) );
 	
-	// JS ( tinymce-dlg.php, settings.php ) 
+	// JS ( tinymce-dlg.php, emg-settings.php ) 
 	wp_register_script( 'jquery-multi-sel', plugins_url( 'js/jquery/multiselect/jquery.multiselect.js' , dirname(__FILE__) ) );
 	
 	// JS ( metaboxes.php, ) 
@@ -78,7 +78,7 @@ require_once (EASYMEDG_PLUGIN_DIR . 'includes/options.php');
 /*-------------------------------------------------------------------------------*/
 /*   Load Control Panel
 /*-------------------------------------------------------------------------------*/
-include_once( EASYMEDG_PLUGIN_DIR . 'includes/settings.php' );
+include_once( EASYMEDG_PLUGIN_DIR . 'includes/emg-settings.php' );
 
 /*-------------------------------------------------------------------------------*/
 /*   Load Front End Script

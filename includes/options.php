@@ -3,7 +3,7 @@
 /*------------------------------------------------------------------------------------*/
 /*  Easy Media Gallery Lite Version
 /*  Option Control Panel
-/*  require_once settings.php
+/*  require_once emg-settings.php
 /*------------------------------------------------------------------------------------*/
 
 // VARIABLES
