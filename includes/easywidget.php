@@ -32,7 +32,7 @@ class emg_sc_widget extends WP_Widget {
         $emg_shortcode = strip_tags($instance['emg_shortcode']);
         ?>
             <p>
-                <label for="<?php echo $this->get_field_id('emg_shortcode'); ?>">Shortcode: </label>
+                <label for="<?php echo $this->get_field_id('emg_shortcode'); ?>">Make sure to generate the shortcode from post or page, copy the shortcode and paste to the following field.</label>
                 <textarea rows="5" class="widefat" id="<?php echo $this->get_field_id('emg_shortcode'); ?>" name="<?php echo $this->get_field_name('emg_shortcode'); ?>"><?php echo attribute_escape($emg_shortcode); ?></textarea>
             </p>
         <?php       
