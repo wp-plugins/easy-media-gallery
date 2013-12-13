@@ -58,7 +58,7 @@ Easy Media Gallery supports a wide range of media formats. Simply link to any im
 
 It is a very customizable wordpress gallery and portfolio plugin that allow you to set display whatever you want like adjust colors, positions, grid, media sizes, hover effect and much more with one easy control panel. That easy control panel for experts it would save your time, and for you who do not have more knowledge about website styling, of course this plugin will allow you to manage your website much more easily. 
 
-= Examples =
+= LITE VERSION Example =
 <p>http://www.youtube.com/watch?v=dXFBNY5t6E8</p>
 
 * You can learn more by watching the video from [our youtube channel](http://www.youtube.com/GhozyLab).
@@ -77,7 +77,7 @@ It is a very customizable wordpress gallery and portfolio plugin that allow you 
 > * Powerfull control panel and Shortcode Manager make getting started super easy
 > * 24/7 Technical Support
 
-= PRO VERSION Examples =
+= PRO VERSION Example =
 <p>http://www.youtube.com/watch?v=TQ1MMxhsyD8</p>
 
 
