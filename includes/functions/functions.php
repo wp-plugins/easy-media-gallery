@@ -12,7 +12,7 @@
  
  /*
 |--------------------------------------------------------------------------
-| Easymedia Get Control Panel Options
+| Easymedia (Lite) Get Control Panel Options
 |--------------------------------------------------------------------------
 */
 function easy_get_option( $name ){
