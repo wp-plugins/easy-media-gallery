@@ -12,8 +12,6 @@ else {
 
 function ajax_req_handle( $id ) {
 	
-	//global $post;
-	
 	$boxmediattl = get_post_meta( $id, 'easmedia_metabox_title', true );
 	$boxmediasbttl = get_post_meta( $id, 'easmedia_metabox_sub_title', true );
 	$imgsrc = get_post_meta( $id, 'easmedia_metabox_img', true );
