@@ -151,8 +151,6 @@ echo '<div class="pfwrpr"><div id="alignstyle" class="easymedia_'.$cus_align.'">
     //rewind_posts();
     echo '</div>'; //closes the column div
   endfor;
-  //next_posts_link('&laquo; Older Entries');
-  //previous_posts_link('Newer Entries &raquo;');
 else:
   echo '<div class="pfwrpr"><div class="alignstyle"><div class="thecol">'; ?>
   <div class="view"><img src="<?php echo plugins_url('images/ajax-loader.gif' , __FILE__); ?>" width="32" height="32"/></div>
