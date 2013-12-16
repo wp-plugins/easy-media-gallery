@@ -388,7 +388,7 @@ function emg_hide_post_view() {
 
 add_action( 'admin_head-post-new.php', 'emg_hide_post_view' );
 add_action( 'admin_head-post.php', 'emg_hide_post_view' );
-add_filter( 'post_row_actions', 'emg_remove_row_actions', 10, 1 );
+add_filter( 'post_row_actions', 'emg_remove_row_actions', 10, 1 ); // <--- comment this to show post quick edit.
 
 function emg_remove_row_actions( $actions )
 {
