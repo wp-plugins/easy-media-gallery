@@ -4,11 +4,11 @@ Donate link: http://ghozylab.com/donate
 Tags: gallery, best gallery plugin, album, twitter, photo gallery plugin, gallery wordpress plugin, responsive gallery plugin, links, grid gallery, photo albums, wordpress portfolio plugin, filterable portfolio, seo image, image album, image, google, filterable gallery, admin, plugin, post, page, admin, posts, images, easy media gallery, responsive gallery plugin, portfolio, html5 mp4, responsive portfolio plugin, wp gallery plugin, photo slider,  image slider, best portfolio plugin, wordpress gallery plugin, wp gallery, grid portfolio, photo album, widget, portfolio gallery, gallery album, portfolio wordpress plugin, pagination gallery, pagination portfolio
 Requires at least: 3.3
 Tested up to: 3.8
-Stable tag: 1.2.25
+Stable tag: 1.2.27
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-The best Wordpress gallery plugin enables you to create an portfolio or photo gallery. Over 120,000 sites are already using Easy Media Gallery.
+The best Wordpress gallery plugin enables you to create an portfolio or photo gallery. Over 125,000 sites are already using Easy Media Gallery.
 
 
 == Description ==
@@ -206,6 +206,10 @@ But seriously, I just want to drink coffee for free, so help a developer out. Yo
 
 == Changelog ==
 
+= 1.2.27 =
+* Fixed : Security bugs reported by Nikolai Tschacher
+* Fixed : Small bugs and improvements
+
 = 1.2.25 =
 * Many other PHP, Javascript and CSS clean and optimization
 
@@ -362,5 +366,5 @@ But seriously, I just want to drink coffee for free, so help a developer out. Yo
 
 == Upgrade Notice ==
 
-= 1.2.25 =
-New version available, update NOW!
+= 1.2.27 =
+IMPORTANT! Security bugs fix, update NOW!

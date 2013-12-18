@@ -13,18 +13,20 @@ add_action( 'admin_init', 'register_easy_setting' );
 
 function spg_add_admin() {
 global $emgplugname, $theshort, $theopt;
-if ( is_admin() && ( isset( $_GET['page'] ) == 'emg_settings' ) && ( isset( $_GET['post_type'] ) == 'easymediagallery' ) ){
- 
-	if ( isset( $_REQUEST['action'] ) && 'save' == $_REQUEST['action'] ) {
-		$curtosv = get_option( 'easy_media_opt' );
-		foreach ( $theopt as $theval ) {
-					$curtosv[ $theval['id'] ] = $_REQUEST[ $theval['id'] ];
-		update_option( 'easy_media_opt', $curtosv ); }
-	header("Location: edit.php?post_type=easymediagallery&page=emg_settings&saved=true");
-die;
- 
-} 
-else if ( isset( $_REQUEST['action'] ) && 'reset' == $_REQUEST['action'] ) {
+$emg_lite_nonce = wp_create_nonce( 'emg_lite_cp_nonce' );
+if( wp_verify_nonce( $emg_lite_nonce, 'emg_lite_cp_nonce' ) ){
+	if ( is_admin() && ( isset( $_GET['page'] ) == 'emg_settings' ) && ( isset( $_GET['post_type'] ) == 'easymediagallery' ) ){
+		
+		if ( isset( $_REQUEST['action'] ) && 'save' == $_REQUEST['action'] ) {
+			$curtosv = get_option( 'easy_media_opt' );
+			foreach ( $theopt as $theval ) {
+				$curtosv[ $theval['id'] ] = $_REQUEST[ $theval['id'] ];
+				update_option( 'easy_media_opt', $curtosv ); }
+				header("Location: edit.php?post_type=easymediagallery&page=emg_settings&saved=true");
+				die;
+				}
+								
+			else if ( isset( $_REQUEST['action'] ) && 'reset' == $_REQUEST['action'] ) {
  
  // RESTORE DEFAULT SETTINGS
  easymedia_restore_to_default($_REQUEST['action']);
@@ -32,7 +34,14 @@ else if ( isset( $_REQUEST['action'] ) && 'reset' == $_REQUEST['action'] ) {
 
 header("Location: edit.php?post_type=easymediagallery&page=emg_settings&reset=true");
 die;
-}}
+		}
+	}
+
+	}
+	
+    else{ //the nonce is invalid
+        die('Sorry, your nonce did not verify, your request couldn\'t be executed. Please try again.');
+    }
  
  	add_submenu_page(
 		'edit.php?post_type=easymediagallery',
