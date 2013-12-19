@@ -53,10 +53,10 @@ if ( version_compare(PHP_VERSION, '5.2', '<') ) {
 |--------------------------------------------------------------------------
 */
 if ( is_admin() ) {
-	if (!extension_loaded('gd') && !function_exists('gd_info')) {
+	if ( !extension_loaded('gd') && !function_exists('gd_info') ) {
 		require_once ABSPATH.'/wp-admin/includes/plugin.php';
 		deactivate_plugins( __FILE__ );
-	    wp_die( "<strong>GD Library</strong> for PHP is not installed. Easy Media Gallery Lite requires it to function properly. The plugin has now disabled itself. Please ask your hosting provider for this issue.<br /><br />Back to <a href='".admin_url()."'>WordPress admin</a>" );
+	    wp_die( "<strong>GD Library</strong> for PHP is not installed on your server. Easy Media Gallery Lite requires it to function properly. The plugin has now disabled itself. Please ask your hosting provider for this issue.<br /><br />Back to <a href='".admin_url()."'>WordPress admin</a>" );
 		}
 }
 
