@@ -13,10 +13,7 @@ add_action( 'admin_init', 'register_easy_setting' );
 
 function spg_add_admin() {
 global $emgplugname, $theshort, $theopt;
-$emg_lite_nonce = wp_create_nonce( 'emg_lite_cp_nonce' );
-if( wp_verify_nonce( $emg_lite_nonce, 'emg_lite_cp_nonce' ) ){
-	if ( is_admin() && ( isset( $_GET['page'] ) == 'emg_settings' ) && ( isset( $_GET['post_type'] ) == 'easymediagallery' ) ){
-		
+	if ( is_admin() && ( isset( $_GET['page'] ) == 'emg_settings' ) && ( isset( $_GET['post_type'] ) == 'easymediagallery' ) ){		
 		if ( isset( $_REQUEST['action'] ) && 'save' == $_REQUEST['action'] ) {
 			$curtosv = get_option( 'easy_media_opt' );
 			foreach ( $theopt as $theval ) {
@@ -36,12 +33,6 @@ header("Location: edit.php?post_type=easymediagallery&page=emg_settings&reset=tr
 die;
 		}
 	}
-
-	}
-	
-    else{ //the nonce is invalid
-        die('Sorry, your nonce did not verify, your request couldn\'t be executed. Please try again.');
-    }
  
  	add_submenu_page(
 		'edit.php?post_type=easymediagallery',
