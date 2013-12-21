@@ -40,7 +40,7 @@ function easymedia_frontend_script() {
 		'vidautopd' => $autoplayd,	
 		'drclick' => $disenrclck,
 		'ajaxcid' => easy_get_option( 'easymedia_ajax_con_id' ),					
-  		'ajaxpth' => plugins_url( 'easyloader.php' , __FILE__ ),  
+  		'ajaxpth' => wp_make_link_relative( plugins_url( 'easyloader.php' , __FILE__ ) ),  
   		'ovrlayop' => easy_get_option( 'easymedia_overlay_opcty' ) / 100,   
 		);
 
