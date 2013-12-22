@@ -4,7 +4,7 @@ Donate link: http://ghozylab.com/donate
 Tags: gallery, best gallery plugin, album, photo gallery plugin, gallery wordpress plugin, responsive gallery plugin, links, grid gallery, photo albums, wordpress portfolio plugin, filterable portfolio, seo image, twitter, image album, image, google, filterable gallery, admin, plugin, post, page, admin, posts, images, easy media gallery, responsive gallery plugin, portfolio, html5 mp4, responsive portfolio plugin, wp gallery plugin, photo slider,  image slider, best portfolio plugin, wordpress gallery plugin, wp gallery, grid portfolio, photo album, widget, portfolio gallery, gallery album, portfolio wordpress plugin, pagination gallery, pagination portfolio
 Requires at least: 3.3
 Tested up to: 3.8
-Stable tag: 1.2.27
+Stable tag: 1.2.29
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -206,6 +206,10 @@ But seriously, I just want to drink coffee for free, so help a developer out. Yo
 
 == Changelog ==
 
+= 1.2.29 =
+* Fixed : New Patch for Security bugs reported by Nikolai Tschacher
+* Fixed : change Ajax relative path with wp_make_link_relative
+
 = 1.2.27 =
 * Fixed : Security bugs reported by Nikolai Tschacher
 * Fixed : Small bugs and improvements
@@ -366,5 +370,5 @@ But seriously, I just want to drink coffee for free, so help a developer out. Yo
 
 == Upgrade Notice ==
 
-= 1.2.27 =
+= 1.2.29 =
 IMPORTANT! Security bugs fix, update NOW!
