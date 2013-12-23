@@ -674,7 +674,7 @@ function easmedia_easymedia_docs() {
 /*   Comparison Page
 /*-------------------------------------------------------------------------------*/
 function easmedia_create_comparison_page() {
-    $easmedia_comparison_page = add_submenu_page('edit.php?post_type=easymediagallery', 'Comparison', __('Get More Features', 'easmedia'), 'edit_posts', 'comparison', 'easymedia_comparison');
+    $easmedia_comparison_page = add_submenu_page('edit.php?post_type=easymediagallery', 'Comparison', __('UPGRADE to PRO', 'easmedia'), 'edit_posts', 'comparison', 'easymedia_comparison');
 }
 add_action( 'admin_menu', 'easmedia_create_comparison_page' );
 
