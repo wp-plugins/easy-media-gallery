@@ -60,6 +60,8 @@ if ( is_admin() ) {
 		}
 }
 
+// Learn more here http://www.webassist.com/tutorials/Enabling-the-GD-library-setting
+
 
 /*
 |--------------------------------------------------------------------------
