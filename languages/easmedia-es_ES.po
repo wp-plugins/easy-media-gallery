@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Easy Media Gallery v1.2.29\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2013-12-23 22:08:20+0000\n"
+"PO-Revision-Date: 2013-12-25 04:42:12+0000\n"
 "Last-Translator: GhozyLab <lang@ghozylab.com>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -381,7 +381,7 @@ msgstr "Actualizar a PRO"
 #: includes/metaboxes.php:537
 #@ easmedia
 msgid "<div class=\"emginfobox\">Upgrade to PRO and you can select Image Gallery, Grid Gallery, Photo Albums, Filterable Media, HTML5 Video/Audio, Google Maps/Street View, embed from Soundcloud or Reverbnation and also Link to specific URL. You can learn more and see version comparison <a href=\"edit.php?post_type=easymediagallery&page=comparison\">here</a> or go to Pro Version DEMO <a href=\"http://ghozylab.com/best-wordpress-grid-gallery-and-grid-portfolio-plugin/\" target=\"_blank\">here</a></div><br>Select videos, images, gallery or audio files."
-msgstr ""
+msgstr "<div class=\"emginfobox\">Actualizar a PRO and you can select Image Gallery, Grid Gallery, Photo Albums, Filterable Media, HTML5 Video/Audio, Google Maps/Street View, embed from Soundcloud or Reverbnation and also Link to specific URL. You can learn more and see version comparison <a href=\"edit.php?post_type=easymediagallery&page=comparison\">here</a> or go to Pro Version DEMO <a href=\"http://ghozylab.com/best-wordpress-grid-gallery-and-grid-portfolio-plugin/\" target=\"_blank\">here</a></div><br>Select videos, images, gallery or audio files."
 
 #: includes/metaboxes.php:599
 #@ easmedia
