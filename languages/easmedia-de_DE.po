@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Easy Media Gallery v1.2.29\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2013-12-23 22:06:45+0000\n"
+"PO-Revision-Date: 2013-12-25 17:35:03+0000\n"
 "Last-Translator: GhozyLab <lang@ghozylab.com>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -24,7 +24,7 @@ msgstr ""
 #: includes/emg-settings.php:41
 #@ easmedia
 msgid "Settings"
-msgstr ""
+msgstr "Instellingen"
 
 #: easy-media-gallery.php:159
 #@ default
@@ -41,7 +41,7 @@ msgstr ""
 #: easy-media-gallery.php:161
 #@ easmedia
 msgid "Add New Media"
-msgstr ""
+msgstr "Nieuwe Media"
 
 #: easy-media-gallery.php:162
 #@ easmedia
@@ -56,7 +56,7 @@ msgstr ""
 #: easy-media-gallery.php:164
 #@ easmedia
 msgid "New Media"
-msgstr ""
+msgstr "Nieuwe Media"
 
 #: easy-media-gallery.php:165
 #@ easmedia
@@ -110,7 +110,7 @@ msgstr ""
 #@ easmedia
 #@ default
 msgid "Categories"
-msgstr ""
+msgstr "Categorieën"
 
 #: easy-media-gallery.php:244
 #@ easmedia
@@ -163,7 +163,7 @@ msgstr ""
 #: includes/functions/functions.php:604
 #@ easmedia
 msgid "Documentation"
-msgstr ""
+msgstr "Documentatie"
 
 #: includes/functions/functions.php:605
 #@ easmedia
