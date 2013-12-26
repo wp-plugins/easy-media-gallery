@@ -417,7 +417,7 @@ function emg_remove_row_actions( $actions )
 /*-------------------------------------------------------------------------------*/
 /*   Executing shortcode inside the_excerpt() and sidebar/widget
 /*-------------------------------------------------------------------------------*/
-add_filter('widget_text', 'do_shortcode', 11);
+add_filter('widget_text', 'do_shortcode', 11); // <--- comment this to disable media in widget.
 add_filter( 'the_excerpt', 'shortcode_unautop');
 add_filter( 'the_excerpt', 'do_shortcode');  
 
