@@ -61,7 +61,7 @@ It is a very customizable wordpress gallery and portfolio plugin that allow you 
 = LITE VERSION Example =
 <p>http://www.youtube.com/watch?v=dXFBNY5t6E8</p>
 
-* You can learn more by watching the video from [our youtube channel](http://www.youtube.com/GhozyLab).
+* You can learn more by watching the video from [YouTube Channel](http://www.youtube.com/GhozyLab).
 
 
 > #### **Upgrade to Easy Media Gallery Pro**
