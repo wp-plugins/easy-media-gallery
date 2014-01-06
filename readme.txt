@@ -1,7 +1,7 @@
 === Easy Media Gallery ===
 Contributors: GhozyLab
 Donate link: http://ghozylab.com/donate
-Tags: gallery, best gallery plugin, album, photo albums, photo gallery plugin, gallery wordpress plugin, responsive gallery plugin, grid gallery, wordpress portfolio plugin, filterable portfolio, admin, plugin, post, links, page, admin, posts, images, responsive gallery plugin, seo image, twitter, image album, image, google, filterable gallery, portfolio, html5 mp4, responsive portfolio plugin, wp gallery plugin, photo slider,  image slider, best portfolio plugin, wordpress gallery plugin, wp gallery, grid portfolio, photo album, widget, portfolio gallery, gallery album, portfolio wordpress plugin, pagination gallery, pagination portfolio
+Tags: gallery, best gallery plugin, album, photo albums, photo gallery plugin, gallery wordpress plugin, responsive gallery plugin, grid gallery, wordpress portfolio plugin, filterable portfolio, admin, plugin, post, links, page, admin, posts, images, responsive gallery plugin, seo image, twitter, image album, image, google, filterable gallery, portfolio, html5 mp4, responsive portfolio, wp gallery plugin, photo slider, image slider, best portfolio plugin, wordpress gallery plugin, wp gallery, grid portfolio, photo album, widget, gallery album, portfolio wordpress plugin, pagination gallery, pagination portfolio
 Requires at least: 3.3
 Tested up to: 3.8
 Stable tag: 1.2.29
