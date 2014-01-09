@@ -53,11 +53,13 @@ add_action( 'wp_enqueue_scripts', 'easymedia_frontend_script' );
 function easymedia_frontend_prop()
 {   
 		$boxstyle = EASYMEDG_PLUGIN_URL . 'css/styles/mediabox';
+		$dinstyle = wp_make_link_relative ( plugins_url('dynamic-style.php' , __FILE__) ); //@since 1.2.29
 		echo "<link rel=\"stylesheet\" type=\"text/css\" media=\"screen,projection\" href=\"$boxstyle/Light.css\" />\n";
+		echo "<link rel=\"stylesheet\" type=\"text/css\" media=\"screen\" href=\"$dinstyle\" />\n"; //@since 1.2.29
 		
 ob_start(); ?>
-
-<link rel="stylesheet" href="<?php echo plugins_url('dynamic-style.php' , __FILE__) ?>" type="text/css" media="screen" />
+<!--@since 1.2.29-->
+<!--<link rel="stylesheet" href="<?php /* echo plugins_url('dynamic-style.php' , __FILE__) */?>" type="text/css" media="screen" />-->
 
 <!-- Easy Media Gallery Lite START (version <?php echo EASYMEDIA_VERSION; ?>)-->       
     
