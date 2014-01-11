@@ -98,7 +98,7 @@ if ( !defined( 'EASYMEDIA_PRICE' ) ) {
 
 // Dev Price
 if ( !defined( 'EASYMEDIA_DEV_PRICE' ) ) {
-	define( 'EASYMEDIA_DEV_PRICE', '65' );
+	define( 'EASYMEDIA_DEV_PRICE', '99' );
 }
 
 
