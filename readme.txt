@@ -35,7 +35,7 @@ Easy Media Gallery is a wordpress plugin designed to display various media suppo
 * A video, Auto-retrieve YouTube and Vimeo Thumbnail (<em>Pro Version [learn more here](http://www.youtube.com/watch?v=uAGWUcs5ofE)</em>)
 * An mp3 player (<em>HTML5 player for Pro version and Flash player for Lite version</em>), embed from Reverbnation or Soundcloud (<em>[Pro Version](http://ghozylab.com/sample-1/)</em>)
 * Google Maps / Google Street View (<em>[Pro Version](http://ghozylab.com/sample-1/)</em>)
-* A link (<em>[Pro Version](http://ghozylab.com/sample-1/)</em>)
+* A link to specific URL (<em>[Pro Version](http://ghozylab.com/wordpress-filterable-gallery-and-filterable-media-plugin/)</em>) - see LINK tab
 * S.E.O. for Images (<em>Pro Version</em>)
 
 = Features =
