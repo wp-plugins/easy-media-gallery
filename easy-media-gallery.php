@@ -186,6 +186,7 @@ function easmedia_post_type() {
 		'rewrite' 			=> array( 'slug' => 'easymedia', 'with_front' => false ),
 		'supports' 			=> $supports,
 		'menu_position' 	=> 20,
+		'menu_icon' =>  plugins_url( 'includes/images/easymedia-icon-new.png' , __FILE__ ),		
 		'taxonomies'		=> $taxonomies
 	);
 
@@ -208,14 +209,14 @@ function easmedia_easymediagallery_icons() { ?>
     <style type="text/css" media="screen">
 	
 	/* Easy Media Gallery */
-
+	/*
         #menu-posts-easymediagallery .wp-menu-image {
-            background: url(<?php echo plugins_url( 'includes/images/easymedia-icon.png' , __FILE__ )?>) no-repeat 7px 6px !important;
+            background: url(<?php //echo plugins_url( 'includes/images/easymedia-icon.png' , __FILE__ )?>) no-repeat 7px 6px !important;
         }
 		#menu-posts-easymediagallery:hover .wp-menu-image, 
 		#menu-posts-easymediagallery.wp-has-current-submenu .wp-menu-image {
             background-position:7px -17px !important;
-        }
+        }*/
 		#icon-edit.icon32-posts-easymediagallery {
 		    background: url(<?php echo plugins_url( 'includes/images/easymedia-32x32.png' , __FILE__ )?>) no-repeat top left transparent !important;
 		}
