@@ -186,7 +186,7 @@ function easmedia_post_type() {
 		'rewrite' 			=> array( 'slug' => 'easymedia', 'with_front' => false ),
 		'supports' 			=> $supports,
 		'menu_position' 	=> 20,
-		'menu_icon' =>  plugins_url( 'includes/images/easymedia-icon-new.png' , __FILE__ ),		
+		'menu_icon' =>  plugins_url( 'includes/images/easymedia-cp-icon.png' , __FILE__ ),		
 		'taxonomies'		=> $taxonomies
 	);
 
