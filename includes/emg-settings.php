@@ -12,7 +12,7 @@ add_action( 'admin_init', 'register_easy_setting' );
 
 
 function spg_add_admin() {
-	 if ( strpos( $_REQUEST['_wp_http_referer'], 'post_type=easymediagallery&page=emg_settings' ) !== FALSE && isset( $_REQUEST['_wpnonce'] ) && check_admin_referer( 'easy_options_group-options' ) ) { // Thanks to Nikolai Tschacher for this security patch
+	 if (  isset($_POST['_wp_http_referer']) && strpos( $_REQUEST['_wp_http_referer'], 'post_type=easymediagallery&page=emg_settings' ) !== FALSE && isset( $_REQUEST['_wpnonce'] ) && check_admin_referer( 'easy_options_group-options' ) ) { // Thanks to Nikolai Tschacher for this security patch
 global $emgplugname, $theshort, $theopt;
 	if ( is_admin() && ( isset( $_GET['page'] ) == 'emg_settings' ) && ( isset( $_GET['post_type'] ) == 'easymediagallery' ) ){		
 		if ( isset( $_REQUEST['action'] ) && 'save' == $_REQUEST['action'] ) {
