@@ -13,6 +13,7 @@ The best Wordpress gallery plugin enables you to create an portfolio or photo ga
 
 == Description ==
 
+### [Best Photo Gallery - Photo Albums - Grid Gallery Plugin](http://ghozylab.com/best-photo-albums-wordpress-plugin/)  
 Easy Media Gallery is a wordpress plugin designed to display various media support including grid gallery, gallery sets, galleries, photo albums, multiple photo albums, portfolio, photo gallery or image gallery, image slider, google maps and google street view, video, audio and link with very ease, fancy and elegant.
 
 > #### **Live Demos**
