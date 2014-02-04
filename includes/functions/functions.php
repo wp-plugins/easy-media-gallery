@@ -403,7 +403,6 @@ function easymedia_imgresize_ajax() {
 }
 add_action( 'wp_ajax_easymedia_imgresize_ajax', 'easymedia_imgresize_ajax' );
 
-
 /*-------------------------------------------------------------------------------*/
 /*  Get WP Info
 /*-------------------------------------------------------------------------------*/
@@ -440,13 +439,13 @@ if ( is_multisite() ) {
 	$the_plugs = get_site_option('active_sitewide_plugins');
 	foreach($the_plugs as $key => $value) {
 		$string = explode('/',$key);
-		echo "  ".$string[0] ."\n";
+		echo " &nbsp;&nbsp;&nbsp;&nbsp;".$string[0] ."\n";
 	}
 } else {
 	$the_plugs = get_option('active_plugins');
 	foreach($the_plugs as $key => $value) {
 		$string = explode('/',$value);
-        echo "  ".$string[0] ."\n";
+        echo " &nbsp;&nbsp;&nbsp;&nbsp;".$string[0] ."\n";
 		}
 	}
 }
