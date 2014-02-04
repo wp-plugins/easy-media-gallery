@@ -403,6 +403,54 @@ function easymedia_imgresize_ajax() {
 }
 add_action( 'wp_ajax_easymedia_imgresize_ajax', 'easymedia_imgresize_ajax' );
 
+
+/*-------------------------------------------------------------------------------*/
+/*  Get WP Info
+/*-------------------------------------------------------------------------------*/
+function easmedia_get_wpinfo() {
+	
+// Get Site URL	
+$getwpinfo = array();
+$getwpinfo[0] = "- Site URL : " .get_site_url();
+
+// Get Multisite status
+if ( is_multisite() ) { $getwpinfo[1] = '- WP Multisite : YES'; } else { $getwpinfo[1] = '- WP Multisite : NO'; }
+
+// Get PHP deny from all status	
+$url = plugins_url( 'dynamic-style.php' , dirname(__FILE__) );
+$headers = get_headers($url);
+
+if (strpos($headers[0],'Forbidden') !== false) {
+    $getwpinfo[2] = '- PHP Direct Access : Forbidden';
+} else {
+	$getwpinfo[2] = '- PHP Direct Access : YES';
+	}
+	
+global $wp_version;		
+echo "- WP Version : ".$wp_version."\n";	
+echo $getwpinfo[0]."\n";
+echo $getwpinfo[1]."\n";	
+echo $getwpinfo[2]."\n";
+$theme_name = get_current_theme();
+echo "- Active Theme : ".$theme_name."\n";
+echo "- Active Plugins : \n";
+
+// Get Active Plugin
+if ( is_multisite() ) { 
+	$the_plugs = get_site_option('active_sitewide_plugins');
+	foreach($the_plugs as $key => $value) {
+		$string = explode('/',$key);
+		echo "  ".$string[0] ."\n";
+	}
+} else {
+	$the_plugs = get_option('active_plugins');
+	foreach($the_plugs as $key => $value) {
+		$string = explode('/',$value);
+        echo "  ".$string[0] ."\n";
+		}
+	}
+}
+
 /*-------------------------------------------------------------------------------*/
 /*  Get Plugin Version (@return string Plugin version)
 /*-------------------------------------------------------------------------------*/

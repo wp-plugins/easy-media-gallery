@@ -218,7 +218,13 @@ array( "name" => "Plugin Core Compatibility Mode",
 	"id" => $theshort."_plugin_core",
 	"type" => "select",
 	"options" => array( "core-1.4.5-min", "core-1.4.5-full-compat-yc", "core-1.2.5-core-yc", "none" ),
-	"std" => "core-1.4.5-min"),		
+	"std" => "core-1.4.5-min"),	
+	
+array( "name" => "Wordpress Info",
+	"desc" => "You can provide this wordpress information to our support staff when you face any issue with this plugin.",
+	"id" => $theshort."_plugin_wpinfo",
+	"type" => "textareainfo",
+	"std" => ""),		
 	
 array( "type" => "close")
 	
