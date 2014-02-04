@@ -376,6 +376,18 @@ case 'textarea':
   
 <?php
 break;
+case 'textareainfo':
+?>
+
+<div class="sps_input sps_textarea">
+	<label for="<?php echo $theval['id']; ?>"><?php echo $theval['name']; ?></label>
+ 	<textarea style="vertical-align:top !important;" name="<?php echo $theval['id']; ?>" type="<?php echo $theval['type']; ?>" cols="" rows="" readonly><?php echo easmedia_get_wpinfo(); ?></textarea>
+ <small><?php echo $theval['desc']; ?></small><div class="clearfix"></div>
+ 
+ </div>
+  
+<?php
+break;
 case 'select':
 ?>
 
