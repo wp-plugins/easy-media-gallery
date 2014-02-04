@@ -3,18 +3,18 @@ Contributors: GhozyLab
 Donate link: http://ghozylab.com/donate
 Tags: gallery, best gallery plugin, photo albums, photo gallery, photo album, album, widget, wordpress gallery plugin, responsive gallery, grid gallery, wordpress portfolio plugin, plugin, post, links, page, admin, posts, images, seo image, twitter, image album, image, google, portfolio, html5 mp3 player, html5 mp4 player, wp gallery plugin, photo slider, image slider, best portfolio plugin
 Requires at least: 3.3
-Tested up to: 3.8
+Tested up to: 3.8.1
 Stable tag: 1.2.29
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-The best Wordpress gallery plugin enables you to create an portfolio or photo gallery. Over 149,700 sites are already using Easy Media Gallery.
+The best Wordpress gallery plugin enables you to create an portfolio or photo gallery. Over 149,900 sites are already using Easy Media Gallery.
 
 
 == Description ==
 
 ### [Best Photo Gallery - Photo Albums - Grid Gallery Plugin](http://ghozylab.com/best-photo-albums-wordpress-plugin/)  
-Easy Media Gallery is a wordpress plugin designed to display various media support including grid gallery, gallery sets, galleries, photo albums, multiple photo albums, portfolio, photo gallery or image gallery, image slider, google maps and google street view, video, audio and link with very ease, fancy and elegant.
+Easy Media Gallery is a wordpress plugin designed to display various media support including grid gallery, gallery sets, galleries, photo albums, multiple photo albums, portfolio, photo gallery or image gallery, image slider, google maps and google street view, youtube video, vimeo video, audio and link with very ease, fancy and elegant.
 
 > #### **Live Demos**
 
