@@ -1,5 +1,18 @@
 // -------- CONTROL PANEL SHOW/HIDE
     jQuery(document).ready(function(){
+		
+		jQuery("#emgwpinfo").focus(function() {
+			var $this = jQuery(this);
+			$this.select();
+			
+			// Work around Chrome's little problem
+			$this.mouseup(function() {
+				// Prevent further mouseup intervention
+				$this.unbind("mouseup");
+				return false;
+				});
+			});		
+		
 		jQuery('.sps_options').slideUp();
 		
 		jQuery('.sps_section h3').click(function(){		
