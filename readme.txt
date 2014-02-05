@@ -38,7 +38,7 @@ Easy Media Gallery is a wordpress plugin designed to display various media suppo
 * Google Maps / Google Street View (<em>[Pro Version](http://ghozylab.com/sample-1/)</em>)
 * A link to specific URL (<em>[Pro Version](http://ghozylab.com/wordpress-filterable-gallery-and-filterable-media-plugin/)</em>) - see LINK tab
 * S.E.O. for Images (<em>Pro Version</em>)
-* Facebook Album (<em>Coming Soon</em>)
+* Facebook, Instagram, Flickr Album (<em>Coming Soon</em>)
 
 = Features =
 Easy Media Gallery supports a wide range of media formats. Simply link to any image, flash video, hosted video or Youtube/Vimeo, mp3 audio or popular website, and the media will be automatically loaded into the overlay. Easy Media Gallery can be used to embed videos from :
