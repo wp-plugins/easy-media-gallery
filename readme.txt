@@ -1,7 +1,7 @@
 === Easy Media Gallery ===
 Contributors: GhozyLab
 Donate link: http://ghozylab.com/donate
-Tags: gallery, best gallery plugin, photo albums, photo gallery, pagination gallery, pagination portfolio, responsive gallery, photo album, gallery wordpress plugin, album, widget, wordpress gallery plugin, responsive gallery, grid gallery, wordpress portfolio plugin, plugin, post, links, page, admin, posts, images, seo image, twitter, image album, image, google, portfolio, html5 mp3 player, html5 mp4 player, wp gallery plugin, photo slider, image slider, best portfolio plugin
+Tags: gallery, best gallery plugin, photo albums, photo gallery, pagination gallery, pagination portfolio, responsive gallery, photo album, gallery wordpress plugin, album, widget, wordpress gallery plugin, responsive gallery, grid gallery, wordpress portfolio plugin, plugin, post, links, page, admin, posts, images, seo image, twitter, image album, image, google, portfolio, wp gallery plugin, photo slider, image slider, best portfolio plugin
 Requires at least: 3.3
 Tested up to: 3.8.1
 Stable tag: 1.2.29
@@ -13,7 +13,6 @@ The best Wordpress gallery plugin enables you to create photo gallery or portfol
 
 == Description ==
 
-### [Best Gallery Plugin - Photo Albums - Grid Gallery Plugin](http://ghozylab.com/best-photo-albums-wordpress-plugin/)  
 Easy Media Gallery is a wordpress plugin designed to display various media support including grid gallery, gallery sets, galleries, photo albums, multiple photo albums, portfolio, photo gallery or image gallery, image slider, google maps and google street view, youtube video, vimeo video, audio and link with very ease, fancy and elegant.
 
 > #### **Live Demos**
@@ -55,6 +54,7 @@ Easy Media Gallery supports a wide range of media formats. Simply link to any im
 * YouKu
 * MP4 (<em>MP4 HTML5 player for Pro version and Flash player for Lite version</em>), MOV, SWF, M4V, M4A, FLV
 
+### [Best Gallery Plugin - Photo Albums - Grid Gallery Plugin](http://ghozylab.com/best-photo-albums-wordpress-plugin/)
 It is a very customizable wordpress gallery and portfolio plugin that allow you to set display whatever you want like adjust colors, positions, grid, media sizes, hover effect and much more with one easy control panel. That easy control panel for experts it would save your time, and for you who do not have more knowledge about website styling, of course this plugin will allow you to manage your website, gallery and portfolio much more easily. 
 
 = LITE VERSION Example =
