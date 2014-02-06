@@ -70,7 +70,8 @@ add_action( 'wp_enqueue_scripts', 'easymedia_frontend_js' );
 |--------------------------------------------------------------------------
 */
 define( 'EMG_IS_AJAX', easy_get_option( 'easymedia_disen_ajax' ) );
-
+$emgmemory = (int) ini_get('memory_limit');
+$emgmemory = empty($emgmemory) ? __('N/A') : $emgmemory . __(' MB');
 
 /* These files build out the plugin specific options and associated functions. */
 require_once (EASYMEDG_PLUGIN_DIR . 'includes/options.php'); 
@@ -425,11 +426,12 @@ if (strpos($headers[0],'Forbidden') !== false) {
 	$getwpinfo[2] = '- PHP Direct Access : YES';
 	}
 	
-global $wp_version;		
+global $wp_version, $emgmemory;		
 echo "- WP Version : ".$wp_version."\n";	
 echo $getwpinfo[0]."\n";
 echo $getwpinfo[1]."\n";	
 echo $getwpinfo[2]."\n";
+echo "- Memory Limit : ".$emgmemory."\n";
 $theme_name = get_current_theme();
 echo "- Active Theme : ".$theme_name."\n";
 echo "- Active Plugins : \n";
