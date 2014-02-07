@@ -427,7 +427,8 @@ if (strpos($headers[0],'Forbidden') !== false) {
 	}
 	
 global $wp_version, $emgmemory;		
-echo "- WP Version : ".$wp_version."\n";	
+echo "- WP Version : ".$wp_version."\n";
+echo  "- EMG-Lite Version : ".EASYMEDIA_VERSION."\n";	
 echo $getwpinfo[0]."\n";
 echo $getwpinfo[1]."\n";	
 echo $getwpinfo[2]."\n";
@@ -441,13 +442,15 @@ if ( is_multisite() ) {
 	$the_plugs = get_site_option('active_sitewide_plugins');
 	foreach($the_plugs as $key => $value) {
 		$string = explode('/',$key);
-		echo " &nbsp;&nbsp;&nbsp;&nbsp;".$string[0] ."\n";
+		$string[0] = str_replace( "-"," ",$string[0] );
+		echo " &nbsp;&nbsp;&nbsp;&nbsp;".ucwords( $string[0] )."\n";
 	}
 } else {
 	$the_plugs = get_option('active_plugins');
 	foreach($the_plugs as $key => $value) {
 		$string = explode('/',$value);
-        echo " &nbsp;&nbsp;&nbsp;&nbsp;".$string[0] ."\n";
+		$string[0] = str_replace( "-"," ",$string[0] );
+        echo " &nbsp;&nbsp;&nbsp;&nbsp;".ucwords( $string[0] )."\n";
 		}
 	}
 }
