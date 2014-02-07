@@ -427,7 +427,8 @@ if (strpos($headers[0],'Forbidden') !== false) {
 	}
 	
 global $wp_version, $emgmemory;		
-echo "- WP Version : ".$wp_version."\n";	
+echo "- WP Version : ".$wp_version."\n";
+echo  "- EMG-Lite Version : ".EASYMEDIA_VERSION."\n";	
 echo $getwpinfo[0]."\n";
 echo $getwpinfo[1]."\n";	
 echo $getwpinfo[2]."\n";
