@@ -8,12 +8,12 @@ Stable tag: 1.2.29
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-The best Wordpress gallery plugin enables you to create photo gallery or portfolio. Over 152,450+ sites are already using Easy Media Gallery.
+The best Wordpress gallery plugin enables you to create photo gallery or portfolio. Over 152,700+ sites are already using Easy Media Gallery.
 
 
 == Description ==
 
-Easy Media Gallery is a wordpress plugin designed to display various media support including grid gallery, gallery sets, galleries, photo albums, multiple photo albums, portfolio, photo gallery or image gallery, image slider, google maps and google street view, youtube video, vimeo video, audio and link with very ease, fancy and elegant.
+Easy Media Gallery is a wordpress plugin designed to display various media support including grid gallery, gallery sets, galleries, photo album, multiple photo albums, portfolio, photo gallery or image gallery, image slider, google maps and google street view, youtube video, vimeo video, audio and link with very ease, fancy and elegant.
 
 > #### **Live Demos**
 
