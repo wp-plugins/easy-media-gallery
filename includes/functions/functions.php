@@ -442,13 +442,15 @@ if ( is_multisite() ) {
 	$the_plugs = get_site_option('active_sitewide_plugins');
 	foreach($the_plugs as $key => $value) {
 		$string = explode('/',$key);
-		echo " &nbsp;&nbsp;&nbsp;&nbsp;".$string[0] ."\n";
+		$string[0] = str_replace( "-"," ",$string[0] );
+		echo " &nbsp;&nbsp;&nbsp;&nbsp;".ucwords( $string[0] )."\n";
 	}
 } else {
 	$the_plugs = get_option('active_plugins');
 	foreach($the_plugs as $key => $value) {
 		$string = explode('/',$value);
-        echo " &nbsp;&nbsp;&nbsp;&nbsp;".$string[0] ."\n";
+		$string[0] = str_replace( "-"," ",$string[0] );
+        echo " &nbsp;&nbsp;&nbsp;&nbsp;".ucwords( $string[0] )."\n";
 		}
 	}
 }
@@ -628,7 +630,7 @@ function emg_upgradepro_message() {
 	global $pagenow;
 	if ( $pagenow == 'plugin-install.php' || $pagenow == 'plugins.php' || 'easymediagallery' == get_post_type() ||  $pagenow == 'upload.php' || $pagenow == 'media-new.php' ) {	
 
-		echo'<div class="updated"><div class="easymedia_message"><img class="easymedia_icon" title="" src="' . plugins_url( 'images/message_icon.png', dirname(__FILE__) ) . '" alt=""/><div class="easymedia_text">It\'s time to upgrade your <strong>Easy Media Gallery Lite</strong> to <strong>PRO</strong> version!<br /><span>Extend standard plugin functionality with a tons of awesome features and great options for only $'.EASYMEDIA_PRICE.'</span></div><a class="button easymedia_button" href="edit.php?post_type=easymediagallery&page=comparison">Learn More</a><a class="button easymedia_button" target="_blank" href="http://ghozylab.com/order">UPGRADE $'.EASYMEDIA_PRICE.'</a></div></div>';		
+		echo'<div class="updated"><div class="easymedia_message"><img class="easymedia_icon" title="" src="' . plugins_url( 'images/message_icon.png', dirname(__FILE__) ) . '" alt=""/><div class="easymedia_text">It\'s time to upgrade your <strong>Easy Media Gallery Lite</strong> to <strong>PRO</strong> version!<br /><span>Extend standard plugin functionality with a tons of awesome features for only $'.EASYMEDIA_PRICE.'</span></div><a class="button easymedia_button" href="edit.php?post_type=easymediagallery&page=comparison">Learn More</a><a class="button easymedia_button" target="_blank" href="http://ghozylab.com/order">UPGRADE $'.EASYMEDIA_PRICE.'</a><a class="button easymedia_button" href="http://ghozylab.com/best-photo-albums-wordpress-plugin/">DEMO</a></div></div>';		
 	
             //$message = '<div id="emg-discount-upgrade-notice">';
 			//$message .= '<p><strong>Upgrade to Easy Media Gallery Pro Version - </strong> <a style="color:#fff !important;" target="_blank" href="http://ghozylab.com/order" class="tsc_buttons2 red">UPGRADE NOW &nbsp;for only $'.EASYMEDIA_PRICE.'</a> <strong>or you can </strong>  <a style="color:#fff !important;" href="edit.php?post_type=easymediagallery&page=comparison" class="tsc_buttons2 red">Learn More</a>';
