@@ -107,6 +107,18 @@ padding: 4% ;
 	margin:10px 20px;
 }
 
+#spg_container #header .icon-option-left {
+	float: left;
+	height: 60px;
+	width: 60px;
+	background: url(../images/left-cp-icon.png) no-repeat;
+	margin:0 20px 0 0;
+}
+
+#spg_container #header .emg-cp-title {
+	width:450px;
+}
+
 #mask {
   position:absolute;
   left:0;
@@ -406,8 +418,8 @@ ul.easymedia-social li.easymedia-pinterest { background-image:url("../images/soc
 	float: right;
 	border: 1px solid #14496d; 
 	font-size: 14px;
-	margin: 10px;
-	padding: 12px 0;
+	margin: 12px;
+	padding: 9px 0;
 	color: #FFF;
 	text-shadow: 0 1px 3px #2483c5;
 	font-weight: bold;
@@ -416,9 +428,9 @@ ul.easymedia-social li.easymedia-pinterest { background-image:url("../images/soc
 	border-radius: 3px;
 	-webkit-border-radius: 3px;
 	text-decoration: none;
-	height: 50px;
+	height: 45px;
 	text-align: center;
-	width: 147px;
+	width: 135px;
 	-moz-box-shadow: 0px 1px 1px 0 #3e7aa3 inset;
 	-webkit-box-shadow: 0px 1px 1px 0 #3e7aa3 inset;
 	box-shadow: 0px 1px 1px 0 #3e7aa3 inset;

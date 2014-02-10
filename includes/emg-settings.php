@@ -291,7 +291,8 @@ if ( isset( $_REQUEST['reset'] ) ) { echo '<script type="text/javascript">
 <div id="spg_container">
     <div id="header">
       <div class="logo">
-        <h2><?php echo $emgplugname . "  LITE (v " . easymedia_get_plugin_version() . ")"; ?></h2>
+      <div class="icon-option-left"></div>
+        <div class="emg-cp-title"><h2><?php echo $emgplugname . "  LITE (v " . easymedia_get_plugin_version() . ")"; ?></h2></div>
       </div>
       <div class="icon-option"> </div>
       <div style="clear: both;"></div>

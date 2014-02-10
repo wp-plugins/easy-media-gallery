@@ -51,7 +51,7 @@ array( "name" => "Video Size",
 	"pixopr" => "px"),
 	
 array( "name" => "Video Auto Play",
-	"desc" => "Use this to enable/disable video auto play. This feature only work on MP4, M4V, Youtube, Vimeo, Google Video and Veoh.",
+	"desc" => "Use this to enable/disable video auto play. This feature only work on MP4, M4V, Youtube, Vimeo, Google Video and Veoh.<br><br><a target='_blank' href='http://ghozylab.com/pricing/'>Upgrade</a> to PRO and get HTML5 video player.",
 	"id" => $theshort."_disen_autoplv",
 	"type" => "checkbox",
 	"std" => "1"),		

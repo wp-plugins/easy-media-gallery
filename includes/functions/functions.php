@@ -764,7 +764,7 @@ function easymedia_comparison() {
         <li class="row_style_4"><span>Audio Media</span></li>
         <li class="row_style_2"><span>HTML5 Video/Audio (mp4, webm, ogv)</span></li>   
         <li class="row_style_4"><span>Auto Fetch Youtube/Vimeo Thumbnail</span><span class="newftr"></span></li>    
-        <li class="row_style_2"><span>Photo Albums</span><a target="_blank" href="http://ghozylab.com/best-photo-albums-wordpress-plugin/" style="text-decoration:underline !important;"> Click for Sample</a></li>                 
+        <li class="row_style_2"><span>Photo Albums</span><a target="_blank" href="http://ghozylab.com/best-photo-albums-wordpress-plugin/" style="text-decoration:underline !important;"> Click for Sample</a>&nbsp;&nbsp;<span class="newftr"></span></li>                 
         <li class="row_style_4"><span>Image Slider</span><a target="_blank" href="http://ghozylab.com/wordpress-image-slider-and-media-slider-plugin/" style="text-decoration:underline !important;"> Click for Sample</a>&nbsp;&nbsp;<span class="newftr"></span></li>
         <li class="row_style_2"><span>Grid Gallery</span><a target="_blank" href="http://ghozylab.com/best-wordpress-grid-gallery-and-grid-portfolio-plugin/" style="text-decoration:underline !important;"> Click for Sample</a></li>  
          <li class="row_style_4"><span>Filterable Media</span><a target="_blank" href="http://ghozylab.com/wordpress-filterable-gallery-and-filterable-media-plugin/" style="text-decoration:underline !important;"> Click for Sample</a></li>                     
