@@ -410,7 +410,7 @@ ul.easymedia-social li.easymedia-pinterest { background-image:url("../images/soc
 	line-height: 26px;
 	margin-top: 8px;
 	float: left;
-	width: 480px;
+	width: auto;
 }
 .easymedia_message .easymedia_text span {
 	font-size: 12px;
