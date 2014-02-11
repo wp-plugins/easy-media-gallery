@@ -190,7 +190,7 @@ array( "name" => "Keep data when uninstall/update",
 	"std" => "1"),		
 	
 array( "name" => "Upgrade Notification",
-	"desc" => "Enable/Disable admin notifications.",
+	"desc" => "Enable/Disable upgrade notifications.",
 	"id" => $theshort."_disen_admnotify",
 	"type" => "checkbox",
 	"std" => "1"),	
