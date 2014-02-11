@@ -26,6 +26,14 @@ background:url("../images/yes.png") center top no-repeat;
 	background:url("../images/no.png") center top no-repeat; 
 }
 
+/*
+.tsc_pricingtable03 .pricing_yes {
+background:url("../images/tick.png") center no-repeat; 
+}
+.tsc_pricingtable03 .pricing_no {
+	background:url("../images/cross.png") center no-repeat; 
+} */
+
 .tsc_pricingtable03 .newftr {
 	padding:5px;
 	background:url("../images/new-feature.png") center center no-repeat;background-position:center; 
