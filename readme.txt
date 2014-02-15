@@ -1,14 +1,14 @@
 === Easy Media Gallery ===
 Contributors: GhozyLab
 Donate link: http://ghozylab.com/donate
-Tags: gallery, best gallery plugin, photo albums, plugin gallery, photo album, wordpress gallery plugin, responsive gallery, grid gallery, gallery wordpress plugin, album, widget, photo gallery, pagination gallery, pagination portfolio, wp gallery plugin, photo slider, image slider, responsive gallery, wordpress portfolio plugin, plugin, post, links, page, admin, posts, images, seo image, twitter, image album, image, google, portfolio, best portfolio plugin
+Tags: gallery, best gallery plugin, photo albums, plugin gallery, wp gallery, photo album, wordpress gallery plugin, responsive gallery, grid gallery, gallery wordpress plugin, album, widget, photo gallery, pagination gallery, pagination portfolio, wp gallery plugin, photo slider, image slider, responsive gallery, wordpress portfolio plugin, plugin, post, links, page, admin, posts, images, seo image, twitter, image album, image, google, portfolio, best portfolio plugin
 Requires at least: 3.3
 Tested up to: 3.8.1
 Stable tag: 1.2.29
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-The best Wordpress gallery plugin enables you to create photo gallery or portfolio. Over 155,400+ sites are already using Easy Media Gallery.
+The best Wordpress gallery plugin enables you to create photo gallery or portfolio. Over 155,600+ sites are already using Easy Media Gallery.
 
 
 == Description ==
