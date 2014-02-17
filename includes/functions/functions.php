@@ -404,6 +404,19 @@ function easymedia_imgresize_ajax() {
 }
 add_action( 'wp_ajax_easymedia_imgresize_ajax', 'easymedia_imgresize_ajax' );
 
+/*
+|--------------------------------------------------------------------------
+| REMOVE PERMALINK
+|--------------------------------------------------------------------------
+*/
+function emg_hide_permalink() {
+global $post_type;
+if( $post_type == 'easymediagallery' ) {
+echo '<style type="text/css">#edit-slug-box{display: none;}</style>';
+}
+}
+add_action('admin_head', 'emg_hide_permalink'); 
+
 /*-------------------------------------------------------------------------------*/
 /*  Get WP Info
 /*-------------------------------------------------------------------------------*/
