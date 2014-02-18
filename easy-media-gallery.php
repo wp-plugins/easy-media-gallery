@@ -84,6 +84,14 @@ if ( !defined( 'EASYMEDG_PLUGIN_URL' ) )
 $wp_plugin_dir = substr(plugin_dir_path(__FILE__), 0, -1);
 define( 'EMG_DIR', $wp_plugin_dir );
 
+global $wp_version;			
+if ( version_compare($wp_version, "3.5", "<" ) ) {
+	define( 'EMG_WP_VER', "l35" );	
+	}
+	else {
+		define( 'EMG_WP_VER', "g35" );		
+	}
+
 require_once( EASYMEDG_PLUGIN_DIR . 'includes/class/easymedia_resizer.php' ); 	
 
 // Plugin Version
