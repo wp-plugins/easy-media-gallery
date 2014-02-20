@@ -98,6 +98,28 @@ include_once( EASYMEDG_PLUGIN_DIR . 'includes/easywidget.php' );
 
 /*
 |--------------------------------------------------------------------------
+| AJAX RESET SETTINGS
+|--------------------------------------------------------------------------
+*/
+function emg_cp_reset() {
+	
+	if ( !isset( $_POST['cmd'] ) ) {
+		echo '0';
+		die;
+		}
+		
+		else {
+			if ( $_POST['cmd'] == 'reset' ){
+				echo '1';
+				easymedia_restore_to_default($_POST['cmd']);			
+				die;
+				}
+	}
+}
+add_action( 'wp_ajax_emg_cp_reset', 'emg_cp_reset' );
+
+/*
+|--------------------------------------------------------------------------
 | AJAX LIST MEDIA (TINYMCE)
 |--------------------------------------------------------------------------
 */

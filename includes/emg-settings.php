@@ -23,7 +23,7 @@ global $emgplugname, $theshort, $theopt;
 				header("Location: edit.php?post_type=easymediagallery&page=emg_settings&saved=true");
 				die;
 				}
-								
+/*								
 			else if ( isset( $_REQUEST['action'] ) && 'reset' == $_REQUEST['action'] ) {
  
  // RESTORE DEFAULT SETTINGS
@@ -32,7 +32,7 @@ global $emgplugname, $theshort, $theopt;
 
 header("Location: edit.php?post_type=easymediagallery&page=emg_settings&reset=true");
 die;
-		}
+		}*/
 	}
 }
  
@@ -86,6 +86,33 @@ if ( is_admin() && ( isset( $_GET['page'] ) == 'emg_settings' ) && ( isset( $_GE
 /* Easy Media Gallery */
 (function($) {
 		jQuery(document).ready(function() {
+			
+// -------- RESET SETTINGS (AJAX)		
+	jQuery('a.emgresetnow').click(function() {
+		var answer = confirm('Are you sure? This will restore these settings to default.');
+			if (answer){ 	
+				var cmd = 'reset';
+				emg_cp_reset(cmd);
+		}
+			else {}
+	});	
+	
+			function emg_cp_reset(cmd) {
+				var data = {
+				action: 'emg_cp_reset',
+				cmd: cmd,
+				};
+			
+				jQuery.post(ajaxurl, data, function(response) {
+					if (response == 1) {
+						window.location.href = 'edit.php?post_type=easymediagallery&page=emg_settings&reset=true';
+						}						
+					else {
+						alert('Ajax request failed, please refresh your browser window.');
+						}
+					});
+			}						
+						
 			// Replace checkboxes with switch
 			jQuery("input[type=checkbox].switch").each(function() {
 				// Insert switch
@@ -488,13 +515,9 @@ $i++;
  </form>
  </div>
  
-<form method="post">
 <p class="submit">
-<input class="button button-secondary" name="reset" type="submit" value="Reset Options" onclick="return confirm('Are you sure? This will restore these settings to default.');"/>
-<input type="hidden" name="action" value="reset" />
+<a onClick="return false;" class="emgresetnow button-secondary" title="Reset Options" href="#">Reset Options</a>
 <span style="color:#666666;margin-left:2px; font-size:11px;"> Use this button to restore these settings to default.</span></p>
-</form>
- 
  </div>
 
 
