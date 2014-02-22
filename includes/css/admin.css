@@ -35,6 +35,7 @@ Main Style
 	font-weight:normal;
 }
 
+.easmedia-metabox-table th {border-right: 1px #CCC dotted;}
 .easmedia-metabox-table tr { border-top: 1px solid #eee; }
 
 .easmedia-metabox-table th { width: 25%; }
