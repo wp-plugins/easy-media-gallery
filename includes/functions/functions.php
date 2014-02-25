@@ -103,6 +103,8 @@ include_once( EASYMEDG_PLUGIN_DIR . 'includes/easywidget.php' );
 */
 function emg_cp_reset() {
 	
+	check_ajax_referer( 'easymedia-lite-nonce', 'security' );
+	
 	if ( !isset( $_POST['cmd'] ) ) {
 		echo '0';
 		die;
