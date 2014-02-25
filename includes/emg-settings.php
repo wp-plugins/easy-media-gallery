@@ -100,6 +100,7 @@ if ( is_admin() && ( isset( $_GET['page'] ) == 'emg_settings' ) && ( isset( $_GE
 			function emg_cp_reset(cmd) {
 				var data = {
 				action: 'emg_cp_reset',
+				security: '<?php echo wp_create_nonce( "easymedia-lite-nonce"); ?>',				
 				cmd: cmd,
 				};
 			
