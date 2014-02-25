@@ -128,7 +128,7 @@ add_action( 'wp_ajax_emg_cp_reset', 'emg_cp_reset' );
 function emg_load_media_list() {
 	
 	if ( !isset( $_POST['taxo'] ) ) {
-		echo '<p>Ajax request failed, please refresh your browser window.</p>';
+		echo '<p>Ajax request failed, please try again.</p>';
 		die;
 		}
 		else {
