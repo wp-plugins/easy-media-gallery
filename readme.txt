@@ -4,7 +4,7 @@ Donate link: http://ghozylab.com/donate
 Tags: gallery, photo gallery, photo album, photo albums, best gallery plugin, photo, photos, picture, pictures, best gallery, html5 video, html5 audio, album, widget, sidebar, fancy gallery, plugin for gallery, html5 player, plugin gallery, wp gallery, wordpress gallery plugin, responsive gallery, grid gallery, gallery plugin, pagination gallery, pagination portfolio, wp gallery plugin, photo slider, image slider, responsive gallery, wordpress portfolio plugin, plugin, post, links, page, admin, posts, images, seo image, twitter, image album, image, google, portfolio, best portfolio
 Requires at least: 3.3
 Tested up to: 3.8.1
-Stable tag: 1.2.29
+Stable tag: 1.2.30
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -205,6 +205,11 @@ But seriously, I just want to drink coffee for free, so help a developer out. Yo
 
 == Changelog ==
 
+= 1.2.30 =
+* Added : New Wordpress 3.5 and above media uploader
+* Fixed : PHP Small bugs and CSS improvements
+* Many other PHP, Javascript and CSS clean and optimization
+
 = 1.2.29 =
 * Fixed : New Patch for Security bugs reported by Nikolai Tschacher
 * Fixed : change Ajax relative path with wp_make_link_relative
@@ -217,7 +222,7 @@ But seriously, I just want to drink coffee for free, so help a developer out. Yo
 * Many other PHP, Javascript and CSS clean and optimization
 
 = 1.2.23 =
-* added : New Feature in pricing table
+* Added : New Feature in pricing table
 * Update : New Price for DEV Version
 
 = 1.2.21 =
@@ -369,5 +374,5 @@ But seriously, I just want to drink coffee for free, so help a developer out. Yo
 
 == Upgrade Notice ==
 
-= 1.2.29 =
+= 1.2.30 =
 IMPORTANT! Security bugs fix, update NOW!
