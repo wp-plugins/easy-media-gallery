@@ -670,7 +670,7 @@ function emg_upgradepro_message() {
 		echo'<div class="updated"><div class="easymedia_message"><img class="easymedia_icon" title="" src="' . plugins_url( 'images/message_icon.png', dirname(__FILE__) ) . '" alt=""/><div class="easymedia_text">It\'s time to upgrade your <strong>Easy Media Gallery Lite</strong> to <strong>PRO</strong> version!<br /><span>Extend standard plugin functionality with a tons of awesome features!</span></div><a class="button easymedia_button" target="_blank" href="http://ghozylab.com/best-photo-albums-wordpress-plugin/">DEMO</a><a class="button easymedia_button" href="edit.php?post_type=easymediagallery&page=comparison">Learn More</a><a class="button easymedia_button" target="_blank" href="http://ghozylab.com/order">UPGRADE $'.EASYMEDIA_PRICE.'</a></div></div>';
 	}
 }
-add_action( 'admin_notices', 'emg_upgradepro_message', 1 );
+add_action( 'admin_notices', 'emg_upgradepro_message' );
 }
 
 /*-------------------------------------------------------------------------------*/
