@@ -4,13 +4,13 @@
 /*-----------------------------------------------------------------------------------*/
 /*  Featured Image Meta
 /*-----------------------------------------------------------------------------------*/
-function customposttype_image_box() {
+function emg_customposttype_image_box() {
 	remove_meta_box( 'postimagediv', 'easymediagallery', 'side' );
 	remove_meta_box( 'emediagallerydiv', 'easymediagallery', 'side' );
 	add_meta_box( 'categorydiv', __( 'Media Categories' ), 'easymediagallery_categories_meta_box', 'easymediagallery', 'normal', 'high' );
 	add_meta_box( 'donatediv', __( 'Donate Us' ), 'easmedia_donate_metabox', 'easymediagallery', 'side', 'default' );
 }
-add_action( 'do_meta_boxes', 'customposttype_image_box' );
+add_action( 'do_meta_boxes', 'emg_customposttype_image_box' );
 
 /*-----------------------------------------------------------------------------------*/
 /*	get rid of WordPress SEO metabox - http://wordpress.stackexchange.com/a/91184/2015
