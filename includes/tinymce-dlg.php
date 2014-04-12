@@ -51,8 +51,8 @@ if ( strstr( $_SERVER['REQUEST_URI'], 'wp-admin/post-new.php' ) || strstr( $_SER
 			$container_id = 'modal';
 			$title = 'Easy Media Shortcode';
 			$context .= '
-			<a class="thickbox" id="add_emg_shortcode_button" title="'.$title.'" style="outline: medium none !important; cursor: pointer;" >
-			<img src="'.$img.'" alt="Easy Media Gallery" width="20" height="20" style="position:relative; top:-1px"/></a>';
+			<a class="thickbox button" id="add_emg_shortcode_button" title="'.$title.'" style="outline: medium none !important; cursor: pointer;" >
+			<img src="'.$img.'" alt="Easy Media Gallery" width="20" height="20" style="position:relative; top:-1px"/>Easy Media Gallery</a>';
 			return $context;
 		}	
 }
