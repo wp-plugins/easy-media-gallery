@@ -465,3 +465,62 @@ ul.easymedia-social li.easymedia-pinterest { background-image:url("../images/soc
 	float: left;
 	margin: 14px 18px 14px 14px;
 }
+
+.emg_blink {
+    outline:none;
+    text-decoration: none;
+    -webkit-animation: blink .75s linear infinite;
+    -moz-animation: blink .75s linear infinite;
+    -ms-animation: blink .75s linear infinite;
+    -o-animation: blink .75s linear infinite;
+    animation: blink .75s linear infinite;
+}
+@-webkit-keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 1;
+    }
+    50.01% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@-moz-keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 1;
+    }
+    50.01% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 1;
+    }
+    50.01% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+.emg_blink:hover {
+    -webkit-animation:none;
+    -moz-animation: none;
+    animation: none;
+}	
