@@ -208,6 +208,7 @@ But seriously, I just want to drink coffee for free, so help a developer out. Yo
 * Added : Wordpress 3.8.3 compatibility
 * Added : New shortcode button
 * Fixed : Small bugs and improvements
+* Many other PHP and CSS clean and optimization
 
 = 1.2.30 =
 * Added : New Wordpress 3.5 and above media uploader
