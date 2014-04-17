@@ -213,6 +213,7 @@ But seriously, I just want to drink coffee for free, so help a developer out. Yo
 * Updated : Wordpress 3.9 compatibility
 * Added : New shortcode button
 * Added : 5 Video supports
+* Fixed : SSL issue
 * Fixed : Small bugs and improvements
 * Many other PHP and CSS clean and optimization
 
