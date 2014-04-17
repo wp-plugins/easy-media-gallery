@@ -77,8 +77,13 @@ if ( !defined( 'EASYMEDG_PLUGIN_NAME' ) )
 if ( !defined( 'EASYMEDG_PLUGIN_DIR' ) )
     define( 'EASYMEDG_PLUGIN_DIR', WP_PLUGIN_DIR . '/' . EASYMEDG_PLUGIN_NAME . '/' );
 
-if ( !defined( 'EASYMEDG_PLUGIN_URL' ) )
-    define( 'EASYMEDG_PLUGIN_URL', WP_PLUGIN_URL . '/' . EASYMEDG_PLUGIN_NAME . '/' );
+if ( !defined( 'EASYMEDG_PLUGIN_URL' )) {
+	if (is_ssl()) {
+    define( 'EASYMEDG_PLUGIN_URL', str_replace('http', 'https', WP_PLUGIN_URL) . '/' . EASYMEDG_PLUGIN_NAME . '/' );
+	} else {
+		define( 'EASYMEDG_PLUGIN_URL', WP_PLUGIN_URL . '/' . EASYMEDG_PLUGIN_NAME . '/' );
+	}
+}	
 	
 	
 $wp_plugin_dir = substr(plugin_dir_path(__FILE__), 0, -1);
