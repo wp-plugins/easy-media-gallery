@@ -447,26 +447,33 @@ include_once( EASYMEDG_PLUGIN_DIR . 'includes/functions/functions.php' );
 | CHECK PLUGIN DEFAULT SETTINGS
 |--------------------------------------------------------------------------
 */
-function emg_opt_init()
-{
-    // Incase it is first install and option doesn't exist
-    $emg_optval = get_option( 'easy_media_opt' );
-    if ( !is_array( $emg_optval ) ) update_option( 'easy_media_opt', array() );
-}
-add_action( 'init', 'emg_opt_init', 2 );
 
-if ( is_admin() ){
-	$tmp = get_option( 'easy_media_opt' );
-		if ( isset( $tmp['easymedia_deff_init'] ) != '1' ) {
-			
-			function easymedia_initialize_options() {
-				
-				// Plugin 1st Configuration
-				easymedia_1st_config();
-			}
-			add_action( 'admin_init', 'easymedia_initialize_options' );
-		}
+function emg_plugin_activate() {
+
+  add_option( 'Activated_Emg_Plugin', 'emg-activate' );
+
 }
+register_activation_hook( __FILE__, 'emg_plugin_activate' );
+
+function emg_load_plugin() {
+
+    if ( is_admin() && get_option( 'Activated_Emg_Plugin' ) == 'emg-activate' ) {
+		
+		$emg_optval = get_option( 'easy_media_opt' );
+		
+		if ( !is_array( $emg_optval ) ) update_option( 'easy_media_opt', array() );		
+		
+		$tmp = get_option( 'easy_media_opt' );
+		if ( isset( $tmp['easymedia_deff_init'] ) != '1' ) {
+			easymedia_1st_config();
+			}
+
+        delete_option( 'Activated_Emg_Plugin' );
+		wp_redirect("edit.php?post_type=easymediagallery&page=comparison");
+    }
+}
+add_action( 'admin_init', 'emg_load_plugin' );
+
 
 
 ?>
