@@ -657,21 +657,114 @@ function emg_share() {
     <?php
 	}
 
+/*
+|--------------------------------------------------------------------------
+| AJAX HIDE NOTIFY
+|--------------------------------------------------------------------------
+*/
+function emg_hide_noty() {
+	
+	check_ajax_referer( 'easymedia-lite-nonce-button', 'hidesecurity' );
+	
+	if ( !isset( $_POST['clickcmd'] ) ) {
+		echo '0';
+		die;
+		}
+		
+		else {
+			if ( $_POST['clickcmd'] == 'hide' ){
+				echo '1';
+				$emg_upd_options = get_option('easy_media_opt');
+				$emg_upd_options['easymedia_disen_admnotify']['id'] = '0';
+				update_option('easy_media_opt', $emg_upd_options);					
+				die;
+				}
+	}
+}
+add_action( 'wp_ajax_emg_hide_noty', 'emg_hide_noty' );
+
 /*-------------------------------------------------------------------------------*/
 /*   Admin Notifications
 /*-------------------------------------------------------------------------------*/
 
 if ( easy_get_option( 'easymedia_disen_admnotify' ) == '1' ) {
 function emg_upgradepro_message() {
-	
-	global $pagenow;
-	if ( $pagenow == 'plugin-install.php' || $pagenow == 'plugins.php' || 'easymediagallery' == get_post_type() ||  $pagenow == 'upload.php' || $pagenow == 'media-new.php' ) {	
+	if ( isset( $_GET['page'] ) && $_GET['page'] != 'emg_settings' || isset( $_GET['page'] ) && $_GET['page'] != 'docs' || isset( $_GET['page'] ) && $_GET['page'] != 'comparison' || isset( $_GET['page'] ) && $_GET['page'] != 'easymedia-order' || get_post_type() != 'easymediagallery' ) {
 
-		echo'<div class="updated"><div class="easymedia_message"><img class="easymedia_icon" title="" src="' . plugins_url( 'images/message_icon.png', dirname(__FILE__) ) . '" alt=""/><div class="easymedia_text">It\'s time to upgrade your <strong>Easy Media Gallery Lite</strong> to <strong>PRO</strong> version!<br /><span>Extend standard plugin functionality with a tons of awesome features!</span></div><a class="button easymedia_button" target="_blank" href="http://ghozylab.com/best-photo-albums-wordpress-plugin/">DEMO</a><a class="button easymedia_button" href="edit.php?post_type=easymediagallery&page=comparison">Learn More</a><a class="button easymedia_button" target="_blank" href="http://ghozylab.com/order">UPGRADE $'.EASYMEDIA_PRICE.'</a></div></div>';
+		echo'<div id="emgadminnotice" class="updated"><div class="easymedia_message"><img class="easymedia_icon" title="" src="' . plugins_url( 'images/message_icon.png', dirname(__FILE__) ) . '" alt=""/><div class="easymedia_text">It\'s time to upgrade your <strong>Easy Media Gallery Lite</strong> to <strong>PRO</strong> version!<br /><span>Extend standard plugin functionality with a tons of awesome features!</span></div><a class="button easymedia_button" href="edit.php?post_type=easymediagallery&page=comparison">Learn More</a><a class="button easymedia_button" target="_blank" href="http://ghozylab.com/best-photo-albums-wordpress-plugin/">DEMO</a><a class="button easymedia_button" target="_blank" href="http://ghozylab.com/order">UPGRADE $'.EASYMEDIA_PRICE.'</a></div></div>';
 	}
 }
-add_action( 'admin_notices', 'emg_upgradepro_message' );
+add_action( 'admin_notices', 'emg_upgradepro_message', 1 );
 }
+
+/*-------------------------------------------------------------------------------*/
+/*   Admin Notifications ( Setting Area )
+/*-------------------------------------------------------------------------------*/
+
+if ( easy_get_option( 'easymedia_disen_admnotify' ) == '1' ) {
+		add_action( 'admin_enqueue_scripts', 'easmedia_put_notify_script' );
+		add_action('admin_head', 'easmedia_put_notify_head');
+}
+
+function easmedia_put_notify_script() {
+		if ( isset( $_GET['page'] ) && $_GET['page'] == 'emg_settings' || isset( $_GET['page'] ) && $_GET['page'] == 'docs' || isset( $_GET['page'] ) && $_GET['page'] == 'comparison' || isset( $_GET['page'] ) && $_GET['page'] == 'easymedia-order' || get_post_type() == 'easymediagallery' ) {			
+		wp_enqueue_script( 'easymedia-notify-js', plugins_url( 'js/jquery/noty/jquery.noty.packaged.min.js' , dirname(__FILE__) ) );
+		}
+	}
+
+function easmedia_put_notify_head() {
+		if ( isset( $_GET['page'] ) && $_GET['page'] == 'emg_settings' || isset( $_GET['page'] ) && $_GET['page'] == 'docs' || isset( $_GET['page'] ) && $_GET['page'] == 'comparison' || isset( $_GET['page'] ) && $_GET['page'] == 'easymedia-order' || get_post_type() == 'easymediagallery' ) {	
+	?>
+    <script type="text/javascript">
+	/*<![CDATA[*/
+	/* Easy Media Gallery */
+function generate(e){
+	var emgNews = new Array(); /* Random Heading temporary disabled */
+      emgNews[0] = "#1 Best Selling Gallery Plugin for WordPress<br />9,350+ People Can Not Be Wrong...";
+      emgNews[1] = "Easy to use, looks nice and has a very good feel";
+      emgNews[2] = "Powerfull control panel and Shortcode Manager make getting started super easy";
+      emgNews[3] = "Easy Media Gallery PRO can be used to embed more than 12 video. Not only from Youtube and Vimeo";
+      emgNews[4] = "Powerfull control panel and Shortcode Manager make getting started super easy";	  
+	  var showH = Math.floor(Math.random()*emgNews.length);
+
+	var t=noty({text:'Upgrade your <strong>EASY MEDIA GALLERY LITE</strong> to <strong>PRO VERSION</strong> and extend standard plugin functionality with a tons of awesome features!',type:"warning",animation:{open:{height:"toggle"},close:{height:"toggle"},easing:"swing",speed:700},dismissQueue:true,modal:true,layout:"bottom",killer: true,
+theme:"defaultTheme",
+template:'<div class="noty_message"><div id="emg_noty_container"><div id="emg_noty_images"><img id="emg_hero" src="<?php echo plugins_url('images/emg_hero.png' , dirname(__FILE__) ); ?>" width="100%" height="auto"/></div><div id="emg_noty_content"><h2>'+emgNews[0]+'</h2><span class="noty_text"></span></div></div><div class="noty_close"></div></div>',buttons:[{
+	addClass:"emgnotyclosepermanent",text:"Disable notifications",onClick:function(e){
+		e.close()}},
+	{addClass:"tsc_buttons2 green",text:"UPGRADE NOW",onClick:function(e){e.close();noty({layout:"top",modal:true,text:'<span style="display:none;" id="emgordernote">Please click order button below and you will be redirected to order page shortly.</span><br /><a id="emgordrnow" style="display:none; margin: 15px 0 15px 0; "class="tsc_buttons2 green" href="http://ghozylab.com/order" target="_blank">ORDER NOW</a><img id="emgorderspin" src="<?php echo plugins_url('images/ajax-loader.gif' , dirname(__FILE__) ); ?>" width="32" height="32"/><br /><p>Great! Please wait a moment...</p>',type:"success"});setTimeout(function(){jQuery("#emgorderspin").hide();jQuery("#emgordernote").fadeIn("slow");jQuery("#emgordrnow").fadeIn("slow");jQuery(".noty_text p").hide()},5e3)}},{addClass:"tsc_buttons2 blue",text:"DEMO",onClick:function(e){window.location.href="http://ghozylab.com/best-photo-albums-wordpress-plugin/";e.close()}},{addClass:"tsc_buttons2 orange",text:"Learn More",onClick:function(e){window.location.href="edit.php?post_type=easymediagallery&page=comparison";e.close()}},{addClass:"tsc_buttons2 red",text:"Close",onClick:function(e){e.close()}}],callback:{onShow:function(){jQuery("#ux_buy_pro").hide();jQuery("#emgadminnotice").hide()}}})}function generateAll(){generate("alert")}jQuery(document).ready(function(){
+<?php if ( isset( $_GET['page'] ) && $_GET['page'] == 'comparison' ) { ?>
+setTimeout(function() { jQuery.noty.closeAll(); }, 100); <?php } ?>	generateAll();jQuery('.emgnotyclosepermanent').click(function(){var clickcmd = 'hide';
+emg_hide_noty(clickcmd);});	function emg_hide_noty(clickcmd) {var data = {action: 'emg_hide_noty',hidesecurity: '<?php echo wp_create_nonce( "easymedia-lite-nonce-button"); ?>',clickcmd: clickcmd,};jQuery.post(ajaxurl, data, function(response) {if (response == 0) {alert('Ajax request failed, please refresh your browser window.');return false;}});}})	
+/*]]>*/</script>	
+    
+<?php
+	}
+}
+/*-------------------------------------------------------------------------------*/
+/*   Clean up our custom post/page
+/*-------------------------------------------------------------------------------*/
+function easmedia_cleanup_page() {
+		if ( isset( $_GET['page'] ) && $_GET['page'] == 'emg_settings' || isset( $_GET['page'] ) && $_GET['page'] == 'docs' || isset( $_GET['page'] ) && $_GET['page'] == 'comparison' || isset( $_GET['page'] ) && $_GET['page'] == 'easymedia-order' || get_post_type() == 'easymediagallery' ) {	
+?>
+    <script type="text/javascript">
+	/*<![CDATA[*/
+	/* Easy Media Gallery */	
+	jQuery(document).ready(function(){jQuery("#ux_buy_pro").hide();});
+/*]]>*/</script>
+<?php
+	}
+}
+if ( easy_get_option( 'easymedia_disen_admnotify' ) == '0' ) {
+		add_action('admin_head', 'easmedia_cleanup_page');
+}
+
+function emg_cleanup_adminbar() {
+	if ( isset( $_GET['page'] ) && $_GET['page'] == 'emg_settings' || isset( $_GET['page'] ) && $_GET['page'] == 'docs' || isset( $_GET['page'] ) && $_GET['page'] == 'comparison' || isset( $_GET['page'] ) && $_GET['page'] == 'easymedia-order' || get_post_type() == 'easymediagallery' ) {
+	global $wp_admin_bar;$wp_admin_bar->remove_node('gallery_bank_links');}
+}
+add_action( 'wp_before_admin_bar_render', 'emg_cleanup_adminbar' );
+
 
 /*-------------------------------------------------------------------------------*/
 /*   Comparison Page
