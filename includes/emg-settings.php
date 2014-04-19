@@ -319,10 +319,10 @@ if ( isset( $_REQUEST['reset'] ) ) { echo '<script type="text/javascript">
 <div id="spg_container">
     <div id="header">
       <div class="logo">
-      <div class="icon-option-left"></div>
+      <div class="emg-icon-option-left"></div>
         <div class="emg-cp-title"><h2><?php echo $emgplugname . "  LITE (v " . easymedia_get_plugin_version() . ")"; ?></h2></div>
       </div>
-      <div class="icon-option"> </div>
+      <div class="emg-icon-option-right"> </div>
       <div style="clear: both;"></div>
     </div>
 
