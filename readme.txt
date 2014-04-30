@@ -210,7 +210,7 @@ But seriously, I just want to drink coffee for free, so help a developer out. Yo
 == Changelog ==
 
 = 1.2.33 =
-* Fixed : Small bugs and improvements
+* Fixed : Small bugs and improvements ( Settings Page )
 
 = 1.2.31 =
 * Updated : Wordpress 3.9 compatibility
