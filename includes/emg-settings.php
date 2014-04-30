@@ -53,7 +53,7 @@ die;
 | REGISTER & ENQUEUE SCRIPTS/STYLES ONLY for a Specific Post Type 
 |--------------------------------------------------------------------------
 */			
-if ( is_admin() && ( isset( $_GET['page'] ) == 'emg_settings' ) && ( isset( $_GET['post_type'] ) == 'easymediagallery' ) ){
+if ( is_admin() && ( isset( $_GET['page'] ) == 'emg_settings' ) && $_GET['page'] == 'emg_settings' ){ //@since 1.2.33
 	
 	add_action( "admin_head", 'easymedia_admin_head_script' );
 	add_action( 'admin_enqueue_scripts', 'easymedia_cp_script' );
