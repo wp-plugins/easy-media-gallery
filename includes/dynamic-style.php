@@ -62,7 +62,8 @@ echo '#mbOverlay {background: url(../css/images/patterns/'.$pattover.'); backgro
 
 // IE <8 Handle
 
-		if ( isset($_SERVER['HTTP_USER_AGENT']) && preg_match( '/MSIE (.*?);/', $_SERVER['HTTP_USER_AGENT'], $matches ) ) {
+		preg_match( '/MSIE (.*?);/', $_SERVER['HTTP_USER_AGENT'], $matches );
+		if ( isset($matches) ) {
 			if ( count( $matches )>1 && $disenbor == 1 ){
 				$version = explode(".", $matches[1]);
 				switch(true){
