@@ -470,8 +470,8 @@ echo $getwpinfo[0]."\n";
 echo $getwpinfo[1]."\n";	
 echo $getwpinfo[2]."\n";
 echo "- Memory Limit : ".$emgmemory."\n";
-$theme_name = get_current_theme();
-echo "- Active Theme : ".$theme_name."\n";
+$theme_name = wp_get_theme();
+echo "- Active Theme : ".$theme_name->get('Name')."\n";
 echo "- Active Plugins : \n";
 
 // Get Active Plugin
