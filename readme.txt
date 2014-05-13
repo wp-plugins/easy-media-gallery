@@ -1,7 +1,7 @@
 === Easy Media Gallery ===
 Contributors: GhozyLab
 Donate link: http://ghozylab.com/donate
-Tags: gallery, gallery plugin, photo gallery, photo album, albums, lightbox, wordpress gallery plugin, photo albums photo slider, plugin gallery, responsive gallery, galerie, galleria, image slider, photo, photos, picture, pictures, album, widget, sidebar, fancy gallery, plugin, post, links, page, admin, posts, images
+Tags: gallery, gallery plugin, photo gallery, photo album, albums, lightbox, wordpress gallery plugin, photo albums, plugin gallery, responsive gallery, galerie, galleria, image slider, photo, photos, picture, pictures, album, widget, sidebar, fancy gallery, plugin, post, links, page, admin, posts, images
 Requires at least: 3.3
 Tested up to: 3.9
 Stable tag: 1.2.33
