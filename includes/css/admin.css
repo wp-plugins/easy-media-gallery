@@ -592,6 +592,24 @@ float:left;display:inline-block; text-decoration:none; outline:none; cursor:poin
 .emgnotyclosepermanent:hover{
 	color:#8D8D8D
 	}	
+	
+/* Admin Bar Notify */	
+#wpadminbar .emg-upgrade-to-pro > .ab-item{
+	margin-left: 5px;
+	margin-right: 5px;	
+	color:#fff;
+	background-color: #f44;
+	background-image: -moz-linear-gradient(bottom, #0074A2, #009DD9);
+	background-image: -webkit-gradient(linear, left bottom, left top, from(#0074A2), to(#009DD9));
+}
+
+#wpadminbar .emg-upgrade-to-pro:hover > .ab-item{
+	color:#fff !important;
+	background-color: #0074A2 !important;
+	background-image: -moz-linear-gradient(bottom, #009DD9, #0074A2) !important;
+	background-image: -webkit-gradient(linear, left bottom, left top, from(#009DD9), to(#0074A2)) !important;
+}	
+	
 
 @media only screen and (max-width: 768px) {
     .noty_buttons {

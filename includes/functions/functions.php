@@ -683,10 +683,26 @@ function emg_hide_noty() {
 }
 add_action( 'wp_ajax_emg_hide_noty', 'emg_hide_noty' );
 
+
 /*-------------------------------------------------------------------------------*/
 /*   Admin Notifications
 /*-------------------------------------------------------------------------------*/
+function emg_admin_bar_menu(){
+            global $wp_admin_bar;
 
+            /* Add the main siteadmin menu item */
+                $wp_admin_bar->add_menu( array(
+                    'id'     => 'emg-upgrade-bar',
+                    'href' => 'http://ghozylab.com/pricing/',
+                    'parent' => 'top-secondary',
+					'title' => __('<img src="'.plugins_url( 'images/easymedia-cp-icon.png' , dirname(__FILE__) ).'" style="vertical-align:middle;margin-right:5px" alt="Upgrade Now!" title="Upgrade Now!" />Upgrade Easy Media Gallery to PRO version', 'easmedia' ),
+                    'meta'   => array('class' => 'emg-upgrade-to-pro', 'target' => '_blank' ),
+                ) );
+}
+add_action( 'admin_bar_menu', 'emg_admin_bar_menu', 1000);
+
+
+/* @since 1.2.35
 if ( easy_get_option( 'easymedia_disen_admnotify' ) == '1' ) {
 function emg_upgradepro_message() {
 	if ( isset( $_GET['page'] ) && $_GET['page'] != 'emg_settings' || isset( $_GET['page'] ) && $_GET['page'] != 'docs' || isset( $_GET['page'] ) && $_GET['page'] != 'comparison' || isset( $_GET['page'] ) && $_GET['page'] != 'easymedia-order' || get_post_type() != 'easymediagallery' ) {
@@ -696,6 +712,7 @@ function emg_upgradepro_message() {
 }
 add_action( 'admin_notices', 'emg_upgradepro_message', 1 );
 }
+*/
 
 /*-------------------------------------------------------------------------------*/
 /*   Admin Notifications ( Setting Area )
@@ -713,7 +730,7 @@ function easmedia_put_notify_script() {
 	}
 
 function easmedia_put_notify_head() {
-		if ( isset( $_GET['page'] ) && $_GET['page'] == 'emg_settings' || isset( $_GET['page'] ) && $_GET['page'] == 'docs' || isset( $_GET['page'] ) && $_GET['page'] == 'comparison' || isset( $_GET['page'] ) && $_GET['page'] == 'easymedia-order' || get_post_type() == 'easymediagallery' ) {	
+		if ( isset( $_GET['page'] ) && $_GET['page'] == 'emg_settings' ) {	
 	?>
     <script type="text/javascript">
 	/*<![CDATA[*/
