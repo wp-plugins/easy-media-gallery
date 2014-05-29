@@ -4,11 +4,11 @@ Donate link: http://ghozylab.com/donate
 Tags: gallery, photo gallery, photo album, nextgen, wordpress gallery plugin, best gallery, photo albums, wordpress portfolio plugin, best gallery plugin, plugin gallery, wp gallery, responsive gallery, grid gallery, gallery plugin, galerie, galleria, wp gallery plugin, photo slider, image slider, responsive gallery, photo, photos, picture, pictures, html5 video, html5 audio, album, widget, sidebar, fancy gallery, plugin for gallery, html5 player, pagination gallery, pagination portfolio, plugin, post, links, page, admin, posts, images, thumbnail, easy media gallery, seo image, twitter, image album, image, google, portfolio, best portfolio
 Requires at least: 3.3
 Tested up to: 3.9.1
-Stable tag: 1.2.37
+Stable tag: 1.2.39
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-The best Wordpress gallery plugin enables you to create photo gallery or portfolio. Over 217,779+ sites are already using Easy Media Gallery.
+The best Wordpress gallery plugin enables you to create photo gallery or portfolio. Over 217,895+ sites are already using Easy Media Gallery.
 
 == Description ==
 
@@ -19,18 +19,20 @@ Easy Media Gallery is a wordpress plugin designed to display various media suppo
 
 > * [DEMO : Photo Albums](http://ghozylab.com/best-photo-albums-wordpress-plugin/)
 > * [DEMO : Photo Gallery / Grid Gallery](http://ghozylab.com/best-wordpress-grid-gallery-and-grid-portfolio-plugin/)
-> * [DEMO : Filterable Media](http://ghozylab.com/wordpress-filterable-gallery-and-filterable-media-plugin/)
+> * [DEMO : Image Slider](http://ghozylab.com/wordpress-image-slider-and-media-slider-plugin/)
 > * [DEMO : Gallery with Pagination](http://ghozylab.com/wordpress-grid-gallery-with-pagination-plugin/)
-> * [DEMO : Image / Media Slider](http://ghozylab.com/wordpress-image-slider-and-media-slider-plugin/)
+> * [DEMO : Video Gallery](http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-wordpress-video-gallery-plugin/)
+> * [DEMO : Audio Gallery](http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-wordpress-audio-gallery/)
+> * [DEMO : Filterable Media](http://ghozylab.com/wordpress-filterable-gallery-and-filterable-media-plugin/)
 
 = Full media support =
 <p>Easy Media Gallery plugin satisfy all your needs letting you create different types of wordpress portfolio, photo albums or wordpress media gallery. Each item can be:</p> 
 
 * An image
+* Photo Albums (<em>[Pro Version](http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-gallery-and-photo-albums-demo/)</em>)
 * Grid Gallery (<em>[Pro Version](http://ghozylab.com/best-wordpress-grid-gallery-and-grid-portfolio-plugin/)</em>)
 * Grid Gallery with fancy pagination (<em>[Pro Version](http://ghozylab.com/wordpress-grid-gallery-with-pagination-plugin/)</em>)
 * Filterable Media (<em>[Pro Version](http://ghozylab.com/wordpress-filterable-gallery-and-filterable-media-plugin/)</em>)
-* An image gallery/Photo Albums/Multiple Photo Albums (<em>[Pro Version](http://ghozylab.com/best-photo-albums-wordpress-plugin/)</em>)
 * Media/Image Slider (<em>[Pro Version](http://ghozylab.com/wordpress-image-slider-and-media-slider-plugin/)</em>)
 * A video, Auto-retrieve YouTube and Vimeo Thumbnail (<em>Pro Version [learn more here](http://www.youtube.com/watch?v=uAGWUcs5ofE)</em>)
 * An mp3 player (<em>HTML5 player for Pro version and Flash player for Lite version</em>), embed from Reverbnation or Soundcloud (<em>[Pro Version](http://ghozylab.com/sample-1/)</em>)
@@ -77,6 +79,7 @@ It is a very customizable wordpress gallery and portfolio plugin that allow you 
 > * Fully CSS3 compliant with text shadowing, box shadowing, gradients, etc
 > * Color picker for unlimited color combinations
 > * See your media on different theme and more.
+> * More than 7 lightboxes available.
 > * Powerfull control panel and Shortcode Manager make getting started super easy
 > * 24/7 Technical Support
 
@@ -208,6 +211,10 @@ But seriously, I just want to drink coffee for free, so help a developer out. Yo
 8. Embed music from Reverbnation
 
 == Changelog ==
+
+= 1.2.39 =
+* Fixed : Small bugs and improvements
+* Updated : Purchase & Demo Link
 
 = 1.2.37 =
 * Fixed : Small bugs and improvements
@@ -397,5 +404,5 @@ But seriously, I just want to drink coffee for free, so help a developer out. Yo
 
 == Upgrade Notice ==
 
-= 1.2.37 =
+= 1.2.39 =
 IMPORTANT! Security bugs fix, update NOW!
