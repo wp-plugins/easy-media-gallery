@@ -105,6 +105,11 @@ if ( !defined( 'EASYMEDIA_VERSION' ) ) {
 }
 
 // Pro Price
+if ( !defined( 'EASYMEDIA_PRO_PRICE' ) ) {
+	define( 'EASYMEDIA_PRO_PRICE', '24' );
+}
+
+// Pro+
 if ( !defined( 'EASYMEDIA_PRICE' ) ) {
 	define( 'EASYMEDIA_PRICE', '29' );
 }

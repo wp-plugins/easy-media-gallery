@@ -923,8 +923,8 @@ function easymedia_comparison() {
         <li class="row_style_2"><span>Place media wherever you want</span></li>
         <li class="row_style_4"><span>Media Style</span><a target="_blank" href="http://ghozylab.com/" style="text-decoration:underline !important;"> Click for Sample</a></li>
         <li class="row_style_2"><span>Pattern Overlay</span></li>
-        <li class="row_style_4"><span>Powerfull Control Panel </span> <a href="<?php echo plugins_url( 'images/pro-version-control-panel.png' , dirname(__FILE__) ) ?>   " style="text-decoration:underline !important;">Click for Screenshot</a></li>
-        <li class="row_style_2"><span>Advanced Shortcode </span><a href="<?php echo plugins_url( 'images/pro-version-shortcode-manager.png' , dirname(__FILE__) ) ?>" style="text-decoration:underline !important;">Click for Screenshot</a></li>
+        <li class="row_style_4"><span>Powerfull Control Panel </span> <a href="<?php echo plugins_url( 'images/pro-version-control-panel.png' , dirname(__FILE__) ) ?>   " style="text-decoration:underline !important;">Screenshot</a></li>
+        <li class="row_style_2"><span>Advanced Shortcode </span><a href="<?php echo plugins_url( 'images/pro-version-shortcode-manager.png' , dirname(__FILE__) ) ?>" style="text-decoration:underline !important;">Screenshot</a></li>
         <li class="row_style_4"><span>Facebook, Twitter &amp; Pinterest share buttons</span></li>
          <li class="row_style_2"><span>AJAX page/post load Support</span></li>
         <li class="row_style_2"><span>WP Multisite</span></li>
@@ -936,7 +936,7 @@ function easymedia_comparison() {
     <div class="column_1">
       <ul>
         <li class="header_row_1 align_center">
-          <h2 class="col1">Lite Version</h2>
+          <h2 class="col1">Lite</h2>
         </li>
         <li class="header_row_2 align_center">
           <h1 class="col1">Free</h1>
@@ -975,15 +975,16 @@ function easymedia_comparison() {
         <li class="footer_row"></li>
       </ul>
     </div>
+    
     <div class="column_2">
       <ul>
         <li class="header_row_1 align_center">
-          <h2 class="col2">Pro Version</h2>
+          <h2 class="col2">Pro</h2>
         </li>
         <li class="header_row_2 align_center">
-          <h1 class="col2">$<span><?php echo EASYMEDIA_PRICE; ?></span></h1>
+          <h1 class="col2">$<span><?php echo EASYMEDIA_PRO_PRICE; ?></span></h1>
         </li>
-        <li class="row_style_4 align_center">3 Sites</li>
+        <li class="row_style_4 align_center"><span style="font-weight: bold; color:#F77448; font-size:14px;">1 Site</span></li>
         <li class="row_style_2 align_center"><span class="pricing_yes"></span></li>
         <li class="row_style_4 align_center"><span class="pricing_yes"></span></li>
         <li class="row_style_2 align_center"><span class="pricing_yes"></span></li>        
@@ -1011,7 +1012,49 @@ function easymedia_comparison() {
         <li class="row_style_2 align_center"><span class="pricing_yes"></span></li>
 		<li class="row_style_4 align_center"><span class="pricing_yes"></span></li>        
         <li class="row_style_2 align_center"><span class="pricing_no"></span></li>
+        <li class="row_style_4 align_center"><span>1 Month</span></li>
+        <li class="row_style_2 align_center"><span>1 Month</span></li>
+        <li class="footer_row"><a target="_blank" href="https://secure.ghozylab.com/checkout/?edd_action=add_to_cart&download_id=9&edd_options[price_id]=2" class="tsc_buttons2 red">Upgrade Now</a></li>
+      </ul>
+    </div>    
+    
+    <div class="column_2">
+      <ul>
+        <li class="header_row_1 align_center">
+          <h2 class="col2">Pro+</h2>
+        </li>
+        <li class="header_row_2 align_center">
+          <h1 class="col2">$<span><?php echo EASYMEDIA_PRICE; ?></span></h1>
+        </li>
+        <li class="row_style_4 align_center"><span style="font-weight: bold; color:#F77448; font-size:14px;">3 Sites</span></li>
+        <li class="row_style_2 align_center"><span class="pricing_yes"></span></li>
         <li class="row_style_4 align_center"><span class="pricing_yes"></span></li>
+        <li class="row_style_2 align_center"><span class="pricing_yes"></span></li>        
+        <li class="row_style_4 align_center"><span class="pricing_yes"></span></li>
+        <li class="row_style_2 align_center"><span class="pricing_yes"></span></li>
+        <li class="row_style_4 align_center"><span class="pricing_yes"></span></li> 
+        <li class="row_style_2 align_center"><span class="pricing_yes"></span></li>
+        <li class="row_style_4 align_center"><span class="pricing_yes"></span></li> 
+        <li class="row_style_2 align_center"><span class="pricing_yes"></span></li>
+        <li class="row_style_4 align_center"><span class="pricing_yes"></span></li>                             
+        <li class="row_style_2 align_center"><span class="pricing_yes"></span></li>
+        <li class="row_style_4 align_center"><span class="pricing_yes"></span></li>
+        <li class="row_style_2 align_center"><span class="pricing_yes"></span></li>
+        <li class="row_style_4 align_center"><span>up to 8 columns</span></li>
+        <li class="row_style_2 align_center"><span>title, subtitle &amp; unlimited content</span></li>
+        <li class="row_style_4 align_center"><span>left, right, center</span></li>
+        <li class="row_style_2 align_center"><span class="pricing_yes"></span></li>
+        <li class="row_style_4 align_center"><span class="pricing_yes"></span></li>
+        <li class="row_style_2 align_center"><span class="pricing_yes"></span></li>
+        <li class="row_style_4 align_center"><span class="pricing_yes"></span></li>
+        <li class="row_style_2 align_center"><span>light, dark &amp; transparent</span></li>
+        <li class="row_style_4 align_center"><span>15 patterns</span></li>
+        <li class="row_style_2 align_center"><span class="pricing_yes"></span></li>
+        <li class="row_style_4 align_center"><span class="pricing_yes"></span></li>
+        <li class="row_style_2 align_center"><span class="pricing_yes"></span></li>
+		<li class="row_style_4 align_center"><span class="pricing_yes"></span></li>        
+        <li class="row_style_2 align_center"><span class="pricing_no"></span></li>
+        <li class="row_style_4 align_center"><span>1 year</span></li>
         <li class="row_style_2 align_center"><span>1 year</span></li>
         <li class="footer_row"><a target="_blank" href="https://secure.ghozylab.com/checkout/?edd_action=add_to_cart&download_id=9&edd_options[price_id]=0" class="tsc_buttons2 red">Upgrade Now</a></li>
       </ul>
@@ -1019,12 +1062,12 @@ function easymedia_comparison() {
     <div class="column_2">
       <ul>
         <li class="header_row_1 align_center">
-          <h2 class="col2">Pro++ Version</h2>
+          <h2 class="col2">Pro++</h2>
         </li>
         <li class="header_row_2 align_center">
           <h1 class="col2">$<span><?php echo EASYMEDIA_PLUS_PRICE; ?></span></h1>
         </li>
-        <li class="row_style_4 align_center">5 Sites</li>
+        <li class="row_style_4 align_center"><span style="font-weight: bold; color:#F77448; font-size:14px;">5 Sites</span></li>
         <li class="row_style_2 align_center"><span class="pricing_yes"></span></li>
         <li class="row_style_4 align_center"><span class="pricing_yes"></span></li>
         <li class="row_style_2 align_center"><span class="pricing_yes"></span></li>        
@@ -1052,7 +1095,7 @@ function easymedia_comparison() {
         <li class="row_style_2 align_center"><span class="pricing_yes"></span></li>
 		<li class="row_style_4 align_center"><span class="pricing_yes"></span></li>        
         <li class="row_style_2 align_center"><span class="pricing_no"></span></li>
-        <li class="row_style_4 align_center"><span class="pricing_yes"></span></li>
+        <li class="row_style_4 align_center"><span>1 year</span></li>
         <li class="row_style_2 align_center"><span>1 year</span></li>
         <li class="footer_row"><a target="_blank" href="https://secure.ghozylab.com/checkout/?edd_action=add_to_cart&download_id=9&edd_options[price_id]=1" class="tsc_buttons2 red">Upgrade Now</a></li>
       </ul>
@@ -1060,12 +1103,12 @@ function easymedia_comparison() {
      <div class="column_4">
       <ul>
         <li class="header_row_1 align_center">
-          <h2 class="col2">Developer Version</h2>
+          <h2 class="col2">Developer</h2>
         </li>
         <li class="header_row_2 align_center">
           <h1 class="col2">$<span><?php echo EASYMEDIA_DEV_PRICE; ?></span></h1>
         </li>
-        <li class="row_style_3 align_center">15 Sites</li>
+        <li class="row_style_3 align_center"><span style="font-weight: bold; color: #F77448; font-size:14px;">15 Sites</span></li>
         <li class="row_style_1 align_center"><span class="pricing_yes"></span></li>
         <li class="row_style_3 align_center"><span class="pricing_yes"></span></li>
         <li class="row_style_1 align_center"><span class="pricing_yes"></span></li>        
@@ -1093,7 +1136,7 @@ function easymedia_comparison() {
         <li class="row_style_1 align_center"><span class="pricing_yes"></span></li>
 		<li class="row_style_3 align_center"><span class="pricing_yes"></span></li>        
         <li class="row_style_1 align_center"><span class="pricing_yes"></span></li>
-        <li class="row_style_3 align_center"><span class="pricing_yes"></span></li>
+        <li class="row_style_3 align_center"><span>1 year</span></li>
         <li class="row_style_1 align_center"><span>1 year</span></li>
         <li class="footer_row"><a target="_blank" href="https://secure.ghozylab.com/checkout/?edd_action=add_to_cart&download_id=641&edd_options[price_id]=0" class="tsc_buttons2 red">Upgrade Now</a></li>
       </ul>

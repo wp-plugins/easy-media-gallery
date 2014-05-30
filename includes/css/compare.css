@@ -61,10 +61,10 @@ div.tsc_pricingtable03 div.caption_column li.header_row_2 { height:72px; width:1
 
 
 div.tsc_pricingtable03 div.caption_column { width:23%; height:98%; float:left; border-left: #CCC solid 1px;border-top: #CCC solid 1px;}
-div.tsc_pricingtable03 div.column_1 { width:18%; height:auto; float:left; position:relative;}
-div.tsc_pricingtable03 div.column_2 { width:18%; height:auto; float:left; position:relative;}
-div.tsc_pricingtable03 div.column_3 { width:18%; height:auto; float:left; position:relative;}
-div.tsc_pricingtable03 div.column_4 { width:18%; height:auto; float:left; position:relative;}
+div.tsc_pricingtable03 div.column_1 { width:15%; height:auto; float:left; position:relative;}
+div.tsc_pricingtable03 div.column_2 { width:15%; height:auto; float:left; position:relative;}
+div.tsc_pricingtable03 div.column_3 { width:15%; height:auto; float:left; position:relative;}
+div.tsc_pricingtable03 div.column_4 { width:15%; height:auto; float:left; position:relative;}
 
 
 div.tsc_pricingtable03 div.column_1,
