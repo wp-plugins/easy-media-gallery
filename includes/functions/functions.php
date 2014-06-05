@@ -699,8 +699,9 @@ function emg_admin_bar_menu(){
                     'meta'   => array('class' => 'emg-upgrade-to-pro', 'target' => '_blank' ),
                 ) );
 }
+if ( easy_get_option( 'easymedia_disen_admnotify' ) == '1' ) {
 add_action( 'admin_bar_menu', 'emg_admin_bar_menu', 1000);
-
+}
 
 /* @since 1.2.35
 if ( easy_get_option( 'easymedia_disen_admnotify' ) == '1' ) {
