@@ -214,6 +214,7 @@ But seriously, I just want to drink coffee for free, so help a developer out. Yo
 
 = 1.2.41 =
 * Added : New option
+* Fixed : JS Conflict
 * Updated : Pricing & compare tables
 
 = 1.2.39 =
