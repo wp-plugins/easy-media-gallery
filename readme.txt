@@ -1,4 +1,4 @@
-=== Easy Media Gallery — The best Wordpress gallery plugin ===
+=== Easy Media Gallery — Best Wordpress Gallery Plugin ===
 Contributors: GhozyLab
 Donate link: http://ghozylab.com/donate
 Tags: gallery, photo gallery, photo album, wordpress gallery plugin, best gallery, lightbox, photo albums, nextgen, wordpress portfolio plugin, best gallery plugin, plugin gallery, wp gallery, responsive gallery, grid gallery, gallery plugin, galerie, galleria, wp gallery plugin, photo slider, image slider, responsive gallery, photo, shortcode, photos, picture, pictures, html5 video, html5 audio, album, widget, sidebar, fancy gallery, plugin for gallery, html5 player, pagination gallery, pagination portfolio, plugin, post, links, page, admin, posts, images, thumbnail, easy media gallery, seo image, twitter, image album, image, google, portfolio, best portfolio
@@ -12,7 +12,7 @@ The best Wordpress gallery plugin enables you to create photo gallery or portfol
 
 == Description ==
 
-### [Best Gallery Plugin - Photo Albums - Grid Gallery Plugin](http://ghozylab.com/best-photo-albums-wordpress-plugin/)
+### [Best Gallery Plugin - Photo Albums - Grid Gallery Plugin](http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-gallery-and-photo-albums-demo/)
 Easy Media Gallery is a wordpress plugin designed to display various media support including grid gallery, galleries, photo album, multiple photo albums, portfolio, photo gallery or image gallery, image slider, google maps and google street view, youtube video, vimeo video, mp4 video, audio mp3 and link with very ease, fancy and elegant.
 
 > #### **Live Demos**
@@ -30,14 +30,14 @@ Easy Media Gallery is a wordpress plugin designed to display various media suppo
 
 * An image
 * Photo Albums (<em>[Pro Version](http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-gallery-and-photo-albums-demo/)</em>)
-* Grid Gallery (<em>[Pro Version](http://ghozylab.com/best-wordpress-grid-gallery-and-grid-portfolio-plugin/)</em>)
-* Grid Gallery with fancy pagination (<em>[Pro Version](http://ghozylab.com/wordpress-grid-gallery-with-pagination-plugin/)</em>)
-* Filterable Media (<em>[Pro Version](http://ghozylab.com/wordpress-filterable-gallery-and-filterable-media-plugin/)</em>)
-* Media/Image Slider (<em>[Pro Version](http://ghozylab.com/wordpress-image-slider-and-media-slider-plugin/)</em>)
+* Grid Gallery (<em>[Pro Version](http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-gallery-grid-galleries-plugin/)</em>)
+* Grid Gallery with fancy pagination (<em>[Pro Version](http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-wordpress-plugin-gallery-using-pagination/)</em>)
+* Filterable Media (<em>[Pro Version](http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-wordpress-portfolio-plugin/)</em>)
+* Media/Image Slider (<em>[Pro Version](http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-wordpress-image-slider-plugin/)</em>)
 * A video, Auto-retrieve YouTube and Vimeo Thumbnail (<em>Pro Version [learn more here](http://www.youtube.com/watch?v=uAGWUcs5ofE)</em>)
-* An mp3 player (<em>HTML5 player for Pro version and Flash player for Lite version</em>), embed from Reverbnation or Soundcloud (<em>[Pro Version](http://ghozylab.com/sample-1/)</em>)
-* Google Maps / Google Street View (<em>[Pro Version](http://ghozylab.com/sample-1/)</em>)
-* A link to specific URL (<em>[Pro Version](http://ghozylab.com/wordpress-filterable-gallery-and-filterable-media-plugin/)</em>) - see LINK tab
+* An mp3 player (<em>HTML5 player for Pro version and Flash player for Lite version</em>), embed from Reverbnation or Soundcloud (<em>[Pro Version](http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-wordpress-audio-gallery/)</em>)
+* Google Maps / Google Street View (<em>[Pro Version](http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-wordpress-portfolio-plugin/)</em>)
+* A link to specific URL (<em>[Pro Version](http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-wordpress-portfolio-plugin/)</em>) - see LINK tab
 * S.E.O. for Images (<em>Pro Version</em>)
 * Facebook, Instagram, Flickr Album (<em>Coming Soon</em>)
 
@@ -70,7 +70,7 @@ It is a very customizable wordpress gallery and portfolio plugin that allow you 
 
 
 > #### **Upgrade to Easy Media Gallery Pro**
-> Take your media to the next level with [Easy Media Gallery Pro](http://ghozylab.com/pricing/), which gives you additional features such as:
+> Take your media to the next level with [Easy Media Gallery Pro](http://ghozylab.com/plugins/easy-media-gallery-pro/pricing/), which gives you additional features such as:
 
 > * Create unlimited number of media
 > * No coding, the plugin takes care of everything
@@ -164,7 +164,7 @@ or you can display it where you want and as you want outside your post/page usin
 <strong>Keep in mind:</strong>
 We have created a shortcode manager that allow you to put media wherever you like with ease. Please learn more at:
 
-* [Basic Tutorials](http://ghozylab.com/create-media)
+* [Basic Tutorials](http://ghozylab.com/plugins/frequently-asked-questions/)
 * [Youtube Channel](http://www.youtube.com/GhozyLab)
 
 
@@ -195,7 +195,7 @@ To make the plugin easy for everyone, the documentation comes with detailed vide
 * If you really love Easy Media Gallery, any donation would be appreciated! It helps to continue the development and support of the plugin.
 But seriously, I just want to drink coffee for free, so help a developer out. You can use this link [Donate to Easy Media Gallery][easymedia donate].
 
-[easymedia donate]: http://ghozylab.com/donate
+[easymedia donate]: http://ghozylab.com/plugins/donate
             "Donate to Easy Media Gallery"
 
 
