@@ -1,4 +1,4 @@
-=== Easy Media Gallery ===
+=== Easy Media Gallery — The best Wordpress gallery plugin ===
 Contributors: GhozyLab
 Donate link: http://ghozylab.com/donate
 Tags: gallery, photo gallery, photo album, wordpress gallery plugin, best gallery, lightbox, photo albums, nextgen, wordpress portfolio plugin, best gallery plugin, plugin gallery, wp gallery, responsive gallery, grid gallery, gallery plugin, galerie, galleria, wp gallery plugin, photo slider, image slider, responsive gallery, photo, shortcode, photos, picture, pictures, html5 video, html5 audio, album, widget, sidebar, fancy gallery, plugin for gallery, html5 player, pagination gallery, pagination portfolio, plugin, post, links, page, admin, posts, images, thumbnail, easy media gallery, seo image, twitter, image album, image, google, portfolio, best portfolio
@@ -8,7 +8,7 @@ Stable tag: 1.2.41
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-The best Wordpress gallery plugin enables you to create photo gallery or portfolio. Over 225,300+ sites are already using Easy Media Gallery.
+The best Wordpress gallery plugin enables you to create photo gallery or portfolio. Over 225,435+ sites are already using Easy Media Gallery.
 
 == Description ==
 
@@ -17,13 +17,13 @@ Easy Media Gallery is a wordpress plugin designed to display various media suppo
 
 > #### **Live Demos**
 
-> * [DEMO : Photo Albums](http://ghozylab.com/best-photo-albums-wordpress-plugin/)
-> * [DEMO : Photo Gallery / Grid Gallery](http://ghozylab.com/best-wordpress-grid-gallery-and-grid-portfolio-plugin/)
-> * [DEMO : Image Slider](http://ghozylab.com/wordpress-image-slider-and-media-slider-plugin/)
-> * [DEMO : Gallery with Pagination](http://ghozylab.com/wordpress-grid-gallery-with-pagination-plugin/)
+> * [DEMO : Photo Albums](http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-gallery-and-photo-albums-demo/)
+> * [DEMO : Photo Gallery / Grid Gallery](http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-gallery-grid-galleries-plugin/)
+> * [DEMO : Image Slider](http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-wordpress-image-slider-plugin/)
+> * [DEMO : Gallery with Pagination](http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-wordpress-plugin-gallery-using-pagination/)
 > * [DEMO : Video Gallery](http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-wordpress-video-gallery-plugin/)
 > * [DEMO : Audio Gallery](http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-wordpress-audio-gallery/)
-> * [DEMO : Filterable Media](http://ghozylab.com/wordpress-filterable-gallery-and-filterable-media-plugin/)
+> * [DEMO : Filterable Media](http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-wordpress-portfolio-plugin/)
 
 = Full media support =
 <p>Easy Media Gallery plugin satisfy all your needs letting you create different types of wordpress portfolio, photo albums or wordpress media gallery. Each item can be:</p> 
