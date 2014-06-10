@@ -1,10 +1,10 @@
-=== Easy Media Gallery — The Best Gallery Plugin ===
+=== Easy Media Gallery - The Best Gallery & Photo Album Plugin ===
 Contributors: GhozyLab
 Donate link: http://ghozylab.com/donate
 Tags: gallery, photo gallery, photo album, images, wordpress gallery plugin, best gallery, lightbox, photo albums, nextgen, wordpress portfolio plugin, best gallery plugin, plugin gallery, wp gallery, responsive gallery, grid gallery, gallery plugin, galerie, galleria, wp gallery plugin, photo slider, image slider, responsive gallery, photo, shortcode, photos, picture, pictures, html5 video, html5 audio, album, widget, sidebar, fancy gallery, plugin for gallery, html5 player, pagination gallery, pagination portfolio, plugin, post, links, page, admin, posts, thumbnail, easy media gallery, seo image, twitter, image album, image, google, portfolio, best portfolio
 Requires at least: 3.3
 Tested up to: 3.9.1
-Stable tag: 1.2.41
+Stable tag: 1.2.43
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -212,6 +212,11 @@ But seriously, I just want to drink coffee for free, so help a developer out. Yo
 
 == Changelog ==
 
+= 1.2.43 =
+* Added : New option
+* Fixed : CP Wrong Variable
+* Updated : Pricing & compare tables
+
 = 1.2.41 =
 * Added : New option
 * Fixed : JS Conflict
@@ -409,5 +414,5 @@ But seriously, I just want to drink coffee for free, so help a developer out. Yo
 
 == Upgrade Notice ==
 
-= 1.2.41 =
+= 1.2.43 =
 IMPORTANT! Security bugs fix, update NOW!
