@@ -1,11 +1,11 @@
 <?php
 /*
 Plugin Name: Easy Media Gallery
-Plugin URI: http://www.ghozylab.com/
-Description: Easy Media Gallery (Lite) - Displaying your images, videos (MP4, Youtube, Vimeo) and audio mp3 in elegant and fancy lightbox with very easy. Allows you to customize all media to get it looking exactly what you want. <a href="http://ghozylab.com/order" target="_blank"><strong> Upgrade to Pro Version Now</strong></a> and get a tons of awesome features.
+Plugin URI: http://www.ghozylab.com/plugins/
+Description: Easy Media Gallery (Lite) - Displaying your images, videos (MP4, Youtube, Vimeo) and audio mp3 in elegant and fancy lightbox with very easy. Allows you to customize all media to get it looking exactly what you want. <a href="http://ghozylab.com/plugins/easy-media-gallery-pro/pricing/" target="_blank"><strong> Upgrade to Pro Version Now</strong></a> and get a tons of awesome features.
 Author: GhozyLab, Inc.
 Version: 1.2.45
-Author URI: http://www.ghozylab.com/
+Author URI: http://www.ghozylab.com/plugins/
 */
 
 if ( ! defined('ABSPATH') ) {
