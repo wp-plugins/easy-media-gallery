@@ -4,7 +4,7 @@ Donate link: http://ghozylab.com/donate
 Tags: gallery, photo gallery, photo album, photo albums, images, wordpress gallery plugin, best gallery, lightbox, nextgen, wordpress portfolio plugin, best gallery plugin, plugin gallery, wp gallery, gallery plugin, galerie, galerij, bilder, galleria, responsive gallery, grid gallery, wp gallery plugin, photo slider, image slider, responsive gallery, photo, shortcode, photos, picture, pictures, html5 video, html5 audio, album, widget, sidebar, fancy gallery, plugin for gallery, html5 player, pagination gallery, pagination portfolio, plugin, post, links, page, admin, posts, thumbnail, easy media gallery, seo image, twitter, image album, image, google, portfolio, best portfolio
 Requires at least: 3.3
 Tested up to: 3.9.1
-Stable tag: 1.2.45
+Stable tag: 1.2.47
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -212,6 +212,10 @@ But seriously, I just want to drink coffee for free, so help a developer out. Yo
 
 == Changelog ==
 
+= 1.2.47 =
+* Updated : Submenu title
+* Added : New option
+
 = 1.2.45 =
 * Added : New option
 
@@ -417,5 +421,5 @@ But seriously, I just want to drink coffee for free, so help a developer out. Yo
 
 == Upgrade Notice ==
 
-= 1.2.45 =
+= 1.2.47 =
 IMPORTANT! Security bugs fix, update NOW!
