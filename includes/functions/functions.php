@@ -441,6 +441,27 @@ echo '<style type="text/css">#edit-slug-box{display: none;}</style>';
 }
 add_action('admin_head', 'emg_hide_permalink'); 
 
+/*--------------------------------------------------------------------------------*/
+/*  REMOVE THE PARENT FIELD FOR THE CUSTOM TEXONOMY
+/*--------------------------------------------------------------------------------*/
+function emg_remove_cat_parent(){
+    global $current_screen;
+    switch ( $current_screen->id ) {
+        case 'edit-emediagallery':
+            
+			?>
+			<script type="text/javascript">
+            jQuery(document).ready( function($) {
+                jQuery('#parent').parents('.form-field').remove();
+            });
+            </script>
+            <?php
+			
+            break;
+    }
+}
+add_action('admin_footer-edit-tags.php', 'emg_remove_cat_parent');
+
 /*-------------------------------------------------------------------------------*/
 /*  Get WP Info
 /*-------------------------------------------------------------------------------*/
