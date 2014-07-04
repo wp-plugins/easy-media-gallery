@@ -17,22 +17,20 @@ global $emgplugname, $theshort, $theopt;
 	if ( is_admin() && ( isset( $_GET['page'] ) == 'emg_settings' ) && ( isset( $_GET['post_type'] ) == 'easymediagallery' ) ){		
 		if ( isset( $_REQUEST['action'] ) && 'save' == $_REQUEST['action'] ) {
 			$curtosv = get_option( 'easy_media_opt' );
-			foreach ( $theopt as $theval ) {
-				$curtosv[ $theval['id'] ] = $_REQUEST[ $theval['id'] ];
-				update_option( 'easy_media_opt', $curtosv ); }
-				header("Location: edit.php?post_type=easymediagallery&page=emg_settings&saved=true");
-				die;
+		foreach ( $theopt as $theval ) {
+			if ( isset( $theval['id'] ) ) {
+				if ( isset( $_REQUEST[ $theval['id'] ] ) ) {
+					$curtosv[ $theval['id'] ] = $_REQUEST[ $theval['id'] ];
+					}
+					else {
+						$curtosv[ $theval['id'] ] = '';
+						}
 				}
-/*								
-			else if ( isset( $_REQUEST['action'] ) && 'reset' == $_REQUEST['action'] ) {
- 
- // RESTORE DEFAULT SETTINGS
- easymedia_restore_to_default($_REQUEST['action']);
-// END
-
-header("Location: edit.php?post_type=easymediagallery&page=emg_settings&reset=true");
+				update_option( 'easy_media_opt', $curtosv );
+			}	
+	header("Location: edit.php?post_type=easymediagallery&page=emg_settings&saved=true");
 die;
-		}*/
+				}
 	}
 }
  
@@ -538,8 +536,12 @@ add_action('admin_menu', 'spg_add_admin');
 */	
 function easmedia_validate_options($input) {
 	 // strip html from textboxes
-	$input['text'] =  wp_filter_nohtml_kses($input['text']);
-	$input['textarea'] =  wp_filter_nohtml_kses($input['textarea']);
+	 if ( isset( $input['text'] ) ) {
+		 $input['text'] =  wp_filter_nohtml_kses($input['text']);
+		 }
+	if ( isset( $input['textarea'] ) ) {
+		$input['textarea'] =  wp_filter_nohtml_kses($input['textarea']);
+		}
 	return $input;
 }
 

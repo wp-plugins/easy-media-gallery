@@ -241,6 +241,8 @@ function easymedia_restore_to_default($cmd) {
 		
 		delete_option( 'easy_media_opt' );
 		
+				$theshort = "easymedia";
+		
 				$arr = array(
 				$theshort.'_deff_init' => '1',
 				$theshort.'_box_style' => 'Light',				
