@@ -306,7 +306,11 @@ function easymedia_restore_to_default($cmd) {
 				$theshort.'_ajax_con_id' => '#content',								
 				$theshort.'_disen_admnotify' => '1',				
 				$theshort.'_disen_plug' => '1',
-				$theshort.'_disen_galsshow' => '1',				
+				$theshort.'_disen_galsshow' => '1',
+				$theshort.'_text_showall' => 'Show All',
+				$theshort.'_text_backtoalbum' => 'BACK to ALBUM',				
+				$theshort.'_countsing' => 'image',
+				$theshort.'_countplural' => 'images',								
 				$theshort.'_frm_size' => array('width' => '160','height' => '160',),
 				$theshort.'_vid_size' => array('width' => '700','height' => '400',)											
 				);
@@ -388,7 +392,11 @@ function easymedia_1st_config() {
 				$thshort.'_disen_autopl' => '1',
 				$thshort.'_disen_autoplv' => '1',	
 				$thshort.'_disen_admnotify' => '1',	
-				$thshort.'_disen_galsshow' => '1',														
+				$thshort.'_disen_galsshow' => '1',	
+				$theshort.'_text_showall' => 'Show All',
+				$theshort.'_text_backtoalbum' => 'BACK to ALBUM',				
+				$theshort.'_countsing' => 'image',
+				$theshort.'_countplural' => 'images',																	
 				$thshort.'_frm_size' => array( 'width' => '160','height' => '160', ),
 				$thshort.'_vid_size' => array( 'width' => '700','height' => '400', ));
 				
