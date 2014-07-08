@@ -453,6 +453,7 @@ function emg_remove_cat_parent(){
 			<script type="text/javascript">
             jQuery(document).ready( function($) {
                 jQuery('#parent').parents('.form-field').remove();
+				jQuery('#tag-slug, #tag-description').parents('.form-field').hide();
             });
             </script>
             <?php
