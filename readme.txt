@@ -4,7 +4,7 @@ Donate link: http://ghozylab.com/donate
 Tags: gallery, photo gallery, wordpress gallery plugin, photo album, photo albums, images, best gallery, lightbox, nextgen, wordpress portfolio plugin, best gallery plugin, plugin gallery, wp gallery, gallery plugin, galerie, galerij, bilder, galleria, responsive gallery, grid gallery, wp gallery plugin, photo slider, image slider, responsive gallery, photo, shortcode, photos, picture, pictures, html5 video, html5 audio, album, widget, sidebar, fancy gallery, plugin for gallery, html5 player, pagination gallery, pagination portfolio, plugin, post, links, page, admin, posts, thumbnail, easy media gallery, seo image, twitter, image album, image, google, portfolio, best portfolio
 Requires at least: 3.3
 Tested up to: 3.9.1
-Stable tag: 1.2.49
+Stable tag: 1.2.50
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -211,6 +211,10 @@ But seriously, I just want to drink coffee for free, so help a developer out. Yo
 8. Embed music from Reverbnation
 
 == Changelog ==
+
+= 1.2.50 =
+* Fixed : Uninstall Script
+* Added : New option
 
 = 1.2.49 =
 * Added : New option
@@ -426,5 +430,5 @@ But seriously, I just want to drink coffee for free, so help a developer out. Yo
 
 == Upgrade Notice ==
 
-= 1.2.49 =
-IMPORTANT! Security bugs fix, update NOW!
+= 1.2.50 =
+IMPORTANT! Uninstall script to save your DATA, Security bugs fix, PLEASE UPDATE NOW!
