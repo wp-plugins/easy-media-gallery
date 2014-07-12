@@ -933,7 +933,9 @@ function easymedia_comparison() {
         <li class="row_style_4"><span>Image Slider</span><a target="_blank" href="http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-wordpress-image-slider-plugin/" style="text-decoration:underline !important;"> Click for Sample</a>&nbsp;&nbsp;<span class="newftr"></span></li>
         <li class="row_style_2"><span>Grid Gallery</span><a target="_blank" href="http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-gallery-grid-galleries-plugin/" style="text-decoration:underline !important;"> Click for Sample</a></li>  
          <li class="row_style_4"><span>Filterable Media</span><a target="_blank" href="http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-wordpress-portfolio-plugin/" style="text-decoration:underline !important;"> Click for Sample</a></li>                     
-        <li class="row_style_2"><span>Pagination</span><a target="_blank" href="http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-wordpress-plugin-gallery-using-pagination/" style="text-decoration:underline !important;"> Click for Sample</a>&nbsp;&nbsp;<span class="newftr"></span></li>        
+        <li class="row_style_2"><span>Pagination</span><a target="_blank" href="http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-wordpress-plugin-gallery-using-pagination/" style="text-decoration:underline !important;"> Click for Sample</a>&nbsp;&nbsp;<span class="newftr"></span></li>
+        <li class="row_style_4"><span>Carousel</span><a target="_blank" href="http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-wordpress-carousel-image-plugin/" style="text-decoration:underline !important;"> Click for Sample</a>&nbsp;&nbsp;<span class="newftr"></span></li>
+        <li class="row_style_2"><span>Backup & Restore Settings</span></li>        
         <li class="row_style_4"><span>Link Media</span></li>
         <li class="row_style_2"><span>Google Maps / Street View</span></li>
         <li class="row_style_4"><span>Custom CSS</span></li>
@@ -975,6 +977,8 @@ function easymedia_comparison() {
         <li class="row_style_3 align_center"><span class="pricing_no"></span></li>        
         <li class="row_style_1 align_center"><span class="pricing_no"></span></li>        
         <li class="row_style_3 align_center"><span class="pricing_no"></span></li>
+        <li class="row_style_1 align_center"><span class="pricing_no"></span></li>
+        <li class="row_style_3 align_center"><span class="pricing_no"></span></li>          
         <li class="row_style_1 align_center"><span class="pricing_no"></span></li>      
         <li class="row_style_3 align_center"><span class="pricing_no"></span></li>
         <li class="row_style_1 align_center"><span class="pricing_no"></span></li>        
@@ -1017,7 +1021,9 @@ function easymedia_comparison() {
         <li class="row_style_2 align_center"><span class="pricing_yes"></span></li>
         <li class="row_style_4 align_center"><span class="pricing_yes"></span></li> 
         <li class="row_style_2 align_center"><span class="pricing_yes"></span></li>
-        <li class="row_style_4 align_center"><span class="pricing_yes"></span></li>                             
+        <li class="row_style_4 align_center"><span class="pricing_yes"></span></li>  
+        <li class="row_style_2 align_center"><span class="pricing_yes"></span></li>
+        <li class="row_style_4 align_center"><span class="pricing_yes"></span></li>
         <li class="row_style_2 align_center"><span class="pricing_yes"></span></li>
         <li class="row_style_4 align_center"><span class="pricing_yes"></span></li>
         <li class="row_style_2 align_center"><span class="pricing_yes"></span></li>
@@ -1059,7 +1065,9 @@ function easymedia_comparison() {
         <li class="row_style_2 align_center"><span class="pricing_yes"></span></li>
         <li class="row_style_4 align_center"><span class="pricing_yes"></span></li> 
         <li class="row_style_2 align_center"><span class="pricing_yes"></span></li>
-        <li class="row_style_4 align_center"><span class="pricing_yes"></span></li>                             
+        <li class="row_style_4 align_center"><span class="pricing_yes"></span></li> 
+        <li class="row_style_2 align_center"><span class="pricing_yes"></span></li>
+        <li class="row_style_4 align_center"><span class="pricing_yes"></span></li>
         <li class="row_style_2 align_center"><span class="pricing_yes"></span></li>
         <li class="row_style_4 align_center"><span class="pricing_yes"></span></li>
         <li class="row_style_2 align_center"><span class="pricing_yes"></span></li>
@@ -1100,7 +1108,9 @@ function easymedia_comparison() {
         <li class="row_style_2 align_center"><span class="pricing_yes"></span></li>
         <li class="row_style_4 align_center"><span class="pricing_yes"></span></li> 
         <li class="row_style_2 align_center"><span class="pricing_yes"></span></li>
-        <li class="row_style_4 align_center"><span class="pricing_yes"></span></li>                             
+        <li class="row_style_4 align_center"><span class="pricing_yes"></span></li>
+        <li class="row_style_2 align_center"><span class="pricing_yes"></span></li>
+        <li class="row_style_4 align_center"><span class="pricing_yes"></span></li>         
         <li class="row_style_2 align_center"><span class="pricing_yes"></span></li>
         <li class="row_style_4 align_center"><span class="pricing_yes"></span></li>
         <li class="row_style_2 align_center"><span class="pricing_yes"></span></li>
@@ -1141,7 +1151,9 @@ function easymedia_comparison() {
         <li class="row_style_1 align_center"><span class="pricing_yes"></span></li>
         <li class="row_style_3 align_center"><span class="pricing_yes"></span></li>  
         <li class="row_style_1 align_center"><span class="pricing_yes"></span></li>
-        <li class="row_style_3 align_center"><span class="pricing_yes"></span></li>                            
+        <li class="row_style_3 align_center"><span class="pricing_yes"></span></li> 
+        <li class="row_style_1 align_center"><span class="pricing_yes"></span></li>
+        <li class="row_style_3 align_center"><span class="pricing_yes"></span></li>
         <li class="row_style_1 align_center"><span class="pricing_yes"></span></li>
         <li class="row_style_3 align_center"><span class="pricing_yes"></span></li>
         <li class="row_style_1 align_center"><span class="pricing_yes"></span></li>
