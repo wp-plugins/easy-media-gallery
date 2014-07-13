@@ -8,7 +8,7 @@ Stable tag: 1.2.50
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-The best Wordpress gallery plugin enables you to create photo gallery or portfolio. Over 246,500+ sites are already using Easy Media Gallery.
+The best Wordpress gallery plugin enables you to create photo gallery or portfolio. Over 247,000+ sites are already using Easy Media Gallery.
 
 == Description ==
 
@@ -20,6 +20,7 @@ Easy Media Gallery is a wordpress plugin designed to display various media suppo
 > * [DEMO : Photo Albums](http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-gallery-and-photo-albums-demo/)
 > * [DEMO : Photo Gallery / Grid Gallery](http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-gallery-grid-galleries-plugin/)
 > * [DEMO : Image Slider](http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-wordpress-image-slider-plugin/)
+> * [DEMO : Image Slider Fotorama](http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-wordpress-image-slider-plugin-fotorama/)
 > * [DEMO : Carousel](http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-wordpress-carousel-image-plugin/)
 > * [DEMO : Gallery with Pagination](http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-wordpress-plugin-gallery-using-pagination/)
 > * [DEMO : Video Gallery](http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-wordpress-video-gallery-plugin/)
