@@ -54,12 +54,29 @@ if ( strstr( $_SERVER['REQUEST_URI'], 'wp-admin/post-new.php' ) || strstr( $_SER
 	if ( get_post_type( get_the_ID() ) == 'easymediagallery' ) { 
 	?>
     
+            <style type="text/css" media="screen">
+		   @media only screen and (min-width: 1150px) {
+			   #side-sortables.fixed { position: fixed; top: 55px; right: 20px; width: 280px; }
+			   }	
+				</style>   
+    
         <script type="text/javascript">
 			/*<![CDATA[*/
 			/* Easy Media Gallery */  
 			
 jQuery(document).ready(function($) {
 	
+	var snpprevPosition = jQuery('#side-sortables').offset();
+	
+	jQuery(window).scroll(function(){
+		if(jQuery(window).scrollTop() > snpprevPosition.top) {
+			jQuery('#side-sortables').addClass('fixed');
+			    } 
+			 else {
+				 jQuery('#side-sortables').removeClass('fixed');
+			    }    
+		    });	
+
 		jQuery("#easmedia_metabox_media_video").change(function() {
 			vdo_url = jQuery("#easmedia_metabox_media_video").val();
 				if (vdo_url.match('http://new\.livestream\.com')) {
