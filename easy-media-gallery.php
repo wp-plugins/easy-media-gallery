@@ -4,7 +4,7 @@ Plugin Name: Easy Media Gallery
 Plugin URI: http://www.ghozylab.com/plugins/
 Description: Easy Media Gallery (Lite) - Displaying your images, videos (MP4, Youtube, Vimeo) and audio mp3 in elegant and fancy lightbox with very easy. Allows you to customize all media to get it looking exactly what you want. <a href="http://ghozylab.com/plugins/easy-media-gallery-pro/pricing/" target="_blank"><strong> Upgrade to Pro Version Now</strong></a> and get a tons of awesome features.
 Author: GhozyLab, Inc.
-Version: 1.2.50
+Version: 1.2.51
 Author URI: http://www.ghozylab.com/plugins/
 */
 
@@ -101,7 +101,7 @@ require_once( EASYMEDG_PLUGIN_DIR . 'includes/class/easymedia_resizer.php' );
 
 // Plugin Version
 if ( !defined( 'EASYMEDIA_VERSION' ) ) {
-	define( 'EASYMEDIA_VERSION', '1.2.50' );
+	define( 'EASYMEDIA_VERSION', '1.2.51' );
 }
 
 // Pro Price
@@ -417,24 +417,17 @@ add_filter( 'pre_get_posts', 'easmedia_set_custom_post_types_admin_order' );
 /*-------------------------------------------------------------------------------*/
 /*   Hide View, Quick Edit and Preview Button
 /*-------------------------------------------------------------------------------*/
-function emg_hide_post_view() {
-    global $post_type;
-    $post_types = array(
-                        'easymediagallery'
-                  );
-    if(in_array($post_type, $post_types))
-    echo '<style type="text/css">#post-preview, #view-post-btn{display: none;}</style>';
+function emg_remove_row_actions( $actions ) {
+	global $post;
+    if( $post->post_type == 'easymediagallery' ) {
+		unset( $actions['view'] );
+		unset( $actions['inline hide-if-no-js'] );
+	}
+    return $actions;
 }
 
-add_action( 'admin_head-post-new.php', 'emg_hide_post_view' );
-add_action( 'admin_head-post.php', 'emg_hide_post_view' );
-add_filter( 'post_row_actions', 'emg_remove_row_actions', 10, 1 ); // <--- comment this to show post quick edit.
-
-function emg_remove_row_actions( $actions )
-{
-    if( get_post_type() === 'easymediagallery' )
-        unset( $actions['view'] );
-    return $actions;
+if ( is_admin() ) {
+	add_filter( 'post_row_actions','emg_remove_row_actions', 10, 2 );
 }
 
 
