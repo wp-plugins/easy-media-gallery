@@ -715,7 +715,7 @@ function emg_admin_bar_menu(){
             /* Add the main siteadmin menu item */
                 $wp_admin_bar->add_menu( array(
                     'id'     => 'emg-upgrade-bar',
-                    'href' => 'http://ghozylab.com/plugins/easy-media-gallery-pro/pricing/?utm_source=lite&utm_medium=topbar&utm_campaign=order',
+                    'href' => 'http://ghozylab.com/plugins/easy-media-gallery-pro/pricing/?utm_source=lite&utm_medium=topbar&utm_campaign=orderfromadminbar',
                     'parent' => 'top-secondary',
 					'title' => __('<img src="'.plugins_url( 'images/easymedia-cp-icon.png' , dirname(__FILE__) ).'" style="vertical-align:middle;margin-right:5px" alt="Upgrade Now!" title="Upgrade Now!" />Upgrade Easy Media Gallery to PRO Version', 'easmedia' ),
                     'meta'   => array('class' => 'emg-upgrade-to-pro', 'target' => '_blank' ),
@@ -772,7 +772,7 @@ theme:"defaultTheme",
 template:'<div class="noty_message"><div id="emg_noty_container"><div id="emg_noty_images"><img id="emg_hero" src="<?php echo plugins_url('images/emg_hero.png' , dirname(__FILE__) ); ?>" width="100%" height="auto"/></div><div id="emg_noty_content"><h2>'+emgNews[0]+'</h2><span class="noty_text"></span></div></div><div class="noty_close"></div></div>',buttons:[{
 	addClass:"emgnotyclosepermanent",text:"Disable notifications",onClick:function(e){
 		e.close()}},
-	{addClass:"tsc_buttons2 green",text:"UPGRADE NOW",onClick:function(e){e.close();noty({layout:"top",modal:true,text:'<span style="display:none;" id="emgordernote">Please click order button below and you will be redirected to order page shortly.</span><br /><a id="emgordrnow" style="display:none; margin: 15px 0 15px 0; "class="tsc_buttons2 green" href="http://ghozylab.com/plugins/ordernow.php?order=proplus&utm_source=lite&utm_medium=popup&utm_campaign=order" target="_blank">ORDER NOW</a><img id="emgorderspin" src="<?php echo plugins_url('images/ajax-loader.gif' , dirname(__FILE__) ); ?>" width="32" height="32"/><br /><p>Great! Please wait a moment...</p>',type:"success"});setTimeout(function(){jQuery("#emgorderspin").hide();jQuery("#emgordernote").fadeIn("slow");jQuery("#emgordrnow").fadeIn("slow");jQuery(".noty_text p").hide()},5e3)}},{addClass:"tsc_buttons2 blue",text:"DEMO",onClick:function(e){window.location.href="http://ghozylab.com/plugins/easy-media-gallery-pro/demo/";e.close()}},{addClass:"tsc_buttons2 orange",text:"Learn More",onClick:function(e){window.location.href="edit.php?post_type=easymediagallery&page=comparison";e.close()}},{addClass:"tsc_buttons2 red",text:"Close",onClick:function(e){e.close()}}],callback:{onShow:function(){jQuery("#ux_buy_pro").hide();jQuery("#emgadminnotice").hide()}}})}function generateAll(){generate("alert")}jQuery(document).ready(function(){
+	{addClass:"tsc_buttons2 green",text:"UPGRADE NOW",onClick:function(e){e.close();noty({layout:"top",modal:true,text:'<span style="display:none;" id="emgordernote">Please click order button below and you will be redirected to order page shortly.</span><br /><a id="emgordrnow" style="display:none; margin: 15px 0 15px 0; "class="tsc_buttons2 green" href="http://ghozylab.com/plugins/ordernow.php?order=proplus&utm_source=lite&utm_medium=popup&utm_campaign=orderfrompopup" target="_blank">ORDER NOW</a><img id="emgorderspin" src="<?php echo plugins_url('images/ajax-loader.gif' , dirname(__FILE__) ); ?>" width="32" height="32"/><br /><p>Great! Please wait a moment...</p>',type:"success"});setTimeout(function(){jQuery("#emgorderspin").hide();jQuery("#emgordernote").fadeIn("slow");jQuery("#emgordrnow").fadeIn("slow");jQuery(".noty_text p").hide()},5e3)}},{addClass:"tsc_buttons2 blue",text:"DEMO",onClick:function(e){window.location.href="http://ghozylab.com/plugins/easy-media-gallery-pro/demo/";e.close()}},{addClass:"tsc_buttons2 orange",text:"Learn More",onClick:function(e){window.location.href="edit.php?post_type=easymediagallery&page=comparison";e.close()}},{addClass:"tsc_buttons2 red",text:"Close",onClick:function(e){e.close()}}],callback:{onShow:function(){jQuery("#ux_buy_pro").hide();jQuery("#emgadminnotice").hide()}}})}function generateAll(){generate("alert")}jQuery(document).ready(function(){
 <?php if ( isset( $_GET['page'] ) && $_GET['page'] == 'comparison' ) { ?>
 setTimeout(function() { jQuery.noty.closeAll(); }, 100); <?php } ?>	generateAll();jQuery('.emgnotyclosepermanent').click(function(){var clickcmd = 'hide';
 emg_hide_noty(clickcmd);});	function emg_hide_noty(clickcmd) {var data = {action: 'emg_hide_noty',hidesecurity: '<?php echo wp_create_nonce( "easymedia-lite-nonce-button"); ?>',clickcmd: clickcmd,};jQuery.post(ajaxurl, data, function(response) {if (response == 0) {alert('Ajax request failed, please refresh your browser window.');return false;}});}})	
@@ -1043,7 +1043,7 @@ function easymedia_comparison() {
         <li class="row_style_2 align_center"><span class="pricing_no"></span></li>
         <li class="row_style_4 align_center"><span>1 Month</span></li>
         <li class="row_style_2 align_center"><span>1 Year</span></li>
-        <li class="footer_row"><a target="_blank" href="http://ghozylab.com/plugins/ordernow.php?order=pro&utm_source=lite&utm_medium=comparisonpage&utm_campaign=order" class="tsc_buttons2 red">Upgrade Now</a></li>
+        <li class="footer_row"><a target="_blank" href="http://ghozylab.com/plugins/ordernow.php?order=pro&utm_source=lite&utm_medium=comparisonpage&utm_campaign=orderfromcompare" class="tsc_buttons2 red">Upgrade Now</a></li>
       </ul>
     </div>    
     
@@ -1087,7 +1087,7 @@ function easymedia_comparison() {
         <li class="row_style_2 align_center"><span class="pricing_no"></span></li>
         <li class="row_style_4 align_center"><span>1 year</span></li>
         <li class="row_style_2 align_center"><span>1 year</span></li>
-        <li class="footer_row"><a target="_blank" href="http://ghozylab.com/plugins/ordernow.php?order=proplus&utm_source=lite&utm_medium=comparisonpage&utm_campaign=order" class="tsc_buttons2 red">Upgrade Now</a></li>
+        <li class="footer_row"><a target="_blank" href="http://ghozylab.com/plugins/ordernow.php?order=proplus&utm_source=lite&utm_medium=comparisonpage&utm_campaign=orderfromcompare" class="tsc_buttons2 red">Upgrade Now</a></li>
       </ul>
     </div>
     <div class="column_2">
@@ -1130,7 +1130,7 @@ function easymedia_comparison() {
         <li class="row_style_2 align_center"><span class="pricing_no"></span></li>
         <li class="row_style_4 align_center"><span>1 year</span></li>
         <li class="row_style_2 align_center"><span>1 year</span></li>
-        <li class="footer_row"><a target="_blank" href="http://ghozylab.com/plugins/ordernow.php?order=proplusplus&utm_source=lite&utm_medium=comparisonpage&utm_campaign=order" class="tsc_buttons2 red">Upgrade Now</a></li>
+        <li class="footer_row"><a target="_blank" href="http://ghozylab.com/plugins/ordernow.php?order=proplusplus&utm_source=lite&utm_medium=comparisonpage&utm_campaign=orderfromcompare" class="tsc_buttons2 red">Upgrade Now</a></li>
       </ul>
     </div>    
      <div class="column_4">
@@ -1173,7 +1173,7 @@ function easymedia_comparison() {
         <li class="row_style_1 align_center"><span class="pricing_yes"></span></li>
         <li class="row_style_3 align_center"><span>1 year</span></li>
         <li class="row_style_1 align_center"><span>1 year</span></li>
-        <li class="footer_row"><a target="_blank" href="http://ghozylab.com/plugins/ordernow.php?order=dev&utm_source=lite&utm_medium=comparisonpage&utm_campaign=order" class="tsc_buttons2 red">Upgrade Now</a></li>
+        <li class="footer_row"><a target="_blank" href="http://ghozylab.com/plugins/ordernow.php?order=dev&utm_source=lite&utm_medium=comparisonpage&utm_campaign=orderfromcompare" class="tsc_buttons2 red">Upgrade Now</a></li>
       </ul>
     </div>   
     
