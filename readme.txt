@@ -8,7 +8,7 @@ Stable tag: 1.2.51
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-The best Wordpress gallery plugin enables you to create photo gallery or portfolio. Over 258,580+ sites are already using Easy Media Gallery.
+The best Wordpress gallery plugin enables you to create photo gallery or portfolio. Over 259,000+ sites are already using Easy Media Gallery.
 
 == Description ==
 
@@ -42,6 +42,8 @@ Easy Media Gallery is a wordpress plugin designed to display various media suppo
 * A link to specific URL (<em>[Pro Version](http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-wordpress-portfolio-plugin/)</em>) - see LINK tab
 * S.E.O. for Images (<em>Pro Version</em>)
 * Facebook, Instagram, Flickr Album (<em>Coming Soon</em>)
+* 650+ Fonts from Google Fonts (<em>Pro Version</em>)
+* 10+ Lightboxes (<em>Pro Version</em>)
 
 = Features =
 Easy Media Gallery supports a wide range of media formats. Simply link to any image, video, hosted video or Youtube/Vimeo, mp3 audio or popular website, and the media will be automatically loaded into the overlay. Easy Media Gallery can be used to embed videos from :
@@ -81,7 +83,8 @@ It is a very customizable wordpress gallery and portfolio plugin that allow you 
 > * Fully CSS3 compliant with text shadowing, box shadowing, gradients, etc
 > * Color picker for unlimited color combinations
 > * See your media on different theme and more
-> * More than 7 lightboxes available
+> * More than 10 lightboxes
+> * 650+ Fonts from Google Fonts
 > * Powerfull control panel and Shortcode Manager make getting started super easy
 > * 24/7 Technical Support
 
