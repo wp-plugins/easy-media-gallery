@@ -66,6 +66,16 @@ if ( strstr( $_SERVER['REQUEST_URI'], 'wp-admin/post-new.php' ) || strstr( $_SER
 			
 jQuery(document).ready(function($) {
 	
+	jQuery(document).on( 'scroll', function(){
+		if (jQuery(window).scrollTop() > 700) {
+			jQuery('.emg-scroll-top-wrapper').addClass('show');
+			} else {
+				jQuery('.emg-scroll-top-wrapper').removeClass('show');
+				}
+			});
+ 
+    jQuery('.emg-scroll-top-wrapper').on('click', scrollToTop);
+	
 	var snpprevPosition = jQuery('#side-sortables').offset();
 	
 	jQuery(window).scroll(function(){
@@ -268,6 +278,13 @@ function IsValidAuUrl1(aurl1) {
  
 function easmedia_add_meta_box( $meta_box )
 {
+
+	echo '<div class="emg-scroll-top-wrapper">
+    		<span class="emg-scroll-top-inner">
+        		<i class="enotyfa"></i>
+    			</span>
+			</div>';
+	
     if ( !is_array( $meta_box ) ) return false;
     
     // Create a callback function
