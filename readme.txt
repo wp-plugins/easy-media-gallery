@@ -42,7 +42,6 @@ Easy Media Gallery is a wordpress plugin designed to display various media suppo
 * A link to specific URL (<em>[Pro Version](http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-wordpress-portfolio-plugin/)</em>) - see LINK tab
 * S.E.O. for Images (<em>Pro Version</em>)
 * Facebook, Instagram, Flickr Album (<em>Coming Soon</em>)
-* 650+ Fonts from Google Fonts (<em>Pro Version</em>)
 * 10+ Lightboxes (<em>Pro Version</em>)
 
 = Features =
@@ -84,7 +83,6 @@ It is a very customizable wordpress gallery and portfolio plugin that allow you 
 > * Color picker for unlimited color combinations
 > * See your media on different theme and more
 > * More than 10 lightboxes
-> * 650+ Fonts from Google Fonts
 > * Powerfull control panel and Shortcode Manager make getting started super easy
 > * 24/7 Technical Support
 
