@@ -822,8 +822,13 @@ function easmedia_easymedia_docs() {
         <h2><?php _e('Documentation', 'easmedia'); ?></h2>
         <p><?php _e('This plugin comes with instructional training videos that walk you through every aspect of setting up your new media gallery. We recommend following these videos to setup your media gallery. This user manual is only intended to be a reference guide.', 'easmedia'); ?></p>
 
-
-<div class="metabox-holder">
+    <div class="metabox-holder" style="display:inline-block; max-width: 30%; float:right; vertical-align:top;">
+			<div class="postbox">
+            <h3><?php _e( 'Check it Out!', 'easmedia' ); ?></h3>
+            <?php easmedia_news_metabox(); ?>
+           </div>
+      </div>   
+<div class="metabox-holder" style="max-width:65%; display:block;">
 			<div class="postbox">
 				<h3><?php _e( 'Subscribe and Get Free Updates', 'easmedia' ); ?></h3>
         <div id="easymedia_docs2" style="padding:10px !important; ">
@@ -834,7 +839,7 @@ function easmedia_easymedia_docs() {
   
  <?php 
  if ( easy_get_option( 'easymedia_disen_dasnews' ) == '1' ) {  ?>
- <div class="metabox-holder">
+ <div class="metabox-holder" style="max-width:65%; display:block;">
 			<div class="postbox">
 				<h3><?php _e( 'Share Easy Media Gallery', 'easmedia' ); ?></h3>
         <div id="easymedia_docs2" style="padding: 3px 3px 3px 17px !important; ">
@@ -844,7 +849,7 @@ function easmedia_easymedia_docs() {
   </div>
   <?php } ?>
 
-		<div class="metabox-holder">
+		<div class="metabox-holder" style="max-width:65%; display:block;">
 			<div class="postbox">
 				<h3><?php _e( 'Video Tutorials', 'easmedia' ); ?></h3>
         <div id="easymedia_docs1" style="padding-left:10px !important;">
@@ -883,7 +888,7 @@ function easmedia_easymedia_docs() {
         </ul>
     </div>
     </div>    
- </div>-->
+ </div>--> 
   </div> 
 	<?php 
 }
@@ -1183,6 +1188,16 @@ function easymedia_comparison() {
 <!-- DC Pricing Tables:3 End -->
 <div class="tsc_clear"></div> <!-- line break/clear line -->
 <?php
+}
+
+/*-------------------------------------------------------------------------------*/
+/*  Create News MetaBox
+/*-------------------------------------------------------------------------------*/
+function easmedia_news_metabox () {
+	$new = '<div style="text-align:center;">';
+	$new .= '<a style="outline: none !important;" href="https://wordpress.org/plugins/easy-notify-lite/" target="_blank"><img style="cursor:pointer; margin-top: 7px; margin-bottom: 7px;" src="'.plugins_url( 'images/new-release.png' , dirname(__FILE__) ).'" width="241" height="500" alt="New Release!" ></a>';
+	$new .= '</div>';
+echo $new;	
 }
 
 /*-------------------------------------------------------------------------------*/
