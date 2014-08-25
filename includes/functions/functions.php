@@ -822,12 +822,12 @@ function easmedia_easymedia_docs() {
         <h2><?php _e('Documentation', 'easmedia'); ?></h2>
         <p><?php _e('This plugin comes with instructional training videos that walk you through every aspect of setting up your new media gallery. We recommend following these videos to setup your media gallery. This user manual is only intended to be a reference guide.', 'easmedia'); ?></p>
 
-    <!--<div class="metabox-holder" style="display:inline-block; max-width: 30%; float:right; vertical-align:top;">
+    <div class="metabox-holder" style="display:inline-block; max-width: 30%; float:right; vertical-align:top;">
 			<div class="postbox">
-            <h3><?php /* _e( 'Check it Out!', 'easmedia' ); */?></h3>
-            <?php /* easmedia_news_metabox(); */ ?>
+            <h3><?php _e( 'Check it Out!', 'easmedia' ); ?></h3>
+            <?php easmedia_news_metabox(); ?>
            </div>
-      </div> -->  
+      </div>
 <div class="metabox-holder" style="max-width:65%; display:block;">
 			<div class="postbox">
 				<h3><?php _e( 'Subscribe and Get Free Updates', 'easmedia' ); ?></h3>
