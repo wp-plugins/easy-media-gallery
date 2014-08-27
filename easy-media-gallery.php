@@ -99,6 +99,11 @@ if ( version_compare($wp_version, "3.5", "<" ) ) {
 
 require_once( EASYMEDG_PLUGIN_DIR . 'includes/class/easymedia_resizer.php' ); 	
 
+// Plugin Name
+if ( !defined( 'EASYMEDIA_NAME' ) ) {
+	define( 'EASYMEDIA_NAME', 'Easy Media Gallery Lite' );
+}
+
 // Plugin Version
 if ( !defined( 'EASYMEDIA_VERSION' ) ) {
 	define( 'EASYMEDIA_VERSION', '1.2.55' );
