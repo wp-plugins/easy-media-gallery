@@ -832,7 +832,7 @@ function easmedia_easymedia_docs() {
 			<div class="postbox">
 				<h3><?php _e( 'Subscribe and Get Free Updates', 'easmedia' ); ?></h3>
         <div id="easymedia_docs2" style="padding:10px !important; ">
-<script src="https://apis.google.com/js/plusone.js"></script>  <div class="g-ytsubscribe" data-channel="GhozyLab" data-layout="full"></div>
+<script src="https://apis.google.com/js/platform.js"></script>  <div class="g-ytsubscribe" data-channel="GhozyLab" data-layout="full"></div>
     </div>
     </div>
   </div>

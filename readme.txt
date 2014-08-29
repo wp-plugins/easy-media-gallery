@@ -1,10 +1,10 @@
  === Easy Media Gallery - The Best Gallery & Photo Album Plugin ===
 Contributors: ghozylab
 Donate link: http://ghozylab.com/donate
-Tags: gallery, photo album, album, photo albums, photo gallery, wordpress gallery plugin, comments, images, best gallery, portfolio gallery, lightbox, nextgen, wordpress portfolio plugin, best gallery plugin, plugin gallery, wp gallery, gallery plugin, galerie, galerij, bilder, galleria, responsive gallery, grid gallery, wp gallery plugin, photo slider, image slider, responsive gallery, photo, shortcode, photos, picture, pictures, html5 video, html5 audio, widget, sidebar, fancy gallery, plugin for gallery, html5 player, pagination gallery, pagination portfolio, plugin, post, links, page, admin, posts, thumbnail, easy media gallery, seo image, twitter, image album, image, google, portfolio, best portfolio
+Tags: gallery, photo album, album, photo albums, photo gallery, seo, wordpress gallery plugin, comments, images, best gallery, portfolio gallery, lightbox, nextgen, wordpress portfolio plugin, best gallery plugin, plugin gallery, wp gallery, slideshow, jquery, responsive slider, gallery plugin, galerie, galerij, bilder, galleria, responsive gallery, grid gallery, wp gallery plugin, photo slider, image slider, responsive gallery, photo, shortcode, photos, picture, pictures, html5 video, html5 audio, widget, sidebar, fancy gallery, plugin for gallery, html5 player, pagination gallery, pagination portfolio, plugin, post, links, page, admin, posts, thumbnail, easy media gallery, seo image, twitter, image album, image, google, portfolio, best portfolio
 Requires at least: 3.3
 Tested up to: 3.9.2
-Stable tag: 1.2.55
+Stable tag: 1.2.57
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -218,6 +218,9 @@ But seriously, I just want to drink coffee for free, so help a developer out. Yo
 8. Embed music from Reverbnation
 
 == Changelog ==
+
+= 1.2.57 =
+* Fixed : Youtube subscribe issue
 
 = 1.2.55 =
 * Update : Documentation page
@@ -448,5 +451,5 @@ But seriously, I just want to drink coffee for free, so help a developer out. Yo
 
 == Upgrade Notice ==
 
-= 1.2.55 =
+= 1.2.57 =
 IMPORTANT! Uninstall script to save your DATA, Security bugs fix, PLEASE UPDATE NOW!
