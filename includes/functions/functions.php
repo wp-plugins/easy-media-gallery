@@ -725,18 +725,6 @@ if ( easy_get_option( 'easymedia_disen_admnotify' ) == '1' ) {
 add_action( 'admin_bar_menu', 'emg_admin_bar_menu', 1000);
 }
 
-/* @since 1.2.35
-if ( easy_get_option( 'easymedia_disen_admnotify' ) == '1' ) {
-function emg_upgradepro_message() {
-	if ( isset( $_GET['page'] ) && $_GET['page'] != 'emg_settings' || isset( $_GET['page'] ) && $_GET['page'] != 'docs' || isset( $_GET['page'] ) && $_GET['page'] != 'comparison' || isset( $_GET['page'] ) && $_GET['page'] != 'easymedia-order' || get_post_type() != 'easymediagallery' ) {
-
-		echo'<div id="emgadminnotice" class="updated"><div class="easymedia_message"><img class="easymedia_icon" title="" src="' . plugins_url( 'images/message_icon.png', dirname(__FILE__) ) . '" alt=""/><div class="easymedia_text">It\'s time to upgrade your <strong>Easy Media Gallery Lite</strong> to <strong>PRO</strong> version!<br /><span>Extend standard plugin functionality with a tons of awesome features!</span></div><a class="button easymedia_button" href="edit.php?post_type=easymediagallery&page=comparison">Learn More</a><a class="button easymedia_button" target="_blank" href="http://ghozylab.com/best-photo-albums-wordpress-plugin/">DEMO</a><a class="button easymedia_button" target="_blank" href="http://ghozylab.com/order/?utm_source=easymediagallerylite&utm_medium=popuptop&utm_campaign=order">UPGRADE $'.EASYMEDIA_PRICE.'</a></div></div>';
-	}
-}
-add_action( 'admin_notices', 'emg_upgradepro_message', 1 );
-}
-*/
-
 /*-------------------------------------------------------------------------------*/
 /*   Admin Notifications ( Setting Area )
 /*-------------------------------------------------------------------------------*/
@@ -878,17 +866,7 @@ function easmedia_easymedia_docs() {
     </div>
   </div> 
  </div>     
- 		<!--<div class="metabox-holder">
-			<div class="postbox">
-				<h3><?php //_e( 'Troubleshooting (issue for version 1.1.7 and below)', 'easmedia' ); ?></h3>
-        <div id="easymedia_docs2" style="padding-left:10px !important;">
-        <ul style="list-style: square; position:relative; margin-left:15px;">
-        <li><a href="http://wordpress.org/extend/plugins/easy-media-gallery/faq/" target="_blank" >Images not showing up</a></li>
-        <li><a href="http://wordpress.org/extend/plugins/easy-media-gallery/faq/" target="_blank" >FAQ (Wordpress.org)</a></li>       
-        </ul>
-    </div>
-    </div>    
- </div>--> 
+
   </div> 
 	<?php 
 }
