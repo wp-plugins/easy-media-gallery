@@ -208,14 +208,13 @@ But seriously, I just want to drink coffee for free, so help a developer out. Yo
 
 == Screenshots ==
 
-1. Easy Media Gallery Control Panel
-2. Easy Media Gallery Media Builder (Gallery)
-3. Easy Media Gallery Media List
-4. Easy Media Gallery Admin Panel
-5. Easy Media Gallery Shortcode Manager
-6. Easy Media Gallery Metabox (Audio)
-7. Embed music from Soundcloud
-8. Embed music from Reverbnation
+1. Photo Albums with Filter
+2. Grid Gallery with Filter
+3. Gallery with Pagination
+4. Awesome Image Slider
+5. Carousel
+6. Embed music from Soundcloud
+7. Embed music from Reverbnation
 
 == Changelog ==
 
