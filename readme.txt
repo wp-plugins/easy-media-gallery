@@ -3,8 +3,8 @@ Contributors: ghozylab
 Donate link: http://ghozylab.com/donate
 Tags: gallery, photo album, photo gallery, album, photo albums, seo, wordpress gallery plugin, AJAX, fotoalbum, jquery gallery, wp slider, jquery slider, comments, images, best gallery, portfolio gallery, lightbox, nextgen, nextgen gallery, jquery slideshow, responsive slideshow, image slideshow, image rotate, wordpress portfolio plugin, best gallery plugin, plugin gallery, wp gallery, slideshow, jquery, responsive slider, gallery plugin, galerie, galerij, bilder, galleria, responsive gallery, grid gallery, wp gallery plugin, photo slider, image slider, responsive gallery, photo, shortcode, photos, picture, pictures, html5 video, html5 audio, widget, sidebar, fancy gallery, plugin for gallery, html5 player, pagination gallery, pagination portfolio, plugin, post, links, page, admin, posts, thumbnail, easy media gallery, seo image, twitter, image album, image, google, portfolio, best portfolio
 Requires at least: 3.3
-Tested up to: 3.9.2
-Stable tag: 1.2.59
+Tested up to: 4.0
+Stable tag: 1.2.60
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -13,6 +13,9 @@ The best Wordpress gallery plugin enables you to create photo gallery or portfol
 == Description ==
 
 ### [Best Gallery Plugin - Photo Albums - Grid Gallery Plugin](http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-gallery-and-photo-albums-demo/)
+
+<p>http://www.youtube.com/watch?v=oH39zc8zMOg</p>
+
 Easy Media Gallery is a wordpress plugin designed to display various media support including grid gallery, galleries, photo album, multiple photo albums, portfolio, photo gallery or image gallery, image slider, google maps and google street view, youtube video, vimeo video, mp4 video, audio mp3 and link with very ease, fancy and elegant.
 
 > #### **Live Demos**
@@ -86,8 +89,6 @@ It is a very customizable wordpress gallery and portfolio plugin that allow you 
 > * Powerfull control panel and Shortcode Manager make getting started super easy
 > * 24/7 Technical Support
 
-= PRO VERSION Example =
-<p>http://www.youtube.com/watch?v=TQ1MMxhsyD8</p>
 
 = Recommended Plugins =
 The following are other recommended plugins by the author:
@@ -217,6 +218,9 @@ But seriously, I just want to drink coffee for free, so help a developer out. Yo
 7. Embed music from Reverbnation
 
 == Changelog ==
+
+= 1.2.60 =
+* Fixed : Color Picker issue on Wordpress 4.0 RC
 
 = 1.2.59 =
 * Clean up unused code
@@ -454,5 +458,5 @@ But seriously, I just want to drink coffee for free, so help a developer out. Yo
 
 == Upgrade Notice ==
 
-= 1.2.59 =
-IMPORTANT! Security bugs fix, PLEASE UPDATE NOW!
+= 1.2.60 =
+IMPORTANT! Color Picker issue, PLEASE UPDATE NOW!

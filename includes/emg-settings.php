@@ -204,7 +204,7 @@ if ( is_admin() && ( isset( $_GET['page'] ) == 'emg_settings' ) && $_GET['page']
 		var hash = window.location.hash.replace('#', '');
 		var currentTab = $('ul.navigationTabs a')
 							.bind('click', showTab)
-							.filter('a[rel=' + hash + ']');
+							.filter("a[rel='" + hash + "']");
 		if (currentTab.size() == 0) {
 			currentTab = $('ul.navigationTabs a:first');
 		}
