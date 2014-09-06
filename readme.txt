@@ -45,7 +45,7 @@ Easy Media Gallery is a wordpress plugin designed to display various media suppo
 * A link to specific URL (<em>[Pro Version](http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-wordpress-portfolio-plugin/)</em>) - see LINK tab
 * S.E.O. for Images (<em>Pro Version</em>)
 * Facebook, Instagram, Flickr Album (<em>Coming Soon</em>)
-* 10+ Lightboxes (<em>Pro Version</em>)
+* 10+ Lightboxes (<em>[Pro Version]( http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-gallery-lightboxes/)</em>)
 
 = Features =
 Easy Media Gallery supports a wide range of media formats. Simply link to any image, video, hosted video or Youtube/Vimeo, mp3 audio or popular website, and the media will be automatically loaded into the overlay. Easy Media Gallery can be used to embed videos from :
