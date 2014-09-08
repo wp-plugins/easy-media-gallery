@@ -217,6 +217,7 @@ But seriously, I just want to drink coffee for free, so help a developer out. Yo
 5. Carousel
 6. Embed music from Soundcloud
 7. Embed music from Reverbnation
+8. HTML5 video player
 
 == Changelog ==
 
