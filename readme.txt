@@ -87,6 +87,7 @@ It is a very customizable wordpress gallery and portfolio plugin that allow you 
 > * Color picker for unlimited color combinations
 > * See your media on different theme and more
 > * More than 10 lightboxes
+> * Backup & Restore Settings
 > * Powerfull control panel and Shortcode Manager make getting started super easy
 > * 24/7 Technical Support
 
