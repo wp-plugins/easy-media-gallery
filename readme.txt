@@ -4,11 +4,11 @@ Donate link: http://ghozylab.com/donate
 Tags: gallery, photo album, photo gallery, album, photo albums, seo, wordpress gallery plugin, AJAX, fotoalbum, jquery gallery, wp slider, jquery slider, comments, images, best gallery, portfolio gallery, lightbox, nextgen, nextgen gallery, jquery slideshow, responsive slideshow, image slideshow, image rotate, wordpress portfolio plugin, best gallery plugin, plugin gallery, wp gallery, slideshow, jquery, responsive slider, gallery plugin, galerie, galerij, bilder, galleria, responsive gallery, grid gallery, wp gallery plugin, photo slider, image slider, responsive gallery, photo, shortcode, photos, picture, pictures, html5 video, html5 audio, widget, sidebar, fancy gallery, plugin for gallery, html5 player, pagination gallery, pagination portfolio, plugin, post, links, page, admin, posts, thumbnail, easy media gallery, seo image, twitter, image album, image, google, portfolio, best portfolio
 Requires at least: 3.3
 Tested up to: 4.0
-Stable tag: 1.2.60
+Stable tag: 1.2.61
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-The best Wordpress gallery plugin enables you to create photo gallery or portfolio. Over 280,850+ sites are already using Easy Media Gallery.
+The best Wordpress gallery plugin enables you to create photo gallery or portfolio. Over 281,500+ sites are already using Easy Media Gallery.
 
 == Description ==
 
@@ -222,6 +222,10 @@ But seriously, I just want to drink coffee for free, so help a developer out. Yo
 9. Google Maps and Google Street View
 
 == Changelog ==
+
+= 1.2.61 =
+* Fixed : Wordpress 4.0 compatibility
+* Updated : Pricing Table
 
 = 1.2.60 =
 * Fixed : Color Picker issue on Wordpress 4.0 RC
@@ -462,5 +466,5 @@ But seriously, I just want to drink coffee for free, so help a developer out. Yo
 
 == Upgrade Notice ==
 
-= 1.2.60 =
+= 1.2.61 =
 IMPORTANT! Color Picker issue, PLEASE UPDATE NOW!
