@@ -730,8 +730,13 @@ function emg_admin_bar_menu(){
                     'meta'   => array('class' => 'emg-upgrade-to-pro', 'target' => '_blank' ),
                 ) );
 }
+
+/* Since @1.2.61 ( Respect Wordpress Guidelines)*/
 if ( easy_get_option( 'easymedia_disen_admnotify' ) == '1' ) {
-add_action( 'admin_bar_menu', 'emg_admin_bar_menu', 1000);
+	
+	if ( isset( $_GET['post_type'] ) && $_GET['post_type'] == 'easymediagallery' ) {
+		add_action( 'admin_bar_menu', 'emg_admin_bar_menu', 1000);
+		}
 }
 
 /*-------------------------------------------------------------------------------*/
