@@ -8,7 +8,7 @@ Stable tag: 1.2.61
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-The best Wordpress gallery plugin enables you to create photo gallery or portfolio. Over 281,500+ sites are already using Easy Media Gallery.
+The best Wordpress gallery plugin enables you to create photo gallery or portfolio. Over 283,545+ sites are already using Easy Media Gallery.
 
 == Description ==
 
@@ -122,6 +122,10 @@ The simplest way to install is to click on 'Plugins' then 'Add' and type 'Easy M
 
 
 == Frequently Asked Questions ==
+
+= How to Get Rid UPGRADE Notification =
+
+Just go to Easy Media > Settings > Miscellaneous > and TURN OFF <strong>Upgrade Notification</strong> option
 
 = Images not showing up =
 

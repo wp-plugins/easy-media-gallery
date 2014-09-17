@@ -705,6 +705,15 @@ function emg_hide_noty() {
 }
 add_action( 'wp_ajax_emg_hide_noty', 'emg_hide_noty' );
 
+/*-------------------------------------------------------------------------------*/
+/*  Create Upgrade Metabox @since 1.2.61
+/*-------------------------------------------------------------------------------*/
+function emg_upgrade_metabox () {
+	$enobuy = '<div style="text-align:center;">';
+	$enobuy .= '<a style="outline: none !important;" href="http://ghozylab.com/plugins/pricing/#tab-1408601400-1-91" target="_blank"><img style="cursor:pointer; margin-top: 7px;" src="'.plugins_url( 'images/buy-now.png' , dirname(__FILE__) ).'" width="241" height="95" alt="Buy Now!" ></a>';
+	$enobuy .= '</div>';
+echo $enobuy;	
+}
 
 /*-------------------------------------------------------------------------------*/
 /*   Admin Notifications
