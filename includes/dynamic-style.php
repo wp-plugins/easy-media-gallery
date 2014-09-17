@@ -60,6 +60,9 @@ if ( $pattover != '' || $pattover != 'no_pattern' ) {
 echo '#mbOverlay {background: url(../css/images/patterns/'.$pattover.'); background-repeat: repeat;}';
 }
 
+// Thumbnails Title Background color @since 1.2.61
+echo '.da-thumbs article.da-animate p { background: rgba('.easymedia_hex2rgb( easy_get_option( 'easymedia_ttl_back_col' ) ).',0.5) !important;}';
+
 // IE <8 Handle
 
 		preg_match( '/MSIE (.*?);/', $_SERVER['HTTP_USER_AGENT'], $matches );

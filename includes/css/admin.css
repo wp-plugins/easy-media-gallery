@@ -638,6 +638,11 @@ float:left;display:inline-block; text-decoration:none; outline:none; cursor:poin
     opacity: 1.0;
 }	
 
+/* Buy Now */
+#emgbuydiv a:focus {
+	box-shadow:none !important; 
+	}
+
 @media only screen and (max-width: 768px) {
     .noty_buttons {
        text-align: center !important;
