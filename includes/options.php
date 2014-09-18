@@ -117,6 +117,12 @@ array( "name" => "Thumbnail Border Color",
 	"type" => "color",
 	"std" => "#FFFFFF"),	
 	
+array( "name" => "Thumbnail Shadow Color",
+	"desc" => "Please define your custom Color Shadow. Default color is dark grey (#4A4A4A)",
+	"id" => $theshort."_shdw_col",
+	"type" => "color",
+	"std" => "#4A4A4A"),
+	
 array( "name" => "Thumbnail Title Color",
 	"desc" => "Define thumbnail Title Color. Default color is dark grey",
 	"id" => $theshort."_ttl_col",
