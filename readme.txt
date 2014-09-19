@@ -32,7 +32,7 @@ Easy Media Gallery is a wordpress plugin designed to display various media suppo
 > * [DEMO : 10+ Lightboxes](http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-gallery-lightboxes/)
 
 = Full media support =
-<p>Easy Media Gallery plugin satisfy all your needs letting you create different types of wordpress portfolio, photo albums or wordpress media gallery. Each item can be:</p> 
+<p>Easy Media Gallery plugin satisfy all your needs letting you create different types of wordpress portfolio, photo album and also from a simple picture to an image slider, a video and audio player. All in one solutin. Easy Media Gallery represents a perfect solution for any type of media. Each item can be:</p> 
 
 * An image
 * Photo Albums (<em>[Pro Version](http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-gallery-and-photo-albums-demo/)</em>)
