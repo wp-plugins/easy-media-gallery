@@ -942,8 +942,6 @@ function easymedia_comparison() {
         <li class="row_style_4"><span>Custom Thumbnail Size</span></li>
         <li class="row_style_2"><span>Image &amp; Video Custom Size</span></li>
         <li class="row_style_4"><span>Unlimited colors and layout</span></li>
-        <li class="row_style_2"><span>Place media wherever you want</span></li>
-        <li class="row_style_4"><span>Media Style</span><a target="_blank" href="http://ghozylab.com/" style="text-decoration:underline !important;"> Click for Sample</a></li>
         <li class="row_style_2"><span>Pattern Overlay</span></li>
         <li class="row_style_4"><span>Powerfull Control Panel </span> <a href="<?php echo plugins_url( 'images/pro-version-control-panel.png' , dirname(__FILE__) ) ?>   " style="text-decoration:underline !important;">Screenshot</a></li>
         <li class="row_style_2"><span>Advanced Shortcode </span><a href="<?php echo plugins_url( 'images/pro-version-shortcode-manager.png' , dirname(__FILE__) ) ?>" style="text-decoration:underline !important;">Screenshot</a></li>
@@ -985,8 +983,6 @@ function easymedia_comparison() {
         <li class="row_style_1 align_center"><span class="pricing_yes"></span></li>
         <li class="row_style_3 align_center"><span class="pricing_yes"></span></li>
         <li class="row_style_1 align_center"><span class="pricing_no"></span></li>
-        <li class="row_style_3 align_center"><span class="pricing_no"></span></li>
-        <li class="row_style_1 align_center"><span>light</span></li>
         <li class="row_style_3 align_center"><span>3 patterns</span></li>
         <li class="row_style_1 align_center"><span class="pricing_no"></span></li>
         <li class="row_style_3 align_center"><span class="pricing_no"></span></li>
@@ -1030,8 +1026,6 @@ function easymedia_comparison() {
         <li class="row_style_2 align_center"><span class="pricing_yes"></span></li>
         <li class="row_style_4 align_center"><span class="pricing_yes"></span></li>
         <li class="row_style_2 align_center"><span class="pricing_yes"></span></li>
-        <li class="row_style_4 align_center"><span class="pricing_yes"></span></li>
-        <li class="row_style_2 align_center"><span>light, dark &amp; transparent</span></li>
         <li class="row_style_4 align_center"><span>15 patterns</span></li>
         <li class="row_style_2 align_center"><span class="pricing_yes"></span></li>
         <li class="row_style_4 align_center"><span class="pricing_yes"></span></li>
@@ -1074,8 +1068,6 @@ function easymedia_comparison() {
         <li class="row_style_2 align_center"><span class="pricing_yes"></span></li>
         <li class="row_style_4 align_center"><span class="pricing_yes"></span></li>
         <li class="row_style_2 align_center"><span class="pricing_yes"></span></li>
-        <li class="row_style_4 align_center"><span class="pricing_yes"></span></li>
-        <li class="row_style_2 align_center"><span>light, dark &amp; transparent</span></li>
         <li class="row_style_4 align_center"><span>15 patterns</span></li>
         <li class="row_style_2 align_center"><span class="pricing_yes"></span></li>
         <li class="row_style_4 align_center"><span class="pricing_yes"></span></li>
@@ -1117,8 +1109,6 @@ function easymedia_comparison() {
         <li class="row_style_2 align_center"><span class="pricing_yes"></span></li>
         <li class="row_style_4 align_center"><span class="pricing_yes"></span></li>
         <li class="row_style_2 align_center"><span class="pricing_yes"></span></li>
-        <li class="row_style_4 align_center"><span class="pricing_yes"></span></li>
-        <li class="row_style_2 align_center"><span>light, dark &amp; transparent</span></li>
         <li class="row_style_4 align_center"><span>15 patterns</span></li>
         <li class="row_style_2 align_center"><span class="pricing_yes"></span></li>
         <li class="row_style_4 align_center"><span class="pricing_yes"></span></li>
@@ -1160,8 +1150,6 @@ function easymedia_comparison() {
         <li class="row_style_1 align_center"><span class="pricing_yes"></span></li>
         <li class="row_style_3 align_center"><span class="pricing_yes"></span></li>
         <li class="row_style_1 align_center"><span class="pricing_yes"></span></li>
-        <li class="row_style_3 align_center"><span class="pricing_yes"></span></li>
-        <li class="row_style_1 align_center"><span>light, dark &amp; transparent</span></li>
         <li class="row_style_3 align_center"><span>15 patterns</span></li>
         <li class="row_style_1 align_center"><span class="pricing_yes"></span></li>
         <li class="row_style_3 align_center"><span class="pricing_yes"></span></li>
