@@ -4,11 +4,11 @@ Donate link: http://ghozylab.com/donate
 Tags: gallery, photo album, photo gallery, album, photo albums, seo, wordpress gallery plugin, wordpress seo, AJAX, fotoalbum, jquery gallery, wp slider, jquery slider, comments, images, best gallery, portfolio gallery, lightbox, nextgen, nextgen gallery, jquery slideshow, responsive slideshow, image slideshow, image rotate, wordpress portfolio plugin, best gallery plugin, plugin gallery, wp gallery, slideshow, jquery, responsive slider, gallery plugin, galerie, galerij, bilder, galleria, responsive gallery, grid gallery, wp gallery plugin, photo slider, image slider, responsive gallery, photo, shortcode, photos, picture, pictures, html5 video, html5 audio, widget, sidebar, fancy gallery, plugin for gallery, html5 player, pagination gallery, pagination portfolio, plugin, post, links, page, admin, posts, thumbnail, easy media gallery, seo image, twitter, image album, image, google, portfolio, best portfolio
 Requires at least: 3.3
 Tested up to: 4.0
-Stable tag: 1.2.63
+Stable tag: 1.2.65
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-The best Wordpress gallery plugin enables you to create photo gallery or portfolio. Over 285,385+ sites are already using Easy Media Gallery.
+The best Wordpress gallery plugin enables you to create photo gallery or portfolio. Over 286,635+ sites are already using Easy Media Gallery.
 
 == Description ==
 
@@ -228,6 +228,11 @@ But seriously, I just want to drink coffee for free, so help a developer out. Yo
 9. Google Maps and Google Street View
 
 == Changelog ==
+
+= 1.2.65 =
+* Added :  Shadow Color option
+* Added :  Thumbnail Icon Color option
+* Updated : Pricing table list
 
 = 1.2.63 =
 * Fixed : WP Admin Bar Placement ( only appear in our custom post type )
@@ -475,5 +480,5 @@ But seriously, I just want to drink coffee for free, so help a developer out. Yo
 
 == Upgrade Notice ==
 
-= 1.2.63 =
-IMPORTANT! PLEASE UPDATE NOW!
+= 1.2.65 =
+IMPORTANT! Added NEW Options PLEASE UPDATE NOW!

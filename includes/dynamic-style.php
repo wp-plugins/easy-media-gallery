@@ -31,7 +31,7 @@ $borderrgbaopcty = easy_get_option( 'easymedia_thumb_border_opcty' ) / 100;
 echo '.view {margin-bottom:'.$mrgnbox.'px; margin-right:'.$marginhlf.'px; margin-left:'.$marginhlf.'px;}';
 echo '.da-thumbs article.da-animate p{color:'.$ttlcol.' !important;}';
 if ( easy_get_option( 'easymedia_disen_icocol' ) == '1' ) {
-echo 'span.link_post, span.zoom {background-color:'.$thumbiconcol.';}';
+echo 'span.link_post, span.zoom, span.zooma {background-color:'.$thumbiconcol.';}';
 }
 
 if ( easy_get_option( 'easymedia_disen_hovstyle' ) == '1' ) {

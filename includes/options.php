@@ -123,6 +123,12 @@ array( "name" => "Thumbnail Shadow Color",
 	"type" => "color",
 	"std" => "#4A4A4A"),
 	
+array( "name" => "Thumbnail Icon Color",
+	"desc" => "Please define your background Icon Color. Default color is (#474747)",
+	"id" => $theshort."_icon_col",
+	"type" => "color",
+	"std" => "#474747"),
+	
 array( "name" => "Thumbnail Title Color",
 	"desc" => "Define thumbnail Title Color. Default color is dark grey",
 	"id" => $theshort."_ttl_col",
