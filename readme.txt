@@ -95,7 +95,7 @@ It is a very customizable wordpress gallery and portfolio plugin that allow you 
 = Recommended Plugins =
 The following are other recommended plugins by the author:
 
-* [Easy Notify Popup](http://wordpress.org/plugins/easy-notify-lite/) -  The Best Notify and Subscription Form Plugin to display notify popup, announcement and subscribe form with very ease, fancy and elegant.
+* [Easy Lightbox Popup](http://wordpress.org/plugins/easy-notify-lite/) -  The Best Notify and Subscription Form Plugin to display notify popup, announcement and subscribe form with very ease, fancy and elegant.
 * [Zedity](https://wordpress.org/plugins/zedity/) -  A revolutionary new editor to create your content easily, quickly and with unprecedented possibilities! Already available in multiple languages.
 
 
