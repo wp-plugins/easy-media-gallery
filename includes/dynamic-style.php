@@ -99,7 +99,7 @@ echo '.da-thumbs article{position: absolute; background: rgba('.$thumbhovcol.','
 				}
 				
 // Magnify Icon
-if ( easy_get_option( 'easymedia_mag_icon' ) != '' ) {	
+if ( easy_get_option( 'easymedia_mag_icon' ) != '' && $disenico == 1 ) {	
 echo '	
 span.zoom{
 background-image:url(../css/images/magnify/'.easy_get_option( 'easymedia_mag_icon' ).'.png); background-repeat:no-repeat; background-position:center;

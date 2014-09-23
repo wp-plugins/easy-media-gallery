@@ -172,6 +172,12 @@ array( "name" => "Pattern Overlay",
 	"type" => "pattern",
 	"std" => "pattern-01.png"),	
 	
+array( "name" => "Show Zoom Icon",
+	"desc" => "Enable or disable Zoom Icon.",
+	"id" => $theshort."_disen_ticon",
+	"type" => "checkbox",
+	"std" => "1"),	
+	
 array( "name" => "Thumbnail Border",
 	"desc" => "Enable or disable border. Set the value to 0 to hide the border.",
 	"id" => $theshort."_disen_bor",
