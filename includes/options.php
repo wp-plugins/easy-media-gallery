@@ -83,6 +83,13 @@ array( "name" => "Style Options",
 	"type" => "section"),
 array( "type" => "open"),
 
+array( "name" => "Lightbox Styles",
+	"desc" => "PRO VERSION ONLY",
+	"id" => $theshort."_lightbox_style",
+	"type" => "select",
+	"options" => array( "emglb" => "EMG Lightbox ( Default )", "lb2" => "Lightbox 2", "fb2" => "FancyBox 2 ( Valid License Required )", "fbfree" => "FancyBox Free", "cb" => "ColorBox", "pp" => "PrettyPhoto", "foobx" => "FooBox", "ps" => "PhotoSwipe", "pbox" => "PhotoBox", "wptb" => "Wordpress ThickBox" ),	
+	"std" => "EMG Lightbox ( Default )"),
+
 array( "name" => "Media Box Style",
 	"desc" => "Select media box style. Default: Light<br><br><a target='_blank' href='http://ghozylab.com/plugins/easy-media-gallery-pro/pricing/?utm_source=lite&utm_medium=settingspage&utm_campaign=gotopricingfromcp'>Upgrade</a> to PRO and get more styles such as Dark Style or Transparent Style.",
 	"id" => $theshort."_box_style",
@@ -269,7 +276,8 @@ function easymedia_restore_to_default($cmd) {
 		
 				$arr = array(
 				$theshort.'_deff_init' => '1',
-				$theshort.'_box_style' => 'Light',				
+				$theshort.'_box_style' => 'Light',	
+				$theshort.'_lightbox_style' => 'EMG Lightbox ( Default )',
 				$theshort.'_frm_col' => '#FFFFFF',
 				$theshort.'_ttl_col' => '#C7C7C7',
 				$theshort.'_ttl_back_col' => '#000',
@@ -375,6 +383,7 @@ function easymedia_1st_config() {
 				$thshort.'_shdw_col' => '#4A4A4A',
 				$thshort.'_icon_col' => '#474747',
 				$thshort.'_box_style' => 'Light',
+				$thshort.'_lightbox_style' => 'EMG Lightbox ( Default )',
 				$thshort.'_overlay_col' => '#F7F0D7',
 				$thshort.'_thumb_col' => '#000000',
 				$thshort.'_pbar_col' => '#2187e7',				
