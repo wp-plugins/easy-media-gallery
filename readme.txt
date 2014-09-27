@@ -8,7 +8,7 @@ Stable tag: 1.2.65
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-The best image gallery plugin enables you to create photo album or portfolio. Over 286,635+ sites are already using Easy Media Gallery.
+The best image gallery plugin enables you to create photo album or portfolio. Over 290,000+ sites are already using Easy Media Gallery.
 
 == Description ==
 
@@ -44,7 +44,6 @@ Easy Media Gallery is a wordpress plugin designed to display various media suppo
 * An mp3 player (<em>HTML5 player for Pro version and Flash player for Lite version</em>), embed from Reverbnation or Soundcloud (<em>[Pro Version](http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-wordpress-audio-gallery/)</em>)
 * Google Maps / Google Street View (<em>[Pro Version](http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-wordpress-portfolio-plugin/)</em>)
 * A link to specific URL (<em>[Pro Version](http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-wordpress-portfolio-plugin/)</em>) - see LINK tab
-* S.E.O. for Images (<em>Pro Version</em>)
 * 10+ Lightboxes (<em>[Pro Version]( http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-gallery-lightboxes/)</em>)
 
 = Features =
