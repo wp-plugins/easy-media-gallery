@@ -4,11 +4,11 @@ Donate link: http://ghozylab.com/donate
 Tags: gallery, photo album, photo gallery, album, photo albums, seo, wordpress gallery plugin, responsive image gallery, wordpress seo, AJAX, fotoalbum, jquery gallery, wp slider, jquery slider, comments, images, best gallery, portfolio gallery, lightbox, nextgen, nextgen gallery, jquery slideshow, responsive slideshow, image slideshow, image rotate, wordpress portfolio plugin, best gallery plugin, plugin gallery, wp gallery, slideshow, jquery, responsive slider, gallery plugin, galerie, galerij, bilder, galleria, responsive gallery, grid gallery, wp gallery plugin, photo slider, image slider, responsive gallery, photo, shortcode, photos, picture, pictures, html5 video, html5 audio, widget, sidebar, fancy gallery, plugin for gallery, html5 player, pagination gallery, pagination portfolio, plugin, post, links, page, admin, posts, thumbnail, easy media gallery, seo image, twitter, image album, image, google, portfolio, best portfolio
 Requires at least: 3.3
 Tested up to: 4.0
-Stable tag: 1.2.65
+Stable tag: 1.2.67
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-The best image gallery plugin enables you to create photo album or portfolio. Over 290,000+ sites are already using Easy Media Gallery.
+The best image gallery plugin enables you to create photo album or portfolio. Over 291,225+ sites are already using Easy Media Gallery.
 
 == Description ==
 
@@ -227,6 +227,9 @@ But seriously, I just want to drink coffee for free, so help a developer out. Yo
 9. Google Maps and Google Street View
 
 == Changelog ==
+
+= 1.2.67 =
+* Added : New option ( show hide magnify icon ) 
 
 = 1.2.65 =
 * Added :  Shadow Color option
@@ -479,5 +482,5 @@ But seriously, I just want to drink coffee for free, so help a developer out. Yo
 
 == Upgrade Notice ==
 
-= 1.2.65 =
+= 1.2.67 =
 IMPORTANT! Added NEW Options PLEASE UPDATE NOW!
