@@ -762,7 +762,7 @@ function easmedia_put_notify_head() {
 	/* Easy Media Gallery */
 function generate(e){
 	var emgNews = new Array(); /* Random Heading temporary disabled */
-      emgNews[0] = "#1 Best Selling Gallery Plugin for WordPress<br />19,800+ PRO users from around the World can not be wrong...";
+      emgNews[0] = "#1 Best Selling Gallery Plugin for WordPress<br />23,000+ PRO users from around the World...";
       emgNews[1] = "Easy to use, looks nice and has a very good feel";
       emgNews[2] = "Powerfull control panel and Shortcode Manager make getting started super easy";
       emgNews[3] = "Easy Media Gallery PRO can be used to embed more than 12 video. Not only from Youtube and Vimeo";
