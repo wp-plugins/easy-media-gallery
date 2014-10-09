@@ -20,16 +20,16 @@ Easy Media Gallery is a wordpress plugin designed to display various media suppo
 
 > #### **Live Demos**
 
-> * [DEMO : Photo Albums](http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-gallery-and-photo-albums-demo/)
-> * [DEMO : Photo Gallery / Grid Gallery](http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-gallery-grid-galleries-plugin/)
-> * [DEMO : Image Slider](http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-wordpress-image-slider-plugin/)
-> * [DEMO : Image Slider Fotorama](http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-wordpress-image-slider-plugin-fotorama/)
-> * [DEMO : Carousel](http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-wordpress-carousel-image-plugin/)
-> * [DEMO : Gallery with Pagination](http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-wordpress-plugin-gallery-using-pagination/)
-> * [DEMO : Video Gallery](http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-wordpress-video-gallery-plugin/)
-> * [DEMO : Audio Gallery](http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-wordpress-audio-gallery/)
-> * [DEMO : Filterable Media](http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-wordpress-portfolio-plugin/)
-> * [DEMO : 10+ Lightboxes](http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-gallery-lightboxes/)
+> * [DEMO : Photo Albums](http://goo.gl/PLlJwS)
+> * [DEMO : Photo Gallery / Grid Gallery](http://goo.gl/bZ53YR)
+> * [DEMO : Image Slider](http://goo.gl/JmFU82)
+> * [DEMO : Image Slider Fotorama](http://goo.gl/nNKUbA)
+> * [DEMO : Carousel](http://goo.gl/72MKwx)
+> * [DEMO : Gallery with Pagination](http://goo.gl/20ghC5)
+> * [DEMO : Video Gallery](http://goo.gl/ckecFP)
+> * [DEMO : Audio Gallery](http://goo.gl/ckecFP)
+> * [DEMO : Filterable Media](http://goo.gl/JAvlsq)
+> * [DEMO : 10+ Lightboxes](http://goo.gl/3vZHHb)
 
 = Full media support =
 <p>Easy Media Gallery plugin satisfy all your needs letting you create different types of wordpress portfolio, photo album and also from a simple picture to an image slider, a video and audio player. All in one solution. Easy Media Gallery represents a perfect solution for any type of media. Each item can be:</p> 
