@@ -8,7 +8,7 @@ Stable tag: 1.2.69
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-The best image gallery plugin enables you to create photo album or portfolio. Over 295,000+ sites are already using Easy Media Gallery.
+The best image gallery plugin enables you to create photo album or portfolio. Over 297,000+ sites are already using Easy Media Gallery.
 
 == Description ==
 
