@@ -8,7 +8,7 @@ Stable tag: 1.2.70
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-The best image gallery plugin enables you to create photo album or portfolio. Over 298,300+ sites are already using Easy Media Gallery.
+The best image gallery plugin enables you to create photo album or portfolio. Over 299,525+ sites are already using Easy Media Gallery.
 
 == Description ==
 
@@ -83,6 +83,7 @@ It is a very customizable wordpress gallery and portfolio plugin that allow you 
 > * Fully CSS3 compliant with text shadowing, box shadowing, gradients, etc
 > * Color picker for unlimited color combinations
 > * See your media on different theme and more
+> * 3 Skins for main Lightbox [See Example](http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-gallery-lightboxes/emg-lightbox-default/)
 > * More than 10 lightboxes
 > * Backup & Restore Settings
 > * Powerfull control panel and Shortcode Manager make getting started super easy
