@@ -59,8 +59,20 @@ if ( is_admin() ) {
 	    wp_die( "<strong>GD Library</strong> for PHP is not installed on your server. Easy Media Gallery requires it to function properly. The plugin has now disabled itself. Please ask your hosting provider for this issue.<br /><br />Back to <a href='".admin_url()."'>WordPress admin</a>" );
 		}
 }
-
 // Learn more here http://www.webassist.com/tutorials/Enabling-the-GD-library-setting
+
+
+/*-------------------------------------------------------------------------------*/
+/*  JetPack ( Photon Module ) Detect
+/*-------------------------------------------------------------------------------*/
+add_action( 'admin_notices', 'emg_jetpack_modules_photon' );
+
+function emg_jetpack_modules_photon() {
+	
+if( class_exists( 'Jetpack' ) && in_array( 'photon', Jetpack::get_active_modules() ) ) {
+    echo '<div class="updated"><p>You have to deactivate <strong>JetPack Photon</strong> module to make <strong>Easy Media Gallery</strong> work!</p><p><a href="'.admin_url().'admin.php?page=jetpack&action=deactivate&module=photon&_wpnonce='.wp_create_nonce( 'jetpack_deactivate-photon' ).'" >Deactivate Now!</a></p></div>';
+	}
+}
 
 
 /*
