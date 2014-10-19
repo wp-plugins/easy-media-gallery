@@ -9,9 +9,9 @@ function emg_customposttype_image_box() {
 	remove_meta_box( 'emediagallerydiv', 'easymediagallery', 'side' );
 	add_meta_box( 'categorydiv', __( 'Media Categories' ), 'easymediagallery_categories_meta_box', 'easymediagallery', 'normal', 'high' );
 	
-	if ( easy_get_option( 'easymedia_disen_admnotify' ) == '1' ) {
+	/* if ( easy_get_option( 'easymedia_disen_admnotify' ) == '1' ) { */
 			add_meta_box( 'emgbuydiv', __( 'Upgrade to Pro Version' ), 'emg_upgrade_metabox', 'easymediagallery', 'side', 'default' );
-		}
+		/* } */
 		
 }
 add_action( 'do_meta_boxes', 'emg_customposttype_image_box' );
