@@ -12,7 +12,7 @@ The best image gallery plugin enables you to create photo album or portfolio. Ov
 
 == Description ==
 
-### [Best Gallery Plugin - Photo Albums - Grid Gallery Plugin](http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-gallery-and-photo-albums-demo/)
+### [Best Gallery Plugin - Photo Albums - Grid Gallery Plugin](http://goo.gl/PLlJwS)
 
 <p>http://www.youtube.com/watch?v=oH39zc8zMOg</p>
 
