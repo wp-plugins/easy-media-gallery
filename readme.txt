@@ -8,7 +8,7 @@ Stable tag: 1.2.71
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-The best image gallery plugin enables you to create photo album or portfolio. Over 299,525+ sites are already using Easy Media Gallery.
+The best image gallery plugin enables you to create photo album or portfolio. Over 303,000+ sites are already using Easy Media Gallery.
 
 == Description ==
 
@@ -35,15 +35,15 @@ Easy Media Gallery is a wordpress plugin designed to display various media suppo
 <p>Easy Media Gallery plugin satisfy all your needs letting you create different types of wordpress portfolio, photo album and also from a simple picture to an image slider, a video and audio player. All in one solution. Easy Media Gallery represents a perfect solution for any type of media. Each item can be:</p> 
 
 * An image
-* Photo Albums (<em>[Pro Version](http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-gallery-and-photo-albums-demo/)</em>)
-* Grid Gallery (<em>[Pro Version](http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-gallery-grid-galleries-plugin/)</em>)
-* Grid Gallery with fancy pagination (<em>[Pro Version](http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-wordpress-plugin-gallery-using-pagination/)</em>)
-* Filterable Media (<em>[Pro Version](http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-wordpress-portfolio-plugin/)</em>)
-* Media/Image Slider (<em>[Pro Version](http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-wordpress-image-slider-plugin/)</em>)
+* Photo Albums (<em>[Pro Version](http://goo.gl/PLlJwS)</em>)
+* Grid Gallery (<em>[Pro Version](http://goo.gl/bZ53YR)</em>)
+* Grid Gallery with fancy pagination (<em>[Pro Version](http://goo.gl/20ghC5)</em>)
+* Filterable Media (<em>[Pro Version](http://goo.gl/JAvlsq)</em>)
+* Media/Image Slider (<em>[Pro Version](http://goo.gl/nNKUbA)</em>)
 * A video, Auto-retrieve YouTube and Vimeo Thumbnail (<em>Pro Version [learn more here](http://www.youtube.com/watch?v=uAGWUcs5ofE)</em>)
-* An mp3 player (<em>HTML5 player for Pro version and Flash player for Lite version</em>), embed from Reverbnation or Soundcloud (<em>[Pro Version](http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-wordpress-audio-gallery/)</em>)
-* Google Maps / Google Street View (<em>[Pro Version](http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-wordpress-portfolio-plugin/)</em>)
-* 10+ Lightboxes (<em>[Pro Version]( http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-gallery-lightboxes/)</em>)
+* An mp3 player (<em>HTML5 player for Pro version and Flash player for Lite version</em>), embed from Reverbnation or Soundcloud (<em>[Pro Version](http://goo.gl/ckecFP)</em>)
+* Google Maps / Google Street View (<em>[Pro Version](http://goo.gl/ckecFP)</em>)
+* 10+ Lightboxes (<em>[Pro Version](http://goo.gl/3vZHHb)</em>)
 
 = Features =
 Easy Media Gallery supports a wide range of media formats. Simply link to any image, video, hosted video or Youtube/Vimeo, mp3 audio or popular website, and the media will be automatically loaded into the overlay. Easy Media Gallery can be used to embed videos from :
