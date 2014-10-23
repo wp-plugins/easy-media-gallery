@@ -16,7 +16,7 @@ Best photo gallery, photo albums or portfolio plugin for WordPress.
 
 <p>http://www.youtube.com/watch?v=oH39zc8zMOg</p>
 
-EM Gallery is the best gallery wordpress plugin designed to display various media support including grid gallery, galleries, photo album, multiple photo albums, portfolio, photo gallery or image gallery, image slider, google maps and google street view, youtube video, vimeo video, mp4 video, audio mp3 and link with very ease, fancy and elegant.
+Easy Media Gallery is the best gallery wordpress plugin designed to display various media support including grid gallery, galleries, photo album, multiple photo albums, portfolio, photo gallery or image gallery, image slider, google maps and google street view, youtube video, vimeo video, mp4 video, audio mp3 and link with very ease, fancy and elegant.
 
 > #### **Live Demos**
 
@@ -32,7 +32,7 @@ EM Gallery is the best gallery wordpress plugin designed to display various medi
 > * [DEMO : 10+ Lightboxes](http://goo.gl/3vZHHb)
 
 = Full media support =
-<p>EM Gallery plugin satisfy all your needs letting you create different types of wordpress portfolio, photo album and also from a simple picture to an image slider, a video and audio player. All in one solution. Easy Media Gallery represents a perfect solution for any type of media. Each item can be:</p> 
+<p>Easy Media Gallery plugin satisfy all your needs letting you create different types of wordpress portfolio, photo album and also from a simple picture to an image slider, a video and audio player. All in one solution. Easy Media Gallery represents a perfect solution for any type of media. Each item can be:</p> 
 
 * An image
 * Photo Albums (<em>[Pro Version](http://goo.gl/PLlJwS)</em>)
@@ -47,7 +47,7 @@ EM Gallery is the best gallery wordpress plugin designed to display various medi
 * 10+ Lightboxes (<em>[Pro Version](http://goo.gl/3vZHHb)</em>)
 
 = Features =
-EM Gallery supports a wide range of media formats. Simply link to any image, video, hosted video or Youtube/Vimeo, mp3 audio or popular website, and the media will be automatically loaded into the overlay. Easy Media Gallery can be used to embed videos from :
+Easy Media Gallery supports a wide range of media formats. Simply link to any image, video, hosted video or Youtube/Vimeo, mp3 audio or popular website, and the media will be automatically loaded into the overlay. Easy Media Gallery can be used to embed videos from :
 
 * YouTube / YouTube Playlist
 * Vimeo
