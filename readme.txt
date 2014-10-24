@@ -8,7 +8,7 @@ Stable tag: 1.2.71
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Best photo gallery, photo albums or portfolio plugin for WordPress.
+Best image gallery, photo albums or portfolio plugin for WordPress.
 
 == Description ==
 
