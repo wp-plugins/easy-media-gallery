@@ -34,7 +34,7 @@ Easy Media Gallery is the best gallery wordpress plugin designed to display vari
 = Full media support =
 <p>Easy Media Gallery plugin satisfy all your needs letting you create different types of wordpress portfolio, photo album and also from a simple picture to an image slider, a video and audio player. All in one solution. Easy Media Gallery represents a perfect solution for any type of media. Each item can be:</p> 
 
-* An image
+* <strong>An image</strong>
 * <strong>Photo Albums (<em>[Pro Version](http://goo.gl/PLlJwS)</em>)</strong>
 * <strong>Grid Gallery (<em>[Pro Version](http://goo.gl/bZ53YR)</em>)</strong>
 * <strong>Grid Gallery with fancy pagination (<em>[Pro Version](http://goo.gl/20ghC5)</em>)</strong>
