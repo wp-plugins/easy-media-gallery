@@ -35,16 +35,16 @@ Easy Media Gallery is the best gallery wordpress plugin designed to display vari
 <p>Easy Media Gallery plugin satisfy all your needs letting you create different types of wordpress portfolio, photo album and also from a simple picture to an image slider, a video and audio player. All in one solution. Easy Media Gallery represents a perfect solution for any type of media. Each item can be:</p> 
 
 * An image
-* Photo Albums (<em>[Pro Version](http://goo.gl/PLlJwS)</em>)
-* Grid Gallery (<em>[Pro Version](http://goo.gl/bZ53YR)</em>)
-* Grid Gallery with fancy pagination (<em>[Pro Version](http://goo.gl/20ghC5)</em>)
-* Filterable Media (<em>[Pro Version](http://goo.gl/JAvlsq)</em>)
-* Media/Image Slider (<em>[Pro Version](http://goo.gl/nNKUbA)</em>)
-* A video, Auto-retrieve YouTube and Vimeo Thumbnail (<em>Pro Version [learn more here](http://www.youtube.com/watch?v=uAGWUcs5ofE)</em>)
-* An mp3 player (<em>HTML5 player for Pro version and Flash player for Lite version</em>)
-* Embed from Reverbnation or Soundcloud (<em>[Pro Version](http://goo.gl/ckecFP)</em>)
-* Google Maps / Google Street View (<em>[Pro Version](http://goo.gl/ckecFP)</em>)
-* 10+ Lightboxes (<em>[Pro Version](http://goo.gl/3vZHHb)</em>)
+* <strong>Photo Albums (<em>[Pro Version](http://goo.gl/PLlJwS)</em>)</strong>
+* <strong>Grid Gallery (<em>[Pro Version](http://goo.gl/bZ53YR)</em>)</strong>
+* <strong>Grid Gallery with fancy pagination (<em>[Pro Version](http://goo.gl/20ghC5)</em>)</strong>
+* <strong>Filterable Media (<em>[Pro Version](http://goo.gl/JAvlsq)</em>)</strong>
+* <strong>Media/Image Slider (<em>[Pro Version](http://goo.gl/nNKUbA)</em>)</strong>
+* <strong>A video, Auto-retrieve YouTube and Vimeo Thumbnail (<em>Pro Version [learn more here](http://www.youtube.com/watch?v=uAGWUcs5ofE)</em>)</strong>
+* <strong>An mp3 player (<em>HTML5 player for Pro version and Flash player for Lite version</em>)</strong>
+* <strong>Embed from Reverbnation or Soundcloud (<em>[Pro Version](http://goo.gl/ckecFP)</em>)</strong>
+* <strong>Google Maps / Google Street View (<em>[Pro Version](http://goo.gl/ckecFP)</em>)</strong>
+* <strong>10+ Lightboxes (<em>[Pro Version](http://goo.gl/3vZHHb)</em>)</strong>
 
 = Features =
 Easy Media Gallery supports a wide range of media formats. Simply link to any image, video, hosted video or Youtube/Vimeo, mp3 audio or popular website, and the media will be automatically loaded into the overlay. Easy Media Gallery can be used to embed videos from :
