@@ -1,7 +1,7 @@
  === Easy Media Gallery - Best Gallery & Photo Albums Plugin ===
 Contributors: ghozylab
 Donate link: http://ghozylab.com/donate
-Tags: gallery, photo gallery, photo album, album, photo albums, seo, gallery lightbox, website gallery, image gallery, filterable portfolio, filterable gallery, wordpress gallery plugin, media gallery, photoset, photogallery, responsive image gallery, wordpress seo, AJAX, fotoalbum, jquery gallery, wp slider, jquery slider, comments, images, best gallery, portfolio gallery, lightbox, nextgen gallery, jquery slideshow, responsive slideshow, image slideshow, image rotate, wordpress portfolio plugin, best gallery plugin, plugin gallery, wp gallery, slideshow, jquery, responsive slider, gallery plugin, galerie, galerij, bilder, galleria, responsive gallery, grid gallery, wp gallery plugin, photo slider, image slider, responsive gallery, photo, shortcode, photos, picture, pictures, html5 video, html5 audio, widget, sidebar, fancy gallery, plugin for gallery, html5 player, pagination gallery, pagination portfolio, plugin, post, links, page, admin, posts, thumbnail, easy media gallery, seo image, twitter, image album, image, google, image lightbox, portfolio, best portfolio
+Tags: gallery, photo gallery, photo album, album, photo albums, seo, gallery lightbox, gallery image, website gallery, image gallery, filterable portfolio, filterable gallery, wordpress gallery plugin, media gallery, photoset, photogallery, responsive image gallery, wordpress seo, AJAX, fotoalbum, jquery gallery, wp slider, jquery slider, comments, images, best gallery, portfolio gallery, lightbox, nextgen gallery, jquery slideshow, responsive slideshow, image slideshow, image rotate, wordpress portfolio plugin, best gallery plugin, plugin gallery, wp gallery, slideshow, jquery, responsive slider, gallery plugin, galerie, galerij, bilder, galleria, responsive gallery, grid gallery, wp gallery plugin, photo slider, image slider, responsive gallery, photo, shortcode, photos, picture, pictures, html5 video, html5 audio, widget, sidebar, fancy gallery, plugin for gallery, html5 player, pagination gallery, pagination portfolio, plugin, post, links, page, admin, posts, thumbnail, easy media gallery, seo image, twitter, image album, image, google, image lightbox, portfolio, best portfolio
 Requires at least: 3.3
 Tested up to: 4.0
 Stable tag: 1.2.71
@@ -50,21 +50,22 @@ Easy Media Gallery is the best gallery wordpress plugin designed to display vari
 = Features =
 Easy Media Gallery supports a wide range of media formats. Simply link to any image, video, hosted video or Youtube/Vimeo, mp3 audio or popular website, and the media will be automatically loaded into the overlay. Easy Media Gallery can be used to embed videos from :
 
-* YouTube / YouTube Playlist
-* Vimeo
-* Veoh
-* DailyMotion
-* MetaCafe
-* Google Video
-* Livestream
-* Facebook
-* Showecho
-* YouKu
-* Break
-* Flickr
-* Rutube
-* Ustream
-* MP4 (<em>MP4 HTML5 player for Pro version and Flash player for Lite version</em>), MOV, SWF, M4V, M4A, FLV
+> 
+> * YouTube / YouTube Playlist
+> * Vimeo
+> * Veoh
+> * DailyMotion
+> * MetaCafe
+> * Google Video
+> * Livestream
+> * Facebook
+> * Showecho
+> * YouKu
+> * Break
+> * Flickr
+> * Rutube
+> * Ustream
+> * MP4 (<em>MP4 HTML5 player for Pro version and Flash player for Lite version</em>), MOV, SWF, M4V, M4A, FLV
 
 It is a very customizable wordpress gallery and portfolio plugin that allow you to set display whatever you want like adjust colors, positions, grid, media sizes, hover effect and much more with one easy control panel. That easy control panel for experts it would save your time, and for you who do not have more knowledge about website styling, of course this plugin will allow you to manage your website, gallery and portfolio much more easily. 
 
