@@ -523,8 +523,6 @@ $i++;
 
 <?php
 }
-?>
-<?php
 //add_action('admin_init', 'add_cp_stylesheet');
 add_action('admin_menu', 'spg_add_admin');
 
