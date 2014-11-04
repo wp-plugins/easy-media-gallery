@@ -147,7 +147,10 @@ if ( !defined( 'EASYMEDIA_DEV_PRICE' ) ) {
 | I18N - LOCALIZATION
 |--------------------------------------------------------------------------
 */
-load_plugin_textdomain( 'easmedia', false, dirname( plugin_basename( __FILE__ ) ) . '/languages/' );
+function emg_lang_init() {
+	load_plugin_textdomain( 'easmedia', false, dirname( plugin_basename( __FILE__ ) ) . '/languages/' );
+	}
+add_action( 'init', 'emg_lang_init' );
 
 
 /*
