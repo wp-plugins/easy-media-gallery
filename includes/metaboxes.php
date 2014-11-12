@@ -580,7 +580,7 @@ function easmedia_metabox_work(){
 	    $meta_box = array(
 		'id' => 'easmedia_metaboxmediatypeselect',
 		'title' =>  __( 'Media Options', 'easmedia' ),
-		'description' => __( '<div class="emginfobox"><span class="emg_blink">Upgrade to PRO</span> and you can select <a href="http://goo.gl/bZ53YR" target="_blank">Grid Gallery</a>, <a href="http://goo.gl/PLlJwS" target="_blank">Photo Albums</a>, <a href="http://goo.gl/JAvlsq" target="_blank">Filterable Media</a>, HTML5 Video/Audio, Google Maps/Street View, embed from Soundcloud or Reverbnation and also Link to specific URL. You can learn more and see version comparison <a href="edit.php?post_type=easymediagallery&page=comparison">here</a> or go to Pro Version DEMO <a href="http://ghozylab.com/plugins/easy-media-gallery-pro/demo/" target="_blank">here</a></div><br>Select videos, images, gallery or audio files.', 'easmedia' ),
+		'description' => __( '<div class="emginfobox"><span class="emg_blink">Upgrade to PRO</span> and you can select <a href="http://goo.gl/bZ53YR" target="_blank">Grid Gallery</a>, <a href="http://goo.gl/PLlJwS" target="_blank">Photo Albums</a>, <a href="http://goo.gl/JAvlsq" target="_blank">Filterable Media</a>, HTML5 Video/Audio, Google Maps/Street View, embed from Soundcloud or Reverbnation and also Link to specific URL. You can learn more and see version comparison <a href="edit.php?post_type=easymediagallery&page=comparison">here</a> or go to Pro Version DEMO <a href="http://goo.gl/qG29Me" target="_blank">here</a></div><br>Select videos, images, gallery or audio files.', 'easmedia' ),
 		'page' => 'easymediagallery',
 		'context' => 'normal',
 		'priority' => 'default',
