@@ -73,7 +73,7 @@ It is a very customizable wordpress gallery and portfolio plugin that allow you 
 <p>http://www.youtube.com/watch?v=dXFBNY5t6E8</p>
 
 * You can learn more by watching the video from [YouTube Channel](http://www.youtube.com/GhozyLab).
-* You can see all awesome features here [Best Gallery and Portfolio plugin features](http://ghozylab.com/plugins/easy-media-gallery-pro/plugin-features/).
+* You can see all awesome features here [Best Gallery and Portfolio plugin features](http://goo.gl/N1gCzZ).
 
 
 > #### **Upgrade to Easy Media Gallery Pro**
