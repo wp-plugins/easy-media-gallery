@@ -58,6 +58,12 @@ if ( strstr( $_SERVER['REQUEST_URI'], 'wp-admin/post-new.php' ) || strstr( $_SER
 	if ( get_post_type( get_the_ID() ) == 'easymediagallery' ) { 
 	?>
     
+    	<div class="emg-scroll-top-wrapper">
+    		<span class="emg-scroll-top-inner">
+        		<i class="enotyfa"></i>
+    			</span>
+			</div>
+    
             <style type="text/css" media="screen">
 		   @media only screen and (min-width: 1150px) {
 			   #side-sortables.fixed { position: fixed; top: 55px; right: 20px; width: 280px; }
@@ -282,13 +288,6 @@ function IsValidAuUrl1(aurl1) {
  
 function easmedia_add_meta_box( $meta_box )
 {
-
-	echo '<div class="emg-scroll-top-wrapper">
-    		<span class="emg-scroll-top-inner">
-        		<i class="enotyfa"></i>
-    			</span>
-			</div>';
-	
     if ( !is_array( $meta_box ) ) return false;
     
     // Create a callback function
