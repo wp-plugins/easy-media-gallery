@@ -129,7 +129,7 @@ if ( strstr( $_SERVER['REQUEST_URI'], 'wp-admin/post-new.php' ) || strstr( $_SER
                         <strong>1 site</strong>
                     </li>
                     <li class="plan-action">
-                        <a href="http://ghozylab.com/plugins/ordernow.php?order=pro&utm_source=lite&utm_medium=comparisonpage&utm_campaign=orderfromcompare" target="_blank" class="btn btn-danger btn-lg">BUY NOW</a>
+                        <a href="http://ghozylab.com/plugins/ordernow.php?order=pro&utm_source=lite&utm_medium=editor&utm_campaign=orderfromeditor" target="_blank" class="btn btn-danger btn-lg">BUY NOW</a>
                     </li>
                 </ul>
             </div> 
@@ -146,7 +146,7 @@ if ( strstr( $_SERVER['REQUEST_URI'], 'wp-admin/post-new.php' ) || strstr( $_SER
                         <strong>3 sites</strong>
                     </li>
                     <li class="plan-action">
-                        <a href="http://ghozylab.com/plugins/ordernow.php?order=proplus&utm_source=lite&utm_medium=comparisonpage&utm_campaign=orderfromcompare" target="_blank" class="btn btn-danger btn-lg">BUY NOW</a>
+                        <a href="http://ghozylab.com/plugins/ordernow.php?order=proplus&utm_source=lite&utm_medium=editor&utm_campaign=orderfromeditor" target="_blank" class="btn btn-danger btn-lg">BUY NOW</a>
                     </li>
                 </ul>
             </div> 
@@ -163,7 +163,7 @@ if ( strstr( $_SERVER['REQUEST_URI'], 'wp-admin/post-new.php' ) || strstr( $_SER
                         <strong>5 sites</strong>
                     </li>
                     <li class="plan-action">
-                        <a href="http://ghozylab.com/plugins/ordernow.php?order=proplusplus&utm_source=lite&utm_medium=comparisonpage&utm_campaign=orderfromcompare" target="_blank" class="btn btn-danger btn-lg">BUY NOW</a>
+                        <a href="http://ghozylab.com/plugins/ordernow.php?order=proplusplus&utm_source=lite&utm_medium=editor&utm_campaign=orderfromeditor" target="_blank" class="btn btn-danger btn-lg">BUY NOW</a>
                     </li>
                 </ul>
             </div> 
@@ -180,7 +180,7 @@ if ( strstr( $_SERVER['REQUEST_URI'], 'wp-admin/post-new.php' ) || strstr( $_SER
                         <strong>15 sites</strong>
                     </li>
                     <li class="plan-action">
-                        <a href="http://ghozylab.com/plugins/ordernow.php?order=dev&utm_source=lite&utm_medium=comparisonpage&utm_campaign=orderfromcompare" target="_blank" class="btn btn-danger btn-lg">BUY NOW</a>
+                        <a href="http://ghozylab.com/plugins/ordernow.php?order=dev&utm_source=lite&utm_medium=editor&utm_campaign=orderfromeditor" target="_blank" class="btn btn-danger btn-lg">BUY NOW</a>
                     </li>
                 </ul>
             </div> 
