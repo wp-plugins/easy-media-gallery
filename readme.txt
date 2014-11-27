@@ -1,10 +1,10 @@
  === Easy Media Gallery - Best Gallery & Photo Albums Plugin ===
 Contributors: ghozylab
 Donate link: http://ghozylab.com/donate
-Tags: gallery, photo gallery, photo album, album, photo albums, seo, image carousel, buddypress, woocommerce, portfolio plugin, album photo, images slider, gallery lightbox, image gallery plugin, gallery image, website gallery, image gallery, filterable portfolio, filterable gallery, wordpress gallery plugin, media gallery, slider photo, photoset, photogallery, responsive image gallery, wordpress seo, AJAX, fotoalbum, jquery gallery, wp slider, jquery slider, comments, images, best gallery, portfolio gallery, lightbox, nextgen gallery, jquery slideshow, responsive slideshow, image slideshow, image rotate, wordpress portfolio plugin, best gallery plugin, plugin gallery, wp gallery, slideshow, jquery, responsive slider, gallery plugin, galerie, galerij, bilder, galleria, responsive gallery, grid gallery, best image slider, wp gallery plugin, photo slider, image slider, responsive gallery, photo, shortcode, photos, picture, pictures, html5 video, html5 audio, widget, sidebar, fancy gallery, plugin for gallery, html5 player, pagination gallery, pagination portfolio, plugin, post, links, page, admin, posts, thumbnail, easy media gallery, seo image, twitter, image album, image, google, image lightbox, portfolio, best portfolio
+Tags: gallery, photo gallery, photo album, album, photo albums, seo, image carousel, buddypress, woocommerce, portfolio plugin, album photo, images slider, gallery lightbox, image gallery plugin, gallery image, website gallery, image gallery, filterable portfolio, filterable gallery, wordpress gallery plugin, media gallery, photoset, photogallery, responsive image gallery, wordpress seo, AJAX, fotoalbum, jquery gallery, wp slider, jquery slider, comments, images, best gallery, portfolio gallery, lightbox, nextgen gallery, jquery slideshow, responsive slideshow, image slideshow, image rotate, wordpress portfolio plugin, best gallery plugin, plugin gallery, wp gallery, slideshow, jquery, responsive slider, gallery plugin, galerie, galerij, bilder, galleria, responsive gallery, grid gallery, best image slider, wp gallery plugin, photo slider, image slider, responsive gallery, photo, shortcode, photos, picture, pictures, html5 video, html5 audio, widget, sidebar, fancy gallery, plugin for gallery, html5 player, pagination gallery, pagination portfolio, plugin, post, links, page, admin, posts, thumbnail, easy media gallery, seo image, twitter, image album, image, google, image lightbox, portfolio, best portfolio
 Requires at least: 3.3
 Tested up to: 4.0.1
-Stable tag: 1.2.77
+Stable tag: 1.2.79
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -12,7 +12,7 @@ Best image gallery, photo albums, image slider, video & audio gallery or portfol
 
 == Description ==
 
-### [Best Gallery & Photo Albums Plugin](http://goo.gl/PLlJwS)
+### [Easy Media Gallery - Best Gallery & Photo Albums Plugin](http://goo.gl/PLlJwS)
 
 Easy Media Gallery is the best gallery plugin for wordpress designed to display various media support including grid gallery, galleries, photo albums, multiple photo albums, portfolio, photo gallery or image gallery/photo slider, image slider, google maps and google street view, youtube video, vimeo video, mp4 video, audio mp3 and link with very ease, fancy and elegant.
 
@@ -36,9 +36,10 @@ Easy Media Gallery is the best gallery plugin for wordpress designed to display 
 
 > 
 > * <strong>An image</strong>
+> * <strong>Image Gallery</strong>
 > * <strong>Photo Albums (<em>[Pro Version](http://goo.gl/PLlJwS)</em>)</strong>
-> * <strong>Grid Gallery (<em>[Pro Version](http://goo.gl/bZ53YR)</em>)</strong>
-> * <strong>Grid Gallery with fancy pagination (<em>[Pro Version](http://goo.gl/20ghC5)</em>)</strong>
+> * <strong>Image Gallery with filter/category(<em>[Pro Version](http://goo.gl/bZ53YR)</em>)</strong>
+> * <strong>Image Gallery with fancy pagination (<em>[Pro Version](http://goo.gl/20ghC5)</em>)</strong>
 > * <strong>Filterable Media (<em>[Pro Version](http://goo.gl/JAvlsq)</em>)</strong>
 > * <strong>Media/Image Slider (<em>[Pro Version](http://goo.gl/nNKUbA)</em>)</strong>
 > * <strong>A video, Auto-retrieve YouTube and Vimeo Thumbnail (<em>Pro Version [learn more here](http://www.youtube.com/watch?v=uAGWUcs5ofE)</em>)</strong>
@@ -67,10 +68,10 @@ Easy Media Gallery supports a wide range of media formats. Simply link to any im
 > * Ustream
 > * MP4 (<em>MP4 HTML5 player for Pro version and Flash player for Lite version</em>), MOV, SWF, M4V, M4A, FLV
 
-It is a very customizable wordpress image gallery and portfolio plugin that allow you to set display whatever you want like adjust colors, positions, grid, media sizes, hover effect and much more with one easy control panel. That easy control panel for experts it would save your time, and for you who do not have more web programming knowledge, of course this plugin will allow you to create image gallery or portfolio much more easily. 
+It is a very customizable wordpress gallery and portfolio plugin that allow you to set display whatever you want like adjust colors, positions, grid, media sizes, hover effect and much more with one easy control panel. That easy control panel for experts it would save your time, and for you who do not have more knowledge about website styling, of course this plugin will allow you to manage your website, gallery and portfolio much more easily. 
 
 = LITE VERSION Example =
-<p>http://www.youtube.com/watch?v=dXFBNY5t6E8</p>
+<p>https://www.youtube.com/watch?v=H1Z3fidyEbE</p>
 
 * You can learn more by watching the video from [YouTube Channel](http://www.youtube.com/GhozyLab).
 * You can see all awesome features here [Best Gallery and Portfolio plugin features](http://goo.gl/N1gCzZ).
@@ -96,8 +97,8 @@ It is a very customizable wordpress image gallery and portfolio plugin that allo
 = Recommended Plugins =
 The following are other recommended plugins by the author:
 
-* [Easy Lightbox Popup](http://wordpress.org/plugins/easy-notify-lite/) -  The Best Notify and Subscription Form Plugin to display notify popup, announcement and subscribe form with very ease, fancy and elegant.
-
+* [Easy Lightbox Popup](http://wordpress.org/plugins/easy-notify-lite/) - The Best Notify and Subscription Form Plugin to display notify popup, announcement and subscribe form with very ease, fancy and elegant.
+* [Easy Image Slider Widget](https://wordpress.org/plugins/image-slider-widget/) - Easy Image Slider Widget - Displaying your image as slider in widget/sidebar area with very easy. Allows you to customize it to looking exactly what you want.
 
 == Installation ==
 
@@ -188,8 +189,7 @@ We have created a shortcode manager that allow you to put media wherever you lik
 
 To make the plugin easy for everyone, the documentation comes with detailed videos explaining each step necessary to setup and use Easy Media Gallery:
 
-* [Easy Media Gallery Installation](http://www.youtube.com/watch?v=PSCYB-N-TEE)
-* [Full Tutorial How to Use Easy Media Gallery](http://www.youtube.com/watch?v=LBck-tnVYas)
+* [How to Create Simple Gallery](http://goo.gl/fGBoML)
 * [How to Create Google Maps Media Types](http://www.youtube.com/watch?v=PEgfleRf6hg)
 * [How to Create Audio (mp3) Media Types](http://www.youtube.com/watch?v=Bsn-CB5Hpbw)
 * [How to Create Video (Youtube) Media Types](http://www.youtube.com/watch?v=htxwZw_aPF0)
@@ -228,6 +228,13 @@ But seriously, I just want to drink coffee for free, so help a developer out. Yo
 9. Google Maps and Google Street View
 
 == Changelog ==
+
+= 1.2.79 =
+* Added : New Gallery interface
+* Added : Featured Plugins page
+* Fixed : Shortcode Generator
+* Fixed : Many other PHP and CSS clean and optimization
+* Updated : New Video tutorial on Documentation page
 
 = 1.2.77 =
 * Updated : Wordpress 4.0.1 compatibility
@@ -503,5 +510,5 @@ But seriously, I just want to drink coffee for free, so help a developer out. Yo
 
 == Upgrade Notice ==
 
-= 1.2.77 =
-IMPORTANT! Wordpress 4.0.1 compatibility, PLEASE UPDATE NOW!
+= 1.2.79 =
+IMPORTANT! Added new feature ( Image Gallery ), PLEASE UPDATE NOW!

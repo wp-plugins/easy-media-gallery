@@ -239,7 +239,11 @@ height:190px; width:300px; margin-top:30px; border: solid 6px #fff; -moz-box-sha
 	}	
 .imgpreviewboxc {margin-top:30px; border: solid 6px #fff; -moz-box-shadow: 1px 1px 3px #3b3a3b; box-shadow: 1px 1px 3px #666666;float:right; }
 .vidpreviewboxc {margin-top:30px; -moz-box-shadow: 1px 1px 3px #3b3a3b; box-shadow: 1px 1px 3px #666666;float:right; }
-.imgthumblist {border: solid 2px #fff; -moz-box-shadow: 1px 1px 3px #3b3a3b; box-shadow: 1px 1px 3px #666666; }
+.imgthumblist {
+    border: 2px solid #FFF;
+    box-shadow: 1px 1px 3px #666;
+    border-radius: 50%;
+}
 
 
 /* Video Preview */
@@ -642,7 +646,75 @@ float:left;display:inline-block; text-decoration:none; outline:none; cursor:poin
 #emgbuydiv a:focus {
 	box-shadow:none !important; 
 	}
+	
+/* Image Picker @since 1.2.79 */	
 
+#emg_images_container {
+	margin-top: 15px;
+	}
+	
+#emg_images_container li {	
+	float: left;
+	position:relative;
+	padding: 2px;
+	background-color: #FFF;
+	box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.5);
+	margin: 5px;
+	height: 94px;
+	width: 94px;
+	}
+
+.emgthumbhandler img {
+	max-width:90px !important;
+	max-height:90px !important;
+	cursor: move;
+	}
+	
+#emg_images_container li span {
+    display: inline-block;
+    width: 23px;
+    height: 23px;
+    background: url('../images/delmedia.png') no-repeat scroll left top transparent;
+    cursor: pointer;
+    position: relative;
+    top: -105px;
+    right: -10px;
+    float: right;
+}
+
+.emg-sortable-placeholder { 
+	border-radius:5px; 
+    border: 1px dashed #CACACA;  
+    height: 60px;  
+    width: 94px;  
+    background: #F3F3F3;  
+	}
+	
+.gtips {
+    width: 21px;
+    height: 21px;
+    background: url('../images/tips.png') no-repeat scroll left top transparent;
+	padding-left:23px;
+	}
+.gtipslist {
+	padding-left:10px;
+	list-style:circle;
+	}
+	
+.easmedia_metabox_media_gallery td {
+	vertical-align:top;
+	}
+	
+	
+/* Featured Plugin Styles
+-------------------------------------------------------------- */
+#ghozy-featured h2 { margin: 0 0 15px; }
+#ghozy-featured .ghozy-extension { float: left; margin: 0 15px 15px 0; background: #f0f0f0; border: 1px solid #ccc; width: 320px; padding: 8px; height: 315px; position: relative; }
+#ghozy-featured .ghozy-extension h3 { margin: 0 0 8px; font-size: 13px;  }
+#ghozy-featured .ghozy-extension .button-secondary { position: absolute; bottom: 8px; left: 8px; }
+#ghozy-featured .ghozy-browse-all { clear:both; width:100%; }
+#ghozy-featured .ghozy-extension .third-party { display: none; }
+	
 @media only screen and (max-width: 768px) {
     .noty_buttons {
        text-align: center !important;

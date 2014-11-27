@@ -122,7 +122,7 @@ array( "name" => "Thumbnail Border Color",
 	"desc" => "Define thumbnail Border Color. Default color is white (#FFF)",
 	"id" => $theshort."_frm_col",
 	"type" => "color",
-	"std" => "#FFFFFF"),	
+	"std" => "#e5e7e8"),	
 	
 array( "name" => "Thumbnail Shadow Color",
 	"desc" => "Please define your custom Color Shadow. Default color is dark grey (#4A4A4A)",
@@ -278,7 +278,7 @@ function easymedia_restore_to_default($cmd) {
 				$theshort.'_deff_init' => '1',
 				$theshort.'_box_style' => 'Light',	
 				$theshort.'_lightbox_style' => 'EMG Lightbox ( Default )',
-				$theshort.'_frm_col' => '#FFFFFF',
+				$theshort.'_frm_col' => '#e5e7e8',
 				$theshort.'_ttl_col' => '#C7C7C7',
 				$theshort.'_ttl_back_col' => '#000',
 				$theshort.'_shdw_col' => '#4A4A4A',
@@ -377,7 +377,7 @@ function easymedia_1st_config() {
 				
 				$arr = array(
 				$thshort.'_deff_init' => '1',
-				$thshort.'_frm_col' => '#FFFFFF',
+				$thshort.'_frm_col' => '#e5e7e8',
 				$thshort.'_ttl_col' => '#C7C7C7',
 				$thshort.'_ttl_back_col' => '#000',
 				$thshort.'_shdw_col' => '#4A4A4A',

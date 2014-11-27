@@ -4,7 +4,7 @@ Plugin Name: Easy Media Gallery
 Plugin URI: http://www.ghozylab.com/plugins/
 Description: Easy Media Gallery (Lite) - Displaying your images, videos (MP4, Youtube, Vimeo) and audio mp3 in elegant and fancy lightbox with very easy. Allows you to customize all media to get it looking exactly what you want. <a href="http://ghozylab.com/plugins/easy-media-gallery-pro/pricing/" target="_blank"><strong> Upgrade to Pro Version Now</strong></a> and get a tons of awesome features.
 Author: GhozyLab, Inc.
-Version: 1.2.77
+Version: 1.2.79
 Author URI: http://www.ghozylab.com/plugins/
 */
 
@@ -118,7 +118,7 @@ if ( !defined( 'EASYMEDIA_NAME' ) ) {
 
 // Plugin Version
 if ( !defined( 'EASYMEDIA_VERSION' ) ) {
-	define( 'EASYMEDIA_VERSION', '1.2.77' );
+	define( 'EASYMEDIA_VERSION', '1.2.79' );
 }
 
 // Pro Price
@@ -318,7 +318,12 @@ function easmedia_custom_columns_easymedia( $easymedia_columns, $post_id ){
 			
 								case 'Audio':
 											 echo '<img class="imgthumblist" width="70" height="70" alt="Thumbnail" src="' . plugins_url( 'images/audio.png' , __FILE__ ) . '"></img>';
-												 break;		
+												 break;	
+												 
+								case 'Multiple Images (Slider)':
+											 echo '<img class="imgthumblist" width="70" height="70" alt="Thumbnail" src="' . plugins_url( 'images/gallery.png' , __FILE__ ) . '"></img>';
+												 break;										 
+												 	
 		
 			}
 			

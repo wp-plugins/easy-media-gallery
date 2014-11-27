@@ -17,6 +17,7 @@ $marginhlf = $mrgnbox / 2;
 $theoptstl = easy_get_option( 'easymedia_frm_size' );
 $globalwidth = stripslashes( $theoptstl[ 'width' ] );
 $pattover = easy_get_option( 'easymedia_style_pattern' );
+$overcol = easy_get_option( 'easymedia_overlay_col' );
 $ttlcol = easy_get_option( 'easymedia_ttl_col' );
 $thumbhov = ucfirst( easy_get_option( 'easymedia_hover_style' ) ) . '.png';
 $thumbhov = plugins_url( 'css/images/' . $thumbhov . '', dirname(__FILE__) );
