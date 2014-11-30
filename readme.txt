@@ -62,7 +62,6 @@ Easy Media Gallery supports a wide range of media formats. Simply link to any im
 > * Facebook
 > * Showecho
 > * YouKu
-> * Break
 > * Flickr
 > * Rutube
 > * Ustream
