@@ -80,6 +80,9 @@ It is a very customizable wordpress gallery and portfolio plugin that allow you 
 > Take your media to the next level with [Easy Media Gallery Pro](http://ghozylab.com/plugins/easy-media-gallery-pro/pricing/), which gives you additional features such as:
 
 > * Create unlimited number of media
+> * Super Easy to use for Beginners
+> * Adjustable Rows/Columns/Spacings
+> * Various Animation Types
 > * No coding, the plugin takes care of everything
 > * Media are built on-the-fly as you enter and select options
 > * Works with all modern browsers, degrades gracefully for others
