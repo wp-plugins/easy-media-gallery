@@ -829,7 +829,7 @@ function easmedia_metabox_work(){
 			array(
 		
 					'name' => __( '<span class="gtips">Tips:</span>', 'easmedia' ),
-					'desc' => __( '<ul class="gtipslist"><li>Use <b>Ctrl + Click</b> on each image to select multiple images at once.</li><li>You can also drag and drop images to re-order.</li><li>Click on image to edit title/subtitle ( <i>Pro Version only</i> )</li></ul>', 'easmedia' ),
+					'desc' => __( '<ul class="gtipslist"><li>Use <b>Ctrl + Click</b> on each image to select multiple images at once.</li><li>You also can drag and drop images to re-order.</li><li>Click on image to edit title/subtitle ( <i>Pro Version only</i> )</li></ul>', 'easmedia' ),
 					'id' => 'easmedia_metabox_media_gallery',
 					'gallid' => 'easmedia_metabox_media_gallery_id',
 					'type' => 'gallery',
