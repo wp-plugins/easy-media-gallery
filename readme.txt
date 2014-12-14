@@ -4,7 +4,7 @@ Donate link: http://ghozylab.com/donate
 gallery, photo gallery, media library, photo album, album, photo albums, seo, image carousel, portfolio plugin, album photo, buddypress, woocommerce, images slider, picture slider, gallery lightbox, image gallery plugin, gallery image, website gallery, image gallery, filterable portfolio, filterable gallery, wordpress gallery plugin, media gallery, photoset, photogallery, responsive image gallery, wordpress seo, AJAX, fotoalbum, jquery gallery, wp slider, jquery slider, comments, images, best gallery, portfolio gallery, lightbox, nextgen gallery, jquery slideshow, responsive slideshow, image slideshow, image rotate, wordpress portfolio plugin, best gallery plugin, plugin gallery, wp gallery, slideshow, jquery, responsive slider, gallery plugin, galerie, galerij, bilder, galleria, responsive gallery, grid gallery, best image slider, wp gallery plugin, photo slider, image slider, responsive gallery, photo, shortcode, photos, picture, pictures, html5 video, html5 audio, widget, sidebar, plugin for gallery, html5 player, pagination gallery, plugin, post, links, page, admin, posts, thumbnail, easy media gallery, seo image, twitter, image album, image, google, image lightbox, portfolio, best portfolio, carousel slider, content slider, wordpress slideshow, wordpress slider, slideshow plugin, slider plugin, slider, best slider plugin, post slider, add gallery, add images, easy gallery, free gallery plugin, galeri, galleries, nextgen, picture gallery, shortcode gallery, thumbnails
 Requires at least: 3.3
 Tested up to: 4.0.1
-Stable tag: 1.2.79
+Stable tag: 1.2.91
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -230,6 +230,9 @@ But seriously, I just want to drink coffee for free, so help a developer out. Yo
 9. Google Maps and Google Street View
 
 == Changelog ==
+
+= 1.2.91 =
+* Added : New Notification on Settings Page
 
 = 1.2.79 =
 * Added : New Gallery interface
@@ -512,5 +515,5 @@ But seriously, I just want to drink coffee for free, so help a developer out. Yo
 
 == Upgrade Notice ==
 
-= 1.2.79 =
-IMPORTANT! Added new feature ( Image Gallery ), PLEASE UPDATE NOW!
+= 1.2.91 =
+IMPORTANT! Added new notify in Settings Page, PLEASE UPDATE NOW!
