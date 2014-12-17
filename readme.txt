@@ -36,7 +36,7 @@ Easy Media Gallery is the best gallery plugin for wordpress designed to display 
 
 > 
 > * <strong>An image</strong>
-> * <strong>Image Gallery</strong>
+> * <strong>Image Gallery / Photo Gallery</strong>
 > * <strong>Photo Albums (<em>[Pro Version](http://goo.gl/PLlJwS)</em>)</strong>
 > * <strong>Image Gallery with filter/category(<em>[Pro Version](http://goo.gl/bZ53YR)</em>)</strong>
 > * <strong>Image Gallery with fancy pagination (<em>[Pro Version](http://goo.gl/20ghC5)</em>)</strong>
