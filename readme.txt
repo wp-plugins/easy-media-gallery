@@ -19,7 +19,7 @@ Easy Media Gallery is the best gallery plugin for wordpress designed to display 
 > #### **Live Demos**
 
 > * [DEMO : Photo Albums](http://goo.gl/PLlJwS)
-> * [DEMO : Galleries/ Grid Gallery](http://goo.gl/bZ53YR)
+> * [DEMO : Gallery / Grid Gallery](http://goo.gl/bZ53YR)
 > * [DEMO : Image Slider](http://goo.gl/JmFU82)
 > * [DEMO : Image Slider Fotorama](http://goo.gl/nNKUbA)
 > * [DEMO : Carousel](http://goo.gl/72MKwx)
