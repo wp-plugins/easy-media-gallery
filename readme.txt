@@ -230,8 +230,8 @@ But seriously, I just want to drink coffee for free, so help a developer out. Yo
 3. Gallery with Pagination
 4. Awesome Image Slider
 5. Carousel
-6. Embed music from Soundcloud
-7. Embed music from Reverbnation
+6. Embed from Soundcloud
+7. Embed from Reverbnation
 8. HTML5 video player
 9. Google Maps and Google Street View
 
