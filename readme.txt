@@ -94,7 +94,7 @@ It is a very customizable wordpress gallery and portfolio plugin that allow you 
 > * Works with all modern browsers, degrades gracefully for others
 > * Fully CSS3 compliant with text shadowing, box shadowing, gradients, etc
 > * Color picker for unlimited color combinations
-> * See your media on different theme and more
+> * Display your media on different theme
 > * 3 Skins for main Lightbox [See Example](http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-gallery-lightboxes/emg-lightbox-default/)
 > * More than 10 lightboxes
 > * Backup & Restore Settings
@@ -106,7 +106,7 @@ It is a very customizable wordpress gallery and portfolio plugin that allow you 
 The following are other recommended plugins by the author:
 
 * [Easy Lightbox Popup](http://wordpress.org/plugins/easy-notify-lite/) - The Best Notify and Subscription Form Plugin to display notify popup, announcement and subscribe form with very ease, fancy and elegant.
-* [Easy Image Slider Widget](https://wordpress.org/plugins/image-slider-widget/) - Easy Image Slider Widget - Displaying your image as slider in widget/sidebar area with very easy. Allows you to customize it to looking exactly what you want.
+* [Best Image Slider Plugin](https://wordpress.org/plugins/image-slider-widget/) - Easy Image Slider Widget - Displaying your image as slider in widget/sidebar area with very easy. Allows you to customize it to looking exactly what you want.
 
 == Installation ==
 
