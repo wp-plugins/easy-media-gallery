@@ -99,6 +99,9 @@ It is a very customizable wordpress gallery and portfolio plugin that allow you 
 > * More than 10 lightboxes
 > * Backup & Restore Settings
 > * Powerfull control panel and Shortcode Manager make getting started super easy
+> * Responsive & Mobile Optimized 
+> * Adjustable Rows/Columns/Spacings 
+> * Extensive Documentation & Tutorial Videos 
 > * 24/7 Technical Support
 
 
