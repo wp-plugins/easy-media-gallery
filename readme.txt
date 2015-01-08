@@ -64,6 +64,7 @@ Easy Media Gallery supports a wide range of media formats. Simply link to any im
 > * YouKu
 > * Flickr
 > * Ustream
+> * Rutube
 > * MP4 (<em>MP4 HTML5 player for Pro version and Flash player for Lite version</em>), MOV, SWF, M4V, M4A, FLV
 
 And also can be used to embed audio from :
