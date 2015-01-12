@@ -190,7 +190,7 @@ or you can display it where you want and as you want outside your post/page usin
 `<?php echo do_shortcode('[easy-media med="231,233"]'); ?>`
 
 <strong>Keep in mind:</strong>
-We have created a shortcode manager that allow you to put media wherever you like with ease. Please learn more at:
+You also can put the media wherever you like with ease using shortcode manager. Please learn more at:
 
 * [Basic Tutorials](http://ghozylab.com/plugins/frequently-asked-questions/)
 * [Youtube Channel](http://www.youtube.com/GhozyLab)
