@@ -115,14 +115,14 @@ function emg_cp_reset() {
 	
 	if ( !isset( $_POST['cmd'] ) ) {
 		echo '0';
-		die;
+		wp_die();
 		}
 		
 		else {
 			if ( $_POST['cmd'] == 'reset' ){
 				echo '1';
 				easymedia_restore_to_default($_POST['cmd']);			
-				die;
+				wp_die();
 				}
 	}
 }
@@ -137,7 +137,7 @@ function emg_load_media_list() {
 	
 	if ( !isset( $_POST['taxo'] ) ) {
 		echo '<p>Ajax request failed, please try again.</p>';
-		die;
+		wp_die();
 		}
 		else {
 			global $post;
@@ -162,12 +162,12 @@ if ( have_posts() ) :
 			<input name="'.$post->ID.'" id="'.$post->ID.'" type="text" value="'.get_post_meta( $id, 'easmedia_metabox_title', true ).'" />';
 
 	echo $show_media;
-	die();
+	wp_die();
 	
 	endwhile;	
 else:
   echo 'Sorry, no media matched your criteria.';		
-  die();	
+  wp_die();	
 endif;
 wp_reset_query();			
 			
@@ -184,25 +184,24 @@ function easmedia_img_media_remv() {
 	
 	if ( !isset( $_POST['pstid'] ) || !isset( $_POST['type'] ) ) {
 		echo '0';
-		die;
+		wp_die();
 		}
 		
 		else {
 			if ( !current_user_can( 'edit_theme_options' ) )
-			die('-1');
+			wp_die('-1');
 			
 			if ( $_POST['type'] == 'image' ){
 				$data = $_POST['pstid'];
 				update_post_meta($data, 'easmedia_metabox_img', '');
-				echo '1';
-				die;
+				wp_die('1');
 				}
 	
 	elseif ( $_POST['type'] == 'audio' ){
 		$data = $_POST['pstid'];
 				update_post_meta($data, 'easmedia_metabox_media_audio', '');
 				echo '1';
-	    die;
+	    wp_die();
 		}
 	}
 }
@@ -448,7 +447,7 @@ return implode(",", $allimgdata);
 function easymedia_imgresize_ajax() {
 	if ( !isset( $_POST['imgurl'] ) || !isset( $_POST['limiter'] ) || $_POST['imgurl'] == '' || $_POST['limiter'] == '' ) {
 		echo '<p>Ajax request failed, please refresh your browser window.</p>';
-		die;
+		wp_die();
 		}
 		else {
 			
@@ -464,13 +463,13 @@ function easymedia_imgresize_ajax() {
 			$finimgurl = easymedia_resizer( $imgurl, $attid[1], $attid[2], $tmpw, $tmph, true );
 			$allimgdata = array( $finimgurl, $tmpw, $tmph );
 			echo implode(",", $allimgdata);
-			die;
+			wp_die();
 			}
 		else {
 			$finimgurl = $imgurl;
 			$allimgdata = array( $finimgurl, $attid[1], $attid[2] );
 			echo implode(",", $allimgdata);
-			die;
+			wp_die();
 			}		
 		}
 }
@@ -740,7 +739,7 @@ function emg_hide_noty() {
 	
 	if ( !isset( $_POST['clickcmd'] ) ) {
 		echo '0';
-		die;
+		wp_die();
 		}
 		
 		else {
@@ -749,7 +748,7 @@ function emg_hide_noty() {
 				$emg_upd_options = get_option('easy_media_opt');
 				$emg_upd_options['easymedia_disen_admnotify']['id'] = '0';
 				update_option('easy_media_opt', $emg_upd_options);					
-				die;
+				wp_die();
 				}
 	}
 }
