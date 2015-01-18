@@ -101,12 +101,12 @@ if ( !defined( 'EASYMEDG_PLUGIN_URL' )) {
 $wp_plugin_dir = substr(plugin_dir_path(__FILE__), 0, -1);
 define( 'EMG_DIR', $wp_plugin_dir );
 
-global $wp_version;			
-if ( version_compare($wp_version, "3.5", "<" ) ) {
-	define( 'EMG_WP_VER', "l35" );	
+// WP Version
+if( (float)substr(get_bloginfo('version'), 0, 3) >= 3.5) {
+	define( 'EMG_WP_VER', "g35" );
 	}
 	else {
-		define( 'EMG_WP_VER', "g35" );		
+		define( 'EMG_WP_VER', "l35" );
 	}
 
 require_once( EASYMEDG_PLUGIN_DIR . 'includes/class/easymedia_resizer.php' ); 	
@@ -509,7 +509,10 @@ function emg_load_plugin() {
 			}
 
         delete_option( 'Activated_Emg_Plugin' );
-		wp_redirect("edit.php?post_type=easymediagallery&page=comparison");
+		
+		if ( !is_network_admin() ) {
+			wp_redirect("edit.php?post_type=easymediagallery&page=comparison");
+			}
     }
 }
 add_action( 'admin_init', 'emg_load_plugin' );
