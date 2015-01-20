@@ -94,6 +94,7 @@ include_once( EASYMEDG_PLUGIN_DIR . 'includes/emg-settings.php' );
 /*-------------------------------------------------------------------------------*/
 if ( easy_get_option( 'easymedia_disen_plug' ) == '1' ) {	
 include_once( EASYMEDG_PLUGIN_DIR . 'includes/frontend.php' );
+include_once( EASYMEDG_PLUGIN_DIR . 'includes/dynamic-style.php' ); //@since 1.2.9.5
 }
 /*-------------------------------------------------------------------------------*/
 /*  Add Metabox & Shortcode
@@ -103,6 +104,83 @@ include_once( EASYMEDG_PLUGIN_DIR . 'includes/shortcode.php' );
 include_once( EASYMEDG_PLUGIN_DIR . 'includes/tinymce-dlg.php' ); 
 include_once( EASYMEDG_PLUGIN_DIR . 'includes/taxonomy.php' );
 include_once( EASYMEDG_PLUGIN_DIR . 'includes/easywidget.php' );
+
+/*-------------------------------------------------------------------------------*/
+/*   AJAX For EMG Lightbox @since 1.2.9.5
+/*-------------------------------------------------------------------------------*/
+function emg_get_data_slider_ajax() {
+	
+	if ( !isset( $_POST['id'] ) ) {
+		echo  'Error!';
+		wp_die();
+		} 
+		else {
+			
+	$devmedia = '';
+	
+	if ( strpos( $_POST['id'],'-' ) ) {
+		$devmedia = explode("-", $_POST['id']);
+		
+		$id = $devmedia[0];
+		$isdinamccntn = $devmedia[1];
+		
+		}
+		else {
+		
+			$id = $_POST['id'];
+			$isdinamccntn = "";
+		}
+			
+			
+	global $post;
+	$usegalleryinfo = get_post_meta( $id, 'easmedia_metabox_media_gallery_opt2', true );
+	
+	if ( $isdinamccntn != '' ) {
+		
+		if ( $usegalleryinfo == 'on' ) {
+			$img_info = get_post( $isdinamccntn );
+			$boxmediattl = $img_info->post_title;
+			$boxmediasbttl = $img_info->post_excerpt;		
+		}
+		else {
+			$boxmediattl = get_post_meta( $id, 'easmedia_metabox_title', true );
+			$boxmediasbttl = get_post_meta( $id, 'easmedia_metabox_sub_title', true );
+		}
+	}
+	else {
+		$boxmediattl = get_post_meta( $id, 'easmedia_metabox_title', true );
+		$boxmediasbttl = get_post_meta( $id, 'easmedia_metabox_sub_title', true );
+		}
+	
+	$imgsrc = get_post_meta( $id, 'easmedia_metabox_img', true );
+	$mediatype = get_post_meta( $id, 'easmedia_metabox_media_type', true );
+		
+	switch ( $mediatype ) {
+		case 'Single Image':
+		$boxlink = $imgsrc;
+	        break;		
+			
+		case 'Video':
+		$boxlink = get_post_meta( $id, 'easmedia_metabox_media_video', true );
+	        break;
+			
+		case 'Audio':
+		$boxlink = get_post_meta( $id, 'easmedia_metabox_media_audio', true );
+	        break;			
+					
+	}
+	
+	if ( $boxmediasbttl == '' ) {$boxmediasbttl = 'none';}
+	if ( $boxmediattl == '' ) {$boxmediattl = 'none';}
+
+$therest = array( $boxmediattl,$boxmediasbttl );
+echo json_encode( $therest );
+//------------------------------------------------------------------------------
+wp_die();
+	}
+}
+add_action('wp_ajax_nopriv_emg_get_data_slider_ajax', 'emg_get_data_slider_ajax');
+add_action('wp_ajax_emg_get_data_slider_ajax', 'emg_get_data_slider_ajax');
 
 /*
 |--------------------------------------------------------------------------
@@ -206,6 +284,19 @@ function easmedia_img_media_remv() {
 	}
 }
 add_action( 'wp_ajax_easmedia_img_media_remv', 'easmedia_img_media_remv' );
+
+/*-------------------------------------------------------------------------------*/
+/*   CSS Compressor @since 1.5.1.7
+/*-------------------------------------------------------------------------------*/
+function emg_css_compress( $minify ) {
+	/* remove comments */
+    	$minify = preg_replace( '!/\*[^*]*\*+([^/][^*]*\*+)*/!', '', $minify );
+
+        /* remove tabs, spaces, newlines, etc. */
+    	$minify = str_replace( array("\r\n", "\r", "\n", "\t", '  ', '    ', '    '), '', $minify );
+    		
+        return $minify;
+}
 
 /*
 |--------------------------------------------------------------------------
