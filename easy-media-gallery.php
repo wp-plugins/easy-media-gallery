@@ -70,7 +70,7 @@ add_action( 'admin_notices', 'emg_jetpack_modules_photon' );
 function emg_jetpack_modules_photon() {
 	
 if( class_exists( 'Jetpack' ) && in_array( 'photon', Jetpack::get_active_modules() ) ) {
-    echo '<div class="updated"><p>You have to deactivate <strong>JetPack Photon</strong> module to make <strong>Easy Media Gallery</strong> work!</p><p><a href="'.admin_url().'admin.php?page=jetpack&action=deactivate&module=photon&_wpnonce='.wp_create_nonce( 'jetpack_deactivate-photon' ).'" >Deactivate Now!</a></p></div>';
+    echo '<div class="error"><span class="emgwarning"><p class="emgwarningp">'.__( 'You need to deactivate <strong>JetPack Photon</strong> module to make <strong>Easy Media Gallery</strong> work!</p><p><a href="'.admin_url().'admin.php?page=jetpack&action=deactivate&module=photon&_wpnonce='.wp_create_nonce( 'jetpack_deactivate-photon' ).'" >Deactivate Now!</a>', 'easmedia' ).'</p></div>';
 	}
 }
 
