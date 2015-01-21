@@ -749,6 +749,15 @@ float:left;display:inline-block; text-decoration:none; outline:none; cursor:poin
 	color: #1694FA;
 	text-decoration:none !important;
 	}
+	
+.emgwarning {
+	padding-left: 45px;
+	display: block;
+	background-image: url('../images/warning_red.png');
+	background-repeat: no-repeat;
+	background-position: left;
+	background-size: 36px 36px;
+	}
 		
 @media only screen and (max-width: 768px) {
     .noty_buttons {
