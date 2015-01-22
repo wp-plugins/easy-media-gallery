@@ -32,7 +32,7 @@ Easy Media Gallery is the best gallery plugin for wordpress designed to display 
 <p>http://www.youtube.com/watch?v=oH39zc8zMOg</p>
 
 = Full media support =
-<p>Easy Media Gallery plugin satisfy all your needs to create different types of media such us portfolio, image gallery, photo albums and also from a simple picture to an image slider, image carousel a video and audio player (html5). All in one solution. Easy Media Gallery represents a perfect solution for any type of media. Each item can be:</p> 
+<p>Easy Media Gallery plugin satisfy all your needs to create different types of media such us portfolio, image gallery, photo albums and also from a simple picture to an image slider, image carousel a video and audio (html5) gallery. All in one solution. Easy Media Gallery represents a perfect solution for any type of media. Each item can be:</p> 
 
 > 
 > * <strong>An image</strong>
