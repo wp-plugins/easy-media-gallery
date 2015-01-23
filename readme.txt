@@ -48,7 +48,7 @@ Easy Media Gallery is the best gallery plugin for wordpress designed to display 
 > * <strong>10+ Lightboxes (<em>[Pro Version](http://goo.gl/3vZHHb)</em>)</strong>
 
 = Video and Audio Features =
-Easy Media Gallery supports a wide range of media formats. Simply link to any image, video, hosted video or Youtube/Vimeo, mp3 audio, Google Map, Google Street View or Google Business View and the media will be automatically loaded into the overlay. Easy Media Gallery can be used to embed videos from :
+Easy Media Gallery supports a wide range of media formats. Simply link to any image, video, hosted mp4 video or Youtube/Vimeo, mp3 audio, Google Map, Google Street View or Google Business View and the media will be automatically loaded into the overlay. Easy Media Gallery can be used to embed videos from :
 
 > 
 > * YouTube / YouTube Playlist
