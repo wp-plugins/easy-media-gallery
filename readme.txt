@@ -8,7 +8,7 @@ Stable tag: 1.2.95
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Best image gallery, photo albums, image slider, portfolio or video & audio gallery plugin for WordPress.
+Best image gallery, photo albums, image slider, portfolio or video & audio gallery WordPress plugin.
 
 == Description ==
 
