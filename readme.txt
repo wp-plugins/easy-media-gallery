@@ -12,7 +12,7 @@ Best image gallery, photo albums, image slider, portfolio or video & audio galle
 
 == Description ==
 
-### [Best Gallery & Photo Albums Plugin](http://goo.gl/PLlJwS)
+#### [Best Gallery & Photo Albums Plugin](http://goo.gl/PLlJwS)
 
 Easy Media Gallery is the best gallery plugin for wordpress designed to display various media such as grid gallery, galleries, photo albums, multiple photo albums, photo gallery or image gallery/photo slider, photo gallery with pagination, image slider, image carousel, portfolio, google maps and google street view, google business view, youtube, vimeo, mp4 video, audio mp3 with very ease, fancy and elegant.
 
@@ -34,7 +34,6 @@ Easy Media Gallery is the best gallery plugin for wordpress designed to display 
 = Full media support =
 Easy Media Gallery plugin satisfy all your needs to create different types of media such us portfolio, image gallery, photo albums and also from a simple picture to an image slider, image carousel a video and audio (html5) gallery. All in one solution. Easy Media Gallery represents a perfect solution for any type of media. Each item can be:
 
->
 > * <strong>Image Gallery / Photo Gallery</strong>
 > * <strong>Photo Albums (<em>[Pro Version](http://goo.gl/PLlJwS)</em>)</strong>
 > * <strong>Image Gallery with filter/category(<em>[Pro Version](http://goo.gl/bZ53YR)</em>)</strong>
