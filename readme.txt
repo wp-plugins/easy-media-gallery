@@ -69,6 +69,7 @@ And also can be used to embed audio from :
 > 
 > * Soundcloud
 > * Reverbnation
+> * 4shared
 > * Self hosted MP3
 
 It is a very customizable wordpress gallery and portfolio plugin that allow you to set display whatever you want like adjust colors, positions, grid, media sizes, hover effect and much more with one easy control panel. That easy control panel for experts it would save your time, and for you who do not have more knowledge about web programming or styling, of course this plugin will allow you to manage your website, gallery and portfolio much more easily. 
