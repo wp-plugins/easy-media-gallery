@@ -148,7 +148,7 @@ echo '<div class="pfwrpr"><div id="alignstyle" class="easymedia_'.$cus_align.'">
 	  endif;
       $counter++;
     endwhile;
-    //rewind_posts();
+
     echo '</div>'; //closes the column div
   endfor;
 else:
