@@ -4,7 +4,7 @@ Plugin Name: Easy Media Gallery
 Plugin URI: http://www.ghozylab.com/plugins/
 Description: Easy Media Gallery (Lite) - Displaying your image, video (MP4, Youtube, Vimeo) and audio mp3 in elegant and fancy lightbox with very easy. Allows you to customize all media to get it looking exactly what you want. <a href="http://ghozylab.com/plugins/easy-media-gallery-pro/pricing/" target="_blank"><strong> Upgrade to Pro Version Now</strong></a> and get a tons of awesome features.
 Author: GhozyLab, Inc.
-Version: 1.2.95
+Version: 1.2.97
 Author URI: http://www.ghozylab.com/plugins/
 */
 
@@ -122,7 +122,7 @@ if ( !defined( 'EASYMEDIA_NAME' ) ) {
 
 // Plugin Version
 if ( !defined( 'EASYMEDIA_VERSION' ) ) {
-	define( 'EASYMEDIA_VERSION', '1.2.95' );
+	define( 'EASYMEDIA_VERSION', '1.2.97' );
 }
 
 // Pro Price
@@ -287,7 +287,15 @@ function easmedia_edit_columns_easymedia( $easymedia_columns ){
 	return $easymedia_columns;  
 }  
 
-function easmedia_custom_columns_easymedia( $easymedia_columns, $post_id ){  
+function easmedia_custom_columns_easymedia( $easymedia_columns, $post_id ){
+	
+if ( is_array( get_post_meta( $post_id, 'easmedia_metabox_media_gallery', true ) ) ) {
+	$ittl = array_filter( get_post_meta( $post_id, 'easmedia_metabox_media_gallery', true ) );
+	$ittl = count( $ittl );
+	}
+	else {
+		$ittl = '0';
+		}
 
 	switch ( $easymedia_columns ) {
 	    case 'psg_thumbnail':
@@ -334,7 +342,11 @@ function easmedia_custom_columns_easymedia( $easymedia_columns, $post_id ){
  $mediatype = get_post_meta( $post_id, 'easmedia_metabox_media_type', true );
 
 	        if ( isset( $mediatype ) && $mediatype !='Select' ) {
-	            echo $mediatype;
+				if ( trim( $mediatype ) =='Multiple Images (Slider)' ) {
+					echo $mediatype.'<br><span class="emgttlimage">Total image(s): '.$ittl.'</span>';
+				} else {
+					echo $mediatype;
+						}
 	        } else {
 	            echo __( 'None', 'easmedia' );
 	        }

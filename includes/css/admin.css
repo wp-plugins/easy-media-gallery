@@ -758,6 +758,12 @@ float:left;display:inline-block; text-decoration:none; outline:none; cursor:poin
 	background-position: left;
 	background-size: 36px 36px;
 	}
+	
+.emgttlimage {
+	font-size:12px !important;
+	font-style:italic !important;
+	color:#999 !important;
+	}
 		
 @media only screen and (max-width: 768px) {
     .noty_buttons {
