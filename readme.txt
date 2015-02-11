@@ -108,8 +108,8 @@ It is a very customizable gallery and portfolio plugin that allow you to set dis
 The following are other recommended plugins by the author:
 
 * [Easy Contact Form](http://goo.gl/I6e2R2) - The Best Contact Form Plugin to create awesome Contact Form in minutes.
-* [Easy Lightbox Popup](http://wordpress.org/plugins/easy-notify-lite/) - The Best Notify and Subscription Form Plugin to display notify popup, announcement and subscribe form with very ease, fancy and elegant.
 * [Best Image Slider Plugin](https://wordpress.org/plugins/image-slider-widget/) - Easy Image Slider Widget - Displaying your image as slider in widget/sidebar area with very easy. Allows you to customize it to looking exactly what you want.
+* [Easy Lightbox Popup](http://wordpress.org/plugins/easy-notify-lite/) - The Best Notify and Subscription Form Plugin to display notify popup, announcement and subscribe form with very ease, fancy and elegant.
 
 == Installation ==
 
