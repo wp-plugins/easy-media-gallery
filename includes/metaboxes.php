@@ -11,6 +11,7 @@ function emg_customposttype_image_box() {
 	
 	/* if ( easy_get_option( 'easymedia_disen_admnotify' ) == '1' ) { */
 			add_meta_box( 'emgbuydiv', __( 'Upgrade to Pro Version' ), 'emg_upgrade_metabox', 'easymediagallery', 'side', 'default' );
+			add_meta_box( 'emgnewdiv', __( 'New Plugin' ), 'emg_new_info_metabox', 'easymediagallery', 'side', 'default' );
 		/* } */
 		
 }
@@ -205,6 +206,7 @@ if ( strstr( $_SERVER['REQUEST_URI'], 'wp-admin/post-new.php' ) || strstr( $_SER
 			</div>
     
             <style type="text/css" media="screen">
+			#minor-publishing {display: none !important }
 		   @media only screen and (min-width: 1150px) {
 			   #side-sortables.fixed { position: fixed; top: 55px; right: 20px; width: 280px; }
 			   }	

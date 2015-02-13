@@ -856,6 +856,16 @@ echo $enobuy;
 }
 
 /*-------------------------------------------------------------------------------*/
+/*  Create Upgrade Metabox @since 1.2.61
+/*-------------------------------------------------------------------------------*/
+function emg_new_info_metabox () {
+	$enonew = '<div style="text-align:center;">';
+	$enonew .= '<a style="outline: none !important;" href="http://goo.gl/divK5t" target="_blank"><img style="cursor:pointer; margin-top: 7px;" src="'.plugins_url( 'images/new-plugin.png' , dirname(__FILE__) ).'" width="241" height="151" alt="New Plugin" ></a>';
+	$enonew .= '</div>';
+echo $enonew;	
+}
+
+/*-------------------------------------------------------------------------------*/
 /*  Post Counter
 /*-------------------------------------------------------------------------------*/
 function emg_pcnt() {
