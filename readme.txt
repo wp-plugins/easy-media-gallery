@@ -1,7 +1,7 @@
 === Easy Media Gallery - Best Gallery & Photo Albums Plugin ===
 Contributors: ghozylab
 Donate link: http://ghozylab.com/donate
-Tags: gallery, photo gallery, galeri, photo album, image gallery, photo gallery, widget, plugins, image, images, image gallery, album
+Tags: gallery, photo gallery, albums, photo album, image gallery, photo gallery, widget, plugins, image, images, image gallery, album
 Requires at least: 3.3
 Tested up to: 4.1
 Stable tag: 1.2.99
