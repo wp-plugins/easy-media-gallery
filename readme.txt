@@ -12,7 +12,7 @@ Best image gallery, photo albums, image slider, portfolio or video & audio galle
 
 == Description ==
 
-#### [Gallery & Photo Albums Plugin](http://goo.gl/PLlJwS)
+= Image Gallery & Photo Albums Plugin =
 
 Easy Media Gallery is the best gallery plugin for wordpress designed to display various media such as grid gallery, galleries, photo albums, multiple photo albums, photo gallery or image gallery/photo slider, photo gallery with pagination, image slider, image carousel, portfolio, google maps and google street view, google business view, youtube, vimeo, mp4 video, audio mp3 with very ease, fancy and elegant.
 
@@ -110,6 +110,10 @@ The following are other recommended plugins by the author:
 * [Easy Contact Form](http://goo.gl/I6e2R2) - The Best Contact Form Plugin to create awesome Contact Form in minutes.
 * [Best Image Slider Plugin](https://wordpress.org/plugins/image-slider-widget/) - Easy Image Slider Widget - Displaying your image as slider in widget/sidebar area with very easy. Allows you to customize it to looking exactly what you want.
 * [Easy Lightbox Popup](http://wordpress.org/plugins/easy-notify-lite/) - The Best Notify and Subscription Form Plugin to display notify popup, announcement and subscribe form with very ease, fancy and elegant.
+
+= Tags =
+add gallery, add images, admin, AJAX, album, album photo, best gallery, best gallery plugin, best image carousel, best image slider, best photo plugin, best plugin slider, best portfolio, best portfolio plugin, best slider plugin, bilder, buddypress, carousel slider, comments, content slider, easy gallery, easy media gallery, filterable gallery, filterable portfolio, fotoalbum, free gallery plugin, galeri, galerie, galerij, Galleria, galleries, gallery, gallery album photo, gallery image, gallery lightbox, Gallery Plugin, gallery slideshow, google, google business view, grid gallery, html5 player, html5 video, html5-audio, image, image album, image carousel, image gallery, image gallery plugin, image lightbox, image rotate, image slider, image slider plugin, image slideshow, images, images slider, jquery, jquery gallery, jquery slider, jquery slideshow, lightbox, lightbox image, links, media gallery, media library, nextgen gallery, page, page slider, pagination gallery, photo,
+photo album, photo albums, photo gallery, Photo Slider, photogallery, photos, photoset, picture, Picture Gallery, picture slider, pictures, plugin, plugin for gallery, plugin gallery, portfolio, portfolio gallery, portfolio plugin, Post, post slider, posts, responsive gallery, responsive image gallery, responsive slider, responsive slideshow, seo, seo image, shortcode, shortcode gallery, sidebar, slide, slider, slider image plugin, slider plugin, slideshow, slideshow gallery, slideshow plugin, thumbnail, thumbnails, twitter, website gallery, widget, woocommerce, wordpress gallery plugin, wordpress lightbox, wordpress portfolio plugin, wordpress seo, wordpress slider, wordpress slider plugin, wordpress slideshow, wp gallery, wp gallery plugin, wp image slider, wp slider
 
 == Installation ==
 
