@@ -536,6 +536,9 @@ return implode(",", $allimgdata);
 /*  Image Resize ( Aspect Ratio ) AJAX
 /*-------------------------------------------------------------------------------*/
 function easymedia_imgresize_ajax() {
+	
+	check_ajax_referer( 'easymedia-thumb', 'security' );
+	
 	if ( !isset( $_POST['imgurl'] ) || !isset( $_POST['limiter'] ) || $_POST['imgurl'] == '' || $_POST['limiter'] == '' ) {
 		echo '<p>Ajax request failed, please refresh your browser window.</p>';
 		wp_die();

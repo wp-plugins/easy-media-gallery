@@ -393,6 +393,7 @@ function IsValidAuUrl1(aurl1) {
 
 				var data = {
 				action: 'easymedia_imgresize_ajax',
+				security: '<?php echo wp_create_nonce( "easymedia-thumb"); ?>',
 				imgurl: jQuery("#upload_image").val(),
 				limiter: '210'
 			};
