@@ -260,6 +260,8 @@ add_action( 'wp_ajax_emg_load_media_list', 'emg_load_media_list' );
 */
 function easmedia_img_media_remv() {
 	
+	check_ajax_referer( 'easymedia-remove', 'security' );
+	
 	if ( !isset( $_POST['pstid'] ) || !isset( $_POST['type'] ) ) {
 		echo '0';
 		wp_die();

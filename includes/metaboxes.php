@@ -279,6 +279,7 @@ jQuery(document).ready(function($) {
 // -------- DELETE MEDIA IMAGE (AJAX)
 			function easmedia_img_media_remv(type) {
 				var data = {
+				security: '<?php echo wp_create_nonce( "easymedia-remove"); ?>',
 				action: 'easmedia_img_media_remv',
 				pstid: '<?php echo get_the_ID(); ?>',
 				type: type
