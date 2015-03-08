@@ -245,6 +245,11 @@ height:190px; width:300px; margin-top:30px; border: solid 6px #fff; -moz-box-sha
     border-radius: 50%;
 }
 
+.imgpreviewboxc {
+	-moz-box-sizing: content-box;
+	-webkit-box-sizing: content-box;
+	}
+
 
 /* Video Preview */
 span.roll {
