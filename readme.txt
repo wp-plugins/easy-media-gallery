@@ -3,8 +3,8 @@ Contributors: ghozylab
 Donate link: http://ghozylab.com/donate
 Tags: gallery, photo gallery, albums, photo album, widget, plugins, image, images, image gallery, album, galleries, image album
 Requires at least: 3.3
-Tested up to: 4.1
-Stable tag: 1.3.03
+Tested up to: 4.1.1
+Stable tag: 1.3.05
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -12,11 +12,11 @@ Best image gallery, photo albums, image slider, portfolio or video & audio galle
 
 == Description ==
 
-= Image Gallery & Photo Albums Plugin =
+### Image Gallery & Photo Albums Plugin
 
-Easy Media Gallery is the best gallery plugin for wordpress designed to display various media such as grid gallery, galleries, photo albums, multiple photo albums, photo gallery or image gallery/photo slider, photo gallery with pagination, image slider, image carousel, portfolio, google maps and google street view, google business view, youtube, vimeo, mp4 video, audio mp3 with very ease, fancy and elegant.
+**Easy Media Gallery** is the best **gallery plugin** and **photo album** for wordpress designed to display various media such as grid gallery, galleries, photo albums, multiple photo albums, **photo gallery** or **image gallery** / **photo slider**, photo gallery with pagination, image **slider**, image carousel, portfolio, google maps and google street view, google business view, youtube, vimeo, mp4 video, audio mp3 with very ease, fancy and elegant.
 
-> #### **Live Demos**
+> #### **Live Demos - Easy Media Gallery **
 
 > * [DEMO : Photo Albums](http://goo.gl/PLlJwS)
 > * [DEMO : Gallery / Grid Gallery](http://goo.gl/bZ53YR)
@@ -29,50 +29,49 @@ Easy Media Gallery is the best gallery plugin for wordpress designed to display 
 > * [DEMO : Filterable Media](http://goo.gl/JAvlsq)
 > * [DEMO : 10+ Lightboxes](http://goo.gl/3vZHHb)
 
+It is a very customizable gallery and portfolio plugin that allow you to set display whatever you want like adjust colors, positions, grid, media sizes, hover effect and much more with one easy control panel. That easy control panel for experts it would save your time, and for you who do not have more knowledge about web programming or styling, of course this plugin will allow you to manage your website, gallery and portfolio much more easily.
+
 <p>http://www.youtube.com/watch?v=oH39zc8zMOg</p>
 
 = Full media support =
 Easy Media Gallery plugin satisfy all your needs to create different types of media such us portfolio, image gallery, photo albums and also from a simple picture to an image slider, image carousel a video and audio (html5) gallery. All in one solution. Easy Media Gallery represents a perfect solution for any type of media. Each item can be:
 
-> * Image Gallery / Photo Gallery
-> * Photo Albums (<em>[Pro Version](http://goo.gl/PLlJwS)</em>)
-> * Image Gallery with filter/category(<em>[Pro Version](http://goo.gl/bZ53YR)</em>)
-> * Image Gallery with fancy pagination (<em>[Pro Version](http://goo.gl/20ghC5)</em>)
-> * Filterable Media (<em>[Pro Version](http://goo.gl/JAvlsq)</em>)
-> * Media/Image Slider (<em>[Pro Version](http://goo.gl/nNKUbA)</em>)
-> * A video, Auto-retrieve YouTube and Vimeo Thumbnail (<em>Pro Version [learn more here](http://www.youtube.com/watch?v=uAGWUcs5ofE)</em>)
-> * An mp3 player (<em>HTML5 player for Pro version and Flash player for Lite version</em>)
-> * Embed from Reverbnation or Soundcloud (<em>[Pro Version](http://goo.gl/ckecFP)</em>)
-> * Google Maps / Google Street View (<em>[Pro Version](http://goo.gl/ckecFP)</em>)
-> * 10+ Lightboxes (<em>[Pro Version](http://goo.gl/3vZHHb)</em>)
+* Image Gallery / Photo Gallery
+* Photo Albums (<em>[Pro Version](http://goo.gl/PLlJwS)</em>)
+* Image Gallery with filter/category(<em>[Pro Version](http://goo.gl/bZ53YR)</em>)
+* Image Gallery with fancy pagination (<em>[Pro Version](http://goo.gl/20ghC5)</em>)
+* Filterable Media (<em>[Pro Version](http://goo.gl/JAvlsq)</em>)
+* Media/Image Slider (<em>[Pro Version](http://goo.gl/nNKUbA)</em>)
+* A video, Auto-retrieve YouTube and Vimeo Thumbnail (<em>Pro Version [learn more here](http://www.youtube.com/watch?v=uAGWUcs5ofE)</em>)
+* An mp3 player (<em>HTML5 player for Pro version and Flash player for Lite version</em>)
+* Embed from Reverbnation or Soundcloud (<em>[Pro Version](http://goo.gl/ckecFP)</em>)
+* Google Maps / Google Street View (<em>[Pro Version](http://goo.gl/ckecFP)</em>)
+* 10+ Lightboxes (<em>[Pro Version](http://goo.gl/3vZHHb)</em>)
 
 = Video and Audio Features =
 Easy Media Gallery supports a wide range of media formats. Simply link to any image, video, hosted video or Youtube/Vimeo, mp3 audio, Google Map, Google Street View or Google Business View and the media will be automatically loaded into the overlay. Easy Media Gallery can be used to embed videos from :
 
-> 
-> * YouTube / YouTube Playlist
-> * Vimeo
-> * Veoh
-> * DailyMotion
-> * MetaCafe
-> * Google Video
-> * Livestream
-> * Facebook
-> * Showecho
-> * YouKu
-> * Flickr
-> * Ustream
-> * Rutube
-> * MP4 (<em>MP4 HTML5 player for Pro version and Flash player for Lite version</em>), MOV, SWF, M4V, M4A, FLV
+* YouTube / YouTube Playlist
+* Vimeo
+* Veoh
+* DailyMotion
+* MetaCafe
+* Google Video
+* Livestream
+* Facebook
+* Showecho
+* YouKu
+* Flickr
+* Ustream
+* Rutube
+* MP4 (<em>MP4 HTML5 player for Pro version and Flash player for Lite version</em>), MOV, SWF, M4V, M4A, FLV
 
 And also can be used to embed audio from :
-> 
-> * Soundcloud
-> * Reverbnation
-> * 4shared
-> * Self hosted MP3
 
-It is a very customizable gallery and portfolio plugin that allow you to set display whatever you want like adjust colors, positions, grid, media sizes, hover effect and much more with one easy control panel. That easy control panel for experts it would save your time, and for you who do not have more knowledge about web programming or styling, of course this plugin will allow you to manage your website, gallery and portfolio much more easily. 
+* Soundcloud
+* Reverbnation
+* 4shared
+* Self hosted MP3
 
 = LITE VERSION Example =
 <p>https://www.youtube.com/watch?v=H1Z3fidyEbE</p>
@@ -81,27 +80,27 @@ It is a very customizable gallery and portfolio plugin that allow you to set dis
 * You can see all awesome features here [Best Gallery and Portfolio plugin features](http://goo.gl/N1gCzZ).
 
 
-> #### **Upgrade to Easy Media Gallery Pro**
-> Take your media to the next level with [Easy Media Gallery Pro](http://ghozylab.com/plugins/easy-media-gallery-pro/pricing/), which gives you additional features such as:
+= Upgrade to Easy Media Gallery Pro= 
+Take your media to the next level with [Easy Media Gallery Pro](http://ghozylab.com/plugins/easy-media-gallery-pro/pricing/), which gives you additional features such as:
 
-> * Super Easy to use for Beginners
-> * Create unlimited number of media/gallery
-> * Adjustable Rows/Columns/Spacings
-> * Various Animation Types
-> * No coding, the plugin takes care of everything
-> * Media are built on-the-fly as you enter and select options
-> * Works with all modern browsers, degrades gracefully for others
-> * Fully CSS3 compliant with text shadowing, box shadowing, gradients, etc
-> * Color picker for unlimited color combinations
-> * Display your media on different theme
-> * 3 Skins for main Lightbox [See Example](http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-gallery-lightboxes/emg-lightbox-default/)
-> * More than 10 lightboxes
-> * Backup & Restore Settings
-> * Powerfull control panel and Shortcode Manager make getting started super easy
-> * Responsive & Mobile Optimized 
-> * Adjustable Rows/Columns/Spacings 
-> * Extensive Documentation & Tutorial Videos 
-> * 24/7 Technical Support
+* Super Easy to use for Beginners
+* Create unlimited number of media/gallery
+* Adjustable Rows/Columns/Spacings
+* Various Animation Types
+* No coding, the plugin takes care of everything
+* Media are built on-the-fly as you enter and select options
+* Works with all modern browsers, degrades gracefully for others
+* Fully CSS3 compliant with text shadowing, box shadowing, gradients, etc
+* Color picker for unlimited color combinations
+* Display your media on different theme
+* 3 Skins for main Lightbox [See Example](http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-gallery-lightboxes/emg-lightbox-default/)
+* More than 10 lightboxes
+* Backup & Restore Settings
+* Powerfull control panel and Shortcode Manager make getting started super easy
+* Responsive & Mobile Optimized 
+* Adjustable Rows/Columns/Spacings 
+* Extensive Documentation & Tutorial Videos 
+* 24/7 Technical Support
 
 
 = Recommended Plugins =
@@ -111,9 +110,13 @@ The following are other recommended plugins by the author:
 * [Best Image Slider Plugin](https://wordpress.org/plugins/image-slider-widget/) - Easy Image Slider Widget - Displaying your image as slider in widget/sidebar area with very easy. Allows you to customize it to looking exactly what you want.
 * [Easy Lightbox Popup](http://wordpress.org/plugins/easy-notify-lite/) - The Best Notify and Subscription Form Plugin to display notify popup, announcement and subscribe form with very ease, fancy and elegant.
 
-= Tags =
+= Relevant Tags =
 add gallery, add images, admin, AJAX, album, album photo, best gallery, best gallery plugin, best image carousel, best image slider, best photo plugin, best plugin slider, best portfolio, best portfolio plugin, best slider plugin, bilder, buddypress, carousel slider, comments, content slider, easy gallery, easy media gallery, filterable gallery, filterable portfolio, fotoalbum, free gallery plugin, galeri, galerie, galerij, Galleria, galleries, gallery, gallery album photo, gallery image, gallery lightbox, Gallery Plugin, gallery slideshow, google, google business view, grid gallery, html5 player, html5 video, html5-audio, image, image album, image carousel, image gallery, image gallery plugin, image lightbox, image rotate, image slider, image slider plugin, image slideshow, images, images slider, jquery, jquery gallery, jquery slider, jquery slideshow, lightbox, lightbox image, links, media gallery, media library, nextgen gallery, page, page slider, pagination gallery, photo,
 photo album, photo albums, photo gallery, Photo Slider, photogallery, photos, photoset, picture, Picture Gallery, picture slider, pictures, plugin, plugin for gallery, plugin gallery, portfolio, portfolio gallery, portfolio plugin, Post, post slider, posts, responsive gallery, responsive image gallery, responsive slider, responsive slideshow, seo, seo image, shortcode, shortcode gallery, sidebar, slide, slider, slider image plugin, slider plugin, slideshow, slideshow gallery, slideshow plugin, thumbnail, thumbnails, twitter, website gallery, widget, woocommerce, wordpress gallery plugin, wordpress lightbox, wordpress portfolio plugin, wordpress seo, wordpress slider, wordpress slider plugin, wordpress slideshow, wp gallery, wp gallery plugin, wp image slider, wp slider
+
+= Technical Support =
+
+If any problem occurs or if you think, that you found a bug please contact us at [info@ghozylab.com](mailto:info@ghozylab.com).
 
 == Installation ==
 
@@ -243,6 +246,11 @@ But seriously, I just want to drink coffee for free, so help a developer out. Yo
 9. Google Maps and Google Street View
 
 == Changelog ==
+
+= 1.3.05 =
+* Fixed : Missing thumbnails 
+* Fixed : CSS content-box issue
+* Added : Check_ajax_referer to add/remove media
 
 = 1.3.03 =
 * Added : WP Nonce for ajax Request
@@ -550,5 +558,5 @@ But seriously, I just want to drink coffee for free, so help a developer out. Yo
 
 == Upgrade Notice ==
 
-= 1.3.03 =
-IMPORTANT! Ajax Security Bug Fix, PLEASE UPDATE NOW!
+= 1.3.05 =
+IMPORTANT! Security Bug Fix, PLEASE UPDATE NOW!
