@@ -304,13 +304,13 @@ if ( is_array( get_post_meta( $post_id, 'easmedia_metabox_media_gallery', true )
 								case 'Single Image':
 										$thumbmedia = get_post_meta( $post_id, 'easmedia_metabox_img', true );
 	       								
-										 if ( isset( $thumbmedia ) ) {
+										 if ( isset( $thumbmedia ) && $thumbmedia != '' ) {
 											 $globalimgsize = wp_get_attachment_image_src( emg_get_attachment_id_from_src( $thumbmedia ), 'full' );
 											 $timthumbimg = easymedia_resizer( $thumbmedia, $globalimgsize[1], $globalimgsize[2], 70, 70, true );
 											 echo '<img class="imgthumblist" width="70" height="70" alt="Thumbnail" src="' . $timthumbimg . '"></img>';
 											 } 
 											 else {
-												 echo __( 'None', 'easmedia' );
+												 echo '<img class="imgthumblist" width="70" height="70" alt="Thumbnail" src="' . plugins_url( 'includes/images/no_images.png' , __FILE__ ) . '"></img>';
 												 }
 												 break;												 
 											
