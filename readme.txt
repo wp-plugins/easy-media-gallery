@@ -8,7 +8,7 @@ Stable tag: 1.3.05
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Best image gallery, photo albums, image slider, portfolio or video & audio gallery WordPress plugin.
+Gallery, photo albums, image slider, portfolio or video & audio gallery WordPress plugin.
 
 == Description ==
 
@@ -16,7 +16,7 @@ Best image gallery, photo albums, image slider, portfolio or video & audio galle
 
 **Easy Media Gallery** is the best **gallery plugin** and **photo album** for wordpress designed to display various media such as grid gallery, galleries, photo albums, multiple photo albums, **photo gallery** or **image gallery** / **photo slider**, photo gallery with pagination, image **slider**, image carousel, portfolio, google maps and google street view, google business view, youtube, vimeo, mp4 video, audio mp3 with very ease, fancy and elegant.
 
-> #### ** Live Demos - Easy Media Gallery **
+> #### **Live Demos - Easy Media Gallery**
 
 > * [DEMO : Photo Albums](http://goo.gl/PLlJwS)
 > * [DEMO : Gallery / Grid Gallery](http://goo.gl/bZ53YR)
@@ -29,7 +29,7 @@ Best image gallery, photo albums, image slider, portfolio or video & audio galle
 > * [DEMO : Filterable Media](http://goo.gl/JAvlsq)
 > * [DEMO : 10+ Lightboxes](http://goo.gl/3vZHHb)
 
-It is a very customizable gallery and portfolio plugin that allow you to set display whatever you want like adjust colors, positions, grid, media sizes, hover effect and much more with one easy control panel. That easy control panel for experts it would save your time, and for you who do not have more knowledge about web programming or styling, of course this plugin will allow you to manage your website, gallery and portfolio much more easily.
+It is a very customizable **gallery plugin** that allow you to set display whatever you want like adjust colors, positions, grid, media sizes, hover effect and much more with one easy control panel. That easy control panel for experts it would save your time, and for you who do not have more knowledge about web programming or styling, of course this plugin will allow you to manage your website, gallery and portfolio much more easily.
 
 <p>http://www.youtube.com/watch?v=oH39zc8zMOg</p>
 
