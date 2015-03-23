@@ -1,18 +1,18 @@
-=== Easy Media Gallery - Best Gallery & Photo Albums Plugin ===
+=== Easy Media Gallery - Best Gallery & Photo Album Plugin ===
 Contributors: GhozyLab
 Donate link: http://ghozylab.com/donate
-Tags: gallery, photo gallery, albums, photo album, widget, plugins, image, images, image gallery, album, galleries, image album
+Tags: gallery, photo gallery, album, photo album, widget, plugins, image, images, image gallery, album, galleries, image album
 Requires at least: 3.3
 Tested up to: 4.1.1
 Stable tag: 1.3.05
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Gallery, photo albums, image slider, portfolio or video & audio gallery WordPress plugin.
+Gallery, photo album, image slider, portfolio or video & audio gallery WordPress plugin.
 
 == Description ==
 
-### Image Gallery & Photo Albums Plugin
+### Image Gallery & Photo Album Plugin
 
 **Easy Media Gallery** is the best **gallery plugin** and **photo album** for wordpress designed to display various media such as grid gallery, galleries, photo albums, multiple photo albums, **photo gallery** or **image gallery** / **photo slider**, photo gallery with pagination, image **slider**, image carousel, portfolio, google maps and google street view, google business view, youtube, vimeo, mp4 video, audio mp3 with very ease, fancy and elegant.
 
