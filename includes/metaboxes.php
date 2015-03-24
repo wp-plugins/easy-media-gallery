@@ -698,7 +698,7 @@ echo '<div id="medaudiotut" style="text-decoration:underline;font-weight:bold;cu
 			case 'gallery':
 
 				echo '<td>
-				<span class="emg_add_images button">Add Images</span>
+				<span class="emg_add_images">Add Images</span>
 				<div id="emg_images_container">
 				<ul class="images_list ui-sortable">';
 
