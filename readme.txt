@@ -1,10 +1,10 @@
 === Easy Media Gallery - Best Gallery & Photo Album Plugin ===
 Contributors: GhozyLab
 Donate link: http://ghozylab.com/donate
-Tags: gallery, photo gallery, album, photo album, widget, plugins, image, images, image gallery, album, galleries, image album
+Tags: gallery, photo gallery, nextgen gallery, photo album, widget, plugins, image, images, image gallery, buddypress, galleries, image album
 Requires at least: 3.3
 Tested up to: 4.1.1
-Stable tag: 1.3.05
+Stable tag: 1.3.06
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -242,6 +242,9 @@ But seriously, I just want to drink coffee for free, so help a developer out. Yo
 9. Google Maps and Google Street View
 
 == Changelog ==
+
+= 1.3.06 =
+* Fixed : TypeError: attachment.sizes.thumbnail
 
 = 1.3.05 =
 * Fixed : Missing thumbnails 
@@ -554,5 +557,5 @@ But seriously, I just want to drink coffee for free, so help a developer out. Yo
 
 == Upgrade Notice ==
 
-= 1.3.05 =
+= 1.3.06 =
 IMPORTANT! Security Bug Fix, PLEASE UPDATE NOW!
