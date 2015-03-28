@@ -8,7 +8,7 @@ Stable tag: 1.3.06
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Gallery, photo album, image slider, portfolio or video & audio gallery WordPress plugin.
+This plugin allows you to create Gallery, photo album, image slider, portfolio just in minutes.
 
 == Description ==
 
@@ -18,16 +18,16 @@ Gallery, photo album, image slider, portfolio or video & audio gallery WordPress
 
 > #### **Live Demos - Easy Media Gallery**
 
-> * [DEMO : Photo Albums](http://goo.gl/PLlJwS)
-> * [DEMO : Gallery / Grid Gallery](http://goo.gl/bZ53YR)
-> * [DEMO : Image Slider](http://goo.gl/JmFU82)
-> * [DEMO : Image Slider Fotorama](http://goo.gl/nNKUbA)
-> * [DEMO : Carousel](http://goo.gl/72MKwx)
-> * [DEMO : Gallery with Pagination](http://goo.gl/20ghC5)
-> * [DEMO : Video Gallery](http://goo.gl/ckecFP)
-> * [DEMO : Audio Gallery](http://goo.gl/ckecFP)
-> * [DEMO : Filterable Media](http://goo.gl/JAvlsq)
-> * [DEMO : 10+ Lightboxes](http://goo.gl/3vZHHb)
+> * <a href="http://goo.gl/PLlJwS" target="_blank">Photo Albums</a>
+> * <a href="http://goo.gl/bZ53YR" target="_blank">Gallery / Grid Gallery</a>
+> * <a href="http://goo.gl/JmFU82" target="_blank">Image Slider</a>
+> * <a href="http://goo.gl/nNKUbA" target="_blank">Image Slider Fotorama</a>
+> * <a href="http://goo.gl/72MKwx" target="_blank">Carousel</a>
+> * <a href="http://goo.gl/20ghC5" target="_blank">Gallery with Pagination</a>
+> * <a href="http://goo.gl/ckecFP" target="_blank">Video Gallery</a>
+> * <a href="http://goo.gl/ckecFP" target="_blank">Audio Gallery</a>
+> * <a href="http://goo.gl/JAvlsq" target="_blank">Filterable Media</a>
+> * <a href="http://goo.gl/3vZHHb" target="_blank">10+ Lightboxes</a>
 
 It is a very customizable **gallery plugin** that allow you to set display whatever you want like adjust colors, positions, grid, media sizes, hover effect and much more with one easy control panel. That easy control panel for experts it would save your time, and for you who do not have more knowledge about web programming or styling, of course this plugin will allow you to manage your website, gallery and portfolio much more easily.
 
@@ -102,13 +102,28 @@ Take your media to the next level with [Easy Media Gallery Pro](http://ghozylab.
 * Extensive Documentation & Tutorial Videos 
 * 24/7 Technical Support
 
-
 = Recommended Plugins =
 The following are other recommended plugins by the author:
 
 * [Easy Contact Form](http://goo.gl/I6e2R2) - The Best Contact Form Plugin to create awesome Contact Form in minutes.
 * [Best Image Slider Plugin](https://wordpress.org/plugins/image-slider-widget/) - Easy Image Slider Widget - Displaying your image as slider in widget/sidebar area with very easy. Allows you to customize it to looking exactly what you want.
 * [Easy Lightbox Popup](http://wordpress.org/plugins/easy-notify-lite/) - The Best Notify and Subscription Form Plugin to display notify popup, announcement and subscribe form with very ease, fancy and elegant.
+
+= Translation =
+
+* Italiano/Italia
+* Deutsch/Deutschland
+* Español/España
+* Français/France
+* Bahasa Indonesia
+* Nederlands / Nederland
+* Polski/Polska
+* Brasil
+* Româna/România
+* Tagalog/Philippines
+* Japan
+
+If you would like to create your own language pack or update the existing one, you can send <a href="http://codex.wordpress.org/Translating_WordPress" target="_blank">the text of PO and MO files</a> for <a href="http://ghozylab.com" target="_blank">GhozyLab</a> and we'll add it to the plugin. You can download the latest version of the program for work with PO and MO files  <a href="http://www.poedit.net/download.php" target="_blank">Poedit</a>.
 
 = Technical Support =
 
