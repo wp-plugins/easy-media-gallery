@@ -922,11 +922,11 @@ if ( easy_get_option( 'easymedia_disen_admnotify' ) == '1' ) {
 /*-------------------------------------------------------------------------------*/
 /*   Admin Notifications ( Setting Area )
 /*-------------------------------------------------------------------------------*/
-
+/*
 if ( easy_get_option( 'easymedia_disen_admnotify' ) == '1' ) {
 		add_action( 'admin_enqueue_scripts', 'easmedia_put_notify_script' );
 		add_action('admin_head', 'easmedia_put_notify_head');
-}
+} */
 
 function easmedia_put_notify_script() {
 		if ( isset( $_GET['page'] ) && $_GET['page'] == 'emg_settings' || isset( $_GET['page'] ) && $_GET['page'] == 'docs' || isset( $_GET['page'] ) && $_GET['page'] == 'comparison' || isset( $_GET['page'] ) && $_GET['page'] == 'easymedia-order' || get_post_type() == 'easymediagallery' ) {			
@@ -1105,9 +1105,10 @@ jQuery(document).ready(function($) {
 
 
 /*-------------------------------------------------------------------------------*/
-/*   Featured Plugins Page
+/*   Free & Premium Plugins Page
 /*-------------------------------------------------------------------------------*/
 if ( is_admin() ){
+	require_once( EASYMEDG_PLUGIN_DIR . 'includes/emg-freeplugins.php' );
 	require_once( EASYMEDG_PLUGIN_DIR . 'includes/emg-featured.php' );
 	}
 
