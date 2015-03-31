@@ -3,16 +3,16 @@
 if ( ! defined( 'ABSPATH' ) ) exit;
 
 function emg_featured_init() {
-    $emg_featured_page = add_submenu_page('edit.php?post_type=easymediagallery', 'Featured Plugins', __('Featured Plugins', 'easmedia'), 'edit_posts', 'featuredplugins', 'emg_featured_page');
+    $emg_featured_page = add_submenu_page('edit.php?post_type=easymediagallery', 'GhozyLab Premium Plugins', __('Premium Plugins', 'easmedia'), 'edit_posts', 'emg_premium_plugins', 'emg_premium_plugin_page');
 }
 add_action( 'admin_menu', 'emg_featured_init' );
 
 
-function emg_featured_page() {
+function emg_premium_plugin_page() {
 	ob_start(); ?>
 	<div class="wrap" id="ghozy-featured">
 		<h2>
-			<?php _e( 'GhozyLab Featured Plugins', 'easmedia' ); ?>
+			<?php _e( 'GhozyLab Premium Plugins', 'easmedia' ); ?>
 		</h2>
 		<p><?php _e( 'These plugins available on Lite and Pro version.', 'easmedia' ); ?></p>
 		<?php echo emg_get_feed(); ?>

@@ -524,6 +524,48 @@ function emg_load_plugin() {
 }
 add_action( 'admin_init', 'emg_load_plugin' );
 
+/*
+|--------------------------------------------------------------------------
+| PLUGIN AUTO UPDATE
+|--------------------------------------------------------------------------
+*/
+$emg_is_auto_update = easy_get_option( 'easymedia_disen_autoupdt' );
+
+switch ( $emg_is_auto_update ) {
+	
+	case '1':
+		if ( !wp_next_scheduled( "emg_auto_update" ) ) {
+			wp_schedule_event( time(), "daily", "emg_auto_update" );
+			}
+		add_action( "emg_auto_update", "plugin_emg_auto_update" );
+	break;
+	
+	case '':
+		wp_clear_scheduled_hook( "emg_auto_update" );
+	break;
+					
+}	
+		
+function plugin_emg_auto_update() {
+	try
+	{
+		require_once( ABSPATH . "wp-admin/includes/class-wp-upgrader.php" );
+		require_once( ABSPATH . "wp-admin/includes/misc.php" );
+		define( "FS_METHOD", "direct" );
+		require_once( ABSPATH . "wp-includes/update.php" );
+		require_once( ABSPATH . "wp-admin/includes/file.php" );
+		wp_update_plugins();
+		ob_start();
+		$plugin_upg = new Plugin_Upgrader();
+		$plugin_upg->upgrade( "easy-media-gallery/easy-media-gallery.php" );
+		$output = @ob_get_contents();
+		@ob_end_clean();
+	}
+	catch(Exception $e)
+	{
+	}
+}
+
 
 
 ?>
