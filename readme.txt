@@ -1,23 +1,24 @@
 === Easy Media Gallery - Best Gallery & Photo Album Plugin ===
 Contributors: GhozyLab
 Donate link: http://ghozylab.com/donate
-Tags: gallery, photo gallery, nextgen gallery, photo album, widget, plugins, image, images, image gallery, buddypress, galleries, image album
+Tags: gallery, photo gallery, image gallery, photo album, post, widget, plugin, image, images, wp seo, slider, admin
 Requires at least: 3.3
 Tested up to: 4.1.1
 Stable tag: 1.3.06
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-This plugin allows you to create Gallery, photo album, image slider, portfolio just in minutes.
+This plugin allows you to create gallery, photo album, image slider and portfolio.
 
 == Description ==
 
-### Image Gallery & Photo Album Plugin
+= Image Gallery & Photo Album Plugin =
 
 **Easy Media Gallery** is the best **gallery plugin** and **photo album** for wordpress designed to display various media such as grid gallery, galleries, photo albums, multiple photo albums, **photo gallery** or **image gallery** / **photo slider**, photo gallery with pagination, image **slider**, image carousel, portfolio, google maps and google street view, google business view, youtube, vimeo, mp4 video, audio mp3 with very ease, fancy and elegant.
 
-> #### **Live Demos - Easy Media Gallery**
+**Easy Media Gallery** is a very customizable **gallery plugin** that allow you to set display whatever you want like adjust colors, positions, grid, media sizes, hover effect and much more with one easy control panel. That easy control panel for experts it would save your time, and for you who do not have more knowledge about web programming or styling, of course this plugin will allow you to manage your website, gallery and portfolio much more easily.
 
+> #### **Live Demos**
 > * <a href="http://goo.gl/PLlJwS" target="_blank">Photo Albums</a>
 > * <a href="http://goo.gl/bZ53YR" target="_blank">Gallery / Grid Gallery</a>
 > * <a href="http://goo.gl/JmFU82" target="_blank">Image Slider</a>
@@ -29,9 +30,8 @@ This plugin allows you to create Gallery, photo album, image slider, portfolio j
 > * <a href="http://goo.gl/JAvlsq" target="_blank">Filterable Media</a>
 > * <a href="http://goo.gl/3vZHHb" target="_blank">10+ Lightboxes</a>
 
-It is a very customizable **gallery plugin** that allow you to set display whatever you want like adjust colors, positions, grid, media sizes, hover effect and much more with one easy control panel. That easy control panel for experts it would save your time, and for you who do not have more knowledge about web programming or styling, of course this plugin will allow you to manage your website, gallery and portfolio much more easily.
-
-<p>http://www.youtube.com/watch?v=oH39zc8zMOg</p>
+= PRO VERSION VIDEO =
+[youtube https://www.youtube.com/watch?v=oH39zc8zMOg]
 
 = Full media support =
 Easy Media Gallery plugin satisfy all your needs to create different types of media such us portfolio, image gallery, photo albums and also from a simple picture to an image slider, image carousel a video and audio (html5) gallery. All in one solution. Easy Media Gallery represents a perfect solution for any type of media. Each item can be:
@@ -73,12 +73,11 @@ And also can be used to embed audio from :
 * 4shared
 * Self hosted MP3
 
-= LITE VERSION Example =
-<p>https://www.youtube.com/watch?v=H1Z3fidyEbE</p>
+= LITE VERSION VIDEO =
+[youtube https://www.youtube.com/watch?v=H1Z3fidyEbE]
 
 * You can learn more by watching the video from [YouTube Channel](http://www.youtube.com/GhozyLab).
 * You can see all awesome features here [Best Gallery and Portfolio plugin features](http://goo.gl/N1gCzZ).
-
 
 = Upgrade to Easy Media Gallery Pro = 
 Take your media to the next level with [Easy Media Gallery Pro](http://ghozylab.com/plugins/easy-media-gallery-pro/pricing/), which gives you additional features such as:
@@ -113,17 +112,18 @@ The following are other recommended plugins by the author:
 
 * Italiano/Italia
 * Deutsch/Deutschland
-* Español/España
-* Français/France
+* Espanol/Espana
+* Francais/France
 * Bahasa Indonesia
 * Nederlands / Nederland
 * Polski/Polska
 * Brasil
-* Româna/România
+* Romana/Romania
 * Tagalog/Philippines
 * Japan
 
-If you would like to create your own language pack or update the existing one, you can send <a href="http://codex.wordpress.org/Translating_WordPress" target="_blank">the text of PO and MO files</a> for <a href="http://ghozylab.com" target="_blank">GhozyLab</a> and we'll add it to the plugin. You can download the latest version of the program for work with PO and MO files  <a href="http://www.poedit.net/download.php" target="_blank">Poedit</a>.
+> #### **NOTE**
+> If you would like to create your own language pack or update the existing one, you can send <a href="http://codex.wordpress.org/Translating_WordPress" target="_blank">the text of PO and MO files</a> for <a href="http://ghozylab.com" target="_blank">GhozyLab</a> and we'll add it to the plugin. You can download the latest version of the program for work with PO and MO files  <a href="http://www.poedit.net/download.php" target="_blank">Poedit</a>.
 
 = Technical Support =
 
