@@ -4,7 +4,7 @@ Donate link: http://ghozylab.com/donate
 Tags: gallery, photo gallery, image gallery, photo album, post, widget, plugin, image, images, wp seo, slider, admin
 Requires at least: 3.3
 Tested up to: 4.1.1
-Stable tag: 1.3.06
+Stable tag: 1.3.07
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -257,6 +257,11 @@ But seriously, I just want to drink coffee for free, so help a developer out. Yo
 9. Google Maps and Google Street View
 
 == Changelog ==
+
+= 1.3.07 =
+* Added : New option ( Update option )
+* Added : New page ( Free Install Plugins )
+* Fixed : Many other PHP and CSS clean and optimization
 
 = 1.3.06 =
 * Fixed : TypeError: attachment.sizes.thumbnail
@@ -572,5 +577,5 @@ But seriously, I just want to drink coffee for free, so help a developer out. Yo
 
 == Upgrade Notice ==
 
-= 1.3.06 =
+= 1.3.07 =
 IMPORTANT! Security Bug Fix, PLEASE UPDATE NOW!

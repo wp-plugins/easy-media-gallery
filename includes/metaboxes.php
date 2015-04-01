@@ -18,15 +18,6 @@ function emg_customposttype_image_box() {
 add_action( 'do_meta_boxes', 'emg_customposttype_image_box' );
 
 /*-----------------------------------------------------------------------------------*/
-/*	get rid of WordPress SEO metabox - http://wordpress.stackexchange.com/a/91184/2015
-/*-----------------------------------------------------------------------------------*/
-	function emg_prefix_remove_wp_seo_meta_box() {
-	    remove_meta_box( 'wpseo_meta', 'easymediagallery', 'normal' );
-		remove_meta_box( 'aiosp', 'easymediagallery', 'normal' );
-	}
-    add_action( 'add_meta_boxes', 'emg_prefix_remove_wp_seo_meta_box', 100000 );
-	
-/*-----------------------------------------------------------------------------------*/
 /*	META VIDEO CORE
 /*-----------------------------------------------------------------------------------*/
 if ( strstr( $_SERVER['REQUEST_URI'], 'wp-admin/post-new.php' ) || strstr( $_SERVER['REQUEST_URI'], 'wp-admin/post.php' ) ) {
