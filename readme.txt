@@ -1,4 +1,4 @@
-=== Easy Media Gallery - Best Gallery & Photo Album Plugin ===
+=== Gallery - Photo Albums - Portfolio ===
 Contributors: GhozyLab
 Donate link: http://ghozylab.com/donate
 Tags: gallery, photo gallery, image gallery, photo album, post, widget, plugin, image, images, wp seo, slider, admin
@@ -110,16 +110,16 @@ The following are other recommended plugins by the author:
 
 = Translation =
 
-* Italiano/Italia
-* Deutsch/Deutschland
-* Espanol/Espana
-* Francais/France
+* Italiano / Italia
+* Deutsch / Deutschland
+* Espanol / Espana
+* Francais / France
 * Bahasa Indonesia
 * Nederlands / Nederland
-* Polski/Polska
+* Polski / Polska
 * Brasil
-* Romana/Romania
-* Tagalog/Philippines
+* Romana / Romania
+* Tagalog / Philippines
 * Japan
 
 > #### **NOTE**
