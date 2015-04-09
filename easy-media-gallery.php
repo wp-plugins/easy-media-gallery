@@ -518,7 +518,7 @@ function emg_load_plugin() {
         delete_option( 'Activated_Emg_Plugin' );
 		
 		if ( !is_network_admin() ) {
-			wp_redirect("edit.php?post_type=easymediagallery&page=comparison");
+			wp_redirect("edit.php?post_type=easymediagallery&page=emg_free_plugins");
 			}
     }
 }

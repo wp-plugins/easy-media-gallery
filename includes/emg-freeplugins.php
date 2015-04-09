@@ -3,7 +3,7 @@
 if ( ! defined( 'ABSPATH' ) ) exit;
 
 function emg_rec_init() {
-    $emg_featured_page = add_submenu_page('edit.php?post_type=easymediagallery', 'Free Plugins', __('Free Plugins', 'easmedia'), 'edit_posts', 'emg_free_plugins', 'emg_free_plugin_page');
+    $emg_featured_page = add_submenu_page('edit.php?post_type=easymediagallery', 'Free Install Plugins', __('Free Install Plugins', 'easmedia'), 'edit_posts', 'emg_free_plugins', 'emg_free_plugin_page');
 }
 add_action( 'admin_menu', 'emg_rec_init' );
 
