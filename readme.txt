@@ -1,7 +1,7 @@
 === Gallery - Photo Albums - Portfolio ===
 Contributors: GhozyLab
 Donate link: http://ghozylab.com/donate
-Tags: gallery, photo gallery, image gallery, photo album, post, widget, plugin, image, images, wp seo, slider, admin
+Tags: gallery, photo gallery, image gallery, photo album, post, widget, plugin, image, images, seo, nextgen gallery, admin
 Requires at least: 3.3
 Tested up to: 4.1.1
 Stable tag: 1.3.07
