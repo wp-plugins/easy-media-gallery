@@ -78,6 +78,7 @@ echo '<div class="pfwrpr"><div id="alignstyle" class="easymedia_'.$cus_align.'">
 		$mediatype = get_post_meta( get_the_id(), 'easmedia_metabox_media_type', true );
 		$isvidsize = get_post_meta( get_the_id(), 'easmedia_metabox_media_video_size', true );
 		$isresize1 = get_post_meta( get_the_id(), 'easmedia_metabox_media_image_opt1', true );
+		$usegalleryinfo = get_post_meta( get_the_id(), 'easmedia_metabox_media_gallery_opt2', true );	
 		$thepostid = get_the_id();
 		
 		if ( $image == '' ) {
@@ -125,7 +126,50 @@ echo '<div class="pfwrpr"><div id="alignstyle" class="easymedia_'.$cus_align.'">
 			case 'Audio':
 				$medialink = get_post_meta( get_the_id(), 'easmedia_metabox_media_audio', true );
 				$therell = "easymedia";
-	        break;			
+	        break;	
+			
+			
+			case 'Multiple Images (Slider)':
+							
+				if ( $pag != '' ) {
+					$therell = "easymedia[".$mediauniqueid."]";
+					} else {
+						$therell = "easymedia[".$galleryid."]";
+						}
+		
+				$images = get_post_meta( get_the_id(), 'easmedia_metabox_media_gallery', true );
+				
+			ob_start();
+				if ( is_array( $images ) ) {
+					$ig = 0;
+
+					echo '<div id="easymedia_gallerycontainer-'.$mediauniqueid.'" style="display:none">';
+					foreach( $images as $img_id ) {
+						
+							//Changelog version 1.3.1.3 => Set 1st Image Gallery
+							if($ig++ == 0) {
+								$img = wp_get_attachment_image_src($img_id, 'full');
+								$frstimg = $img_id;
+								$medialink = easymedia_imgresize( $img[0], $deff_img_limit, $isresize, $img[1], $img[2] );
+								$medialink = explode(",", $medialink); $medialink = $medialink[0];
+								}
+																
+						$img = wp_get_attachment_image_src($img_id, 'full');
+						$img_url = easymedia_imgresize( $img[0], $deff_img_limit, $isresize, $img[1], $img[2] );
+                        $img_url = explode(",", $img_url); ?>
+                	<a class="<?php echo $thepostid; ?>-<?php echo $img_id; ?>" href="<?php echo $img_url[0]; ?>" rel="<?php echo $therell; ?>"></a>
+            		<?php
+					$imgcount = $ig;
+				} echo '</div>'; }
+				else {
+				echo '<div style="display:none"></div>';
+				}
+		$galle = ob_get_clean();
+		if ($imgcount <= 1) {$sorn =  'image';} else {$sorn = 'images' ;}
+
+			break;
+			
+					
 			
 		}
 		
@@ -137,16 +181,28 @@ echo '<div class="pfwrpr"><div id="alignstyle" class="easymedia_'.$cus_align.'">
 		} else {
 			$image = easymedia_resizer( $image, $globalsize[1], $globalsize[2], $imwidth, $imheight, true );
 			}
+			
+		if ( $mediatype == 'Multiple Images (Slider)' ){
+			$addbadge = '<span class="emg-badges"><span class="icount">'.$imgcount.'</span><span class="imgtg">'.$sorn.'</span></span>';
+		} else {$addbadge = '';}	
 	  
 	  if ( easy_get_option( 'easymedia_disen_hovstyle' ) == '1' ) { ?>
-     <div style="width:<?php echo $imwidth; ?>px; height:<?php echo $imheight; ?>px;" class="view da-thumbs"><div class="iehand"><img width="<?php echo $imwidth; ?>" height="<?php echo $imheight; ?>" src="<?php echo $image; ?>" alt="<?php echo $mediattl; ?>" /><a class="<?php echo $thepostid; ?>" rel="<?php echo $therell; ?>" href="<?php echo $medialink; ?>"><article class="da-animate da-slideFromRight"><p <?php if ( $mediattl == '' ) { echo 'style="display:none !important;"'; } ?> class="emgfittext"><?php echo $mediattl; ?></p><div class="forspan"><span class="zoom"></span></div></article></a></div></div>
+     <div style="width:<?php echo $imwidth; ?>px; height:<?php echo $imheight; ?>px;" class="view da-thumbs"><?php echo $addbadge; ?><div class="iehand"><img width="<?php echo $imwidth; ?>" height="<?php echo $imheight; ?>" src="<?php echo $image; ?>" alt="<?php echo $mediattl; ?>" /><a class="<?php if ( $mediatype == 'Multiple Images (Slider)' && $usegalleryinfo == 'on' ) { echo $thepostid.'-'.$frstimg; } else { echo $thepostid; } ?>" rel="<?php echo $therell; ?>" href="<?php echo $medialink; ?>"><article class="da-animate da-slideFromRight"><p <?php if ( $mediattl == '' ) { echo 'style="display:none !important;"'; } ?> class="emgfittext"><?php echo $mediattl; ?></p><div class="forspan"><span class="zoom"></span></div></article></a></div></div>
             
 <?php } elseif ( easy_get_option( 'easymedia_disen_hovstyle' ) == '' ) { ?>
-<div class="view da-thumbs"><div class="iehand"><a class="<?php echo $thepostid; ?>" rel="<?php echo $therell; ?>" href="<?php echo $medialink; ?>"><img width="<?php echo $imwidth; ?>" height="<?php echo $imheight; ?>" src="<?php echo $image; ?>" /></a></div></div>
+<div class="view da-thumbs"><?php echo $addbadge; ?><div class="iehand"><a class="<?php if ( $mediatype == 'Multiple Images (Slider)' && $usegalleryinfo == 'on' ) { echo $thepostid.'-'.$frstimg; } else { echo $thepostid; } ?>" rel="<?php echo $therell; ?>" href="<?php echo $medialink; ?>"><img width="<?php echo $imwidth; ?>" height="<?php echo $imheight; ?>" src="<?php echo $image; ?>" /></a></div></div>
 <?php	}
 
 	  endif;
       $counter++;
+	  
+	  
+		//Changelog version 1.0.1.0 => Generate Image Gallery
+		if ( $mediatype == 'Multiple Images (Slider)' ) {
+			echo $galle;
+		}
+	  
+	  
     endwhile;
 
     echo '</div>'; //closes the column div

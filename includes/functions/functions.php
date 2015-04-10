@@ -152,24 +152,6 @@ function emg_get_data_slider_ajax() {
 		$boxmediasbttl = get_post_meta( $id, 'easmedia_metabox_sub_title', true );
 		}
 	
-	$imgsrc = get_post_meta( $id, 'easmedia_metabox_img', true );
-	$mediatype = get_post_meta( $id, 'easmedia_metabox_media_type', true );
-		
-	switch ( $mediatype ) {
-		case 'Single Image':
-		$boxlink = $imgsrc;
-	        break;		
-			
-		case 'Video':
-		$boxlink = get_post_meta( $id, 'easmedia_metabox_media_video', true );
-	        break;
-			
-		case 'Audio':
-		$boxlink = get_post_meta( $id, 'easmedia_metabox_media_audio', true );
-	        break;			
-					
-	}
-	
 	if ( $boxmediasbttl == '' ) {$boxmediasbttl = 'none';}
 	if ( $boxmediattl == '' ) {$boxmediattl = 'none';}
 
@@ -181,6 +163,7 @@ wp_die();
 }
 add_action('wp_ajax_nopriv_emg_get_data_slider_ajax', 'emg_get_data_slider_ajax');
 add_action('wp_ajax_emg_get_data_slider_ajax', 'emg_get_data_slider_ajax');
+
 
 /*
 |--------------------------------------------------------------------------

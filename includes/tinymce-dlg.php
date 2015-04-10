@@ -83,7 +83,7 @@ if ( get_post_type( get_the_ID() ) != 'easymediagallery' ) {
 <div id="horizontalTab">
 <ul>
 <li><a href="#tab-1">Gallery, Album & Slider</a></li>
-<li><a href="#tab-2">Basic & Categories</a></li>
+<li><a href="#tab-2">Basic Album, Media & Categories</a></li>
 </ul>
 
 <form method="post">

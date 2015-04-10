@@ -1,10 +1,10 @@
 === Gallery - Photo Albums - Portfolio ===
 Contributors: GhozyLab
 Donate link: http://ghozylab.com/donate
-Tags: gallery, photo gallery, image gallery, photo album, post, widget, plugin, image, images, seo, nextgen gallery, admin
+Tags: gallery, photo gallery, image gallery, photo album, wp, widget, gallery plugin, image, images, seo, nextgen gallery, admin
 Requires at least: 3.3
 Tested up to: 4.1.1
-Stable tag: 1.3.07
+Stable tag: 1.3.09
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -36,12 +36,12 @@ This plugin allows you to create gallery, photo album, image slider and portfoli
 = Full media support =
 Easy Media Gallery plugin satisfy all your needs to create different types of media such us portfolio, image gallery, photo albums and also from a simple picture to an image slider, image carousel a video and audio (html5) gallery. All in one solution. Easy Media Gallery represents a perfect solution for any type of media. Each item can be:
 
-* Image Gallery / Photo Gallery
+* Gallery / Photo Gallery
 * Photo Albums (<em>[Pro Version](http://goo.gl/PLlJwS)</em>)
-* Image Gallery with filter/category(<em>[Pro Version](http://goo.gl/bZ53YR)</em>)
-* Image Gallery with fancy pagination (<em>[Pro Version](http://goo.gl/20ghC5)</em>)
-* Filterable Media (<em>[Pro Version](http://goo.gl/JAvlsq)</em>)
-* Media/Image Slider (<em>[Pro Version](http://goo.gl/nNKUbA)</em>)
+* Gallery with filter/category(<em>[Pro Version](http://goo.gl/bZ53YR)</em>)
+* Gallery with pagination (<em>[Pro Version](http://goo.gl/20ghC5)</em>)
+* Filterable Media or Portfolio (<em>[Pro Version](http://goo.gl/JAvlsq)</em>)
+* Image Slider (<em>[Pro Version](http://goo.gl/nNKUbA)</em>)
 * A video, Auto-retrieve YouTube and Vimeo Thumbnail (<em>Pro Version [learn more here](http://www.youtube.com/watch?v=uAGWUcs5ofE)</em>)
 * An mp3 player (<em>HTML5 player for Pro version and Flash player for Lite version</em>)
 * Embed from Reverbnation or Soundcloud (<em>[Pro Version](http://goo.gl/ckecFP)</em>)
@@ -80,20 +80,20 @@ And also can be used to embed audio from :
 * You can see all awesome features here [Best Gallery and Portfolio plugin features](http://goo.gl/N1gCzZ).
 
 = Upgrade to Easy Media Gallery Pro = 
-Take your media to the next level with [Easy Media Gallery Pro](http://ghozylab.com/plugins/easy-media-gallery-pro/pricing/), which gives you additional features such as:
+Take your gallery to the next level with [Easy Media Gallery Pro](http://ghozylab.com/plugins/easy-media-gallery-pro/pricing/), which gives you additional features such as:
 
 * Super Easy to use for Beginners
-* Create unlimited number of media/gallery
+* Create unlimited number of media / gallery
 * Adjustable Rows/Columns/Spacings
 * Various Animation Types
 * No coding, the plugin takes care of everything
-* Media are built on-the-fly as you enter and select options
+* Media / gallery are built on-the-fly as you enter and select options
 * Works with all modern browsers, degrades gracefully for others
 * Fully CSS3 compliant with text shadowing, box shadowing, gradients, etc
 * Color picker for unlimited color combinations
-* Display your media on different theme
+* Display your media gallery on different theme
 * 3 Skins for main Lightbox [See Example](http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-gallery-lightboxes/emg-lightbox-default/)
-* More than 10 lightboxes
+* More than 10 lightboxes for your gallery or photo albums
 * Backup & Restore Settings
 * Powerfull control panel and Shortcode Manager make getting started super easy
 * Responsive & Mobile Optimized 
@@ -106,7 +106,7 @@ The following are other recommended plugins by the author:
 
 * [Best Contact Form](https://wordpress.org/plugins/contact-form-lite/) - The Best Contact Form Plugin to create awesome Contact Form in minutes.
 * [Best Image Slider Plugin](https://wordpress.org/plugins/image-slider-widget/) - Easy Image Slider Widget - Displaying your image as slider in widget/sidebar area with very easy. Allows you to customize it to looking exactly what you want.
-* [Easy Lightbox Popup](https://wordpress.org/plugins/easy-notify-lite/) - The Best Notify and Subscription Form Plugin to display notify popup, announcement and subscribe form with very ease, fancy and elegant.
+* [Easy Popup Plugin](https://wordpress.org/plugins/easy-notify-lite/) - The Best Notify and Subscription Form Plugin to display notify popup, announcement and subscribe form with very ease, fancy and elegant.
 
 = Translation =
 
@@ -257,6 +257,11 @@ But seriously, I just want to drink coffee for free, so help a developer out. Yo
 9. Google Maps and Google Street View
 
 == Changelog ==
+
+= 1.3.09 =
+* Added : New Feature to show Album Mode with image count Badge
+* Fixed : Redirect Link after Plugin Activated
+* Fixed : Many other PHP and CSS clean and optimization
 
 = 1.3.07 =
 * Added : New option ( Update option )
@@ -577,5 +582,5 @@ But seriously, I just want to drink coffee for free, so help a developer out. Yo
 
 == Upgrade Notice ==
 
-= 1.3.07 =
-IMPORTANT! Security Bug Fix, PLEASE UPDATE NOW!
+= 1.3.09 =
+IMPORTANT! New Feature ( Album vie with image Count Badge ), PLEASE UPDATE NOW!
