@@ -1,10 +1,10 @@
 === Gallery - Photo Albums - Portfolio ===
 Contributors: GhozyLab
 Donate link: http://ghozylab.com/donate
-Tags: gallery, photo gallery, image gallery, photo album, wp, widget, gallery plugin, image, images, seo, nextgen gallery, admin
+Tags: gallery, photo gallery, image gallery, photo album, best gallery, widget, gallery plugin, image, images, seo, nextgen gallery, admin
 Requires at least: 3.3
 Tested up to: 4.1.1
-Stable tag: 1.3.09
+Stable tag: 1.3.10
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -78,6 +78,35 @@ And also can be used to embed audio from :
 
 * You can learn more by watching the video from [YouTube Channel](http://www.youtube.com/GhozyLab).
 * You can see all awesome features here [Best Gallery and Portfolio plugin features](http://goo.gl/N1gCzZ).
+
+= Gallery = 
+
+Just create Multiple Image ( Slider ) , insert an images and save your media, after that just put the gallery using Easy Media Shortcode Generator and your gallery will ready just in minutes. **NO NEED to RE-UPLOAD** all your images because you can choose and insert an images that already uploaded in Wordpress media library. Upgrade to pro version to be able to create gallery with pagination, gallery with filter and gallery with more than 6 lightbox styles.
+
+= Image Albums /  Photo Albums = 
+
+You can create up to 3 albums with Lite Version ( <em>max 15 images per album</em> ). You have to upgrade to Pro Version if you want to create unlimited albums and images. Another feature is can create album with filter, album with ajax mode, album with more than 6 lightbox styles.
+
+= Image Slider /  Photo Slider = 
+
+In Pro version you can create **gallery image slider** easily. We will add this feature in lite version for the next release. Please be patient or you can try our other plugin [Best Image Slider](https://wordpress.org/plugins/image-slider-widget/) for this.
+
+= Carousel = 
+
+In Pro version you can create Image Carousel easily. We will add this feature in lite version for the next release. Please be patient or you can use [Best Image Slider](https://wordpress.org/plugins/image-slider-widget/) Plugin for this.
+
+= Video Gallery =
+
+Easy Media Gallery Lite/Pro plugin allows you to embed videos on a page using lightbox overlay display. You can embed video from Youtube, Vimeo and MP4. We provide HTML5 player in Pro Version and Flash player for lite version. 
+
+= Audio Gallery =
+
+Easy Media Gallery Lite/Pro plugin also allows you to embed audio on a page using lightbox overlay display. You can embed mp3 audio format easily. In Pro Version you can also embed audi from Soundcloud and Reverbnation.
+
+= Google Maps =
+
+With PRO Version you can embed Google maps, Google street view and Google business view easily.
+
 
 = Upgrade to Easy Media Gallery Pro = 
 Take your gallery to the next level with [Easy Media Gallery Pro](http://ghozylab.com/plugins/easy-media-gallery-pro/pricing/), which gives you additional features such as:
@@ -257,6 +286,11 @@ But seriously, I just want to drink coffee for free, so help a developer out. Yo
 9. Google Maps and Google Street View
 
 == Changelog ==
+
+= 1.3.10 =
+* Fixed : Photo Albums image cover issue
+* Added : New Video tutorial - How to Create Photo Albums ( see on Documentation page )
+* Added : Admin Bar Menu
 
 = 1.3.09 =
 * Added : New Feature to show Album Mode with image count Badge
@@ -582,5 +616,5 @@ But seriously, I just want to drink coffee for free, so help a developer out. Yo
 
 == Upgrade Notice ==
 
-= 1.3.09 =
-IMPORTANT! New Feature ( Album vie with image Count Badge ), PLEASE UPDATE NOW!
+= 1.3.10 =
+IMPORTANT! FIXED: Photo Albums cover issue, PLEASE UPDATE NOW!

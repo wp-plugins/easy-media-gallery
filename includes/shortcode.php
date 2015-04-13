@@ -130,12 +130,8 @@ echo '<div class="pfwrpr"><div id="alignstyle" class="easymedia_'.$cus_align.'">
 			
 			
 			case 'Multiple Images (Slider)':
-							
-				if ( $pag != '' ) {
-					$therell = "easymedia[".$mediauniqueid."]";
-					} else {
-						$therell = "easymedia[".$galleryid."]";
-						}
+				
+				$therell = "easymedia[".$mediauniqueid."]";
 		
 				$images = get_post_meta( get_the_id(), 'easmedia_metabox_media_gallery', true );
 				
@@ -146,12 +142,13 @@ echo '<div class="pfwrpr"><div id="alignstyle" class="easymedia_'.$cus_align.'">
 					echo '<div id="easymedia_gallerycontainer-'.$mediauniqueid.'" style="display:none">';
 					foreach( $images as $img_id ) {
 						
-							//Changelog version 1.3.1.3 => Set 1st Image Gallery
+							//Changelog version 1.3.10 => Set 1st Image Gallery
 							if($ig++ == 0) {
 								$img = wp_get_attachment_image_src($img_id, 'full');
 								$frstimg = $img_id;
 								$medialink = easymedia_imgresize( $img[0], $deff_img_limit, $isresize, $img[1], $img[2] );
 								$medialink = explode(",", $medialink); $medialink = $medialink[0];
+								$image = $medialink;
 								}
 																
 						$img = wp_get_attachment_image_src($img_id, 'full');
@@ -197,7 +194,7 @@ echo '<div class="pfwrpr"><div id="alignstyle" class="easymedia_'.$cus_align.'">
       $counter++;
 	  
 	  
-		//Changelog version 1.0.1.0 => Generate Image Gallery
+		//Changelog version 1.3.10 => Generate Image Gallery
 		if ( $mediatype == 'Multiple Images (Slider)' ) {
 			echo $galle;
 		}

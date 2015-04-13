@@ -1019,6 +1019,7 @@ function easmedia_easymedia_docs() {
 				<h3><?php _e( 'Video Tutorials', 'easmedia' ); ?></h3>
         <div id="easymedia_docs1" style="padding-left:10px !important;">
         <ul id="vidlist" style="list-style: square; position:relative; margin-left:15px; margin-bottom:25px">
+        <li><a href="#" data-toggle="modal" data-target="#videoModal" data-theVideo="http://www.youtube.com/embed/pjHvRoV2Bn8">How to Create Simple Photo Albums</a>&nbsp;&nbsp;<i>(NEW Feature @since version 1.3.10)</i></li>
         <li><a href="#" data-toggle="modal" data-target="#videoModal" data-theVideo="http://www.youtube.com/embed/H1Z3fidyEbE">How to Create Simple Gallery</a>&nbsp;&nbsp;<i>(NEW Feature @since version 1.2.79)</i></li>
         <li><a data-toggle="modal" data-target="#videoModal" href="#" data-theVideo="http://www.youtube.com/embed/dXFBNY5t6E8">How to Create Single Image Media</a></li>
         <li><a data-toggle="modal" data-target="#videoModal" href="#" data-theVideo="http://www.youtube.com/embed/htxwZw_aPF0">How to Create Video Media Types</a></li>  
@@ -1440,6 +1441,123 @@ if (typeof(jQuery().pointer) != 'undefined') {
 });
 // ]]></script>
 <?php
+}
+
+
+/*-------------------------------------------------------------------------------*/
+/*   Admin Bar Menu
+/*-------------------------------------------------------------------------------*/
+add_action('admin_bar_menu', 'add_toolbar_items', 100);
+function add_toolbar_items($admin_bar){
+	$admin_bar->add_menu( array(
+		'id'    => 'emg-item',
+		'title' => '<img src="'.plugins_url( 'images/easymedia-cp-icon.png' , dirname(__FILE__) ).'" style="vertical-align:middle;margin-right:5px" alt="Easy Media" title="Easy Media" />Easy Media Gallery',
+		'href'  => '#',	
+		'meta'  => array(
+			'title' => __('Easy Media Gallery'),			
+		),
+	));
+	
+	$admin_bar->add_menu( array(
+		'id'    => 'emg-ovrview-item',
+		'parent' => 'emg-item',
+		'title' => 'Overview',
+		'href'  => ''.admin_url( 'edit.php?post_type=easymediagallery' ).'',
+		'meta'  => array(
+			'title' => __('Overview'),
+			'class' => 'emg_menu_item_class'
+		),
+	));
+	
+	$admin_bar->add_menu( array(
+		'id'    => 'emg-addnew-item',
+		'parent' => 'emg-item',
+		'title' => 'Add New Media',
+		'href'  => ''.admin_url( 'post-new.php?post_type=easymediagallery' ).'',
+		'meta'  => array(
+			'title' => __('Add New Media'),
+			'class' => 'emg_menu_item_class'
+		),
+	));
+	
+	$admin_bar->add_menu( array(
+		'id'    => 'emg-cat-item',
+		'parent' => 'emg-item',
+		'title' => 'Categories',
+		'href'  => ''.admin_url( 'edit-tags.php?taxonomy=emediagallery&post_type=easymediagallery' ).'',
+		'meta'  => array(
+			'title' => __('Categories'),
+			'class' => 'emg_menu_item_class'
+		),
+	));
+	
+	$admin_bar->add_menu( array(
+		'id'    => 'emg-sett-item',
+		'parent' => 'emg-item',
+		'title' => 'Settings',
+		'href'  => ''.admin_url( 'edit.php?post_type=easymediagallery&page=emg_settings' ).'',
+		'meta'  => array(
+			'title' => __('Settings'),
+			'class' => 'emg_menu_item_class'
+		),
+	));
+	
+	$admin_bar->add_menu( array(
+		'id'    => 'emg-sort-item',
+		'parent' => 'emg-item',
+		'title' => 'Settings',
+		'href'  => ''.admin_url( 'edit.php?post_type=easymediagallery&page=easymedia-order' ).'',
+		'meta'  => array(
+			'title' => __('Sorter'),
+			'class' => 'emg_menu_item_class'
+		),
+	));
+	
+	$admin_bar->add_menu( array(
+		'id'    => 'emg-docs-item',
+		'parent' => 'emg-item',
+		'title' => 'Documentation',
+		'href'  => ''.admin_url( 'edit.php?post_type=easymediagallery&page=docs' ).'',
+		'meta'  => array(
+			'title' => __('Documentation'),
+			'class' => 'emg_menu_item_class'
+		),
+	));
+	
+	$admin_bar->add_menu( array(
+		'id'    => 'emg-freeplug-item',
+		'parent' => 'emg-item',
+		'title' => 'Free Install Plugins',
+		'href'  => ''.admin_url( 'edit.php?post_type=easymediagallery&page=emg_free_plugins' ).'',
+		'meta'  => array(
+			'title' => __('Free Install Plugins'),
+			'class' => 'emg_menu_item_class'
+		),
+	));
+	
+	$admin_bar->add_menu( array(
+		'id'    => 'emg-preplug-item',
+		'parent' => 'emg-item',
+		'title' => 'Premium Plugins',
+		'href'  => ''.admin_url( 'edit.php?post_type=easymediagallery&page=emg_premium_plugins' ).'',
+		'meta'  => array(
+			'title' => __('Premium Plugin'),
+			'class' => 'emg_menu_item_class'
+		),
+	));
+	
+	$admin_bar->add_menu( array(
+		'id'    => 'emg-upgrade-item',
+		'parent' => 'emg-item',
+		'title' => 'UPGRADE PRO VERSION',
+		'href'  => ''.admin_url( 'edit.php?post_type=easymediagallery&page=comparison' ).'',
+		'meta'  => array(
+			'title' => __('UPGRADE PRO VERSION'),
+			'class' => 'emg_menu_item_class'
+		),
+	));
+	
+	
 }
 
 /*-------------------------------------------------------------------------------*/

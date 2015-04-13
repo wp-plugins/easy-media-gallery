@@ -14,7 +14,7 @@ function emg_premium_plugin_page() {
 		<h2>
 			<?php _e( 'GhozyLab Premium Plugins', 'easmedia' ); ?>
 		</h2>
-		<p><?php _e( 'These plugins available on Lite and Pro version.', 'easmedia' ); ?></p>
+		<p><?php _e( 'These plugins available on Lite and Pro version. You can download the Lite ( trial ) version <a href="'.admin_url( 'edit.php?post_type=easymediagallery&page=emg_free_plugins' ).'">here</a>', 'easmedia' ); ?></p>
 		<?php echo emg_get_feed(); ?>
 	</div>
 	<?php
