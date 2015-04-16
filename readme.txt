@@ -4,7 +4,7 @@ Donate link: http://ghozylab.com/donate
 Tags: gallery, photo gallery, image gallery, photo album, best gallery, widget, gallery plugin, image, images, seo, nextgen gallery, admin
 Requires at least: 3.3
 Tested up to: 4.1.1
-Stable tag: 1.3.10
+Stable tag: 1.3.11
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -12,11 +12,11 @@ This plugin allows you to create gallery, photo album, image slider and portfoli
 
 == Description ==
 
-= Image Gallery & Photo Album Plugin =
+= Gallery & Photo Album Plugin =
 
-**Easy Media Gallery** is the best **gallery plugin** and **photo album** for wordpress designed to display various media such as grid gallery, galleries, photo albums, multiple photo albums, **photo gallery** or **image gallery** / **photo slider**, photo gallery with pagination, image **slider**, image carousel, portfolio, google maps and google street view, google business view, youtube, vimeo, mp4 video, audio mp3 with very ease, fancy and elegant.
+**Gallery - Photo Albums - Portfolio** is the best **gallery plugin** and **photo album** for wordpress designed to display various media such as grid gallery, galleries, photo albums, multiple photo albums, **photo gallery** or **image gallery** / **photo slider**, photo gallery with pagination, image **slider**, image carousel, portfolio, google maps and google street view, google business view, youtube, vimeo, mp4 video, audio mp3 with very ease, fancy and elegant.
 
-**Easy Media Gallery** is a very customizable **gallery plugin** that allow you to set display whatever you want like adjust colors, positions, grid, media sizes, hover effect and much more with one easy control panel. That easy control panel for experts it would save your time, and for you who do not have more knowledge about web programming or styling, of course this plugin will allow you to manage your website, gallery and portfolio much more easily.
+**Gallery - Photo Albums - Portfolio** is a very customizable **gallery plugin** that allow you to set display whatever you want like adjust colors, positions, grid, media sizes, hover effect and much more with one easy control panel. That easy control panel for experts it would save your time, and for you who do not have more knowledge about web programming or styling, of course this plugin will allow you to manage your website, gallery and portfolio much more easily.
 
 > #### **Live Demos**
 > * <a href="http://goo.gl/PLlJwS" target="_blank">Photo Albums</a>
@@ -36,8 +36,9 @@ This plugin allows you to create gallery, photo album, image slider and portfoli
 = Full media support =
 Easy Media Gallery plugin satisfy all your needs to create different types of media such us portfolio, image gallery, photo albums and also from a simple picture to an image slider, image carousel a video and audio (html5) gallery. All in one solution. Easy Media Gallery represents a perfect solution for any type of media. Each item can be:
 
-* Gallery / Photo Gallery
+* Gallery / Image Gallery
 * Photo Albums (<em>[Pro Version](http://goo.gl/PLlJwS)</em>)
+* Photo Albums (<em>[Lite Version](http://goo.gl/xtCU1c)</em>)
 * Gallery with filter/category(<em>[Pro Version](http://goo.gl/bZ53YR)</em>)
 * Gallery with pagination (<em>[Pro Version](http://goo.gl/20ghC5)</em>)
 * Filterable Media or Portfolio (<em>[Pro Version](http://goo.gl/JAvlsq)</em>)
@@ -188,6 +189,21 @@ The simplest way to install is to click on 'Plugins' then 'Add' and type 'Easy M
 
 Just go to Easy Media > Settings > Miscellaneous > and TURN OFF <strong>Upgrade Notification</strong> option
 
+= Is there any documentation with detail for this plugin? =
+
+To make the plugin easy for everyone, the documentation comes with detailed videos explaining each step necessary to setup and use Easy Media Gallery:
+
+* [How to Create Simple Photo Albums](https://www.youtube.com/watch?v=pjHvRoV2Bn8)
+* [How to Create Simple Gallery](https://www.youtube.com/watch?v=H1Z3fidyEbE)
+* [How to Create Google Maps Media Types](http://www.youtube.com/watch?v=PEgfleRf6hg)
+* [How to Create Audio (mp3) Media Types](http://www.youtube.com/watch?v=Bsn-CB5Hpbw)
+* [How to Create Video (Youtube) Media Types](http://www.youtube.com/watch?v=htxwZw_aPF0)
+* [How to Insert Image into Media Description](http://www.youtube.com/watch?v=9cuYyBMKx2k)
+* [How to Change Media Columns](http://www.youtube.com/watch?v=56f_C7OXiAE)
+* [How to Change Media Border Size and Color](http://www.youtube.com/watch?v=2T73wvt_wOA)
+* [How to Publish Easy Media Gallery ( Standard Method )](http://www.youtube.com/watch?v=Z2qwXz7GIRw)
+* [How to Publish Easy Media Gallery ( Advanced Method )](http://www.youtube.com/watch?v=LMBg0Zv8048)
+
 = Images not showing up =
 
 Sometimes you may face problem that your images are not displaying in the site. Here are some ways that you can try:
@@ -243,21 +259,6 @@ You also can put the media wherever you like with ease using shortcode manager. 
 * [Youtube Channel](http://www.youtube.com/GhozyLab)
 
 
-= Is there any documentation with detail for this plugin? =
-
-To make the plugin easy for everyone, the documentation comes with detailed videos explaining each step necessary to setup and use Easy Media Gallery:
-
-* [How to Create Simple Gallery](http://goo.gl/fGBoML)
-* [How to Create Google Maps Media Types](http://www.youtube.com/watch?v=PEgfleRf6hg)
-* [How to Create Audio (mp3) Media Types](http://www.youtube.com/watch?v=Bsn-CB5Hpbw)
-* [How to Create Video (Youtube) Media Types](http://www.youtube.com/watch?v=htxwZw_aPF0)
-* [How to Insert Image into Media Description](http://www.youtube.com/watch?v=9cuYyBMKx2k)
-* [How to Change Media Columns](http://www.youtube.com/watch?v=56f_C7OXiAE)
-* [How to Change Media Border Size and Color](http://www.youtube.com/watch?v=2T73wvt_wOA)
-* [How to Publish Easy Media Gallery ( Standard Method )](http://www.youtube.com/watch?v=Z2qwXz7GIRw)
-* [How to Publish Easy Media Gallery ( Advanced Method )](http://www.youtube.com/watch?v=LMBg0Zv8048)
-
-
 = How can I get support? =
 
 * We are not able to provide anything other than community based support for Easy Media Gallery Lite. Please consider upgrading to [Easy Media Gallery Professional](http://ghozylab.com/) for support.
@@ -286,6 +287,9 @@ But seriously, I just want to drink coffee for free, so help a developer out. Yo
 9. Google Maps and Google Street View
 
 == Changelog ==
+
+= 1.3.11 =
+* Fixed : Video size on Documentation page
 
 = 1.3.10 =
 * Fixed : Photo Albums image cover issue
@@ -617,4 +621,4 @@ But seriously, I just want to drink coffee for free, so help a developer out. Yo
 == Upgrade Notice ==
 
 = 1.3.10 =
-IMPORTANT! FIXED: Photo Albums cover issue, PLEASE UPDATE NOW!
+IMPORTANT! FIXED: Media Editor Issue, PLEASE UPDATE NOW!

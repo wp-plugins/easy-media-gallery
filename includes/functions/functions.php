@@ -834,23 +834,33 @@ function emg_hide_noty() {
 add_action( 'wp_ajax_emg_hide_noty', 'emg_hide_noty' );
 
 /*-------------------------------------------------------------------------------*/
+/*  Create Pro Demo Metabox
+/*-------------------------------------------------------------------------------*/
+function emg_prodemo_metabox () {
+	$emgdm = '<div style="text-align:center;">';
+	$emgdm .= '<a id="emgdemotableclr" style="outline: none !important;" target="_blank" href="http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-gallery-and-photo-albums-demo/?utm_source=mediaeditor&utm_medium=rightside&utm_campaign=editor-right"><img style="cursor:pointer; margin-top: 7px;" src="'.plugins_url( 'images/view-demo-button.jpg' , dirname(__FILE__) ).'" width="232" height="60" alt="Pro Version Demo" ></a>';
+	$emgdm .= '</div>';
+echo $emgdm;	
+}
+
+/*-------------------------------------------------------------------------------*/
 /*  Create Upgrade Metabox @since 1.2.61
 /*-------------------------------------------------------------------------------*/
 function emg_upgrade_metabox () {
-	$enobuy = '<div style="text-align:center;">';
-	$enobuy .= '<a id="prcngtableclr" style="outline: none !important;" href="#"><img style="cursor:pointer; margin-top: 7px;" src="'.plugins_url( 'images/buy-now.png' , dirname(__FILE__) ).'" width="241" height="95" alt="Buy Now!" ></a>';
-	$enobuy .= '</div>';
-echo $enobuy;	
+	$emgbuy = '<div style="text-align:center;">';
+	$emgbuy .= '<a id="prcngtableclr" style="outline: none !important;" href="#"><img style="cursor:pointer; margin-top: 7px;" src="'.plugins_url( 'images/buy-now.png' , dirname(__FILE__) ).'" width="241" height="95" alt="Buy Now!" ></a>';
+	$emgbuy .= '</div>';
+echo $emgbuy;	
 }
 
 /*-------------------------------------------------------------------------------*/
 /*  Create Upgrade Metabox @since 1.2.61
 /*-------------------------------------------------------------------------------*/
 function emg_new_info_metabox () {
-	$enonew = '<div style="text-align:center;">';
-	$enonew .= '<a style="outline: none !important;" href="http://goo.gl/divK5t" target="_blank"><img style="cursor:pointer; margin-top: 7px;" src="'.plugins_url( 'images/new-plugin.png' , dirname(__FILE__) ).'" width="241" height="151" alt="New Plugin" ></a>';
-	$enonew .= '</div>';
-echo $enonew;	
+	$emgnew = '<div style="text-align:center;">';
+	$emgnew .= '<a style="outline: none !important;" href="http://goo.gl/divK5t" target="_blank"><img style="cursor:pointer; margin-top: 7px;" src="'.plugins_url( 'images/new-plugin.png' , dirname(__FILE__) ).'" width="241" height="151" alt="New Plugin" ></a>';
+	$emgnew .= '</div>';
+echo $emgnew;	
 }
 
 /*-------------------------------------------------------------------------------*/
@@ -1019,8 +1029,8 @@ function easmedia_easymedia_docs() {
 				<h3><?php _e( 'Video Tutorials', 'easmedia' ); ?></h3>
         <div id="easymedia_docs1" style="padding-left:10px !important;">
         <ul id="vidlist" style="list-style: square; position:relative; margin-left:15px; margin-bottom:25px">
-        <li><a href="#" data-toggle="modal" data-target="#videoModal" data-theVideo="http://www.youtube.com/embed/pjHvRoV2Bn8">How to Create Simple Photo Albums</a>&nbsp;&nbsp;<i>(NEW Feature @since version 1.3.10)</i></li>
-        <li><a href="#" data-toggle="modal" data-target="#videoModal" data-theVideo="http://www.youtube.com/embed/H1Z3fidyEbE">How to Create Simple Gallery</a>&nbsp;&nbsp;<i>(NEW Feature @since version 1.2.79)</i></li>
+        <li><a href="#" data-toggle="modal" data-target="#videoModal" data-theVideo="http://www.youtube.com/embed/pjHvRoV2Bn8">How to Create Simple Photo Albums</a>&nbsp;&nbsp;<i style="color:red;">(NEW Feature @since version 1.3.10)</i></li>
+        <li><a href="#" data-toggle="modal" data-target="#videoModal" data-theVideo="http://www.youtube.com/embed/H1Z3fidyEbE">How to Create Simple Gallery</a>&nbsp;&nbsp;<i style="color:red;">(NEW Feature @since version 1.2.79)</i></li>
         <li><a data-toggle="modal" data-target="#videoModal" href="#" data-theVideo="http://www.youtube.com/embed/dXFBNY5t6E8">How to Create Single Image Media</a></li>
         <li><a data-toggle="modal" data-target="#videoModal" href="#" data-theVideo="http://www.youtube.com/embed/htxwZw_aPF0">How to Create Video Media Types</a></li>  
         <li><a data-toggle="modal" data-target="#videoModal" href="#" data-theVideo="http://www.youtube.com/embed/Bsn-CB5Hpbw">How to Create Audio (mp3) Media Types</a></li>
@@ -1047,12 +1057,12 @@ function easmedia_easymedia_docs() {
   
  <!-- Video on Modal  -->
 <div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="videoModal" aria-hidden="true">
-    <div class="modal-dialog">
+    <div style="width: 835px; height:450px;" class="modal-dialog">
         <div class="modal-content">
             <div class="modal-body">
                 <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
                 <div>
-                    <iframe width="100%" height="350" src=""></iframe>
+                    <iframe width="803" height="430" src=""></iframe>
                 </div>
             </div>
         </div>
@@ -1067,7 +1077,7 @@ jQuery(document).ready(function($) {
       trigger.click(function () {
           var theModal = jQuery(this).data("target"),
               videoSRC = jQuery(this).attr("data-theVideo"),
-              videoSRCauto = videoSRC + "?autoplay=1";
+              videoSRCauto = videoSRC + "?autoplay=1&rel=0";
           jQuery(theModal + ' iframe').attr('src', videoSRCauto);
           jQuery(theModal + ' button.close').click(function () {
               jQuery(theModal + ' iframe').attr('src', videoSRC);
@@ -1380,6 +1390,71 @@ function easymedia_comparison() {
 <div class="tsc_clear"></div> <!-- line break/clear line -->
 <?php
 }
+
+/*-------------------------------------------------------------------------------*/
+/*  Update Notify
+/*-------------------------------------------------------------------------------*/
+function easmedia_update_notify () {
+    ?>
+    <div class="error emg-setupdate">
+        <p><?php _e( 'We recommend you to enable plugin Auto Update so you\'ll get the latest features and other important updates from <strong>'.EASYMEDIA_NAME.'</strong>.<br />Click <a href="#"><strong><span id="doautoupdate">here</span></strong></a> to enable Auto Update.', 'easmedia' ); ?></p>
+    </div>
+    
+<script type="text/javascript">
+	/*<![CDATA[*/
+	/* Easy Media Gallery */
+jQuery(document).ready(function(){
+	jQuery('#doautoupdate').click(function(){
+		var cmd = 'activate';
+		emg_enable_auto_update(cmd);
+	});
+
+function emg_enable_auto_update(act) {
+	var data = {
+		action: 'emg_enable_auto_update',
+		security: '<?php echo wp_create_nonce( "easymedia-update-nonce"); ?>',
+		cmd: act,
+		};
+		
+		jQuery.post(ajaxurl, data, function(response) {
+			if (response == 1) {
+				alert('Great! Auto Update successfully activated.');
+				jQuery('.emg-setupdate').fadeOut('3000');
+				}
+				else {
+				alert('Ajax request failed, please refresh your browser window.');
+				}
+				
+			});
+	}
+	
+});
+	
+/*]]>*/</script>
+    
+    <?php
+}
+
+function emg_enable_auto_update() {
+	
+	check_ajax_referer( 'easymedia-update-nonce', 'security' );
+	
+	if ( !isset( $_POST['cmd'] ) ) {
+		echo '0';
+		wp_die();
+		}
+		
+		else {
+			if ( $_POST['cmd'] == 'activate' ){
+				$emg_upd_opt = get_option('easy_media_opt');
+				$emg_upd_opt['easymedia_disen_autoupdt'] = '1';
+				update_option('easy_media_opt', $emg_upd_opt);	
+				echo '1';				
+				wp_die();
+				}
+	}
+}
+add_action( 'wp_ajax_emg_enable_auto_update', 'emg_enable_auto_update' );
 
 /*-------------------------------------------------------------------------------*/
 /*  Create News MetaBox
