@@ -104,6 +104,7 @@ include_once( EASYMEDG_PLUGIN_DIR . 'includes/shortcode.php' );
 include_once( EASYMEDG_PLUGIN_DIR . 'includes/tinymce-dlg.php' ); 
 include_once( EASYMEDG_PLUGIN_DIR . 'includes/taxonomy.php' );
 include_once( EASYMEDG_PLUGIN_DIR . 'includes/easywidget.php' );
+include_once( EASYMEDG_PLUGIN_DIR . 'includes/emg-notice.php' );
 
 /*-------------------------------------------------------------------------------*/
 /*   AJAX For EMG Lightbox @since 1.2.9.5
@@ -762,7 +763,7 @@ add_action('wp_dashboard_setup', 'emg_register_dashboard_widgets' );
 function emg_dashboard_widget() {
 ?>
     <div class="emg_dashboard_widget">
-<p class="sub">If you ever have any questions at all, please post them on our <a target="_blank" href="http://ghozylab.com/plugins/submit-support-request/">Submit Support Request</a> form. Our dedicated support team will gladly assist you with your inquiries directly via the ticket or email. Lastly, if you really love Easy Media Gallery, please recommend our plugin to your friends.</p>	
+<p class="sub">GhozyLab partners with 6,000 affiliates and pays out over $200,000 per year!<br />Earn <span style="color: red;">EXTRA MONEY</span> and get 30% affiliate share from every sale you make!<br /><a target="_blank" href="http://ghozylab.com/plugins/affiliate-program/"><img style="cursor:pointer; margin-top: 7px;" src="<?php echo plugins_url( 'images/btn-joinnow.png' , dirname(__FILE__) ); ?>" width="170" height="49" alt="Join Now!" ></a></p>	
 <div style="position:relative;">
 <ul class='easymedia-social' id='easymedia-cssanime'>
 <li class='easymedia-facebook'>
@@ -783,7 +784,6 @@ function emg_dashboard_widget() {
     <?php
 	}
 }
-
 
 function emg_share() {
 ?>
@@ -1629,6 +1629,18 @@ function add_toolbar_items($admin_bar){
 		'meta'  => array(
 			'title' => __('UPGRADE PRO VERSION'),
 			'class' => 'emg_menu_item_class'
+		),
+	));
+	
+	$admin_bar->add_menu( array(
+		'id'    => 'emg-earn-item',
+		'parent' => 'emg-item',
+		'title' => '<img src="'.plugins_url( 'images/dollar.png' , dirname(__FILE__) ).'" style="vertical-align:middle;margin-right:5px" alt="Earn Extra Money" title="Earn Extra Money" />Earn Extra Money',
+		'href'  => 'http://ghozylab.com/plugins/affiliate-program/',
+		'meta'  => array(
+			'target' => '_blank',
+			'title'  => __('Earn Extra Money'),
+			'class'  => 'emg_menu_item_class'
 		),
 	));
 	
