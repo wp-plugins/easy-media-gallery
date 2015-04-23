@@ -3,7 +3,7 @@ Contributors: GhozyLab
 Donate link: http://ghozylab.com/donate
 Tags: gallery, photo gallery, image gallery, photo album, best gallery, widget, gallery plugin, image, images, seo, nextgen gallery, admin
 Requires at least: 3.3
-Tested up to: 4.1.2
+Tested up to: 4.2
 Stable tag: 1.3.13
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
