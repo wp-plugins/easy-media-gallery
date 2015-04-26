@@ -90,7 +90,7 @@ You can create up to 3 albums with Lite Version ( <em>max 15 images per album</e
 
 = Image Slider /  Photo Slider = 
 
-In Pro version you can create **gallery image slider** easily. We will add this feature in lite version for the next release. Please be patient or you can try our other plugin [Best Image Slider](https://wordpress.org/plugins/image-slider-widget/) for this.
+In Pro version you can create **image slider** easily. We already create another plugin for image slider. You can try [Image Slider Plugin](https://wordpress.org/plugins/image-slider-widget/).
 
 = Carousel = 
 
