@@ -1630,20 +1630,7 @@ function add_toolbar_items($admin_bar){
 			'title' => __('UPGRADE PRO VERSION'),
 			'class' => 'emg_menu_item_class'
 		),
-	));
-	
-	$admin_bar->add_menu( array(
-		'id'    => 'emg-earn-item',
-		'parent' => 'emg-item',
-		'title' => '<img src="'.plugins_url( 'images/dollar.png' , dirname(__FILE__) ).'" style="vertical-align:middle;margin-right:5px" alt="Earn Extra Money" title="Earn Extra Money" />Earn Extra Money',
-		'href'  => 'http://ghozylab.com/plugins/affiliate-program/',
-		'meta'  => array(
-			'target' => '_blank',
-			'title'  => __('Earn Extra Money'),
-			'class'  => 'emg_menu_item_class'
-		),
-	));
-	
+	));	
 	
 }
 

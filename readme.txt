@@ -4,7 +4,7 @@ Donate link: http://ghozylab.com/donate
 Tags: gallery, photo gallery, image gallery, photo album, best gallery, widget, gallery plugin, image, images, seo, nextgen gallery, admin
 Requires at least: 3.3
 Tested up to: 4.2
-Stable tag: 1.3.13
+Stable tag: 1.3.15
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -287,6 +287,9 @@ But seriously, I just want to drink coffee for free, so help a developer out. Yo
 9. Google Maps and Google Street View
 
 == Changelog ==
+
+= 1.3.15 =
+* Fixed : Remove last item from admin bar menu
 
 = 1.3.13 =
 * Fixed : Settings & Notice
@@ -625,5 +628,5 @@ But seriously, I just want to drink coffee for free, so help a developer out. Yo
 
 == Upgrade Notice ==
 
-= 1.3.13 =
+= 1.3.15 =
 IMPORTANT! Added New Features, PLEASE UPDATE NOW!
