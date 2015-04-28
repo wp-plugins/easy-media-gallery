@@ -1,22 +1,22 @@
 === Gallery - Photo Albums - Portfolio ===
 Contributors: GhozyLab
 Donate link: http://ghozylab.com/donate
-Tags: gallery, photo gallery, image gallery, photo album, best gallery, widget, gallery plugin, image, images, seo, nextgen gallery, admin
+Tags: gallery, photo gallery, media library, photo album, wp image slider, wordpress lightbox, album, photo albums, seo, slider, image slider plugin, slider image plugin, image carousel, best photo plugin, best image carousel, lightbox image, best plugin slider, gallery slideshow, portfolio plugin, album photo, buddypress, woocommerce, images slider, picture slider, gallery lightbox, image gallery plugin, gallery image, website gallery, image gallery, filterable portfolio, filterable gallery, wordpress gallery plugin, media gallery, photoset, google business view, photogallery, responsive image gallery, wordpress seo, AJAX, fotoalbum, jquery gallery, wp slider, jquery slider, comments, images, best gallery, portfolio gallery, lightbox, nextgen gallery, jquery slideshow, responsive slideshow, image slideshow, image rotate, wordpress portfolio plugin, best gallery plugin, plugin gallery, wp gallery, slideshow, jquery, responsive slider, gallery plugin, galerie, galerij, bilder, galleria, responsive gallery, grid gallery, best image slider, wp gallery plugin, photo slider, image slider, responsive gallery, photo, shortcode, photos, picture, pictures, html5 video, html5 audio, widget, sidebar, plugin for gallery, html5 player, pagination gallery, plugin, post, links, page, admin, posts, thumbnail, easy media gallery, seo image, twitter, image album, image, google, image lightbox, portfolio, best portfolio, carousel slider, content slider, wordpress slider plugin, wordpress slideshow, wordpress slider, slideshow plugin, slider plugin, best slider plugin, post slider, page slider, add gallery, add images, easy gallery, slide, slideshow, slideshow gallery, free gallery plugin, galeri, galleries, picture gallery, shortcode gallery, thumbnails, best portfolio plugin
 Requires at least: 3.3
-Tested up to: 4.2
+Tested up to: 4.2.1
 Stable tag: 1.3.15
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-This plugin allows you to create gallery, photo album, image slider and portfolio.
+This plugin allows you to create gallery, photo albums, image slider and portfolio.
 
 == Description ==
 
 = Gallery & Photo Album Plugin =
 
-**Gallery - Photo Albums - Portfolio** is the best **gallery plugin** and **photo album** for wordpress designed to display various media such as grid gallery, galleries, photo albums, multiple photo albums, **photo gallery** or **image gallery** / **photo slider**, photo gallery with pagination, image **slider**, image carousel, portfolio, google maps and google street view, google business view, youtube, vimeo, mp4 video, audio mp3 with very ease, fancy and elegant.
+**Gallery** - **Photo Albums** - **Portfolio** is the best wordpress **gallery** and **photo album** plugin designed to display various media such as grid gallery, galleries, photo albums, multiple photo albums, **photo gallery** or **image gallery** / **photo slider**, photo gallery with pagination, image **slider**, image carousel, portfolio, google maps and google street view, google business view, youtube, vimeo, mp4 video, audio mp3 with very ease and elegant.
 
-**Gallery - Photo Albums - Portfolio** is a very customizable **gallery plugin** that allow you to set display whatever you want like adjust colors, positions, grid, media sizes, hover effect and much more with one easy control panel. That easy control panel for experts it would save your time, and for you who do not have more knowledge about web programming or styling, of course this plugin will allow you to manage your website, gallery and portfolio much more easily.
+**Gallery** - **Photo Albums** - **Portfolio** is a very customizable **gallery** that allow you to set display whatever you want like adjust colors, positions, grid, media sizes, hover effect and much more with one easy control panel. That easy control panel for experts it would save your time, and for you who do not have more knowledge about web programming or styling, of course this plugin will allow you to manage your website, gallery and portfolio much more easily.
 
 > #### **Live Demos**
 > * <a href="http://goo.gl/PLlJwS" target="_blank">Photo Albums</a>
