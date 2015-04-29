@@ -12,8 +12,7 @@ This plugin allows you to create gallery, photo albums, image slider and portfol
 
 == Description ==
 
-= Gallery & Photo Album Plugin =
-
+[Gallery - Photo Albums - Portfolio](http://goo.gl/PLlJwS)
 **Gallery** - **Photo Albums** - **Portfolio** is the best wordpress **gallery** and **photo album** plugin designed to display various media such as grid gallery, galleries, photo albums, multiple photo albums, **photo gallery** or **image gallery** / **photo slider**, photo gallery with pagination, image **slider**, image carousel, portfolio, google maps and google street view, google business view, youtube, vimeo, mp4 video, audio mp3 with very ease and elegant.
 
 **Gallery** - **Photo Albums** - **Portfolio** is a very customizable **gallery** that allow you to set display whatever you want like adjust colors, positions, grid, media sizes, hover effect and much more with one easy control panel. That easy control panel for experts it would save your time, and for you who do not have more knowledge about web programming or styling, of course this plugin will allow you to manage your website, gallery and portfolio much more easily.
