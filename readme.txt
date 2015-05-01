@@ -12,9 +12,9 @@ This plugin allows you to create gallery, photo albums, image slider and portfol
 
 == Description ==
 = Gallery - Photo Albums - Portfolio =
-[Gallery - Photo Albums - Portfolio](http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-gallery-and-photo-albums-demo/?utm_source=wordpress&utm_medium=description&utm_campaign=gallery "Gallery WordPress Plugin") is the best wordpress **gallery** and **photo album** plugin designed to display various media such as grid gallery, galleries, photo albums, multiple photo albums, **photo gallery** or **image gallery** / **photo slider**, photo gallery with pagination, image **slider**, image carousel, portfolio, google maps and google street view, google business view, youtube, vimeo, mp4 video, audio mp3 with very ease.
+[Gallery - Photo Albums - Portfolio](http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-gallery-and-photo-albums-demo/?utm_source=wordpress&utm_medium=description&utm_campaign=gallery "Gallery WordPress Plugin") is the best wordpress _**gallery**_ and _**photo album**_ plugin designed to create grid gallery, galleries, photo albums, multiple photo albums, **photo gallery** or **image gallery** / **photo slider**, photo gallery with pagination, image **slider**, image carousel, portfolio, google maps and google street view, google business view, youtube, vimeo, mp4 video, audio mp3 with very ease.
 
-**[Gallery](http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-gallery-and-photo-albums-demo/?utm_source=wordpress&utm_medium=link-description&utm_campaign=gallery "Gallery")** - **[Photo Album](http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-gallery-and-photo-albums-demo/?utm_source=wordpress&utm_medium=link-description&utm_campaign=photo-album "Photo Album")** - **[Portfolio](http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-wordpress-portfolio-plugin/?utm_source=wordpress&utm_medium=link-description&utm_campaign=gallery "Portfolio")** is a very customizable **gallery** that allow you to set display whatever you want like adjust colors, positions, grid, media sizes, hover effect and much more with one easy control panel. That easy control panel for experts it would save your time, and for you who do not have more knowledge about web programming or styling, of course this plugin will allow you to manage your website, gallery and portfolio much more easily.
+**[Gallery](http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-gallery-grid-galleries-plugin/?utm_source=wordpress&utm_medium=link-description&utm_campaign=gallery "Gallery")** - **[Photo Album](http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-gallery-and-photo-albums-demo/?utm_source=wordpress&utm_medium=link-description&utm_campaign=photo-album "Photo Album")** - **[Portfolio](http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-wordpress-portfolio-plugin/?utm_source=wordpress&utm_medium=link-description&utm_campaign=portfolio "Portfolio")** is a very customizable **gallery** that allow you to set display whatever you want like adjust colors, positions, grid, media sizes, hover effect and much more with one easy control panel. That easy control panel for experts it would save your time, and for you who do not have more knowledge about web programming or styling, of course this plugin will allow you to manage your website, gallery and portfolio much more easily.
 
 > #### **Live Demos**
 > * <a href="http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-gallery-and-photo-albums-demo/?utm_source=wprepo&utm_medium=photo-album&utm_campaign=photo-album-plugin" title="Photo Album DEMO" target="_blank">Photo Albums</a>
@@ -35,7 +35,7 @@ This plugin allows you to create gallery, photo albums, image slider and portfol
 Easy Media Gallery plugin satisfy all your needs to create different types of media such us portfolio, image gallery, photo albums and also from a simple picture to an image slider, image carousel a video and audio (html5) gallery. All in one solution. Easy Media Gallery represents a perfect solution for any type of media. Each item can be:
 
 * Gallery / Image Gallery
-* Photo Albums (<em>[Pro Version](http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-gallery-and-photo-albums-demo/?utm_source=wordpress&utm_medium=description&utm_campaign=gallery "Gallery WordPress Plugin")</em>)
+* Photo Albums (<em>[Pro Version](http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-gallery-and-photo-albums-demo/?utm_source=wordpress&utm_medium=description&utm_campaign=photo-album "Photo Albums WordPress Plugin")</em>)
 * Photo Albums (<em>[Lite Version](http://goo.gl/xtCU1c "DEMO Photo Album Lite")</em>)
 * Gallery with filter/category(<em>[Pro Version](http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-gallery-grid-galleries-plugin/?utm_source=wordpress&utm_medium=pro-section&utm_campaign=grid-gallery "Grid Gallery Plugin")</em>)
 * Gallery with pagination (<em>[Pro Version](http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-wordpress-plugin-gallery-using-pagination/?utm_source=wordpress&utm_medium=pro-section&utm_campaign=gallery-pagination "Gallery with Pagination Plugin")</em>)
@@ -111,9 +111,9 @@ With PRO Version you can embed Google maps, Google street view and Google busine
 Take your gallery to the next level with [Gallery Pro Version](http://ghozylab.com/plugins/easy-media-gallery-pro/pricing/ "Best Gallery and Photo Album Plugin"), which gives you additional features such as:
 
 * Super Easy to use for Beginners
-* Create unlimited number of media / gallery
-* Adjustable Rows/Columns/Spacings
-* Various Animation Types
+* Create unlimited number of gallery or album
+* Adjustable Gallery Rows/Columns/Spacings
+* Various Animation Types for Slider or Lightbox Gallery
 * No coding, the plugin takes care of everything
 * Media / gallery are built on-the-fly as you enter and select options
 * Works with all modern browsers, degrades gracefully for others
@@ -124,8 +124,7 @@ Take your gallery to the next level with [Gallery Pro Version](http://ghozylab.c
 * More than 10 lightboxes for your gallery or photo albums
 * Backup & Restore Settings
 * Powerfull control panel and Shortcode Manager make getting started super easy
-* Responsive & Mobile Optimized 
-* Adjustable Rows/Columns/Spacings 
+* Responsive & Mobile Optimized
 * Extensive Documentation & Tutorial Videos 
 * 24/7 Technical Support
 
@@ -151,7 +150,7 @@ The following are other recommended plugins by the author:
 * Japan
 
 > #### **NOTE**
-> If you would like to create your own language pack or update the existing one, you can send <a href="http://codex.wordpress.org/Translating_WordPress" title="Download Poedit" target="_blank">the text of PO and MO files</a> for <a href="http://ghozylab.com" title="GhozyLab" target="_blank">GhozyLab</a> and we'll add it to the plugin. You can download the latest version of the program for work with PO and MO files  <a href="http://www.poedit.net/download.php" target="_blank">Poedit</a>.
+> If you would like to create your own language pack or update the existing one, you can send <a href="http://codex.wordpress.org/Translating_WordPress" title="Translating WordPress" target="_blank">the text of PO and MO files</a> for <a href="http://ghozylab.com" title="GhozyLab" target="_blank">GhozyLab</a> and we'll add it to the plugin. You can download the latest version of the program for work with PO and MO files  <a href="http://www.poedit.net/download.php" title="Download Poedit" target="_blank">Poedit</a>.
 
 = Technical Support =
 
@@ -228,11 +227,11 @@ deny from all
 1. If exist, you have to remove it and try again to open your media. If still error please try the next step.
 1. You can open the following URL in your browser, make sure to change <strong>XXX</strong> with your own domain name and see what you get there? If you get Error message it means there is a php error caused by one of your plugin or theme. You can contact us [here](http://ghozylab.com/submit-support-request/) and provide your site URL, we will help you to solve it.
 
-<strong>Lite Version</strong>
-`http://XXX/wp-content/plugins/easy-media-gallery/includes/dynamic-style.php`
+<strong>Lite Version ( only for old version )</strong>
+`http://YOUR-DOMAIN-NAME/wp-content/plugins/easy-media-gallery/includes/dynamic-style.php`
 
-<strong>PRO Version</strong>
-`http://XXX/wp-content/plugins/easy-media-gallery-pro/includes/dynamic-style.php`
+<strong>PRO Version ( only for old version )</strong>
+`http://YOUR-DOMAIN-NAME/wp-content/plugins/easy-media-gallery-pro/includes/dynamic-style.php`
 
 = How to show media in sidebar widget =
 
