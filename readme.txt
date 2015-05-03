@@ -12,21 +12,21 @@ This plugin allows you to create gallery, photo albums, image slider and portfol
 
 == Description ==
 = Gallery - Photo Albums - Portfolio =
-[Gallery - Photo Albums - Portfolio](http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-gallery-and-photo-albums-demo/?utm_source=wordpress&utm_medium=description&utm_campaign=gallery "Gallery WordPress Plugin") is the best wordpress _**gallery**_ and _**photo album**_ plugin designed to create grid gallery, galleries, photo albums, multiple photo albums, **photo gallery** or **image gallery** / **photo slider**, photo gallery with pagination, image **slider**, image carousel, portfolio, google maps and google street view, google business view, youtube, vimeo, mp4 video, audio mp3 with very ease.
+[Gallery - Photo Albums - Portfolio](https://wordpress.org/plugins/easy-media-gallery/ "gallery plugin") is the best wordpress _**gallery**_ and _**photo album**_ plugin designed to create grid gallery, galleries, photo albums, multiple photo albums, **photo gallery** or **image gallery** / **photo slider**, photo gallery with pagination, image **slider**, image carousel, portfolio, google maps and google street view, google business view, youtube, vimeo, mp4 video, audio mp3 with very ease.
 
 **[Gallery](http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-gallery-grid-galleries-plugin/?utm_source=wordpress&utm_medium=link-description&utm_campaign=gallery "Gallery")** - **[Photo Album](http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-gallery-and-photo-albums-demo/?utm_source=wordpress&utm_medium=link-description&utm_campaign=photo-album "Photo Album")** - **[Portfolio](http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-wordpress-portfolio-plugin/?utm_source=wordpress&utm_medium=link-description&utm_campaign=portfolio "Portfolio")** is a very customizable **gallery** that allow you to set display whatever you want like adjust colors, positions, grid, media sizes, hover effect and much more with one easy control panel. That easy control panel for experts it would save your time, and for you who do not have more knowledge about web programming or styling, of course this plugin will allow you to manage your website, gallery and portfolio much more easily.
 
 > #### **Live Demos**
-> * <a href="http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-gallery-and-photo-albums-demo/?utm_source=wprepo&utm_medium=photo-album&utm_campaign=photo-album-plugin" title="Photo Album DEMO" target="_blank">Photo Albums</a>
-> * <a href="http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-gallery-grid-galleries-plugin/?utm_source=wprepo&utm_medium=gallery&utm_campaign=gallery-plugin" title="Gallery or Grid Gallery DEMO" target="_blank">Gallery / Grid Gallery</a>
-> * <a href="http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-wordpress-image-slider-plugin/?utm_source=wprepo&utm_medium=slider&utm_campaign=image-slider-plugin" title="Image Slider DEMO" target="_blank">Image Slider</a>
-> * <a href="http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-wordpress-image-slider-plugin-fotorama/?utm_source=wprepo&utm_medium=slider-fotorama&utm_campaign=image-slider-fotorama-plugin" title="Image Slider with Fotorama DEMO" target="_blank">Image Slider Fotorama</a>
-> * <a href="http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-wordpress-carousel-image-plugin/?utm_source=wprepo&utm_medium=carousel-plugin&utm_campaign=image-carousel-plugin" title="Image Carousel DEMO" target="_blank">Carousel</a>
-> * <a href="http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-wordpress-plugin-gallery-using-pagination/?utm_source=wprepo&utm_medium=gallery-pagination&utm_campaign=image-gallery-pagination" title="Pagination Gallery DEMO" target="_blank">Gallery with Pagination</a>
-> * <a href="http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-wordpress-portfolio-plugin/?utm_source=wordpress&utm_medium=portfolio&utm_campaign=portfolio-plugin" title="Portfolio DEMO" target="_blank">Portfolio</a>
-> * <a href="http://goo.gl/ckecFP" title="Video Gallery DEMO" target="_blank">Video Gallery</a>
-> * <a href="http://goo.gl/ckecFP" title="Audio Gallery" target="_blank">Audio Gallery</a>
-> * <a href="http://goo.gl/3vZHHb" title="Best Wordpress Image Lightbox DEMO" target="_blank">10+ Lightboxes</a>
+> * [Photo Albums](http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-gallery-and-photo-albums-demo/?utm_source=wprepo&utm_medium=photo-album&utm_campaign=photo-album-plugin "photo album plugin")
+> * [Gallery / Grid Gallery](http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-gallery-grid-galleries-plugin/?utm_source=wprepo&utm_medium=gallery&utm_campaign=gallery-plugin "gallery plugin - grid gallery")
+> * [Image Slider](http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-wordpress-image-slider-plugin/?utm_source=wprepo&utm_medium=slider&utm_campaign=image-slider-plugin "image slider")
+> * [Image Slider Fotorama](http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-wordpress-image-slider-plugin-fotorama/?utm_source=wprepo&utm_medium=slider-fotorama&utm_campaign=image-slider-fotorama-plugin "fotorama image slider")
+> * [Carousel](http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-wordpress-carousel-image-plugin/?utm_source=wprepo&utm_medium=carousel-plugin&utm_campaign=image-carousel-plugin "image carousel")
+> * [Gallery with Pagination](http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-wordpress-plugin-gallery-using-pagination/?utm_source=wprepo&utm_medium=gallery-pagination&utm_campaign=image-gallery-pagination "gallery pagination")
+> * [Portfolio](http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-wordpress-portfolio-plugin/?utm_source=wordpress&utm_medium=portfolio&utm_campaign=portfolio-plugin "portfolio plugin")
+> * [Video Gallery](http://goo.gl/ckecFP "video gallery")
+> * [Audio Gallery](http://goo.gl/ckecFP "audio gallery")
+> * [10+ Gallery Lightboxes](http://goo.gl/3vZHHb "Gallery with 10+ Lightboxes")
 
 = PRO VERSION VIDEO =
 [youtube https://www.youtube.com/watch?v=oH39zc8zMOg]
