@@ -1,10 +1,12 @@
 <?php
 
-add_action('admin_notices', 'emg_aff_admin_notice');
+if ( is_admin() ) {
+	add_action('admin_notices', 'emg_aff_admin_notice');
+}
 
 function emg_aff_admin_notice() {
     global $current_user, $post;
-		if ( 'easymediagallery' === $post->post_type && is_admin() ) {
+		if ( 'easymediagallery' === $post->post_type ) {
         	$user_id = $current_user->ID;
         	/* Check that the user hasn't already clicked to ignore the message */
    	 		if ( ! get_user_meta($user_id, 'emg_ignore_notice') ) {
@@ -15,8 +17,9 @@ function emg_aff_admin_notice() {
 			}
 }
 
-
-add_action('admin_init', 'emg_nag_ignore');
+if ( is_admin() ) {
+	add_action('admin_init', 'emg_nag_ignore');
+}
 
 function emg_nag_ignore() {
 

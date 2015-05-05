@@ -57,7 +57,7 @@ if ( strstr( $_SERVER['REQUEST_URI'], 'wp-admin/post-new.php' ) || strstr( $_SER
 					wp_enqueue_script( 'easymedia-metascript', plugins_url( 'functions/metabox/metabox.js' , __FILE__ ) );
 					
 					// @since 1.3.10 >
-					if( easy_get_option( 'easymedia_disen_autoupdt' ) != '1' ) {
+					if( easy_get_option( 'easymedia_disen_autoupdt' ) != '1' && is_admin() ) {
 						add_action( 'admin_notices', 'easmedia_update_notify' );
 						}
 									
@@ -831,7 +831,8 @@ function easmedia_metabox_work(){
 			array(
 		
 					'name' => __( '<span class="gtips">Tips:</span>', 'easmedia' ),
-					'desc' => __( '<ul class="gtipslist"><li>Use <b>Ctrl + Click</b> on each image to select multiple images at once.</li><li>You also can drag and drop images to re-order.</li><li>Click on image to edit title/subtitle ( <i>Pro Version only</i> )</li></ul>', 'easmedia' ),
+					'desc' => __( '<ul class="gtipslist"><li>Use <b>Ctrl + Click</b> on each image to select multiple images at once.</li><li>You also can drag and drop images to re-order.</li><li>Click on image to edit title/subtitle ( <i>Pro Version only</i> )</li><li><a href="https://www.youtube.com/watch?v=H1Z3fidyEbE" target="_blank">Tutorial How to Create Gallery</a></li>
+<li><a href="https://www.youtube.com/watch?v=pjHvRoV2Bn8" target="_blank">Tutorial How to Create Album</a></li></ul>', 'easmedia' ),
 					'id' => 'easmedia_metabox_media_gallery',
 					'gallid' => 'easmedia_metabox_media_gallery_id',
 					'type' => 'gallery',

@@ -4,7 +4,7 @@ Plugin Name: Easy Media Gallery
 Plugin URI: http://www.ghozylab.com/plugins/
 Description: Easy Media Gallery (Lite) - Displaying your image, video (MP4, Youtube, Vimeo) and audio mp3 in elegant and fancy lightbox with very easy. Allows you to customize all media to get it looking exactly what you want. <a href="http://ghozylab.com/plugins/easy-media-gallery-pro/pricing/" target="_blank"><strong> Upgrade to Pro Version Now</strong></a> and get a tons of awesome features.
 Author: GhozyLab, Inc.
-Version: 1.3.15
+Version: 1.3.17
 Author URI: http://www.ghozylab.com/plugins/
 */
 
@@ -12,67 +12,16 @@ if ( ! defined('ABSPATH') ) {
 	die('Please do not load this file directly!');
 }
 
-/*
-|--------------------------------------------------------------------------
-| Requires Wordpress Version
-|--------------------------------------------------------------------------
-*/
-function req_wordpress_version() {
-	global $wp_version;
-	$plugin = plugin_basename( __FILE__ );
-
-	if ( version_compare( $wp_version, "3.3", "<" ) ) {
-		if ( is_plugin_active( $plugin ) ) {
-			deactivate_plugins( $plugin );
-			wp_die( "Easy Media Gallery Lite requires WordPress 3.3 or higher, and has been deactivated! Please upgrade WordPress and try again.<br /><br />Back to <a href='".admin_url()."'>WordPress admin</a>" );
-		}
-	}
-}
-add_action( 'admin_init', 'req_wordpress_version' );
-
 
 /*
 |--------------------------------------------------------------------------
-| Requires PHP Version (min version PHP 5.2)
+| I18N - LOCALIZATION
 |--------------------------------------------------------------------------
 */
-if ( version_compare(PHP_VERSION, '5.2', '<') ) {
-	if ( is_admin() && (!defined('DOING_AJAX') || !DOING_AJAX) ) {
-		require_once ABSPATH.'/wp-admin/includes/plugin.php';
-		deactivate_plugins( __FILE__ );
-	    wp_die( "Easy Media Gallery Lite requires PHP 5.2 or higher. The plugin has now disabled itself. Please ask your hosting provider for this issue.<br /><br />Back to <a href='".admin_url()."'>WordPress admin</a>" );
-	} else {
-		return;
+function emg_lang_init() {
+	load_plugin_textdomain( 'easmedia', false, dirname( plugin_basename( __FILE__ ) ) . '/languages/' );
 	}
-}
-
-
-/*
-|--------------------------------------------------------------------------
-| Requires GD Library
-|--------------------------------------------------------------------------
-*/
-if ( is_admin() ) {
-	if ( !extension_loaded('gd') && !function_exists('gd_info') ) {
-		require_once ABSPATH.'/wp-admin/includes/plugin.php';
-		deactivate_plugins( __FILE__ );
-	    wp_die( "<strong>GD Library</strong> for PHP is not installed on your server. Easy Media Gallery requires it to function properly. The plugin has now disabled itself. Please ask your hosting provider for this issue.<br /><br />Back to <a href='".admin_url()."'>WordPress admin</a>" );
-		}
-}
-// Learn more here http://www.webassist.com/tutorials/Enabling-the-GD-library-setting
-
-
-/*-------------------------------------------------------------------------------*/
-/*  JetPack ( Photon Module ) Detect
-/*-------------------------------------------------------------------------------*/
-add_action( 'admin_notices', 'emg_jetpack_modules_photon' );
-
-function emg_jetpack_modules_photon() {
-	
-if( class_exists( 'Jetpack' ) && in_array( 'photon', Jetpack::get_active_modules() ) ) {
-    echo '<div class="error"><span class="emgwarning"><p class="emgwarningp">'.__( 'You need to deactivate <strong>JetPack Photon</strong> module to make <strong>Easy Media Gallery</strong> work!</p><p><a href="'.admin_url().'admin.php?page=jetpack&action=deactivate&module=photon&_wpnonce='.wp_create_nonce( 'jetpack_deactivate-photon' ).'" >Deactivate Now!</a>', 'easmedia' ).'</p></div>';
-	}
-}
+add_action( 'init', 'emg_lang_init' );
 
 
 /*
@@ -122,7 +71,7 @@ if ( !defined( 'EASYMEDIA_NAME' ) ) {
 
 // Plugin Version
 if ( !defined( 'EASYMEDIA_VERSION' ) ) {
-	define( 'EASYMEDIA_VERSION', '1.3.15' );
+	define( 'EASYMEDIA_VERSION', '1.3.17' );
 }
 
 // Pro Price
@@ -148,14 +97,65 @@ if ( !defined( 'EASYMEDIA_DEV_PRICE' ) ) {
 
 /*
 |--------------------------------------------------------------------------
-| I18N - LOCALIZATION
+| Requires Wordpress Version
 |--------------------------------------------------------------------------
 */
-function emg_lang_init() {
-	load_plugin_textdomain( 'easmedia', false, dirname( plugin_basename( __FILE__ ) ) . '/languages/' );
-	}
-add_action( 'init', 'emg_lang_init' );
+function req_wordpress_version() {
+	global $wp_version;
+	$plugin = plugin_basename( __FILE__ );
 
+	if ( version_compare( $wp_version, "3.3", "<" ) ) {
+		if ( is_plugin_active( $plugin ) ) {
+			deactivate_plugins( $plugin );
+			wp_die( "".EASYMEDIA_NAME." requires WordPress 3.3 or higher, and has been deactivated! Please upgrade WordPress and try again.<br /><br />Back to <a href='".admin_url()."'>WordPress admin</a>" );
+		}
+	}
+}
+add_action( 'admin_init', 'req_wordpress_version' );
+
+
+/*
+|--------------------------------------------------------------------------
+| Requires PHP Version (min version PHP 5.2)
+|--------------------------------------------------------------------------
+*/
+if ( version_compare(PHP_VERSION, '5.2', '<') ) {
+	if ( is_admin() && (!defined('DOING_AJAX') || !DOING_AJAX) ) {
+		require_once ABSPATH.'/wp-admin/includes/plugin.php';
+		deactivate_plugins( __FILE__ );
+	    wp_die( "".EASYMEDIA_NAME." requires PHP 5.2 or higher. The plugin has now disabled itself. Please ask your hosting provider for this issue.<br /><br />Back to <a href='".admin_url()."'>WordPress admin</a>" );
+	} else {
+		return;
+	}
+}
+
+
+/*
+|--------------------------------------------------------------------------
+| Requires GD Library
+|--------------------------------------------------------------------------
+*/
+if ( is_admin() ) {
+	if ( !extension_loaded('gd') && !function_exists('gd_info') ) {
+		require_once ABSPATH.'/wp-admin/includes/plugin.php';
+		deactivate_plugins( __FILE__ );
+	    wp_die( "<strong>GD Library</strong> for PHP is not installed on your server. ".EASYMEDIA_NAME." requires it to function properly. The plugin has now disabled itself. Please ask your hosting provider for this issue.<br /><br />Back to <a href='".admin_url()."'>WordPress admin</a>" );
+		}
+}
+// Learn more here http://www.webassist.com/tutorials/Enabling-the-GD-library-setting
+
+
+/*-------------------------------------------------------------------------------*/
+/*  JetPack ( Photon Module ) Detect
+/*-------------------------------------------------------------------------------*/
+add_action( 'admin_notices', 'emg_jetpack_modules_photon' );
+
+function emg_jetpack_modules_photon() {
+	
+if( class_exists( 'Jetpack' ) && in_array( 'photon', Jetpack::get_active_modules() ) ) {
+    echo '<div class="error"><span class="emgwarning"><p class="emgwarningp">'.__( 'You need to deactivate JetPack <strong>Photon Module</strong> to make <strong>'.EASYMEDIA_NAME.'</strong> work!</p><p><a href="'.admin_url().'admin.php?page=jetpack&action=deactivate&module=photon&_wpnonce='.wp_create_nonce( 'jetpack_deactivate-photon' ).'" >Deactivate Now!</a>', 'easmedia' ).'</p></div>';
+	}
+}
 
 /*
 |--------------------------------------------------------------------------
@@ -203,8 +203,8 @@ add_filter( 'plugin_action_links', 'easmedia_settings_link', 10, 2 );
 */
 function easmedia_post_type() {
 	$labels = array(
-		'name' 				=> _x( 'Easy Media Gallery', 'post type general name' ),
-		'singular_name'		=> _x( 'Easy Media Gallery', 'post type singular name' ),
+		'name' 				=> _x( ''.EASYMEDIA_NAME.'', 'post type general name' ),
+		'singular_name'		=> _x( ''.EASYMEDIA_NAME.'', 'post type singular name' ),
 		'add_new' 			=> __( 'Add New Media', 'easmedia' ),
 		'add_new_item' 		=> __( 'Easy Media Item', 'easmedia' ),
 		'edit_item' 		=> __( 'Edit Media', 'easmedia' ),

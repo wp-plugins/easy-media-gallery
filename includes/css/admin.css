@@ -597,9 +597,9 @@ span.noty_text p {
 }
 
 .emgnotyclosepermanent{	
-float:left;display:inline-block; text-decoration:none; outline:none; cursor:pointer; font:normal 10px/1em Arial, sans-serif; margin: 10px 0 0 0; color: #A8A8A8; text-shadow:0 1px 0 #fff; background:none;border:none;}
+float:left;display:inline-block; text-decoration:none; outline:none; cursor:pointer; font:normal 10px/1em Arial, sans-serif; margin: 10px 0 0 0; color: #333; text-shadow:0 1px 0 #fff; background:none;border:none;}
 .emgnotyclosepermanent:hover{
-	color:#8D8D8D
+	color:#8D8D8D;
 	}	
 	
 /* Admin Bar Notify */	

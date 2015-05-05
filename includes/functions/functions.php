@@ -915,11 +915,11 @@ if ( easy_get_option( 'easymedia_disen_admnotify' ) == '1' ) {
 /*-------------------------------------------------------------------------------*/
 /*   Admin Notifications ( Setting Area )
 /*-------------------------------------------------------------------------------*/
-/*
+
 if ( easy_get_option( 'easymedia_disen_admnotify' ) == '1' ) {
 		add_action( 'admin_enqueue_scripts', 'easmedia_put_notify_script' );
 		add_action('admin_head', 'easmedia_put_notify_head');
-} */
+}
 
 function easmedia_put_notify_script() {
 		if ( isset( $_GET['page'] ) && $_GET['page'] == 'emg_settings' || isset( $_GET['page'] ) && $_GET['page'] == 'docs' || isset( $_GET['page'] ) && $_GET['page'] == 'comparison' || isset( $_GET['page'] ) && $_GET['page'] == 'easymedia-order' || get_post_type() == 'easymediagallery' ) {			
@@ -935,7 +935,7 @@ function easmedia_put_notify_head() {
 	/* Easy Media Gallery */
 function generate(e){
 	var emgNews = new Array(); /* Random Heading temporary disabled */
-      emgNews[0] = "#1 Best Selling Gallery Plugin for WordPress<br />23,000+ PRO users from around the World can not be wrong...";
+      emgNews[0] = "#1 Best Selling Gallery Plugin for WordPress<br />27,000+ PRO users from around the World can not be wrong...";
       emgNews[1] = "Easy to use, looks nice and has a very good feel";
       emgNews[2] = "Powerfull control panel and Shortcode Manager make getting started super easy";
       emgNews[3] = "Easy Media Gallery PRO can be used to embed more than 12 video. Not only from Youtube and Vimeo";
@@ -1038,7 +1038,7 @@ function easmedia_easymedia_docs() {
         <li><a data-toggle="modal" data-target="#videoModal" href="#" data-theVideo="http://www.youtube.com/embed/2T73wvt_wOA">How to Change Media Border Size and Color</a></li>
         <li><a data-toggle="modal" data-target="#videoModal" href="#" data-theVideo="http://www.youtube.com/embed/56f_C7OXiAE">How to Change Media Columns</a></li>
         <li><a data-toggle="modal" data-target="#videoModal" href="#" data-theVideo="http://www.youtube.com/embed/TQ1MMxhsyD8">How to Create Grid Gallery</a>&nbsp;&nbsp;<i>(Pro version)</i></li> 
-		<li><a data-toggle="modal" data-target="#videoModal" href="#" data-theVideo="http://www.youtube.com/embed/OEoNB2LpnSE">How to Create Filterable Media</a>&nbsp;&nbsp;<i>(Pro version)</i></li>
+		<li><a data-toggle="modal" data-target="#videoModal" href="#" data-theVideo="http://www.youtube.com/embed/OEoNB2LpnSE">How to Create Portfolio</a>&nbsp;&nbsp;<i>(Pro version)</i></li>
         
 		<li><a data-toggle="modal" data-target="#videoModal" href="#" data-theVideo="http://www.youtube.com/embed/-N0JNcToHOI">How to Create Grid Gallery with Pagination</a>&nbsp;&nbsp;<i>(Pro version)</i></li>        
         
@@ -1139,7 +1139,7 @@ function easymedia_comparison() {
       <ul>
         <li class="header_row_1 align_center radius5_topleft"><?php emg_share(); ?></li>
         <li class="header_row_2">
-          <h2 class="caption">Easy Media Gallery</h2>
+          <h2 class="caption"><?php echo EASYMEDIA_NAME; ?></h2>
         </li> 
         <li class="row_style_2"><span>License</span></li>
         <li class="row_style_4"><span>Single Image</span></li>
@@ -1150,7 +1150,7 @@ function easymedia_comparison() {
         <li class="row_style_2"><span>Photo Albums</span><a target="_blank" href="http://goo.gl/B6WraQ" style="text-decoration:underline !important;"> Click for Sample</a>&nbsp;&nbsp;<span class="newftr"></span></li>                 
         <li class="row_style_4"><span>Image Slider</span><a target="_blank" href="http://goo.gl/kica46" style="text-decoration:underline !important;"> Click for Sample</a>&nbsp;&nbsp;<span class="newftr"></span></li>
         <li class="row_style_2"><span>Image Gallery</span><a target="_blank" href="http://goo.gl/CLoA4r" style="text-decoration:underline !important;"> Click for Sample</a></li>  
-         <li class="row_style_4"><span>Filterable Media</span><a target="_blank" href="http://goo.gl/XprVz6" style="text-decoration:underline !important;"> Click for Sample</a></li>                     
+         <li class="row_style_4"><span>Portfolio</span><a target="_blank" href="http://goo.gl/XprVz6" style="text-decoration:underline !important;"> Click for Sample</a></li>                     
         <li class="row_style_2"><span>Pagination</span><a target="_blank" href="http://goo.gl/Bk0gUE" style="text-decoration:underline !important;"> Click for Sample</a>&nbsp;&nbsp;<span class="newftr"></span></li>
         <li class="row_style_4"><span>Carousel</span><a target="_blank" href="http://goo.gl/Zyy6DE" style="text-decoration:underline !important;"> Click for Sample</a>&nbsp;&nbsp;<span class="newftr"></span></li>
         <li class="row_style_2"><span>10+ Lightbox styles</span><a target="_blank" href="http://goo.gl/4oz80i" style="text-decoration:underline !important;"> Click for Sample</a>&nbsp;&nbsp;<span class="newftr"></span></li>      
@@ -1164,8 +1164,8 @@ function easymedia_comparison() {
         <li class="row_style_2"><span>Image &amp; Video Custom Size</span></li>
         <li class="row_style_4"><span>Unlimited colors and layout</span></li>
         <li class="row_style_2"><span>Pattern Overlay</span></li>
-        <li class="row_style_4"><span>Powerfull Control Panel </span> <a href="<?php echo plugins_url( 'images/pro-version-control-panel.png' , dirname(__FILE__) ) ?>   " style="text-decoration:underline !important;">Screenshot</a></li>
-        <li class="row_style_2"><span>Advanced Shortcode </span><a href="<?php echo plugins_url( 'images/pro-version-shortcode-manager.png' , dirname(__FILE__) ) ?>" style="text-decoration:underline !important;">Screenshot</a></li>
+        <li class="row_style_4"><span>Powerfull Control Panel </span> <a href="http://demo.ghozylab.com/content/pro.html?utm_source=comparison&utm_medium=comparisonpage&utm_campaign=gotodemoprocp" target="_blank" style="text-decoration:underline !important;">Screenshot</a></li>
+        <li class="row_style_2"><span>Advanced Shortcode </span><a href="<?php echo plugins_url( 'images/pro-version-shortcode-manager.png' , dirname(__FILE__) ) ?>" target="_blank" style="text-decoration:underline !important;">Screenshot</a></li>
         <li class="row_style_4"><span>Facebook, Twitter &amp; Pinterest share buttons</span></li>
          <li class="row_style_2"><span>AJAX page/post load Support</span></li>
         <li class="row_style_2"><span>WP Multisite</span></li>
@@ -1188,7 +1188,7 @@ function easymedia_comparison() {
         <li class="row_style_1 align_center"><span class="pricing_yes"></span></li>  
         <li class="row_style_3 align_center"><span class="pricing_no"></span></li>  
         <li class="row_style_1 align_center"><span class="pricing_no"></span></li>      
-        <li class="row_style_3 align_center"><span class="pricing_no"></span></li>
+        <li class="row_style_3 align_center"><span class="pricing_yes"></span></li>
         <li class="row_style_1 align_center"><span class="pricing_no"></span></li>
         <li class="row_style_3 align_center"><span class="pricing_yes"></span></li>        
         <li class="row_style_1 align_center"><span class="pricing_no"></span></li>        
@@ -1602,7 +1602,7 @@ function add_toolbar_items($admin_bar){
 	$admin_bar->add_menu( array(
 		'id'    => 'emg-freeplug-item',
 		'parent' => 'emg-item',
-		'title' => 'Free Install Plugins',
+		'title' => '<span style="color:rgba(61, 170, 222, 1);">Free Install Plugins</span>',
 		'href'  => ''.admin_url( 'edit.php?post_type=easymediagallery&page=emg_free_plugins' ).'',
 		'meta'  => array(
 			'title' => __('Free Install Plugins'),
@@ -1613,7 +1613,7 @@ function add_toolbar_items($admin_bar){
 	$admin_bar->add_menu( array(
 		'id'    => 'emg-preplug-item',
 		'parent' => 'emg-item',
-		'title' => 'Premium Plugins',
+		'title' => '<span style="color:rgba(61, 170, 222, 1);">Premium Plugins</span>',
 		'href'  => ''.admin_url( 'edit.php?post_type=easymediagallery&page=emg_premium_plugins' ).'',
 		'meta'  => array(
 			'title' => __('Premium Plugin'),
