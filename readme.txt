@@ -1,10 +1,10 @@
 === Gallery - Photo Albums - Portfolio ===
 Contributors: GhozyLab
 Donate link: http://ghozylab.com/donate
-Tags: gallery, photo album, photo gallery, image gallery, best gallery, widget, gallery plugin, image, images, seo, bilder, admin
+Tags: gallery, photo album, photo gallery, image gallery, best gallery, widget, gallery plugin, image, images, seo, bilder, image slider
 Requires at least: 3.3
 Tested up to: 4.2.2
-Stable tag: 1.3.17
+Stable tag: 1.3.19
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -80,7 +80,7 @@ And also can be used to embed audio from :
 
 = Gallery = 
 
-Just create Multiple Image ( Slider ) , insert an images and save your media, after that just put the gallery using Easy Media Shortcode Generator and your gallery will ready just in minutes. **NO NEED to RE-UPLOAD** all your images because you can choose and insert an images that already uploaded in Wordpress media library. Upgrade to pro version to be able to create gallery with pagination, gallery with filter and gallery with more than 6 lightbox styles.
+Just create Multiple Image ( Slider ) , insert an images and save your media, after that just put the gallery using Easy Media Shortcode Generator and your gallery will ready just in minutes. **NO NEED to RE-UPLOAD** all your images, **NO NEED to SET ANY FOLDER PERMISSION** because you can choose and insert an images that already uploaded in Wordpress media library. Upgrade to pro version to be able to create gallery with pagination, gallery with filter and gallery with more than 6 lightbox styles.
 
 = Image Albums /  Photo Albums = 
 
@@ -90,7 +90,7 @@ You can create up to 3 albums with Lite Version ( <em>max 15 images per album</e
 
 In Pro version you can create **image slider** easily. We already create another plugin for image slider. You can try [Image Slider Plugin](https://wordpress.org/plugins/image-slider-widget/ "Best Image Slider Plugin").
 
-= Carousel = 
+= Image Carousel = 
 
 In Pro version you can create Image Carousel easily. We will add this feature in lite version for the next release. Please be patient or you can use [Best Image Slider](https://wordpress.org/plugins/image-slider-widget/ "Image Slider Wordpress Plugin") Plugin for this.
 
@@ -284,6 +284,9 @@ But seriously, I just want to drink coffee for free, so help a developer out. Yo
 9. Google Maps and Google Street View
 
 == Changelog ==
+
+= 1.3.19 =
+* Updated : Wordpress 4.2.2 compatibility
 
 = 1.3.17 =
 * Fixed : Permission ( admin only ) to see admin notice
@@ -652,5 +655,5 @@ You can follow this video : [Create Audio Gallery](https://www.youtube.com/watch
 
 == Upgrade Notice ==
 
-= 1.3.17 =
+= 1.3.19 =
 IMPORTANT! Security bugs fix, update NOW!
