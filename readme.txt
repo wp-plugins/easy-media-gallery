@@ -1,7 +1,7 @@
 === Gallery - Photo Albums - Portfolio ===
 Contributors: GhozyLab
 Donate link: http://ghozylab.com/donate
-Tags: gallery, photo album, photo gallery, image gallery, best gallery, widget, gallery plugin, image, images, seo, bilder, image slider
+Tags: gallery, photo gallery, media library, photo album, wordpress lightbox, album, photo albums, slider image, seo, slider, image slider plugin, image carousel, best photo plugin, portfolio plugin, album photo, buddypress, woocommerce, images slider, picture slider, gallery lightbox, image gallery plugin, gallery image, website gallery, image gallery, portfolio, wordpress gallery plugin, media gallery, photoset, photogallery, wordpress seo, ajax, fotoalbum, wp slider, images, best gallery, portfolio gallery, lightbox, nextgen gallery, slideshow, image slideshow, wordpress portfolio plugin, best gallery plugin, plugin gallery, wp gallery, slideshow, jquery, responsive slider, gallery plugin, galerie, galerij, bilder, galleria, best image slider, wp gallery plugin, photo slider, image slider, responsive gallery, photo, shortcode, photos, picture, pictures, html5 video, html5 audio, widget, sidebar, plugin for gallery, html5 player, pagination gallery, plugin, post, links, page, admin, posts, seo image, twitter, image album, image, google, image lightbox, best portfolio, slider, wordpress slider plugin, wordpress slideshow, wordpress slider, slideshow plugin, slider plugin, best slider plugin, easy gallery, slide, slideshow, slideshow gallery, free gallery plugin, galeri, galleries, picture gallery, best portfolio plugin
 Requires at least: 3.3
 Tested up to: 4.2.2
 Stable tag: 1.3.19
