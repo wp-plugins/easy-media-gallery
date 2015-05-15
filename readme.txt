@@ -1,7 +1,7 @@
 === Gallery - Photo Albums - Portfolio ===
 Contributors: GhozyLab
 Donate link: http://ghozylab.com/donate
-Tags: gallery, photo gallery, media library, photo album, wordpress lightbox, album, photo albums, slider image, seo, slider, image slider plugin, image carousel, best photo plugin, portfolio plugin, album photo, buddypress, woocommerce, images slider, picture slider, gallery lightbox, image gallery plugin, gallery image, website gallery, image gallery, portfolio, wordpress gallery plugin, media gallery, photoset, photogallery, wordpress seo, ajax, fotoalbum, wp slider, images, best gallery, portfolio gallery, lightbox, nextgen gallery, slideshow, image slideshow, wordpress portfolio plugin, best gallery plugin, plugin gallery, wp gallery, slideshow, jquery, responsive slider, gallery plugin, galerie, galerij, bilder, galleria, best image slider, wp gallery plugin, photo slider, image slider, responsive gallery, photo, shortcode, photos, picture, pictures, html5 video, html5 audio, widget, sidebar, plugin for gallery, html5 player, pagination gallery, plugin, post, links, page, admin, posts, seo image, twitter, image album, image, google, image lightbox, best portfolio, slider, wordpress slider plugin, wordpress slideshow, wordpress slider, slideshow plugin, slider plugin, best slider plugin, easy gallery, slide, slideshow, slideshow gallery, free gallery plugin, galeri, galleries, picture gallery, best portfolio plugin
+Tags: gallery, photo gallery, media library, photo album, wordpress lightbox, album, plugin, photo albums, slider image, seo, slider, image slider plugin, image carousel, best photo plugin, portfolio plugin, album photo, buddypress, woocommerce, images slider, picture slider, gallery lightbox, image gallery plugin, gallery image, website gallery, image gallery, portfolio, wordpress gallery plugin, media gallery, photoset, photogallery, wordpress seo, ajax, fotoalbum, wp slider, images, best gallery, portfolio gallery, lightbox, nextgen gallery, slideshow, image slideshow, wordpress portfolio plugin, best gallery plugin, plugin gallery, wp gallery, slideshow, jquery, responsive slider, gallery plugin, galerie, galerij, bilder, galleria, best image slider, wp gallery plugin, photo slider, image slider, responsive gallery, photo, shortcode, photos, picture, pictures, html5 video, html5 audio, widget, sidebar, plugin for gallery, html5 player, pagination gallery, plugin, post, links, page, admin, posts, seo image, twitter, image album, image, google, image lightbox, best portfolio, slider, wordpress slider plugin, wordpress slideshow, wordpress slider, slideshow plugin, slider plugin, best slider plugin, easy gallery, slide, slideshow, slideshow gallery, free gallery plugin, galeri, galleries, picture gallery, best portfolio plugin
 Requires at least: 3.3
 Tested up to: 4.2.2
 Stable tag: 1.3.19
@@ -32,7 +32,7 @@ This plugin allows you to create gallery, photo albums, image slider and portfol
 [youtube https://www.youtube.com/watch?v=oH39zc8zMOg]
 
 = Full media support =
-Easy Media Gallery plugin satisfy all your needs to create different types of media such as portfolio, image gallery, photo albums and also from a simple picture to an image slider, image carousel a video and audio (html5) gallery. [Gallery](http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-gallery-grid-galleries-plugin/?utm_source=wordpress&utm_medium=link-description&utm_campaign=gallery "gallery") - [Photo Album](http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-gallery-and-photo-albums-demo/?utm_source=wordpress&utm_medium=link-description&utm_campaign=photo-album "photo album") - [Portfolio](http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-wordpress-portfolio-plugin/?utm_source=wordpress&utm_medium=link-description&utm_campaign=portfolio "portfolio") plugin represents a perfect solution for any type of media. Each item can be:
+Gallery - Photo Albums - Portfolio plugin satisfy all your needs to create different types of media such as portfolio, image gallery, photo albums and also from a simple picture to an image slider, image carousel a video and audio (html5) gallery. [Gallery](http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-gallery-grid-galleries-plugin/?utm_source=wordpress&utm_medium=link-description&utm_campaign=gallery "gallery") - [Photo Album](http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-gallery-and-photo-albums-demo/?utm_source=wordpress&utm_medium=link-description&utm_campaign=photo-album "photo album") - [Portfolio](http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-wordpress-portfolio-plugin/?utm_source=wordpress&utm_medium=link-description&utm_campaign=portfolio "portfolio") plugin represents a perfect solution for any type of media. Each item can be:
 
 * Gallery / Image Gallery
 * Photo Albums (<em>[Pro Version](http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-gallery-and-photo-albums-demo/?utm_source=wordpress&utm_medium=description&utm_campaign=photo-album "photo albums wordPress plugin")</em>)
@@ -48,7 +48,7 @@ Easy Media Gallery plugin satisfy all your needs to create different types of me
 * 10+ Lightboxes (<em>[Pro Version](http://goo.gl/3vZHHb "best image lightbox plugin")</em>)
 
 = Video and Audio Features =
-Easy Media Gallery supports a wide range of media formats. Simply link to any image, video, hosted video or Youtube/Vimeo, mp3 audio, Google Map, Google Street View or Google Business View and the media will be automatically loaded into the overlay. Easy Media Gallery can be used to embed videos from :
+Gallery - Photo Albums - Portfolio supports a wide range of media formats. Simply link to any image, video, hosted video or Youtube/Vimeo, mp3 audio, Google Map, Google Street View or Google Business View and the media will be automatically loaded into the overlay. Gallery - Photo Albums - Portfolio can be used to embed videos from :
 
 * YouTube / YouTube Playlist
 * Vimeo
@@ -96,18 +96,18 @@ In Pro version you can create Image Carousel easily. We will add this feature in
 
 = Video Gallery =
 
-Easy Media Gallery Lite/Pro plugin allows you to embed videos on a page using lightbox overlay display. You can embed video from Youtube, Vimeo and MP4. We provide HTML5 player in Pro Version and Flash player for lite version. 
+Gallery - Photo Albums - Portfolio Lite/Pro plugin allows you to embed videos on a page using lightbox overlay display. You can embed video from Youtube, Vimeo and MP4. We provide HTML5 player in Pro Version and Flash player for lite version. 
 
 = Audio Gallery =
 
-Easy Media Gallery Lite/Pro plugin also allows you to embed audio on a page using lightbox overlay display. You can embed mp3 audio format easily. In Pro Version you can also embed audi from Soundcloud and Reverbnation.
+Gallery - Photo Albums - Portfolio Lite/Pro plugin also allows you to embed audio on a page using lightbox overlay display. You can embed mp3 audio format easily. In Pro Version you can also embed audi from Soundcloud and Reverbnation.
 
 = Google Maps =
 
 With PRO Version you can embed Google maps, Google street view and Google business view easily.
 
 
-= Upgrade to Easy Media Gallery Pro = 
+= Upgrade to Pro Version = 
 Take your gallery to the next level with [Gallery Pro Version](http://ghozylab.com/plugins/easy-media-gallery-pro/pricing/ "Best Gallery and Photo Album Plugin"), which gives you additional features such as:
 
 * Super Easy to use for Beginners
@@ -160,7 +160,7 @@ If any problem occurs or if you think, that you found a bug please contact us at
 
 = For automatic installation: =
 
-The simplest way to install is to click on 'Plugins' then 'Add' and type 'Easy Media Gallery' in the search field.
+The simplest way to install is to click on 'Plugins' then 'Add' and type 'Gallery - Photo Albums - Portfolio' in the search field.
 
 = For manual installation 1: =
 
@@ -188,7 +188,7 @@ Just go to Easy Media > Settings > Miscellaneous > and TURN OFF <strong>Upgrade 
 
 = Is there any documentation with detail for this plugin? =
 
-To make the plugin easy for everyone, the documentation comes with detailed videos explaining each step necessary to setup and use Easy Media Gallery:
+To make the plugin easy for everyone, the documentation comes with detailed videos explaining each step necessary to setup and use Gallery - Photo Albums - Portfolio:
 
 * [How to Create Simple Photo Albums](https://www.youtube.com/watch?v=pjHvRoV2Bn8 "How to Create Photo Album")
 * [How to Create Simple Gallery](https://www.youtube.com/watch?v=H1Z3fidyEbE "How to Create Gallery")
@@ -198,8 +198,8 @@ To make the plugin easy for everyone, the documentation comes with detailed vide
 * [How to Insert Image into Media Description](http://www.youtube.com/watch?v=9cuYyBMKx2k "How change Gallery Title")
 * [How to Change Media Columns](http://www.youtube.com/watch?v=56f_C7OXiAE "How to Change Gallery Columns")
 * [How to Change Media Border Size and Color](http://www.youtube.com/watch?v=2T73wvt_wOA "How to Change Gallery Border")
-* [How to Publish Easy Media Gallery ( Standard Method )](http://www.youtube.com/watch?v=Z2qwXz7GIRw "Publish Gallery 1")
-* [How to Publish Easy Media Gallery ( Advanced Method )](http://www.youtube.com/watch?v=LMBg0Zv8048 "Publish Gallery 2")
+* [How to Publish Gallery - Photo Albums - Portfolio ( Standard Method )](http://www.youtube.com/watch?v=Z2qwXz7GIRw "Publish Gallery 1")
+* [How to Publish Gallery - Photo Albums - Portfolio ( Advanced Method )](http://www.youtube.com/watch?v=LMBg0Zv8048 "Publish Gallery 2")
 
 = Images not showing up =
 
@@ -241,7 +241,7 @@ deny from all
 
 = How do I use the shortcode to my post/page template? =
 
-There are 2 ways to use the shortcode, once you've created your media, you can use them in your website simply using the Easy Media Gallery shortcode wizard on top of each page or post editor.
+There are 2 ways to use the shortcode, once you've created your media, you can use them in your website simply using the Gallery - Photo Albums - Portfolio shortcode wizard on top of each page or post editor.
 
 `[easy-media med="231,233"]`
 
@@ -258,17 +258,17 @@ You also can put the media wherever you like with ease using shortcode manager. 
 
 = How can I get support? =
 
-* We are not able to provide anything other than community based support for Easy Media Gallery Lite. Please consider upgrading to [Easy Media Gallery Professional](http://ghozylab.com/ "Upgrade to Gallery Pro") for support.
+* We are not able to provide anything other than community based support for Lite Version. Please consider upgrading to [Professional Version](http://ghozylab.com/ "Upgrade to Gallery Pro") for support.
 
 
 = How can I say thanks? =
 
 * Just recommend our plugin to your friends! or
-* If you really love Easy Media Gallery, any donation would be appreciated! It helps to continue the development and support of the plugin.
-But seriously, I just want to drink coffee for free, so help a developer out. You can use this link [Donate to Easy Media Gallery][easymedia donate].
+* If you really love Gallery - Photo Albums - Portfolio, any donation would be appreciated! It helps to continue the development and support of the plugin.
+But seriously, I just want to drink coffee for free, so help a developer out. You can use this link [Donate GhozyLab][easymedia donate].
 
 [easymedia donate]: http://ghozylab.com/plugins/donate
-            "Donate to Easy Media Gallery"
+            "Donate GhozyLab"
 
 
 == Screenshots ==
