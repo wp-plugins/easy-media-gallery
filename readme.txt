@@ -8,7 +8,7 @@ Stable tag: 1.3.19
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-This plugin allows you to create gallery, photo albums, image slider and portfolio.
+Gallery - Photo Albums - Portfolio plugin allows you to create gallery, photo albums, image slider and portfolio.
 
 == Description ==
 = Gallery - Photo Albums - Portfolio =
