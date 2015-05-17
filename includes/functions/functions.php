@@ -985,7 +985,7 @@ add_action( 'wp_before_admin_bar_render', 'emg_cleanup_adminbar' );
 /*   Comparison Page
 /*-------------------------------------------------------------------------------*/
 function easmedia_create_docs_page() {
-    $easmedia_docs_page = add_submenu_page('edit.php?post_type=easymediagallery', 'Documentation', __('Documentation', 'easmedia'), 'edit_posts', 'docs', 'easmedia_easymedia_docs');
+    $easmedia_docs_page = add_submenu_page('edit.php?post_type=easymediagallery', 'DEMO', __('DEMO', 'easmedia'), 'edit_posts', 'docs', 'easmedia_easymedia_docs');
 }
 add_action( 'admin_menu', 'easmedia_create_docs_page' );
 
@@ -994,7 +994,7 @@ function easmedia_easymedia_docs() {
 	?>
     <div class="wrap">
         <div id="icon-edit" class="icon32 icon32-posts-easymedia"><br /></div>
-        <h2><?php _e('Documentation', 'easmedia'); ?></h2>
+        <h2><?php _e('DEMO ( Video )', 'easmedia'); ?></h2>
         <p><?php _e('This plugin comes with instructional training videos that walk you through every aspect of setting up your new media gallery. We recommend to following these videos to create new media. This user manual is only intended to be a reference guide.', 'easmedia'); ?></p>
 
     <!--<div class="metabox-holder" style="display:inline-block; max-width: 30%; float:right; vertical-align:top;">

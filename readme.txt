@@ -1,14 +1,14 @@
 === Gallery - Photo Albums - Portfolio ===
 Contributors: GhozyLab
 Donate link: http://ghozylab.com/donate
-Tags: gallery, photo gallery, media library, photo album, wordpress lightbox, album, plugin, photo albums, slider image, seo, slider, image slider plugin, image carousel, best photo plugin, portfolio plugin, album photo, buddypress, woocommerce, images slider, picture slider, gallery lightbox, image gallery plugin, gallery image, website gallery, image gallery, portfolio, wordpress gallery plugin, media gallery, photoset, photogallery, wordpress seo, ajax, fotoalbum, wp slider, images, best gallery, portfolio gallery, lightbox, nextgen gallery, slideshow, image slideshow, wordpress portfolio plugin, best gallery plugin, plugin gallery, wp gallery, slideshow, jquery, responsive slider, gallery plugin, galerie, galerij, bilder, galleria, best image slider, wp gallery plugin, photo slider, image slider, responsive gallery, photo, shortcode, photos, picture, pictures, html5 video, html5 audio, widget, sidebar, plugin for gallery, html5 player, pagination gallery, plugin, post, links, page, admin, posts, seo image, twitter, image album, image, google, image lightbox, best portfolio, slider, wordpress slider plugin, wordpress slideshow, wordpress slider, slideshow plugin, slider plugin, best slider plugin, easy gallery, slide, slideshow, slideshow gallery, free gallery plugin, galeri, galleries, picture gallery, best portfolio plugin
+Tags: gallery, photo album, photo gallery, wordpress lightbox, album, plugin, photo albums, slider image, seo, slider, image slider plugin, image carousel, best photo plugin, portfolio plugin, album photo, buddypress, woocommerce, images slider, picture slider, gallery lightbox, image gallery plugin, gallery image, image gallery, portfolio, photoset, photogallery, wordpress seo, ajax, fotoalbum, images, best gallery, portfolio gallery, lightbox, nextgen gallery, image slideshow, best gallery plugin, plugin gallery, wp gallery, slideshow, jquery, gallery plugin, galerie, galerij, bilder, galleria, wp gallery plugin, photo slider, image slider, responsive gallery, photo, shortcode, photos, picture, pictures, html5 video, html5 audio, widget, sidebar, pagination gallery, plugin, post, links, page, admin, posts, seo image, twitter, image album, image, google, image lightbox, best portfolio, slider, slideshow plugin, slider plugin, best slider plugin, easy gallery, slide, slideshow gallery, free gallery, galeri, galleries, free photo album, picture gallery, best portfolio plugin
 Requires at least: 3.3
 Tested up to: 4.2.2
-Stable tag: 1.3.19
+Stable tag: 1.3.20
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Gallery - Photo Albums - Portfolio plugin allows you to create gallery, photo albums, image slider and portfolio.
+Gallery - Photo Albums - Portfolio plugin allows you to create wp gallery, photo albums, image slider and portfolio.
 
 == Description ==
 = Gallery - Photo Albums - Portfolio =
@@ -284,6 +284,9 @@ But seriously, I just want to drink coffee for free, so help a developer out. Yo
 9. Google Maps and Google Street View
 
 == Changelog ==
+
+= 1.3.20 =
+* Updated : Documentation Page Title
 
 = 1.3.19 =
 * Updated : Wordpress 4.2.2 compatibility
@@ -655,5 +658,5 @@ You can follow this video : [Create Audio Gallery](https://www.youtube.com/watch
 
 == Upgrade Notice ==
 
-= 1.3.19 =
-IMPORTANT! Security bugs fix, update NOW!
+= 1.3.20 =
+IMPORTANT! Update Page Title, update NOW!
