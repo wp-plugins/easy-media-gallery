@@ -1,7 +1,7 @@
 === Gallery - Photo Albums - Portfolio ===
 Contributors: GhozyLab
 Donate link: http://ghozylab.com/donate
-Tags: gallery, photo album, photo gallery, album, plugin, wordpress lightbox, photo albums, slider image, seo, slider, image slider plugin, image carousel, best photo plugin, portfolio plugin, album photo, buddypress, woocommerce, images slider, picture slider, gallery lightbox, image gallery plugin, gallery image, image gallery, portfolio, photoset, photogallery, wordpress seo, ajax, fotoalbum, images, best gallery, portfolio gallery, lightbox, nextgen gallery, image slideshow, best gallery plugin, plugin gallery, wp gallery, slideshow, jquery, gallery plugin, galerie, galerij, bilder, galleria, wp gallery plugin, photo slider, image slider, responsive gallery, photo, shortcode, photos, picture, pictures, html5 video, html5 audio, widget, sidebar, pagination gallery, plugin, post, links, page, admin, posts, seo image, twitter, image album, image, google, image lightbox, best portfolio, slider, slideshow plugin, slider plugin, best slider plugin, easy gallery, slide, slideshow gallery, free gallery, galeri, galleries, free photo album, picture gallery, best portfolio plugin
+Tags: gallery, photo album, photo gallery, album, image gallery, plugin, wordpress lightbox, photo albums, slider image, seo, slider, image slider plugin, image carousel, best photo plugin, portfolio plugin, album photo, buddypress, woocommerce, images slider, picture slider, gallery lightbox, image gallery plugin, gallery image, portfolio, photoset, photogallery, wordpress seo, seo, ajax, fotoalbum, images, best gallery, portfolio gallery, lightbox, nextgen gallery, image slideshow, best gallery plugin, plugin gallery, wp gallery, slideshow, jquery, gallery plugin, galerie, galerij, bilder, galleria, wp gallery plugin, photo slider, image slider, responsive gallery, photo, shortcode, photos, picture, pictures, html5 video, html5 audio, widget, sidebar, pagination gallery, plugin, post, links, page, admin, posts, seo image, twitter, image album, image, google, image lightbox, best portfolio, slider, slideshow plugin, slider plugin, best slider plugin, easy gallery, slide, slideshow gallery, free gallery, galeri, galleries, free photo album, picture gallery, best portfolio plugin
 Requires at least: 3.3
 Tested up to: 4.2.2
 Stable tag: 1.3.20
@@ -11,7 +11,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Gallery - Photo Albums - Portfolio plugin allows you to create wp gallery, photo albums, image slider and portfolio.
 
 == Description ==
-[Gallery](http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-gallery-grid-galleries-plugin/?utm_source=wordpress&utm_medium=link-description&utm_campaign=gallery "gallery") - [Photo Album](http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-gallery-and-photo-albums-demo/?utm_source=wordpress&utm_medium=link-description&utm_campaign=photo-album "photo album") - [Portfolio](http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-wordpress-portfolio-plugin/?utm_source=wordpress&utm_medium=link-description&utm_campaign=portfolio "portfolio") is the best **gallery** and **photo album** plugin designed to create gallery, grid gallery, galleries, photo albums, multiple photo albums, **photo gallery** or **image gallery** / **photo slider**, photo gallery with pagination, image **slider**, image carousel, portfolio, google maps and google street view, google business view, youtube, vimeo, mp4 video and audio mp3.
+[Gallery](https://wordpress.org/plugins/easy-media-gallery/ "gallery") - [Photo Album](http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-gallery-and-photo-albums-demo/?utm_source=wordpress&utm_medium=link-description&utm_campaign=photo-album "photo album") - [Portfolio](http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-wordpress-portfolio-plugin/?utm_source=wordpress&utm_medium=link-description&utm_campaign=portfolio "portfolio") is the best **gallery** and **photo album** plugin designed to create gallery, grid gallery, galleries, photo albums, multiple photo albums, **photo gallery** or **image gallery** / **photo slider**, photo gallery with pagination, image **slider**, image carousel, portfolio, google maps and google street view, google business view, youtube, vimeo, mp4 video and audio mp3.
 
 [Gallery - Photo Albums - Portfolio](https://wordpress.org/plugins/easy-media-gallery/ "gallery plugin") is a very customizable **gallery** that allow you to set display whatever you want like adjust colors, positions, grid, media sizes, hover effect and much more with one easy control panel. That easy control panel for experts it would save your time, and for you who do not have more knowledge about web programming or styling, of course this plugin will allow you to manage your gallery and portfolio much more easily.
 
@@ -23,12 +23,9 @@ Gallery - Photo Albums - Portfolio plugin allows you to create wp gallery, photo
 > * [Carousel](http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-wordpress-carousel-image-plugin/?utm_source=wprepo&utm_medium=carousel-plugin&utm_campaign=image-carousel-plugin "image carousel")
 > * [Gallery with Pagination](http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-wordpress-plugin-gallery-using-pagination/?utm_source=wprepo&utm_medium=gallery-pagination&utm_campaign=image-gallery-pagination "gallery pagination")
 > * [Portfolio](http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-wordpress-portfolio-plugin/?utm_source=wordpress&utm_medium=portfolio&utm_campaign=portfolio-plugin "portfolio plugin")
-> * [Video Gallery](http://goo.gl/ckecFP "video gallery")
-> * [Audio Gallery](http://goo.gl/ckecFP "audio gallery")
-> * [10+ Gallery Lightboxes](http://goo.gl/3vZHHb "gallery with lightboxes")
-
-= PRO VERSION VIDEO =
-[youtube https://www.youtube.com/watch?v=oH39zc8zMOg]
+> * [Video Gallery](http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-wordpress-video-gallery-plugin/?utm_source=wprepo&utm_medium=frontpage&utm_campaign=wp.org "video gallery")
+> * [Audio Gallery](http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-wordpress-video-gallery-plugin/?utm_source=wprepo&utm_medium=frontpage&utm_campaign=wp.org "audio gallery")
+> * [10+ Gallery Lightboxes](http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-gallery-lightboxes/?utm_source=wprepo&utm_medium=frontpage&utm_campaign=wp.org "gallery with lightboxes")
 
 = Full media support =
 Gallery - Photo Albums - Portfolio plugin satisfy all your needs to create different types of media such as portfolio, image gallery, photo albums and also from a simple picture to an image slider, image carousel a video and audio (html5) gallery. [Gallery](http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-gallery-grid-galleries-plugin/?utm_source=wordpress&utm_medium=link-description&utm_campaign=gallery "gallery") - [Photo Album](http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-gallery-and-photo-albums-demo/?utm_source=wordpress&utm_medium=link-description&utm_campaign=photo-album "photo album") - [Portfolio](http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-wordpress-portfolio-plugin/?utm_source=wordpress&utm_medium=link-description&utm_campaign=portfolio "portfolio") plugin represents a perfect solution for any type of media. Each item can be:
@@ -71,7 +68,10 @@ And also can be used to embed audio from :
 * 4shared
 * Self hosted MP3
 
-= LITE VERSION VIDEO =
+= GALLERY PRO VERSION VIDEO =
+[youtube https://www.youtube.com/watch?v=oH39zc8zMOg]
+
+= GALLERY LITE VERSION VIDEO =
 [youtube https://www.youtube.com/watch?v=H1Z3fidyEbE]
 
 * You can learn more by watching the video from [YouTube Channel](http://www.youtube.com/GhozyLab "GhozyLab YouTube Channel").
