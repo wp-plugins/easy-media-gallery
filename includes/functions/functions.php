@@ -1522,7 +1522,9 @@ if (typeof(jQuery().pointer) != 'undefined') {
 /*-------------------------------------------------------------------------------*/
 /*   Admin Bar Menu
 /*-------------------------------------------------------------------------------*/
-add_action('admin_bar_menu', 'add_toolbar_items', 100);
+if ( is_admin() ){
+	add_action('admin_bar_menu', 'add_toolbar_items', 100);
+}
 function add_toolbar_items($admin_bar){
 	$admin_bar->add_menu( array(
 		'id'    => 'emg-item',
