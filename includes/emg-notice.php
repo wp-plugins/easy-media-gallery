@@ -1,5 +1,7 @@
 <?php
 
+if ( ! defined( 'ABSPATH' ) ) exit;
+
 if ( is_admin() ) {
 	add_action('admin_notices', 'emg_aff_admin_notice');
 }
