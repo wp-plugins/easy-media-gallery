@@ -1,4 +1,7 @@
 <?php
+
+if ( ! defined( 'ABSPATH' ) ) exit;
+
 $shortname = 'emgtinymce';
 
 $optn = array (

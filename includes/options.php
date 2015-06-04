@@ -1,5 +1,7 @@
 <?php
 
+if ( ! defined( 'ABSPATH' ) ) exit;
+
 /*------------------------------------------------------------------------------------*/
 /*  Easy Media Gallery Lite Version
 /*  Option Control Panel
