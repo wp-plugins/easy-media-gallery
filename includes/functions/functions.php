@@ -1584,7 +1584,7 @@ function add_toolbar_items($admin_bar){
 	$admin_bar->add_menu( array(
 		'id'    => 'emg-sort-item',
 		'parent' => 'emg-item',
-		'title' => 'Settings',
+		'title' => 'Sorter',
 		'href'  => ''.admin_url( 'edit.php?post_type=easymediagallery&page=easymedia-order' ).'',
 		'meta'  => array(
 			'title' => __('Sorter'),
@@ -1595,10 +1595,10 @@ function add_toolbar_items($admin_bar){
 	$admin_bar->add_menu( array(
 		'id'    => 'emg-docs-item',
 		'parent' => 'emg-item',
-		'title' => 'Documentation',
+		'title' => 'Demo',
 		'href'  => ''.admin_url( 'edit.php?post_type=easymediagallery&page=docs' ).'',
 		'meta'  => array(
-			'title' => __('Documentation'),
+			'title' => __('Demo'),
 			'class' => 'emg_menu_item_class'
 		),
 	));
