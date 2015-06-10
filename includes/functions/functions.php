@@ -917,11 +917,11 @@ if ( easy_get_option( 'easymedia_disen_admnotify' ) == '1' ) {
 /*-------------------------------------------------------------------------------*/
 /*   Admin Notifications ( Setting Area )
 /*-------------------------------------------------------------------------------*/
-
+/*
 if ( easy_get_option( 'easymedia_disen_admnotify' ) == '1' ) {
 		add_action( 'admin_enqueue_scripts', 'easmedia_put_notify_script' );
 		add_action('admin_head', 'easmedia_put_notify_head');
-}
+} */
 
 function easmedia_put_notify_script() {
 		if ( isset( $_GET['page'] ) && $_GET['page'] == 'emg_settings' || isset( $_GET['page'] ) && $_GET['page'] == 'docs' || isset( $_GET['page'] ) && $_GET['page'] == 'comparison' || isset( $_GET['page'] ) && $_GET['page'] == 'easymedia-order' || get_post_type() == 'easymediagallery' ) {			
@@ -999,12 +999,12 @@ function easmedia_easymedia_docs() {
         <h2><?php _e('DEMO ( Video )', 'easmedia'); ?></h2>
         <p><?php _e('This plugin comes with instructional training videos that walk you through every aspect of setting up your new media gallery. We recommend to following these videos to create new media. This user manual is only intended to be a reference guide.', 'easmedia'); ?></p>
 
-    <!--<div class="metabox-holder" style="display:inline-block; max-width: 30%; float:right; vertical-align:top;">
+   <div class="metabox-holder" style="display:inline-block; max-width: 30%; float:right; vertical-align:top;">
 			<div class="postbox">
-            <h3><?php //_e( 'Check it Out!', 'easmedia' ); ?></h3> 
-            <?php //easmedia_news_metabox(); ?>
+            <h3><?php _e( 'Check it Out!', 'easmedia' ); ?></h3> 
+            <?php easmedia_news_metabox(); ?>
            </div>
-      </div>--><!-- @since 1.2.79 -->
+      </div>
 <div class="metabox-holder" style="max-width:65%; display:block;">
 			<div class="postbox">
 				<h3><?php _e( 'Subscribe and Get Free Updates', 'easmedia' ); ?></h3>
@@ -1463,7 +1463,7 @@ add_action( 'wp_ajax_emg_enable_auto_update', 'emg_enable_auto_update' );
 /*-------------------------------------------------------------------------------*/
 function easmedia_news_metabox () {
 	$new = '<div style="text-align:center;">';
-	$new .= '<a style="outline: none !important;" href="https://wordpress.org/plugins/image-slider-widget/" target="_blank"><img style="cursor:pointer; margin-top: 7px; margin-bottom: 7px;" src="'.plugins_url( 'images/new-release.png' , dirname(__FILE__) ).'" width="241" height="500" alt="New Release!" ></a>';
+	$new .= '<a style="outline: none !important;" href="http://ghozylab.com/plugins/easy-notify-pro/" target="_blank"><img style="cursor:pointer; margin-top: 7px; margin-bottom: 7px;" src="'.plugins_url( 'images/new-release.png' , dirname(__FILE__) ).'" width="241" height="500" alt="New Release!" ></a>';
 	$new .= '</div>';
 echo $new;	
 }

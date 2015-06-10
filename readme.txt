@@ -4,7 +4,7 @@ Donate link: http://ghozylab.com/donate
 Tags: gallery, photo album, gallery plugin, photo gallery, album, image gallery, plugin, wordpress lightbox, photo albums, slider image, seo, slider, image slider plugin, image carousel, best photo plugin, portfolio plugin, album photo, buddypress, woocommerce, images slider, picture slider, gallery lightbox, image gallery plugin, gallery image, portfolio, photoset, photogallery, wordpress seo, seo, ajax, fotoalbum, images, best gallery, portfolio gallery, lightbox, nextgen gallery, image slideshow, best gallery plugin, plugin gallery, wp gallery, slideshow, jquery, galerie, galerij, bilder, galleria, wp gallery plugin, photo slider, image slider, responsive gallery, photo, shortcode, photos, picture, pictures, html5 video, html5 audio, widget, sidebar, pagination gallery, plugin, post, links, page, admin, posts, seo image, twitter, image album, image, google, image lightbox, best portfolio, slider, slideshow plugin, slider plugin, best slider plugin, easy gallery, slide, slideshow gallery, free gallery, galeri, galleries, free photo album, picture gallery, best portfolio plugin
 Requires at least: 3.3
 Tested up to: 4.2.2
-Stable tag: 1.3.21
+Stable tag: 1.3.23
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -283,6 +283,10 @@ But seriously, I just want to drink coffee for free, so help a developer out. Yo
 9. Google Maps and Google Street View
 
 == Changelog ==
+
+= 1.3.23 =
+* Updated : Disable notification on settings page
+* Fixed : Many other PHP and CSS clean and optimization
 
 = 1.3.21 =
 * Fixed : Admin Menu Permission ( admin only )
@@ -661,5 +665,5 @@ You can follow this video : [Create Audio Gallery](https://www.youtube.com/watch
 
 == Upgrade Notice ==
 
-= 1.3.21 =
+= 1.3.23 =
 IMPORTANT! Admin Menu permission, update NOW!

@@ -325,7 +325,7 @@ if ( isset( $_REQUEST['reset'] ) ) { echo '<script type="text/javascript">
     </div>
 
 <div id="main">
-<div class="infoboxdemo"><a target='_blank' href='http://demo.ghozylab.com/content/pro.html?utm_source=procp&utm_medium=settingspage&utm_campaign=gotodemoprocp'>See Amazing Pro Version Features Here</a></div>
+<!--<div class="infoboxdemo"><a target='_blank' href='http://demo.ghozylab.com/content/pro.html?utm_source=procp&utm_medium=settingspage&utm_campaign=gotodemoprocp'>See Amazing Pro Version Features Here</a></div>-->
 <div class="infoboxsaveorreset"><?php echo $saveresmsg; ?></div>
 <form method="post">
 <div class="sps_wrap">
