@@ -69,7 +69,25 @@ color: #FFF !important;
 .emg-button-install:hover {
     color: #FFF !important;
 	background: none repeat scroll 0% 0% #5B9DD9 !important;
+}
+
+.emg-button-update {
+background: none repeat scroll 0% 0% #E74F34 !important;
+border-color: #C52F2F !important;
+box-shadow: 0px 1px 0px rgba(255, 235, 235, 0.5) inset, 0px 1px 0px rgba(0, 0, 0, 0.15) !important;
+color: #FFF !important;
+}
+
+.emg-button-update:focus {
+    box-shadow: 0px 0px 0px 1px #DA3232, 0px 0px 2px 1px rgba(255, 140, 140, 0.8) !important;
+}
+	
+.emg-button-update:hover {
+    color: #FFF !important;
+	background: none repeat scroll 0% 0% #DA3232 !important;
 }	
+
+
 		
         </style>
     <h2>GhozyLab Free Plugins</h2>    
@@ -112,7 +130,7 @@ color: #FFF !important;
 					case 'update_available':
 						if ( $status['url'] ) {
 							/* translators: 1: Plugin name and version */
-							$action_links[] = '<a class="button emg-button-install" href="' . $status['url'] . '" aria-label="' . esc_attr( sprintf( __( 'Update %s now' ), $name ) ) . '">' . __( 'Update Now' ) . '</a>';
+							$action_links[] = '<a class="button emg-button-update" href="' . $status['url'] . '" aria-label="' . esc_attr( sprintf( __( 'Update %s now' ), $name ) ) . '">' . __( 'Update Now' ) . '</a>';
 						}
 
 						break;
