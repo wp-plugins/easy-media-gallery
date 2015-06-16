@@ -31,8 +31,8 @@ WordPress Gallery - Photo Albums - Portfolio plugin allows you to create respons
 Gallery - Photo Albums - Portfolio plugin satisfy all your needs to create different types of media such as portfolio, image gallery, photo albums and also from a simple picture to an image slider, image carousel a video and audio (html5) gallery. [Gallery](http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-gallery-grid-galleries-plugin/?utm_source=wordpress&utm_medium=link-description&utm_campaign=gallery "gallery") - [Photo Album](http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-gallery-and-photo-albums-demo/?utm_source=wordpress&utm_medium=link-description&utm_campaign=photo-album "photo album") - [Portfolio](http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-wordpress-portfolio-plugin/?utm_source=wordpress&utm_medium=link-description&utm_campaign=portfolio "portfolio") plugin represents a perfect solution for any type of media. Each item can be:
 
 * Gallery / Image Gallery
-* Photo Albums (<em>[Pro Version](http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-gallery-and-photo-albums-demo/?utm_source=wordpress&utm_medium=description&utm_campaign=photo-album "photo albums wordPress plugin")</em>)
-* Photo Albums (<em>[Lite Version](http://goo.gl/xtCU1c "DEMO Photo Album Lite")</em>)
+* Photo Albums for Pro(<em>[demo](http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-gallery-and-photo-albums-demo/?utm_source=wordpress&utm_medium=description&utm_campaign=photo-album "photo albums wordPress plugin")</em>)
+* Photo Albums for Lite (<em>[demo](http://goo.gl/xtCU1c "Photo Album Lite")</em>)
 * Gallery with filter/category(<em>[Pro Version](http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-gallery-grid-galleries-plugin/?utm_source=wordpress&utm_medium=pro-section&utm_campaign=grid-gallery "grid gallery plugin")</em>)
 * Gallery with pagination (<em>[Pro Version](http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-wordpress-plugin-gallery-using-pagination/?utm_source=wordpress&utm_medium=pro-section&utm_campaign=gallery-pagination "gallery with pagination")</em>)
 * Portfolio (<em>[Pro Version](http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-wordpress-portfolio-plugin/?utm_source=wordpress&utm_medium=pro-section&utm_campaign=portfolio "portfolio plugin")</em>)
@@ -68,14 +68,7 @@ And also can be used to embed audio from :
 * 4shared
 * Self hosted MP3
 
-= GALLERY PRO VERSION VIDEO =
-[youtube https://www.youtube.com/watch?v=oH39zc8zMOg]
-
-= GALLERY LITE VERSION VIDEO =
-[youtube https://www.youtube.com/watch?v=H1Z3fidyEbE]
-
-* You can learn more by watching the video from [YouTube Channel](http://www.youtube.com/GhozyLab "GhozyLab YouTube Channel").
-* You can see all awesome features here [Best Gallery and Portfolio plugin features](http://ghozylab.com/plugins/easy-media-gallery-pro/plugin-features/ "Image Gallery Plugin Features").
+= EXPLANATIONS OF THE VARIOUS FEATURES IN THIS GALLERY PLUGIN =
 
 = Gallery = 
 
@@ -126,6 +119,15 @@ Take your gallery to the next level with [Gallery Pro Version](http://ghozylab.c
 * Responsive & Mobile Optimized
 * Extensive Documentation & Tutorial Videos 
 * 24/7 Technical Support
+
+= GALLERY PRO VERSION VIDEO =
+[youtube https://www.youtube.com/watch?v=oH39zc8zMOg]
+
+= GALLERY LITE VERSION VIDEO =
+[youtube https://www.youtube.com/watch?v=H1Z3fidyEbE]
+
+* You can learn more by watching the video from [YouTube Channel](http://www.youtube.com/GhozyLab "GhozyLab YouTube Channel").
+* You can see all awesome features here [Best Gallery and Portfolio plugin features](http://ghozylab.com/plugins/easy-media-gallery-pro/plugin-features/ "Image Gallery Plugin Features").
 
 = Recommended Plugins =
 The following are other recommended plugins by the author:
@@ -643,25 +645,28 @@ But seriously, I just want to drink coffee for free, so help a developer out. Yo
 
 ==Gallery - Photo Albums - Portfolio step by step guide==
 
+There are no complicated instructions for using this gallery plugin because this plugin designed to make all easy. Please watch the following video and we believe that you will easily to understand it just in minutes :
+
+
 ### Create Gallery
 
-You can follow this video : [Create Gallery](https://www.youtube.com/watch?v=H1Z3fidyEbE "Create Gallery")
+[youtube https://www.youtube.com/watch?v=H1Z3fidyEbE]
 
 ### Create Photo Album
 
-You can follow this video : [Create Photo Albums](https://www.youtube.com/watch?v=pjHvRoV2Bn8 "Create Photo Album")
+[youtube https://www.youtube.com/watch?v=pjHvRoV2Bn8]
 
 ### Create Portfolio
 
-You can follow this video : [Create Portfolio](https://www.youtube.com/watch?v=OEoNB2LpnSE "Create Portfolio")
+[youtube https://www.youtube.com/watch?v=OEoNB2LpnSE]
 
 ### Create Video Gallery
 
-You can follow this video : [Create Video Gallery](https://www.youtube.com/watch?v=htxwZw_aPF0 "Create Video Gallery")
+[youtube https://www.youtube.com/watch?v=htxwZw_aPF0]
 
 ### Create Audio Gallery
 
-You can follow this video : [Create Audio Gallery](https://www.youtube.com/watch?v=Bsn-CB5Hpbw "Create Audio Gallery")
+[youtube https://www.youtube.com/watch?v=Bsn-CB5Hpbw]
 
 == Upgrade Notice ==
 
