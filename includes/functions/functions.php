@@ -1000,12 +1000,12 @@ function easmedia_easymedia_docs() {
         <p><?php _e('This plugin comes with instructional training videos that walk you through every aspect of setting up your new media gallery. We recommend to following these videos to create new media. This user manual is only intended to be a reference guide.', 'easmedia'); ?></p>
 
    <div class="metabox-holder" style="display:inline-block; max-width: 30%; float:right; vertical-align:top;">
-			<div class="postbox">
-            <h3><?php _e( 'Check it Out!', 'easmedia' ); ?></h3> 
-            <?php easmedia_news_metabox(); ?>
-           </div>
+			<!--<div class="postbox">
+            <h3><?php //_e( 'Check it Out!', 'easmedia' ); ?></h3> 
+            <?php //easmedia_news_metabox(); ?>
+           </div>-->
       </div>
-<div class="metabox-holder" style="max-width:65%; display:block;">
+<div class="metabox-holder" style="max-width:66%; display:block;">
 			<div class="postbox">
 				<h3><?php _e( 'Subscribe and Get Free Updates', 'easmedia' ); ?></h3>
         <div id="easymedia_docs2" style="padding:10px !important; ">
@@ -1014,9 +1014,20 @@ function easmedia_easymedia_docs() {
     </div>
   </div>
   
+
+<div class="metabox-holder" style="max-width:66%; display:block;">
+			<div class="postbox">
+				<h3><?php _e( 'New Plugin, check it out!', 'easmedia' ); ?></h3>
+        <div id="easymedia_docs3" style="padding:10px !important; ">
+<a style="outline: none !important;" href="http://demo.ghozylab.com/plugins/easy-contact-form-plugin/" target="_blank"><img style="cursor:pointer;" src="<?php echo plugins_url( 'images/best-cp-plugin.png' , dirname(__FILE__) ); ?>" width="728" height="90" alt="New Release!" ></a>
+    </div>
+    </div>
+  </div>  
+  
+  
  <?php 
  if ( easy_get_option( 'easymedia_disen_dasnews' ) == '1' ) {  ?>
- <div class="metabox-holder" style="max-width:65%; display:block;">
+ <div class="metabox-holder" style="max-width:66%; display:block;">
 			<div class="postbox">
 				<h3><?php _e( 'Share Easy Media Gallery', 'easmedia' ); ?></h3>
         <div id="easymedia_docs2" style="padding: 3px 3px 3px 17px !important; ">
@@ -1026,7 +1037,7 @@ function easmedia_easymedia_docs() {
   </div>
   <?php } ?>
 
-		<div class="metabox-holder" style="max-width:65%; display:block;">
+		<div class="metabox-holder" style="max-width:66%; display:block;">
 			<div class="postbox">
 				<h3><?php _e( 'Video Tutorials', 'easmedia' ); ?></h3>
         <div id="easymedia_docs1" style="padding-left:10px !important;">
