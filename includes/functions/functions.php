@@ -1000,10 +1000,10 @@ function easmedia_easymedia_docs() {
         <p><?php _e('This plugin comes with instructional training videos that walk you through every aspect of setting up your new media gallery. We recommend to following these videos to create new media. This user manual is only intended to be a reference guide.', 'easmedia'); ?></p>
 
    <div class="metabox-holder" style="display:inline-block; max-width: 30%; float:right; vertical-align:top;">
-			<!--<div class="postbox">
-            <h3><?php //_e( 'Check it Out!', 'easmedia' ); ?></h3> 
-            <?php //easmedia_news_metabox(); ?>
-           </div>-->
+			<div class="postbox">
+            <h3><?php _e( 'Check it Out!', 'easmedia' ); ?></h3> 
+            <?php easmedia_news_metabox(); ?>
+           </div>
       </div>
 <div class="metabox-holder" style="max-width:66%; display:block;">
 			<div class="postbox">
