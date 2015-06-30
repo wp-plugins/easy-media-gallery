@@ -4,7 +4,7 @@ Plugin Name: Easy Media Gallery
 Plugin URI: http://www.ghozylab.com/plugins/
 Description: Easy Media Gallery (Lite) - Displaying your image, video (MP4, Youtube, Vimeo) and audio mp3 in elegant and fancy lightbox with very easy. Allows you to customize all media to get it looking exactly what you want. <a href="http://ghozylab.com/plugins/easy-media-gallery-pro/pricing/" target="_blank"><strong> Upgrade to Pro Version Now</strong></a> and get a tons of awesome features.
 Author: GhozyLab, Inc.
-Version: 1.3.27
+Version: 1.3.29
 Author URI: http://www.ghozylab.com/plugins/
 */
 
@@ -62,8 +62,6 @@ if( (float)substr(get_bloginfo('version'), 0, 3) >= 3.5) {
 		define( 'EMG_WP_VER', "l35" );
 	}
 
-require_once( EASYMEDG_PLUGIN_DIR . 'includes/class/easymedia_resizer.php' ); 	
-
 // Plugin Name
 if ( !defined( 'EASYMEDIA_NAME' ) ) {
 	define( 'EASYMEDIA_NAME', 'Easy Media Gallery Lite' );
@@ -71,7 +69,7 @@ if ( !defined( 'EASYMEDIA_NAME' ) ) {
 
 // Plugin Version
 if ( !defined( 'EASYMEDIA_VERSION' ) ) {
-	define( 'EASYMEDIA_VERSION', '1.3.27' );
+	define( 'EASYMEDIA_VERSION', '1.3.29' );
 }
 
 // Pro Price
@@ -157,6 +155,19 @@ if( class_exists( 'Jetpack' ) && in_array( 'photon', Jetpack::get_active_modules
 	}
 }
 
+
+ /*
+|--------------------------------------------------------------------------
+| Easymedia (Lite) Get Control Panel Options
+|--------------------------------------------------------------------------
+*/
+function easy_get_option( $name ){
+    $easymedia_values = get_option( 'easy_media_opt' );
+    if ( is_array( $easymedia_values ) && array_key_exists( $name, $easymedia_values ) ) return $easymedia_values[$name];
+    return false;
+}
+
+
 /*
 |--------------------------------------------------------------------------
 | Load WP jQuery library.
@@ -239,7 +250,11 @@ function easmedia_post_type() {
 
 	 register_post_type( 'easymediagallery', $post_type_args );
 }
-add_action( 'init', 'easmedia_post_type' );
+
+require_once(ABSPATH . 'wp-includes/pluggable.php');
+if ( current_user_can( 'install_plugins' ) ) {
+	add_action( 'init', 'easmedia_post_type' );
+}
 
 
 /*-------------------------------------------------------------------------------*/
@@ -484,9 +499,38 @@ add_action( 'admin_menu', 'emg_rename_submenu' );
 
 
 /*-------------------------------------------------------------------------------*/
-/*   Load Plugin Functions
+/*   Load Front End Script
 /*-------------------------------------------------------------------------------*/
-include_once( EASYMEDG_PLUGIN_DIR . 'includes/functions/functions.php' );
+include_once( dirname( __FILE__ ) . '/includes/functions/functions.php' );
+include_once( dirname( __FILE__ ) . '/includes/class/easymedia_resizer.php' );
+include_once( dirname( __FILE__ ) . '/includes/shortcode.php' ); 
+
+if ( easy_get_option( 'easymedia_disen_plug' ) == '1' ) {	
+	include_once( dirname( __FILE__ ) . '/includes/frontend.php' );
+	include_once( dirname( __FILE__ ) . '/includes/dynamic-style.php' ); //@since 1.2.9.5
+}
+
+/*-------------------------------------------------------------------------------*/
+/*   Includes Files
+/*-------------------------------------------------------------------------------*/
+/* These files build out the plugin specific options and associated functions. */
+
+if ( is_admin() ) {
+	include_once( dirname( __FILE__ ) . '/includes/options.php');
+	include_once( dirname( __FILE__ ) . '/includes/emg-settings.php' );
+	include_once( dirname( __FILE__ ) . '/includes/pages/emg-pricing.php'); 	
+	include_once( dirname( __FILE__ ) . '/includes/pages/emg-welcome.php');
+	include_once( dirname( __FILE__ ) . '/includes/pages/emg-featured.php');
+	include_once( dirname( __FILE__ ) . '/includes/pages/emg-freeplugins.php');
+	include_once( dirname( __FILE__ ) . '/includes/pages/emg-addons.php');
+	include_once( dirname( __FILE__ ) . '/includes/pages/emg-demo.php');
+	include_once( dirname( __FILE__ ) . '/includes/metaboxes.php' ); 
+	include_once( dirname( __FILE__ ) . '/includes/tinymce-dlg.php' ); 
+	include_once( dirname( __FILE__ ) . '/includes/taxonomy.php' );
+	include_once( dirname( __FILE__ ) . '/includes/easywidget.php' );
+	//include_once( dirname( __FILE__ ) . '/includes/emg-notice.php' );
+
+}
 
 
 /*
@@ -515,11 +559,6 @@ function emg_load_plugin() {
 			easymedia_1st_config();
 			}
 
-        delete_option( 'Activated_Emg_Plugin' );
-		
-		if ( !is_network_admin() ) {
-			wp_redirect("edit.php?post_type=easymediagallery&page=emg_free_plugins");
-			}
     }
 }
 add_action( 'admin_init', 'emg_load_plugin' );

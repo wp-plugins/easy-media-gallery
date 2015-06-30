@@ -2,11 +2,6 @@
 
 if ( ! defined( 'ABSPATH' ) ) exit;
 
-function emg_rec_init() {
-    $emg_featured_page = add_submenu_page('edit.php?post_type=easymediagallery', 'Free Install Plugins', __('Free Install Plugins', 'easmedia'), 'edit_posts', 'emg_free_plugins', 'emg_free_plugin_page');
-}
-add_action( 'admin_menu', 'emg_rec_init' );
-
 
 function emg_free_plugin_page() {
 	
@@ -90,8 +85,6 @@ color: #FFF !important;
 
 		
         </style>
-    <h2>GhozyLab Free Plugins</h2>    
-		<p><?php _e( 'These plugins available on Pro version. You can see <a href="'.admin_url( 'edit.php?post_type=easymediagallery&page=emg_premium_plugins' ).'">here</a>', 'easmedia' ); ?></p>
 <div style="margin-top:30px;" class="wp-list-table widefat plugin-install">
 	<div id="the-list">
     

@@ -11,18 +11,7 @@ if ( ! defined( 'ABSPATH' ) ) exit;
 * @return object|bool Option value on success, false if no value exists
 */
  
- 
- /*
-|--------------------------------------------------------------------------
-| Easymedia (Lite) Get Control Panel Options
-|--------------------------------------------------------------------------
-*/
-function easy_get_option( $name ){
-    $easymedia_values = get_option( 'easy_media_opt' );
-    if ( is_array( $easymedia_values ) && array_key_exists( $name, $easymedia_values ) ) return $easymedia_values[$name];
-    return false;
-}
- 
+
 /*-------------------------------------------------------------------------------*/
 /*   ADMIN Register JS & CSS
 /*-------------------------------------------------------------------------------*/
@@ -82,31 +71,6 @@ add_action( 'wp_enqueue_scripts', 'easymedia_frontend_js' );
 define( 'EMG_IS_AJAX', easy_get_option( 'easymedia_disen_ajax' ) );
 $emgmemory = (int) ini_get('memory_limit');
 $emgmemory = empty($emgmemory) ? __('N/A') : $emgmemory . __(' MB');
-
-/* These files build out the plugin specific options and associated functions. */
-require_once (EASYMEDG_PLUGIN_DIR . 'includes/options.php'); 
-
-/*-------------------------------------------------------------------------------*/
-/*   Load Control Panel
-/*-------------------------------------------------------------------------------*/
-include_once( EASYMEDG_PLUGIN_DIR . 'includes/emg-settings.php' );
-
-/*-------------------------------------------------------------------------------*/
-/*   Load Front End Script
-/*-------------------------------------------------------------------------------*/
-if ( easy_get_option( 'easymedia_disen_plug' ) == '1' ) {	
-include_once( EASYMEDG_PLUGIN_DIR . 'includes/frontend.php' );
-include_once( EASYMEDG_PLUGIN_DIR . 'includes/dynamic-style.php' ); //@since 1.2.9.5
-}
-/*-------------------------------------------------------------------------------*/
-/*  Add Metabox & Shortcode
-/*-------------------------------------------------------------------------------*/
-include_once( EASYMEDG_PLUGIN_DIR . 'includes/metaboxes.php' ); 
-include_once( EASYMEDG_PLUGIN_DIR . 'includes/shortcode.php' ); 
-include_once( EASYMEDG_PLUGIN_DIR . 'includes/tinymce-dlg.php' ); 
-include_once( EASYMEDG_PLUGIN_DIR . 'includes/taxonomy.php' );
-include_once( EASYMEDG_PLUGIN_DIR . 'includes/easywidget.php' );
-include_once( EASYMEDG_PLUGIN_DIR . 'includes/emg-notice.php' );
 
 /*-------------------------------------------------------------------------------*/
 /*   AJAX For EMG Lightbox @since 1.2.9.5
@@ -604,22 +568,11 @@ $getwpinfo[0] = "- Site URL : " .get_site_url();
 // Get Multisite status
 if ( is_multisite() ) { $getwpinfo[1] = '- WP Multisite : YES'; } else { $getwpinfo[1] = '- WP Multisite : NO'; }
 
-// Get PHP deny from all status	
-$url = plugins_url( 'dynamic-style.php' , dirname(__FILE__) );
-$headers = get_headers($url);
-
-if (strpos($headers[0],'Forbidden') !== false) {
-    $getwpinfo[2] = '- PHP Direct Access : Forbidden';
-} else {
-	$getwpinfo[2] = '- PHP Direct Access : YES';
-	}
-	
 global $wp_version, $emgmemory;		
 echo "- WP Version : ".$wp_version."\n";
 echo  "- EMG-Lite Version : ".EASYMEDIA_VERSION."\n";	
 echo $getwpinfo[0]."\n";
-echo $getwpinfo[1]."\n";	
-echo $getwpinfo[2]."\n";
+echo $getwpinfo[1]."\n";
 echo "- Memory Limit : ".$emgmemory."\n";
 $theme_name = wp_get_theme();
 echo "- Active Theme : ".$theme_name->get('Name')."\n";
@@ -958,451 +911,7 @@ emg_hide_noty(clickcmd);});	function emg_hide_noty(clickcmd) {var data = {action
 <?php
 	}
 }
-/*-------------------------------------------------------------------------------*/
-/*   Clean up our custom post/page
-/*-------------------------------------------------------------------------------*/
-function easmedia_cleanup_page() {
-		if ( isset( $_GET['page'] ) && $_GET['page'] == 'emg_settings' || isset( $_GET['page'] ) && $_GET['page'] == 'docs' || isset( $_GET['page'] ) && $_GET['page'] == 'comparison' || isset( $_GET['page'] ) && $_GET['page'] == 'easymedia-order' || get_post_type() == 'easymediagallery' ) {	
-?>
-    <script type="text/javascript">
-	/*<![CDATA[*/
-	/* Easy Media Gallery */	
-	jQuery(document).ready(function(){jQuery("#ux_buy_pro").hide();});
-/*]]>*/</script>
-<?php
-	}
-}
-if ( easy_get_option( 'easymedia_disen_admnotify' ) == '0' ) {
-		add_action('admin_head', 'easmedia_cleanup_page');
-}
 
-function emg_cleanup_adminbar() {
-	if ( isset( $_GET['page'] ) && $_GET['page'] == 'emg_settings' || isset( $_GET['page'] ) && $_GET['page'] == 'docs' || isset( $_GET['page'] ) && $_GET['page'] == 'comparison' || isset( $_GET['page'] ) && $_GET['page'] == 'easymedia-order' || get_post_type() == 'easymediagallery' ) {
-	global $wp_admin_bar;$wp_admin_bar->remove_node('gallery_bank_links');}
-}
-add_action( 'wp_before_admin_bar_render', 'emg_cleanup_adminbar' );
-
-
-/*-------------------------------------------------------------------------------*/
-/*   Comparison Page
-/*-------------------------------------------------------------------------------*/
-function easmedia_create_docs_page() {
-    $easmedia_docs_page = add_submenu_page('edit.php?post_type=easymediagallery', 'DEMO', __('DEMO', 'easmedia'), 'edit_posts', 'docs', 'easmedia_easymedia_docs');
-}
-add_action( 'admin_menu', 'easmedia_create_docs_page' );
-
-
-function easmedia_easymedia_docs() {
-	?>
-    <div class="wrap">
-        <div id="icon-edit" class="icon32 icon32-posts-easymedia"><br /></div>
-        <h2><?php _e('DEMO ( Video )', 'easmedia'); ?></h2>
-        <p><?php _e('This plugin comes with instructional training videos that walk you through every aspect of setting up your new media gallery. We recommend to following these videos to create new media. This user manual is only intended to be a reference guide.', 'easmedia'); ?></p>
-
-   <div class="metabox-holder" style="display:inline-block; max-width: 30%; float:right; vertical-align:top;">
-			<div class="postbox">
-            <h3><?php _e( 'Check it Out!', 'easmedia' ); ?></h3> 
-            <?php easmedia_news_metabox(); ?>
-           </div>
-      </div>
-<div class="metabox-holder" style="max-width:66%; display:block;">
-			<div class="postbox">
-				<h3><?php _e( 'Subscribe and Get Free Updates', 'easmedia' ); ?></h3>
-        <div id="easymedia_docs2" style="padding:10px !important; ">
-<script src="https://apis.google.com/js/platform.js"></script>  <div class="g-ytsubscribe" data-channel="GhozyLab" data-layout="full"></div>
-    </div>
-    </div>
-  </div>
-  
-
-<div class="metabox-holder" style="max-width:66%; display:block;">
-			<div class="postbox">
-				<h3><?php _e( 'New Plugin, check it out!', 'easmedia' ); ?></h3>
-        <div id="easymedia_docs3" style="padding:10px !important; ">
-<a style="outline: none !important;" href="http://demo.ghozylab.com/plugins/easy-contact-form-plugin/" target="_blank"><img style="cursor:pointer;" src="<?php echo plugins_url( 'images/best-cp-plugin.png' , dirname(__FILE__) ); ?>" width="728" height="90" alt="New Release!" ></a>
-    </div>
-    </div>
-  </div>  
-  
-  
- <?php 
- if ( easy_get_option( 'easymedia_disen_dasnews' ) == '1' ) {  ?>
- <div class="metabox-holder" style="max-width:66%; display:block;">
-			<div class="postbox">
-				<h3><?php _e( 'Share Easy Media Gallery', 'easmedia' ); ?></h3>
-        <div id="easymedia_docs2" style="padding: 3px 3px 3px 17px !important; ">
-        <?php emg_dashboard_widget(); ?>
-    </div>
-    </div>
-  </div>
-  <?php } ?>
-
-		<div class="metabox-holder" style="max-width:66%; display:block;">
-			<div class="postbox">
-				<h3><?php _e( 'Video Tutorials', 'easmedia' ); ?></h3>
-        <div id="easymedia_docs1" style="padding-left:10px !important;">
-        <ul id="vidlist" style="list-style: square; position:relative; margin-left:15px; margin-bottom:25px">
-        <li><a href="#" data-toggle="modal" data-target="#videoModal" data-theVideo="http://www.youtube.com/embed/pjHvRoV2Bn8">How to Create Simple Photo Albums</a>&nbsp;&nbsp;<i style="color:red;">(NEW Feature @since version 1.3.10)</i></li>
-        <li><a href="#" data-toggle="modal" data-target="#videoModal" data-theVideo="http://www.youtube.com/embed/H1Z3fidyEbE">How to Create Simple Gallery</a>&nbsp;&nbsp;<i style="color:red;">(NEW Feature @since version 1.2.79)</i></li>
-        <li><a data-toggle="modal" data-target="#videoModal" href="#" data-theVideo="http://www.youtube.com/embed/dXFBNY5t6E8">How to Create Single Image Media</a></li>
-        <li><a data-toggle="modal" data-target="#videoModal" href="#" data-theVideo="http://www.youtube.com/embed/htxwZw_aPF0">How to Create Video Media Types</a></li>  
-        <li><a data-toggle="modal" data-target="#videoModal" href="#" data-theVideo="http://www.youtube.com/embed/Bsn-CB5Hpbw">How to Create Audio (mp3) Media Types</a></li>
-        <li><a data-toggle="modal" data-target="#videoModal" href="#" data-theVideo="http://www.youtube.com/embed/Z2qwXz7GIRw">How to Publish Easy Media Gallery</a></li>                  
-        <li><a data-toggle="modal" data-target="#videoModal" href="#" data-theVideo="http://www.youtube.com/embed/2T73wvt_wOA">How to Change Media Border Size and Color</a></li>
-        <li><a data-toggle="modal" data-target="#videoModal" href="#" data-theVideo="http://www.youtube.com/embed/56f_C7OXiAE">How to Change Media Columns</a></li>
-        <li><a data-toggle="modal" data-target="#videoModal" href="#" data-theVideo="http://www.youtube.com/embed/TQ1MMxhsyD8">How to Create Grid Gallery</a>&nbsp;&nbsp;<i>(Pro version)</i></li> 
-		<li><a data-toggle="modal" data-target="#videoModal" href="#" data-theVideo="http://www.youtube.com/embed/OEoNB2LpnSE">How to Create Portfolio</a>&nbsp;&nbsp;<i>(Pro version)</i></li>
-        
-		<li><a data-toggle="modal" data-target="#videoModal" href="#" data-theVideo="http://www.youtube.com/embed/-N0JNcToHOI">How to Create Grid Gallery with Pagination</a>&nbsp;&nbsp;<i>(Pro version)</i></li>        
-        
-		<li><a data-toggle="modal" data-target="#videoModal" href="#" data-theVideo="http://www.youtube.com/embed/skCMKvVLD5o">How to Set Order of Image</a>&nbsp;&nbsp;<i>(Pro version)</i></li>
-        <li><a data-toggle="modal" data-target="#videoModal" href="#" data-theVideo="http://www.youtube.com/embed/Oee2cpKT-kE">How to Create Audio Soundcloud</a>&nbsp;&nbsp;<i>(Pro version)</i></li>
-        
-<li><a data-toggle="modal" data-target="#videoModal" href="#" data-theVideo="http://www.youtube.com/embed/uAGWUcs5ofE">How to Fetch Youtube or Vimeo Thumbnail</a>&nbsp;&nbsp;<i>(Pro version)</i></li>        
-        
-        <li><a data-toggle="modal" data-target="#videoModal" href="#" data-theVideo="http://www.youtube.com/embed/SYH8Yl2SQd4">How to Create Audio Reverbnation</a>&nbsp;&nbsp;<i>(Pro version)</i></li>    
-        <li><a data-toggle="modal" data-target="#videoModal" href="#" data-theVideo="http://www.youtube.com/embed/PEgfleRf6hg">How to Create Google Maps</a>&nbsp;&nbsp;<i>(Pro version)</i></li>               
-        <li><a data-toggle="modal" data-target="#videoModal" href="#" data-theVideo="http://www.youtube.com/embed/9cuYyBMKx2k">How to Insert Image into Media Description</a>&nbsp;&nbsp;<i>(Pro version)</i></li>        
-                          
-        </ul>
-    </div>
-  </div> 
-  
- <!-- Video on Modal  -->
-<div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="videoModal" aria-hidden="true">
-    <div style="width: 835px; height:450px;" class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-body">
-                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                <div>
-                    <iframe width="803" height="430" src=""></iframe>
-                </div>
-            </div>
-        </div>
-    </div>
-</div> 
- <!-- End Video on Modal  -->  
- 
-<script type="text/javascript">// <![CDATA[
-jQuery(document).ready(function($) {
-
-      var trigger =jQuery("body").find('[data-toggle="modal"]');
-      trigger.click(function () {
-          var theModal = jQuery(this).data("target"),
-              videoSRC = jQuery(this).attr("data-theVideo"),
-              videoSRCauto = videoSRC + "?autoplay=1&rel=0";
-          jQuery(theModal + ' iframe').attr('src', videoSRCauto);
-          jQuery(theModal + ' button.close').click(function () {
-              jQuery(theModal + ' iframe').attr('src', videoSRC);
-          });
-          jQuery('.modal').click(function () {
-              jQuery(theModal + ' iframe').attr('src', videoSRC);
-          });
-      });
-	  
-});
-// ]]></script>
- 
-  
- </div>     
-
-  </div> 
-	<?php 
-}
-
-
-/*-------------------------------------------------------------------------------*/
-/*   Free & Premium Plugins Page
-/*-------------------------------------------------------------------------------*/
-if ( is_admin() ){
-	require_once( EASYMEDG_PLUGIN_DIR . 'includes/emg-freeplugins.php' );
-	require_once( EASYMEDG_PLUGIN_DIR . 'includes/emg-featured.php' );
-	}
-
-/*-------------------------------------------------------------------------------*/
-/*   Comparison Page
-/*-------------------------------------------------------------------------------*/
-function easmedia_create_comparison_page() {
-    $easmedia_comparison_page = add_submenu_page('edit.php?post_type=easymediagallery', 'Comparison', __('UPGRADE to PRO', 'easmedia'), 'edit_posts', 'comparison', 'easymedia_comparison');
-}
-add_action( 'admin_menu', 'easmedia_create_comparison_page' );
-
-function easmedia_put_compare_style() {
-	if ( is_admin() && isset( $_GET['page'] ) && $_GET['page'] == 'comparison' ){
-		wp_enqueue_style( 'easymedia-comparison-css' );	
-		wp_enqueue_script( 'easymedia-comparison-js' );
-		}
-}
-add_action( 'admin_enqueue_scripts', 'easmedia_put_compare_style' );
-
-/*-------------------------------------------------------------------------------*/
-/*   Generate Comparison Page
-/*-------------------------------------------------------------------------------*/
-function easymedia_comparison() {
-?>
-
-<!-- DC Pricing Tables:3 Start -->
-
-    <div class="wrap">
-        <div id="icon-edit" class="icon32 icon32-posts-easymedia"><br /></div>
-        <h2><?php _e('Comparison', 'easmedia'); ?></h2>
-         <div class="emg-badge-com"><div class="badge-com-item"><img src="<?php echo plugins_url( 'images/best-seller.png' , dirname(__FILE__) ) ?>" /></div><div class="badge-com-item"><img src="<?php echo plugins_url( 'images/satisfaction-guaranteed.png' , dirname(__FILE__) ) ?>" /></div><div class="badge-com-item"><img src="<?php echo plugins_url( 'images/excelent-support.png' , dirname(__FILE__) ) ?>" /></div></div>       
-  <div class="tsc_pricingtable03 tsc_pt3_style1" style="margin-bottom:110px; height:1330px;">
-    <div class="caption_column">
-      <ul>
-        <li class="header_row_1 align_center radius5_topleft"><?php emg_share(); ?></li>
-        <li class="header_row_2">
-          <h2 class="caption"><?php echo EASYMEDIA_NAME; ?></h2>
-        </li> 
-        <li class="row_style_2"><span>License</span></li>
-        <li class="row_style_4"><span>Single Image</span></li>
-        <li class="row_style_2"><span>Video Media</span></li>       
-        <li class="row_style_4"><span>Audio Media</span></li>
-        <li class="row_style_2"><span>HTML5 Video/Audio (mp4, webm, ogv)</span></li>   
-        <li class="row_style_4"><span>Auto Fetch Youtube/Vimeo Thumbnail</span><span class="newftr"></span></li>    
-        <li class="row_style_2"><span>Photo Albums</span><a target="_blank" href="http://goo.gl/B6WraQ" style="text-decoration:underline !important;"> Click for Sample</a>&nbsp;&nbsp;<span class="newftr"></span></li>                 
-        <li class="row_style_4"><span>Image Slider</span><a target="_blank" href="http://goo.gl/kica46" style="text-decoration:underline !important;"> Click for Sample</a>&nbsp;&nbsp;<span class="newftr"></span></li>
-        <li class="row_style_2"><span>Image Gallery</span><a target="_blank" href="http://goo.gl/CLoA4r" style="text-decoration:underline !important;"> Click for Sample</a></li>  
-         <li class="row_style_4"><span>Portfolio</span><a target="_blank" href="http://goo.gl/XprVz6" style="text-decoration:underline !important;"> Click for Sample</a></li>                     
-        <li class="row_style_2"><span>Pagination</span><a target="_blank" href="http://goo.gl/Bk0gUE" style="text-decoration:underline !important;"> Click for Sample</a>&nbsp;&nbsp;<span class="newftr"></span></li>
-        <li class="row_style_4"><span>Carousel</span><a target="_blank" href="http://goo.gl/Zyy6DE" style="text-decoration:underline !important;"> Click for Sample</a>&nbsp;&nbsp;<span class="newftr"></span></li>
-        <li class="row_style_2"><span>10+ Lightbox styles</span><a target="_blank" href="http://goo.gl/4oz80i" style="text-decoration:underline !important;"> Click for Sample</a>&nbsp;&nbsp;<span class="newftr"></span></li>      
-        <li class="row_style_4"><span>Backup & Restore Settings</span></li>
-        <li class="row_style_2"><span>Google Maps / Street View</span></li>
-        <li class="row_style_4"><span>Custom CSS</span></li>
-        <li class="row_style_2"><span>Custom Columns</span></li>
-        <li class="row_style_4"><span>Custom Content</span></li>
-        <li class="row_style_2"><span>Custom Media Alignment</span></li>
-        <li class="row_style_4"><span>Custom Thumbnail Size</span></li>
-        <li class="row_style_2"><span>Image &amp; Video Custom Size</span></li>
-        <li class="row_style_4"><span>Unlimited colors and layout</span></li>
-        <li class="row_style_2"><span>Pattern Overlay</span></li>
-        <li class="row_style_4"><span>Powerfull Control Panel </span> <a href="http://demo.ghozylab.com/content/pro.html?utm_source=comparison&utm_medium=comparisonpage&utm_campaign=gotodemoprocp" target="_blank" style="text-decoration:underline !important;">Screenshot</a></li>
-        <li class="row_style_2"><span>Advanced Shortcode </span><a href="<?php echo plugins_url( 'images/pro-version-shortcode-manager.png' , dirname(__FILE__) ) ?>" target="_blank" style="text-decoration:underline !important;">Screenshot</a></li>
-        <li class="row_style_4"><span>Facebook, Twitter &amp; Pinterest share buttons</span></li>
-         <li class="row_style_2"><span>AJAX page/post load Support</span></li>
-        <li class="row_style_2"><span>WP Multisite</span></li>
-        <li class="row_style_4"><span>Support</span></li>
-        <li class="row_style_2"><span>Update</span></li>
-        <li class="footer_row"></li>
-      </ul>
-    </div>
-    <div class="column_1">
-      <ul>
-        <li class="header_row_1 align_center">
-          <h2 class="col1">Lite</h2>
-        </li>
-        <li class="header_row_2 align_center">
-          <h1 class="col1">Free</h1>
-        </li>
-        <li class="row_style_3 align_center">None</li>
-        <li class="row_style_1 align_center"><span class="pricing_yes"></span></li>
-        <li class="row_style_3 align_center"><span class="pricing_yes"></span></li>
-        <li class="row_style_1 align_center"><span class="pricing_yes"></span></li>  
-        <li class="row_style_3 align_center"><span class="pricing_no"></span></li>  
-        <li class="row_style_1 align_center"><span class="pricing_no"></span></li>      
-        <li class="row_style_3 align_center"><span class="pricing_yes"></span></li>
-        <li class="row_style_1 align_center"><span class="pricing_no"></span></li>
-        <li class="row_style_3 align_center"><span class="pricing_yes"></span></li>        
-        <li class="row_style_1 align_center"><span class="pricing_no"></span></li>        
-        <li class="row_style_3 align_center"><span class="pricing_no"></span></li>
-        <li class="row_style_1 align_center"><span class="pricing_no"></span></li>
-        <li class="row_style_3 align_center"><span class="pricing_no"></span></li>          
-        <li class="row_style_1 align_center"><span class="pricing_no"></span></li>      
-        <li class="row_style_3 align_center"><span class="pricing_no"></span></li>
-        <li class="row_style_1 align_center"><span class="pricing_no"></span></li>        
-        <li class="row_style_3 align_center"><span>max 3 columns</span></li>
-        <li class="row_style_1 align_center"><span>title &amp; subtitle ONLY</span></li>
-        <li class="row_style_3 align_center"><span>center</span></li>
-        <li class="row_style_1 align_center"><span class="pricing_yes"></span></li>
-        <li class="row_style_3 align_center"><span class="pricing_yes"></span></li>
-        <li class="row_style_1 align_center"><span class="pricing_no"></span></li>
-        <li class="row_style_3 align_center"><span>3 patterns</span></li>
-        <li class="row_style_1 align_center"><span class="pricing_no"></span></li>
-        <li class="row_style_3 align_center"><span class="pricing_no"></span></li>
-        <li class="row_style_1 align_center"><span class="pricing_no"></span></li>
-		<li class="row_style_3 align_center"><span class="pricing_yes"></span></li>        
-        <li class="row_style_1 align_center"><span class="pricing_no"></span></li>
-        <li class="row_style_3 align_center"><span class="pricing_no"></span></li>
-        <li class="row_style_1 align_center"><span class="pricing_yes"></span></li>
-         
-        <li class="footer_row"></li>
-      </ul>
-    </div>
-    
-    <div class="column_2">
-      <ul>
-        <li class="header_row_1 align_center">
-          <h2 class="col2">Pro</h2>
-        </li>
-        <li class="header_row_2 align_center">
-          <h1 class="col2">$<span><?php echo EASYMEDIA_PRO_PRICE; ?></span></h1>
-        </li>
-        <li class="row_style_4 align_center"><span style="font-weight: bold; color:#F77448; font-size:14px;">1 Site</span></li>
-        <li class="row_style_2 align_center"><span class="pricing_yes"></span></li>
-        <li class="row_style_4 align_center"><span class="pricing_yes"></span></li>
-        <li class="row_style_2 align_center"><span class="pricing_yes"></span></li>        
-        <li class="row_style_4 align_center"><span class="pricing_yes"></span></li>
-        <li class="row_style_2 align_center"><span class="pricing_yes"></span></li>
-        <li class="row_style_4 align_center"><span class="pricing_yes"></span></li> 
-        <li class="row_style_2 align_center"><span class="pricing_yes"></span></li>
-        <li class="row_style_4 align_center"><span class="pricing_yes"></span></li> 
-        <li class="row_style_2 align_center"><span class="pricing_yes"></span></li>
-        <li class="row_style_4 align_center"><span class="pricing_yes"></span></li>  
-        <li class="row_style_2 align_center"><span class="pricing_yes"></span></li>
-        <li class="row_style_4 align_center"><span class="pricing_yes"></span></li>
-        <li class="row_style_2 align_center"><span class="pricing_yes"></span></li>
-        <li class="row_style_4 align_center"><span class="pricing_yes"></span></li>
-        <li class="row_style_2 align_center"><span class="pricing_yes"></span></li>
-        <li class="row_style_4 align_center"><span>up to 8 columns</span></li>
-        <li class="row_style_2 align_center"><span>title, subtitle &amp; unlimited content</span></li>
-        <li class="row_style_4 align_center"><span>left, right, center</span></li>
-        <li class="row_style_2 align_center"><span class="pricing_yes"></span></li>
-        <li class="row_style_4 align_center"><span class="pricing_yes"></span></li>
-        <li class="row_style_2 align_center"><span class="pricing_yes"></span></li>
-        <li class="row_style_4 align_center"><span>15 patterns</span></li>
-        <li class="row_style_2 align_center"><span class="pricing_yes"></span></li>
-        <li class="row_style_4 align_center"><span class="pricing_yes"></span></li>
-        <li class="row_style_2 align_center"><span class="pricing_yes"></span></li>
-		<li class="row_style_4 align_center"><span class="pricing_yes"></span></li>        
-        <li class="row_style_2 align_center"><span class="pricing_no"></span></li>
-        <li class="row_style_4 align_center"><span>1 Month</span></li>
-        <li class="row_style_2 align_center"><span>1 Year</span></li>
-        <li class="footer_row"><a target="_blank" href="http://ghozylab.com/plugins/ordernow.php?order=pro&utm_source=lite&utm_medium=comparisonpage&utm_campaign=orderfromcompare" class="tsc_buttons2 red">Upgrade Now</a></li>
-      </ul>
-    </div>    
-    
-    <div class="column_2">
-      <ul>
-        <li class="header_row_1 align_center">
-          <h2 class="col2">Pro+</h2>
-        </li>
-        <li class="header_row_2 align_center">
-          <h1 class="col2">$<span><?php echo EASYMEDIA_PRICE; ?></span></h1>
-        </li>
-        <li class="row_style_4 align_center"><span style="font-weight: bold; color:#F77448; font-size:14px;">3 Sites</span></li>
-        <li class="row_style_2 align_center"><span class="pricing_yes"></span></li>
-        <li class="row_style_4 align_center"><span class="pricing_yes"></span></li>
-        <li class="row_style_2 align_center"><span class="pricing_yes"></span></li>        
-        <li class="row_style_4 align_center"><span class="pricing_yes"></span></li>
-        <li class="row_style_2 align_center"><span class="pricing_yes"></span></li>
-        <li class="row_style_4 align_center"><span class="pricing_yes"></span></li> 
-        <li class="row_style_2 align_center"><span class="pricing_yes"></span></li>
-        <li class="row_style_4 align_center"><span class="pricing_yes"></span></li> 
-        <li class="row_style_2 align_center"><span class="pricing_yes"></span></li>
-        <li class="row_style_4 align_center"><span class="pricing_yes"></span></li> 
-        <li class="row_style_2 align_center"><span class="pricing_yes"></span></li>
-        <li class="row_style_4 align_center"><span class="pricing_yes"></span></li>
-        <li class="row_style_2 align_center"><span class="pricing_yes"></span></li>
-        <li class="row_style_4 align_center"><span class="pricing_yes"></span></li>
-        <li class="row_style_2 align_center"><span class="pricing_yes"></span></li>
-        <li class="row_style_4 align_center"><span>up to 8 columns</span></li>
-        <li class="row_style_2 align_center"><span>title, subtitle &amp; unlimited content</span></li>
-        <li class="row_style_4 align_center"><span>left, right, center</span></li>
-        <li class="row_style_2 align_center"><span class="pricing_yes"></span></li>
-        <li class="row_style_4 align_center"><span class="pricing_yes"></span></li>
-        <li class="row_style_2 align_center"><span class="pricing_yes"></span></li>
-        <li class="row_style_4 align_center"><span>15 patterns</span></li>
-        <li class="row_style_2 align_center"><span class="pricing_yes"></span></li>
-        <li class="row_style_4 align_center"><span class="pricing_yes"></span></li>
-        <li class="row_style_2 align_center"><span class="pricing_yes"></span></li>
-		<li class="row_style_4 align_center"><span class="pricing_yes"></span></li>        
-        <li class="row_style_2 align_center"><span class="pricing_no"></span></li>
-        <li class="row_style_4 align_center"><span>1 year</span></li>
-        <li class="row_style_2 align_center"><span>1 year</span></li>
-        <li class="footer_row"><a target="_blank" href="http://ghozylab.com/plugins/ordernow.php?order=proplus&utm_source=lite&utm_medium=comparisonpage&utm_campaign=orderfromcompare" class="tsc_buttons2 red">Upgrade Now</a></li>
-      </ul>
-    </div>
-    <div class="column_2">
-      <ul>
-        <li class="header_row_1 align_center">
-          <h2 class="col2">Pro++</h2>
-        </li>
-        <li class="header_row_2 align_center">
-          <h1 class="col2">$<span><?php echo EASYMEDIA_PLUS_PRICE; ?></span></h1>
-        </li>
-        <li class="row_style_4 align_center"><span style="font-weight: bold; color:#F77448; font-size:14px;">5 Sites</span></li>
-        <li class="row_style_2 align_center"><span class="pricing_yes"></span></li>
-        <li class="row_style_4 align_center"><span class="pricing_yes"></span></li>
-        <li class="row_style_2 align_center"><span class="pricing_yes"></span></li>        
-        <li class="row_style_4 align_center"><span class="pricing_yes"></span></li>
-        <li class="row_style_2 align_center"><span class="pricing_yes"></span></li>
-        <li class="row_style_4 align_center"><span class="pricing_yes"></span></li> 
-        <li class="row_style_2 align_center"><span class="pricing_yes"></span></li>
-        <li class="row_style_4 align_center"><span class="pricing_yes"></span></li> 
-        <li class="row_style_2 align_center"><span class="pricing_yes"></span></li>
-        <li class="row_style_4 align_center"><span class="pricing_yes"></span></li>
-        <li class="row_style_2 align_center"><span class="pricing_yes"></span></li>
-        <li class="row_style_4 align_center"><span class="pricing_yes"></span></li>         
-        <li class="row_style_2 align_center"><span class="pricing_yes"></span></li>
-        <li class="row_style_4 align_center"><span class="pricing_yes"></span></li>
-        <li class="row_style_2 align_center"><span class="pricing_yes"></span></li>
-        <li class="row_style_4 align_center"><span>up to 8 columns</span></li>
-        <li class="row_style_2 align_center"><span>title, subtitle &amp; unlimited content</span></li>
-        <li class="row_style_4 align_center"><span>left, right, center</span></li>
-        <li class="row_style_2 align_center"><span class="pricing_yes"></span></li>
-        <li class="row_style_4 align_center"><span class="pricing_yes"></span></li>
-        <li class="row_style_2 align_center"><span class="pricing_yes"></span></li>
-        <li class="row_style_4 align_center"><span>15 patterns</span></li>
-        <li class="row_style_2 align_center"><span class="pricing_yes"></span></li>
-        <li class="row_style_4 align_center"><span class="pricing_yes"></span></li>
-        <li class="row_style_2 align_center"><span class="pricing_yes"></span></li>
-		<li class="row_style_4 align_center"><span class="pricing_yes"></span></li>        
-        <li class="row_style_2 align_center"><span class="pricing_no"></span></li>
-        <li class="row_style_4 align_center"><span>1 year</span></li>
-        <li class="row_style_2 align_center"><span>1 year</span></li>
-        <li class="footer_row"><a target="_blank" href="http://ghozylab.com/plugins/ordernow.php?order=proplusplus&utm_source=lite&utm_medium=comparisonpage&utm_campaign=orderfromcompare" class="tsc_buttons2 red">Upgrade Now</a></li>
-      </ul>
-    </div>    
-     <div class="column_4">
-      <ul>
-        <li class="header_row_1 align_center">
-          <h2 class="col2">Developer</h2>
-        </li>
-        <li class="header_row_2 align_center">
-          <h1 class="col2">$<span><?php echo EASYMEDIA_DEV_PRICE; ?></span></h1>
-        </li>
-        <li class="row_style_3 align_center"><span style="font-weight: bold; color: #F77448; font-size:14px;">15 Sites</span></li>
-        <li class="row_style_1 align_center"><span class="pricing_yes"></span></li>
-        <li class="row_style_3 align_center"><span class="pricing_yes"></span></li>
-        <li class="row_style_1 align_center"><span class="pricing_yes"></span></li>        
-        <li class="row_style_3 align_center"><span class="pricing_yes"></span></li>
-        <li class="row_style_1 align_center"><span class="pricing_yes"></span></li>        
-        <li class="row_style_3 align_center"><span class="pricing_yes"></span></li> 
-        <li class="row_style_1 align_center"><span class="pricing_yes"></span></li>
-        <li class="row_style_3 align_center"><span class="pricing_yes"></span></li>  
-        <li class="row_style_1 align_center"><span class="pricing_yes"></span></li>
-        <li class="row_style_3 align_center"><span class="pricing_yes"></span></li> 
-        <li class="row_style_1 align_center"><span class="pricing_yes"></span></li>
-        <li class="row_style_3 align_center"><span class="pricing_yes"></span></li>
-        <li class="row_style_1 align_center"><span class="pricing_yes"></span></li>
-        <li class="row_style_3 align_center"><span class="pricing_yes"></span></li>
-        <li class="row_style_1 align_center"><span class="pricing_yes"></span></li>
-        <li class="row_style_3 align_center"><span>up to 8 columns</span></li>
-        <li class="row_style_1 align_center"><span>title, subtitle &amp; unlimited content</span></li>
-        <li class="row_style_3 align_center"><span>left, right, center</span></li>
-        <li class="row_style_1 align_center"><span class="pricing_yes"></span></li>
-        <li class="row_style_3 align_center"><span class="pricing_yes"></span></li>
-        <li class="row_style_1 align_center"><span class="pricing_yes"></span></li>
-        <li class="row_style_3 align_center"><span>15 patterns</span></li>
-        <li class="row_style_1 align_center"><span class="pricing_yes"></span></li>
-        <li class="row_style_3 align_center"><span class="pricing_yes"></span></li>
-        <li class="row_style_1 align_center"><span class="pricing_yes"></span></li>
-		<li class="row_style_3 align_center"><span class="pricing_yes"></span></li>        
-        <li class="row_style_1 align_center"><span class="pricing_yes"></span></li>
-        <li class="row_style_3 align_center"><span>1 year</span></li>
-        <li class="row_style_1 align_center"><span>1 year</span></li>
-        <li class="footer_row"><a target="_blank" href="http://ghozylab.com/plugins/ordernow.php?order=dev&utm_source=lite&utm_medium=comparisonpage&utm_campaign=orderfromcompare" class="tsc_buttons2 red">Upgrade Now</a></li>
-      </ul>
-    </div>   
-    
-    
-    </div>
-  </div>
-<!-- DC Pricing Tables:3 End -->
-<div class="tsc_clear"></div> <!-- line break/clear line -->
-<?php
-}
 
 /*-------------------------------------------------------------------------------*/
 /*  Update Notify
@@ -1535,9 +1044,11 @@ if (typeof(jQuery().pointer) != 'undefined') {
 /*-------------------------------------------------------------------------------*/
 /*   Admin Bar Menu
 /*-------------------------------------------------------------------------------*/
-if ( is_admin() ){
+require_once(ABSPATH . 'wp-includes/pluggable.php');
+if ( current_user_can( 'install_plugins' ) ) {
 	add_action('admin_bar_menu', 'add_toolbar_items', 100);
 }
+
 function add_toolbar_items($admin_bar){
 	$admin_bar->add_menu( array(
 		'id'    => 'emg-item',
@@ -1604,10 +1115,10 @@ function add_toolbar_items($admin_bar){
 	));
 	
 	$admin_bar->add_menu( array(
-		'id'    => 'emg-docs-item',
+		'id'    => 'emg-demo-item',
 		'parent' => 'emg-item',
 		'title' => 'Demo',
-		'href'  => ''.admin_url( 'edit.php?post_type=easymediagallery&page=docs' ).'',
+		'href'  => ''.admin_url( 'edit.php?post_type=easymediagallery&page=emg-demo' ).'',
 		'meta'  => array(
 			'title' => __('Demo'),
 			'class' => 'emg_menu_item_class'
@@ -1618,7 +1129,7 @@ function add_toolbar_items($admin_bar){
 		'id'    => 'emg-freeplug-item',
 		'parent' => 'emg-item',
 		'title' => '<span style="color:rgba(61, 170, 222, 1);">Free Install Plugins</span>',
-		'href'  => ''.admin_url( 'edit.php?post_type=easymediagallery&page=emg_free_plugins' ).'',
+		'href'  => ''.admin_url( 'edit.php?post_type=easymediagallery&page=emg-free-plugins' ).'',
 		'meta'  => array(
 			'title' => __('Free Install Plugins'),
 			'class' => 'emg_menu_item_class'
@@ -1629,7 +1140,7 @@ function add_toolbar_items($admin_bar){
 		'id'    => 'emg-preplug-item',
 		'parent' => 'emg-item',
 		'title' => '<span style="color:rgba(61, 170, 222, 1);">Premium Plugins</span>',
-		'href'  => ''.admin_url( 'edit.php?post_type=easymediagallery&page=emg_premium_plugins' ).'',
+		'href'  => ''.admin_url( 'edit.php?post_type=easymediagallery&page=emg-premium-plugins' ).'',
 		'meta'  => array(
 			'title' => __('Premium Plugin'),
 			'class' => 'emg_menu_item_class'
@@ -1637,7 +1148,7 @@ function add_toolbar_items($admin_bar){
 	));
 	
 	$admin_bar->add_menu( array(
-		'id'    => 'emg-upgrade-item',
+		'id'    => 'emg-pricing-item',
 		'parent' => 'emg-item',
 		'title' => 'UPGRADE PRO VERSION',
 		'href'  => ''.admin_url( 'edit.php?post_type=easymediagallery&page=comparison' ).'',
@@ -1647,18 +1158,50 @@ function add_toolbar_items($admin_bar){
 		),
 	));	
 	
+	$admin_bar->add_menu( array(
+		'id'    => 'emg-whatsnew-item',
+		'parent' => 'emg-item',
+		'title' => 'What\'s New<span style="font-weight: bold;font-size:9px;color:#fff; border: solid 1px #fff; padding: 0 5px 0 5px; border-radius: 15px; -moz-border-radius: 15px;-webkit-border-radius: 15px; background: red; margin-left: 7px;">NEW</span>',
+		'href'  => ''.admin_url( 'edit.php?post_type=easymediagallery&page=emg-whats-new' ).'',
+		'meta'  => array(
+			'title' => __('UPGRADE PRO VERSION'),
+			'class' => 'emg_menu_item_class'
+		),
+	));	
+	
+	
 }
 
+
+
 /*-------------------------------------------------------------------------------*/
-/*   Enqueue script/styles based on custom page
+/* Get latest info on What's New page
 /*-------------------------------------------------------------------------------*/
-function emg_enqueue_on_custom_page() {
-	if ( is_admin() && isset( $_GET['page'] ) && $_GET['page'] == 'docs' ){
-		wp_enqueue_style( 'emg-bootstrap-css' );
-		wp_enqueue_script( 'emg-bootstrap-js' );
+function emg_lite_get_news() {
+	
+	if ( false === ( $cache = get_transient( 'emg_whats_new' ) ) ) {
+		
+	$addlist = get_option( "ecf_active_addons_lite" );	
+		
+	$url = array(
+				'c' => 'news',
+				'p' => 'emglite',
+				);	
+		
+		$feed = wp_remote_get( 'http://content.ghozylab.com/feed.php?'.http_build_query( $url ).'', array( 'sslverify' => false ) );
+		
+		if ( ! is_wp_error( $feed ) ) {
+			if ( isset( $feed['body'] ) && strlen( $feed['body'] ) > 0 ) {
+				$cache = wp_remote_retrieve_body( $feed );
+				set_transient( 'emg_whats_new', $cache, 60 );
+			}
+		} else {
+			$cache = '<div class="error"><p>' . __( 'There was an error retrieving the list from the server. Please try again later.', 'easmedia' ) . '</div>';
 		}
+	}
+	echo $cache;
 }
-add_action( 'admin_enqueue_scripts', 'emg_enqueue_on_custom_page' );
+
 
 
 ?>
