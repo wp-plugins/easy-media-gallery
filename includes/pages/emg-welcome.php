@@ -312,7 +312,7 @@ class EMG_Welcome {
 
 			<div class="emg-container-cnt">
 				<div class="feature-section">
-                <iframe width="853" height="480" src="https://www.youtube.com/embed/H1Z3fidyEbE" frameborder="0" allowfullscreen></iframe>
+                <iframe width="853" height="480" src="https://www.youtube.com/embed/H1Z3fidyEbE?rel=0" frameborder="0" allowfullscreen></iframe>
 			</div>
             </div>
 
