@@ -33,7 +33,8 @@ function easymedia_frontend_script() {
 		'vidautopd' => $autoplayd,	
 		'drclick' => $disenrclck,
 		'ajaxcid' => easy_get_option( 'easymedia_ajax_con_id' ),					
-  		'ajaxpth' => admin_url('admin-ajax.php'),  // @since 1.2.9.5		
+  		'ajaxpth' => admin_url('admin-ajax.php'),  // @since 1.2.9.5
+		'ajaxnonce' => wp_create_nonce( 'medialoader' ), // @since 1.3.29	
   		'ovrlayop' => easy_get_option( 'easymedia_overlay_opcty' ) / 100,   
 		);
 

@@ -77,6 +77,8 @@ $emgmemory = empty($emgmemory) ? __('N/A') : $emgmemory . __(' MB');
 /*-------------------------------------------------------------------------------*/
 function emg_get_data_slider_ajax() {
 	
+	check_ajax_referer('medialoader', 'security');
+	
 	if ( !isset( $_POST['id'] ) ) {
 		echo  'Error!';
 		wp_die();
