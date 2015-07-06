@@ -288,6 +288,7 @@ But seriously, I just want to drink coffee for free, so help a developer out. Yo
 
 = 1.3.30 =
 * Fixed  : Plugin core issue with jQuery bind
+* Added : check_ajax_referer on media loader
 * Fixed  : Album issue ( taxonomy ) thanks to magadanski_uchen ( https://wordpress.org/support/profile/magadanski_uchen ) for this bugs report : https://wordpress.org/support/topic/shortcode-not-working-in-v1329
 
 = 1.3.29 =
