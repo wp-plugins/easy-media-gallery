@@ -131,7 +131,7 @@ echo '<div class="pfwrpr"><div id="alignstyle" class="easymedia_'.$cus_align.'">
 			
 			case 'Multiple Images (Slider)':
 				
-				$therell = "easymedia[".$mediauniqueid."]";
+				$therell = "easymedia[".emgRandomString(6)."]";
 		
 				$images = get_post_meta( get_the_id(), 'easmedia_metabox_media_gallery', true );
 				
@@ -139,7 +139,7 @@ echo '<div class="pfwrpr"><div id="alignstyle" class="easymedia_'.$cus_align.'">
 				if ( is_array( $images ) ) {
 					$ig = 0;
 
-					echo '<div id="easymedia_gallerycontainer-'.$mediauniqueid.'" style="display:none">';
+					echo '<div id="easymedia_gallerycontainer-'.emgRandomString(6).'" style="display:none">';
 					foreach( $images as $img_id ) {
 						
 							//Changelog version 1.3.10 => Set 1st Image Gallery
