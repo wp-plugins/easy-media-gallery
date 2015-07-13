@@ -1,10 +1,10 @@
 === Gallery - Photo Albums - Portfolio ===
 Contributors: GhozyLab
 Donate link: http://ghozylab.com/donate
-Tags: gallery, photo album, gallery plugin, photo gallery, album, image gallery, plugin, wordpress lightbox, photo albums, slider image, seo, slider, image slider plugin, image carousel, best photo plugin, portfolio plugin, album photo, buddypress, woocommerce, images slider, picture slider, gallery lightbox, image gallery plugin, gallery image, portfolio, photoset, photogallery, wordpress seo, seo, ajax, fotoalbum, images, best gallery, portfolio gallery, lightbox, nextgen gallery, image slideshow, best gallery plugin, plugin gallery, wp gallery, slideshow, jquery, galerie, galerij, bilder, galleria, wp gallery plugin, photo slider, image slider, responsive gallery, photo, shortcode, photos, picture, pictures, html5 video, html5 audio, widget, sidebar, pagination gallery, plugin, post, links, page, admin, posts, seo image, twitter, image album, image, google, image lightbox, best portfolio, slider, slideshow plugin, slider plugin, best slider plugin, easy gallery, slide, slideshow gallery, free gallery, galeri, galleries, free photo album, picture gallery, best portfolio plugin
+Tags: gallery, photo album, gallery plugin, photo gallery, album, image gallery, best image slider, plugin, pagination portfolio, lightbox slider, lightbox gallery, wordpress lightbox, photo albums, slider image, seo, slider, image carousel, best photo plugin, portfolio plugin, album photo, buddypress, woocommerce, images slider, picture slider, gallery lightbox, image gallery plugin, gallery image, portfolio, photoset, photogallery, wordpress seo, seo, ajax, fotoalbum, images, best gallery, portfolio gallery, lightbox, nextgen gallery, image slideshow, best gallery plugin, plugin gallery, wp gallery, slideshow, jquery, galerie, galerij, bilder, add album, add gallery, galleria, wp gallery plugin, photo slider, image slider, responsive gallery, photo, shortcode, photos, picture, pictures, html5 video, html5 audio, widget, sidebar, pagination gallery, plugin, post, links, page, admin, posts, seo image, twitter, image album, image, google, image lightbox, best portfolio, slider, slideshow plugin, slider plugin, best slider plugin, easy gallery, slide, fotogalerie, slideshow gallery, free gallery, galeri, galleries, free photo album, picture gallery, best portfolio plugin
 Requires at least: 3.3
 Tested up to: 4.2.2
-Stable tag: 1.3.30
+Stable tag: 1.3.31
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -28,7 +28,7 @@ WordPress Gallery - Photo Albums - Portfolio plugin allows you to create respons
 > * [10+ Gallery Lightboxes](http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-gallery-lightboxes/ "gallery with lightboxes")
 
 = Full media support =
-Gallery - Photo Albums - Portfolio plugin satisfy all your needs to create different types of media such as portfolio, image gallery, photo albums and also from a simple picture to an image slider, image carousel a video and audio (html5) gallery. [Gallery](http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-gallery-grid-galleries-plugin/?utm_source=wordpress&utm_medium=link-description&utm_campaign=gallery "gallery") - [Photo Album](http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-gallery-and-photo-albums-demo/?utm_source=wordpress&utm_medium=link-description&utm_campaign=photo-album "photo album") - [Portfolio](http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-wordpress-portfolio-plugin/?utm_source=wordpress&utm_medium=link-description&utm_campaign=portfolio "portfolio") plugin represents a perfect solution for any type of media. Each item can be:
+Gallery - Photo Albums - Portfolio plugin satisfy all your needs to create different types of media such as portfolio, image gallery, photo albums and also from a simple picture to an image slider, image carousel a video and audio (html5) gallery. [Gallery](http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-gallery-grid-galleries-plugin/ "gallery") - [Photo Album](http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-gallery-and-photo-albums-demo/ "photo album") - [Portfolio](http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-wordpress-portfolio-plugin/ "portfolio") plugin represents a perfect solution for any type of media. Each item can be:
 
 * Gallery / Image Gallery
 * Photo Albums for Pro(<em>[demo](http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-gallery-and-photo-albums-demo/ "photo albums wordPress plugin")</em>)
@@ -285,6 +285,10 @@ But seriously, I just want to drink coffee for free, so help a developer out. Yo
 9. Google Maps and Google Street View
 
 == Changelog ==
+
+= 1.3.31 =
+* Fixed  : Missing submenu
+* Fixed : Many other PHP and CSS clean and optimization
 
 = 1.3.30 =
 * Fixed  : Plugin core issue with jQuery bind
@@ -688,5 +692,5 @@ There are no complicated instructions for using this gallery plugin because this
 
 == Upgrade Notice ==
 
-= 1.3.29 =
+= 1.3.31 =
 IMPORTANT! ALBUM issue, update NOW!

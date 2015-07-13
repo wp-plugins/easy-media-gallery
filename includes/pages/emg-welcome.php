@@ -54,7 +54,7 @@ class EMG_Welcome {
     		add_submenu_page('edit.php?post_type=easymediagallery', 'Getting started with '.EASYMEDIA_NAME.'', 'Getting started with '.EASYMEDIA_NAME.'', $this->minimum_capability, 'emg-getting-started', array( $this, 'emg_getting_started_screen') );
 			
 			// Free Plugins Page
-    		add_submenu_page('edit.php?post_type=easymediagallery', 'GhozyLab Free Plugin', 'GhozyLab Free Plugin', $this->minimum_capability, 'emg-free-plugins', array( $this, 'free_plugins_screen') );
+    		add_submenu_page('edit.php?post_type=easymediagallery', 'Free Install Plugins', 'Free Install Plugins', $this->minimum_capability, 'emg-free-plugins', array( $this, 'free_plugins_screen') );
 			
 			// Premium Plugins Page
     		add_submenu_page('edit.php?post_type=easymediagallery', 'Premium Plugins', 'Premium Plugins', $this->minimum_capability, 'emg-premium-plugins', array( $this, 'premium_plugins_screen') );
@@ -77,8 +77,8 @@ class EMG_Welcome {
 	public function emg_admin_head() {
 		remove_submenu_page( 'edit.php?post_type=easymediagallery', 'emg-changelog' );
 		remove_submenu_page( 'edit.php?post_type=easymediagallery', 'emg-getting-started' );
-		remove_submenu_page( 'edit.php?post_type=easymediagallery', 'emg-free-plugins' );
-		remove_submenu_page( 'edit.php?post_type=easymediagallery', 'emg-premium-plugins' );
+		//remove_submenu_page( 'edit.php?post_type=easymediagallery', 'emg-free-plugins' );
+		//remove_submenu_page( 'edit.php?post_type=easymediagallery', 'emg-premium-plugins' );
 		remove_submenu_page( 'edit.php?post_type=easymediagallery', 'emg-addons' );
 		remove_submenu_page( 'edit.php?post_type=easymediagallery', 'emg-demo' );		
 
