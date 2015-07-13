@@ -546,22 +546,6 @@ function emg_plugin_activate() {
 }
 register_activation_hook( __FILE__, 'emg_plugin_activate' );
 
-function emg_load_plugin() {
-
-    if ( is_admin() && get_option( 'Activated_Emg_Plugin' ) == 'emg-activate' ) {
-		
-		$emg_optval = get_option( 'easy_media_opt' );
-		
-		if ( !is_array( $emg_optval ) ) update_option( 'easy_media_opt', array() );		
-		
-		$tmp = get_option( 'easy_media_opt' );
-		if ( isset( $tmp['easymedia_deff_init'] ) != '1' ) {
-			easymedia_1st_config();
-			}
-
-    }
-}
-add_action( 'admin_init', 'emg_load_plugin' );
 
 /*
 |--------------------------------------------------------------------------

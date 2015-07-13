@@ -513,7 +513,20 @@ class EMG_Welcome {
 	public function emg_welcome_page() {	
 		
     if ( is_admin() && get_option( 'Activated_Emg_Plugin' ) == 'emg-activate' && !is_network_admin() ) {
+		
+		$emg_optval = get_option( 'easy_media_opt' );
+		
+		if ( !is_array( $emg_optval ) ) update_option( 'easy_media_opt', array() );		
+		
+		$tmp = get_option( 'easy_media_opt' );
+		if ( isset( $tmp['easymedia_deff_init'] ) != '1' ) {
+			
+			easymedia_1st_config();
+			
+			}
+		
 		delete_option( 'Activated_Emg_Plugin' );
+		
 		wp_safe_redirect( admin_url( 'edit.php?post_type=easymediagallery&page=emg-whats-new' ) ); exit;
 		
     	}
