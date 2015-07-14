@@ -1014,7 +1014,7 @@ function easmedia_pointer_pointer_header() {
 
 function easmedia_pointer_pointer_footer() {
     $pointer_content = '<h3>Thank You!</h3>';
-	  $pointer_content .= '<p>You&#39;ve just installed '.EASYMEDIA_NAME.'. Click <a class="close" href="edit.php?post_type=easymediagallery&page=docs">here</a> to watch video tutorials and user guide plugin.</p>';
+	  $pointer_content .= '<p>You&#39;ve just installed '.EASYMEDIA_NAME.'. Click <a class="close" href="edit.php?post_type=easymediagallery&page=emg-demo">here</a> to watch video tutorials and user guide plugin.</p>';
 ?>
 
 <script type="text/javascript">// <![CDATA[
