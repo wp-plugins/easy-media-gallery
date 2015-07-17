@@ -456,7 +456,7 @@ class EMG_Welcome {
 			<?php $this->emg_tabs(); ?>
 
 			<div class="emg-container-cnt">
-			<p style="margin-bottom:50px;"class="about-description"></p>
+			<p class="about-description"></p>
 
 				<div class="feature-section">
                 
