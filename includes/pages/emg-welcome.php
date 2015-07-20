@@ -214,7 +214,7 @@ class EMG_Welcome {
 
 					<p><?php _e( 'Version 1.3.29 introduces a comprehensive welcome page interface. The easy way to get important informations about this product and other related plugins.', 'easmedia' );?></p>
                     
-					<p><?php _e( 'In this page, you will find four important Tabs named Getting Started, Addons, Free Plugins and Premium Plugins.', 'easmedia' );?></p>
+					<p><?php _e( 'In this page, you will find four important Tabs named What\'s New, Getting Started, Addons, Free Plugins, Premium Plugins and Demo.', 'easmedia' );?></p>
 
 				</div>
 			</div>
