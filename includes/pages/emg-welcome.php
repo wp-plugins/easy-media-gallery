@@ -312,7 +312,10 @@ class EMG_Welcome {
 
 			<div class="emg-container-cnt">
 				<div class="feature-section">
+                	<h4><?php _e( 'How to Create Simple Gallery', 'easmedia' );?></h4>
                 <iframe width="853" height="480" src="https://www.youtube.com/embed/H1Z3fidyEbE?rel=0" frameborder="0" allowfullscreen></iframe>
+                	<h4><?php _e( 'How to Create Simple Photo Albums', 'easmedia' );?></h4>
+                <iframe width="853" height="480" src="https://www.youtube.com/embed/pjHvRoV2Bn8?rel=0" frameborder="0" allowfullscreen></iframe>
 			</div>
             </div>
 
@@ -323,7 +326,6 @@ class EMG_Welcome {
 
 					<h4><?php _e( 'Phenomenal Support','easmedia' );?></h4>
 					<p><?php _e( 'We do our best to provide the best support we can. If you encounter a problem or have a question, post a question in the <a href="https://wordpress.org/support/plugin/easy-media-gallery" target="_blank">support forums</a>.', 'easmedia' );?></p>
-
 					<h4><?php _e( 'Need Even Faster Support?', 'easmedia' );?></h4>
 					<p><?php _e( 'Just upgrade to <a target="_blank" href="http://ghozylab.com/plugins/easy-media-gallery-pro/pricing/">Pro version</a> and you will get Priority Support are there for customers that need faster and/or more in-depth assistance.', 'easmedia' );?></p>
 

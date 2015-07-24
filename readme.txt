@@ -1,10 +1,10 @@
 === Gallery - Photo Albums - Portfolio ===
 Contributors: GhozyLab
 Donate link: http://ghozylab.com/donate
-Tags: gallery, image gallery, gallery image, content slider, widget gallery, lightbox gallery, photoswipe, foobox, prettyphoto, photobox, fancybox, colorbox, lightbox, website gallery, gallery lightbox, image, images, content gallery, galleries, wordpress gallery, picture pallery, photo gallery, galeria, gallery, best gallery, thumbnail view, content gallery, media gallery, easy gallery, gallery plugin, plugin gallery, wordpress photo gallery plugin, add gallery, add image, add picture, add photo, galery, add images, add pictures, gallery wordpress, wp gallery, gallery slider, galleria, simple gallery, wordpress gallery plugin, free gallery, free images, video gallery, youtube gallery, vimeo gallery, photo albums, grid gallery, images gallery, filterable gallery, grid, iphone gallery, photogallery, photoset, shortcode gallery, fullscreen gallery, justified, fullscreen slider, gallery shortcode, free photo gallery, best gallery plugin, photo album, image rotator, free slider, banner rotator, album, galeri, galerie, image album, wp gallery plugins, image gallery plugin, image slider, slideshow, slide, lightbox slider, slideshow gallery, watermarking, fotogalerie, responsive wordpress photo gallery, responsive gallery, art gallery, gallery, multiple pictures, fotoalbum, responsive galleries, photoalbum, jquery gallery, justified gallery, pictures, picture, photos, responsive
+Tags: gallery, image gallery, gallery image, content slider, widget gallery, lightbox gallery, photoswipe, foobox, facebook, google, twitter, prettyphoto, photobox, fancybox, colorbox, lightbox, website gallery, gallery lightbox, image, images, content gallery, galleries, wordpress gallery, picture pallery, photo gallery, galeria, gallery, best gallery, thumbnail view, content gallery, media gallery, easy gallery, gallery plugin, plugin gallery, wordpress photo gallery plugin, add gallery, add image, add picture, add photo, galery, add images, add pictures, gallery wordpress, wp gallery, gallery slider, galleria, simple gallery, wordpress gallery plugin, free gallery, free images, video gallery, youtube gallery, vimeo gallery, photo albums, grid gallery, images gallery, filterable gallery, grid, iphone gallery, photogallery, photoset, shortcode gallery, fullscreen gallery, justified, fullscreen slider, gallery shortcode, free photo gallery, best gallery plugin, photo album, image rotator, free slider, banner rotator, album, galeri, galerie, image album, wp gallery plugins, image gallery plugin, image slider, slideshow, slide, lightbox slider, slideshow gallery, watermarking, fotogalerie, responsive wordpress photo gallery, responsive gallery, art gallery, gallery, multiple pictures, fotoalbum, responsive galleries, photoalbum, jquery gallery, justified gallery, pictures, picture, photos, responsive
 Requires at least: 3.3
 Tested up to: 4.2.2
-Stable tag: 1.3.31
+Stable tag: 1.3.33
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -292,6 +292,9 @@ But seriously, I just want to drink coffee for free, so help a developer out. Yo
 9. Google Maps and Google Street View
 
 == Changelog ==
+
+= 1.3.33 =
+* Update : Getting Started page ( added new video tutorial )
 
 = 1.3.31 =
 * Fixed  : Missing submenu
@@ -699,5 +702,5 @@ There are no complicated instructions for using this gallery plugin because this
 
 == Upgrade Notice ==
 
-= 1.3.31 =
-IMPORTANT! ALBUM issue, update NOW!
+= 1.3.33 =
+IMPORTANT! SECURITY BUGS FIX, PLEASE UPDATE NOW!
