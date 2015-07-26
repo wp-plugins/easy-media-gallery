@@ -8,10 +8,23 @@ Stable tag: 1.3.33
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Gallery and Photo Albums plugin allows you to create gallery, photo albums, image slider and portfolio just in minutes.
+Gallery and Photo Albums plugin allows you to create image gallery, photo albums, image slider and portfolio just in minutes.
 
 == Description ==
-**Gallery** - **Photo Albums** - **Portfolio** is the best **gallery** and **photo album** plugin designed to create gallery, grid gallery, galleries, photo albums, multiple photo albums, **photo gallery** or **image gallery** / **photo slider**, photo gallery with pagination, image **slider**, image carousel, portfolio, google maps and google street view, google business view, youtube, vimeo, mp4 video and audio mp3.
+**Gallery** - **Photo Albums** - **Portfolio** plugin satisfy all your needs to create different types of media such as portfolio, image gallery, photo albums and also from a simple picture to an image slider, image carousel a video and audio (html5) gallery. [Gallery](http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-gallery-grid-galleries-plugin/ "gallery") - [Photo Album](http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-gallery-and-photo-albums-demo/ "photo album") - [Portfolio](http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-wordpress-portfolio-plugin/ "portfolio") plugin represents a perfect solution for any type of media. Each item can be:
+
+* Photo Gallery / Image Gallery
+* Photo Albums for Pro(<em>[demo](http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-gallery-and-photo-albums-demo/ "photo albums wordPress plugin")</em>)
+* Photo Albums for Lite (<em>[demo](http://goo.gl/xtCU1c "Photo Album Lite")</em>)
+* Gallery with filter/category(<em>[Pro Version](http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-gallery-grid-galleries-plugin/ "grid gallery plugin")</em>)
+* Gallery with pagination (<em>[Pro Version](http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-wordpress-plugin-gallery-using-pagination/ "gallery with pagination")</em>)
+* Portfolio (<em>[Pro Version](http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-wordpress-portfolio-plugin/ "portfolio plugin")</em>)
+* Image Slider (<em>[Pro Version](http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-wordpress-image-slider-plugin-fotorama/ "image slider plugin")</em>)
+* A video, Auto-retrieve YouTube and Vimeo Thumbnail (<em>Pro Version [learn more here](http://www.youtube.com/watch?v=uAGWUcs5ofE "video gallery")</em>)
+* An mp3 player (<em>HTML5 player for Pro version and Flash player for Lite version</em>)
+* Embed from Reverbnation or Soundcloud (<em>[Pro Version](http://goo.gl/ckecFP "audio gallery plugin")</em>)
+* Google Maps / Google Street View (<em>[Pro Version](http://goo.gl/ckecFP "google maps gallery plugin")</em>)
+* 10+ Lightboxes (<em>[Pro Version](http://goo.gl/3vZHHb "best image lightbox plugin")</em>)
 
 **Gallery** - **Photo Albums** - **Portfolio** is a very customizable **plugin** that allow you to set display whatever you want like adjust colors, positions, grid, media sizes, hover effect and much more with one easy control panel. That easy control panel for experts it would save your time, and for you who do not have more knowledge about web programming or styling, of course this plugin will allow you to manage your gallery and portfolio much more easily.
 
@@ -33,22 +46,6 @@ Gallery and Photo Albums plugin allows you to create gallery, photo albums, imag
 > * [Gallery with FooBox](http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-gallery-lightboxes/foobox/ "gallery with FooBox")
 > * [Gallery with PhotoSwipe](http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-gallery-lightboxes/photoswipe/ "gallery with PhotoSwipe")
 > * [Gallery with Photobox](http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-gallery-lightboxes/photobox/ "gallery with Photobox")
-
-= Full media support =
-Gallery - Photo Albums - Portfolio plugin satisfy all your needs to create different types of media such as portfolio, image gallery, photo albums and also from a simple picture to an image slider, image carousel a video and audio (html5) gallery. [Gallery](http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-gallery-grid-galleries-plugin/ "gallery") - [Photo Album](http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-gallery-and-photo-albums-demo/ "photo album") - [Portfolio](http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-wordpress-portfolio-plugin/ "portfolio") plugin represents a perfect solution for any type of media. Each item can be:
-
-* Gallery / Image Gallery
-* Photo Albums for Pro(<em>[demo](http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-gallery-and-photo-albums-demo/ "photo albums wordPress plugin")</em>)
-* Photo Albums for Lite (<em>[demo](http://goo.gl/xtCU1c "Photo Album Lite")</em>)
-* Gallery with filter/category(<em>[Pro Version](http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-gallery-grid-galleries-plugin/ "grid gallery plugin")</em>)
-* Gallery with pagination (<em>[Pro Version](http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-wordpress-plugin-gallery-using-pagination/ "gallery with pagination")</em>)
-* Portfolio (<em>[Pro Version](http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-wordpress-portfolio-plugin/ "portfolio plugin")</em>)
-* Image Slider (<em>[Pro Version](http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-wordpress-image-slider-plugin-fotorama/ "image slider plugin")</em>)
-* A video, Auto-retrieve YouTube and Vimeo Thumbnail (<em>Pro Version [learn more here](http://www.youtube.com/watch?v=uAGWUcs5ofE "video gallery")</em>)
-* An mp3 player (<em>HTML5 player for Pro version and Flash player for Lite version</em>)
-* Embed from Reverbnation or Soundcloud (<em>[Pro Version](http://goo.gl/ckecFP "audio gallery plugin")</em>)
-* Google Maps / Google Street View (<em>[Pro Version](http://goo.gl/ckecFP "google maps gallery plugin")</em>)
-* 10+ Lightboxes (<em>[Pro Version](http://goo.gl/3vZHHb "best image lightbox plugin")</em>)
 
 = Video and Audio Features =
 Gallery - Photo Albums - Portfolio supports a wide range of media formats. Simply link to any image, video, hosted video or Youtube/Vimeo, mp3 audio, Google Map, Google Street View or Google Business View and the media will be automatically loaded into the overlay. Gallery - Photo Albums - Portfolio can be used to embed videos from :
