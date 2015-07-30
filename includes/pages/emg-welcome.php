@@ -302,7 +302,7 @@ class EMG_Welcome {
 		list( $display_version ) = explode( '-', EASYMEDIA_VERSION );
 		?>
 		<div class="wrap about-wrap">
-			<h1><?php printf( __( 'Welcome to '.EASYMEDIA_NAME.' %s', 'easmedia' ), $display_version ); ?></h1>
+			<h1><?php printf( __( 'Welcome to '.EASYMEDIA_NAME.'', 'easmedia' ), $display_version ); ?></h1>
 			<div class="about-text"><?php printf( __( 'Thank you for installing '.EASYMEDIA_NAME.'. This plugin is ready to make your gallery more fancy and better!', 'easmedia' ), $display_version ); ?></div>
 			<div class="emg-badge"><?php printf( __( 'Version %s', 'easmedia' ), $display_version ); ?></div>
 
@@ -360,7 +360,7 @@ class EMG_Welcome {
 		list( $display_version ) = explode( '-', EASYMEDIA_VERSION );
 		?>
 		<div class="wrap about-wrap">
-			<h1><?php printf( __( 'Welcome to '.EASYMEDIA_NAME.' %s', 'easmedia' ), $display_version ); ?></h1>
+			<h1><?php printf( __( 'Welcome to '.EASYMEDIA_NAME.'', 'easmedia' ), $display_version ); ?></h1>
 			<div class="about-text"><?php printf( __( 'Thank you for installing '.EASYMEDIA_NAME.'. This plugin is ready to make your gallery more fancy and better!', 'easmedia' ), $display_version ); ?></div>
 			<div class="emg-badge"><?php printf( __( 'Version %s', 'easmedia' ), $display_version ); ?></div>
 
@@ -389,7 +389,7 @@ class EMG_Welcome {
 		list( $display_version ) = explode( '-', EASYMEDIA_VERSION );
 		?>
 		<div class="wrap about-wrap" id="ghozy-featured">
-			<h1><?php printf( __( 'Welcome to '.EASYMEDIA_NAME.' %s', 'easmedia' ), $display_version ); ?></h1>
+			<h1><?php printf( __( 'Welcome to '.EASYMEDIA_NAME.'', 'easmedia' ), $display_version ); ?></h1>
 			<div class="about-text"><?php printf( __( 'Thank you for installing '.EASYMEDIA_NAME.'. This plugin is ready to make your gallery more fancy and better!', 'easmedia' ), $display_version ); ?></div>
 			<div class="emg-badge"><?php printf( __( 'Version %s', 'easmedia' ), $display_version ); ?></div>
 
@@ -420,7 +420,7 @@ class EMG_Welcome {
 		list( $display_version ) = explode( '-', EASYMEDIA_VERSION );
 		?>
 		<div class="wrap about-wrap" id="ghozy-addons">
-			<h1><?php printf( __( 'Welcome to '.EASYMEDIA_NAME.' %s', 'easmedia' ), $display_version ); ?></h1>
+			<h1><?php printf( __( 'Welcome to '.EASYMEDIA_NAME.'', 'easmedia' ), $display_version ); ?></h1>
 			<div class="about-text"><?php printf( __( 'Thank you for installing '.EASYMEDIA_NAME.'. This plugin is ready to make your gallery more fancy and better!', 'easmedia' ), $display_version ); ?></div>
 			<div class="emg-badge"><?php printf( __( 'Version %s', 'easmedia' ), $display_version ); ?></div>
 
@@ -451,7 +451,7 @@ class EMG_Welcome {
 		list( $display_version ) = explode( '-', EASYMEDIA_VERSION );
 		?>
 		<div class="wrap about-wrap" id="ghozy-demo">
-			<h1><?php printf( __( 'Welcome to '.EASYMEDIA_NAME.' %s', 'easmedia' ), $display_version ); ?></h1>
+			<h1><?php printf( __( 'Welcome to '.EASYMEDIA_NAME.'', 'easmedia' ), $display_version ); ?></h1>
 			<div class="about-text"><?php printf( __( 'Thank you for installing '.EASYMEDIA_NAME.'. This plugin is ready to make your gallery more fancy and better!', 'easmedia' ), $display_version ); ?></div>
 			<div class="emg-badge"><?php printf( __( 'Version %s', 'easmedia' ), $display_version ); ?></div>
 
