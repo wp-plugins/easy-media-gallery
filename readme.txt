@@ -8,7 +8,7 @@ Stable tag: 1.3.35
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Gallery and Photo Albums plugin allows you to create image gallery, photo albums, image slider and portfolio just in minutes.
+Gallery - Photo Albums - Portfolio plugin allows you to create responsive image gallery, photo albums, image slider just in minutes
 
 == Description ==
 **Gallery** - **Photo Albums** - **Portfolio** plugin satisfy all your needs to create different types of media such as portfolio, image gallery, photo albums and also from a simple picture to an image slider, image carousel a video and audio (html5) gallery. [Gallery](http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-gallery-grid-galleries-plugin/ "gallery") - [Photo Album](http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-gallery-and-photo-albums-demo/ "photo album") - [Portfolio](http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-wordpress-portfolio-plugin/ "portfolio") plugin represents a perfect solution for any type of media. Each item can be:
