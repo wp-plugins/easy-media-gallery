@@ -55,7 +55,9 @@ if ( strstr( $_SERVER['REQUEST_URI'], 'wp-admin/post-new.php' ) || strstr( $_SER
 					wp_enqueue_script( 'jquery-messi-js' );	
 					wp_enqueue_script( 'emg-bootstrap-js' );
 					wp_enqueue_script( 'easymedia-metascript', plugins_url( 'functions/metabox/metabox.js' , __FILE__ ) );
-					
+					wp_enqueue_script( 'emg-no-toggle', plugins_url( 'functions/metabox/no-toggle.js' , __FILE__ ), array('jquery'), 1, true );
+        			wp_enqueue_script('emg-no-toggle');
+
 					// @since 1.3.10 >
 					if( easy_get_option( 'easymedia_disen_autoupdt' ) != '1' && is_admin() ) {
 						add_action( 'admin_notices', 'easmedia_update_notify' );
@@ -204,6 +206,7 @@ if ( strstr( $_SERVER['REQUEST_URI'], 'wp-admin/post-new.php' ) || strstr( $_SER
 			</div>
     
             <style type="text/css" media="screen">
+			a:focus {box-shadow: none !important; }
 			#minor-publishing {display: none !important }
 			.media-toolbar-secondary .spinner { float: left; margin-right: 5px; }
 		   @media only screen and (min-width: 1150px) {
@@ -261,20 +264,12 @@ jQuery(document).ready(function($) {
 // MESSI POPUP	
 		jQuery('#videofrmt').on('click', function() {
           new Messi('<p> - <strong>Youtube 1 :</strong> http://www.youtube.com/watch?v=JaNH56Vpg-A</p><p> - <strong>Youtube 2 :</strong> http://www.youtube.com/embed/JaNH56Vpg-A</p><p> - <strong>Youtube 3 :</strong> http://youtu.be/BWmWAPb_z90</p><p> - <strong>Youtube Playlist :</strong> http://www.youtube.com/watch?v=S_Az2Zg5OLc&list=PLFrmfElpm4lwVff3JvmtSJzxYFFb2093q</p><p> - <strong>Vimeo :</strong> http://vimeo.com/798022</p><p> - <strong>DailyMotion :</strong> http://www.dailymotion.com/video/xzefrs_steven-spielberg-s-obama_shortfilms#.UX8g_O8kZM4</p><p> - <strong>MetaCafe :</strong> http://www.metacafe.com/watch/2185365/spot_electrabel_gdf_suez_happy_new_year_2009/</p><p> - <strong>Facebook :</strong> https://www.facebook.com/video/embed?video_id=557900707562656</p><p> - <strong>Veoh :</strong> http://www.veoh.com/watch/v20943320Dz9Z45Qj</p><p> - <strong>Flickr video :</strong> http://www.flickr.com/photos/bhl1/2402027765/in/pool-video</p><p> - <strong>Google video :</strong> http://video.google.com/videoplay?docid=-8111235669135653751</p><p> - <strong>Quietube + Youtube :</strong> http://quietube.com/v.php/http://www.youtube.com/watch?v=b5Ff2X_3P_4</p><p> - <strong>Quietube + Vimeo :</strong> http://quietube.com/v.php/http://vimeo.com/2295261</p><p> - <strong>Tudou :</strong> http://www.tudou.com/programs/view/KG2UG_U4DMY/</p><p> - <strong>YouKu :</strong> http://v.youku.com/v_show/id_XNDI1MDkyMDQ</p>', {title: 'Sample video format', modal: true});
-		  });	
-		  		  
-		jQuery('#medvidtut').on('click', function() {
-          new Messi('<iframe width="853" height="480" src="http://www.youtube.com/embed/htxwZw_aPF0" frameborder="0" allowfullscreen></iframe>', {title: 'Video Tutorial', modal: true});
-		  });			  
-	  	
-		jQuery('#medsingimgtut').on('click', function() {
-          new Messi('<iframe width="853" height="480" src="http://www.youtube.com/embed/dXFBNY5t6E8" frameborder="0" allowfullscreen></iframe>', {title: 'Video Tutorial', modal: true});
-		  });	
-		  		  
-		jQuery('#medaudiotut').on('click', function() {
-          new Messi('<iframe width="853" height="480" src="http://www.youtube.com/embed/Bsn-CB5Hpbw" frameborder="0" allowfullscreen></iframe>', {title: 'Video Tutorial', modal: true});
-		  });			  
-	
+		  });
+
+		jQuery('.messivideo').bind('click', function() {
+          new Messi('<iframe width="853" height="480" src="'+jQuery(this).data("yvid")+'" frameborder="0" allowfullscreen></iframe>', {title: 'Video Tutorial', modal: true});
+		  });
+		  	
 // -------- DELETE MEDIA IMAGE (AJAX)
 			function easmedia_img_media_remv(type) {
 				var data = {
@@ -480,7 +475,7 @@ function easmedia_create_meta_box( $post, $meta_box )
 				
 			case 'video':
 				echo '				<div id="videofrmt" style="text-decoration:underline;font-weight:bold;cursor:Pointer; color:#1A91F2 !important; margin-bottom:8px;">Sample video format</div>
-				<div id="medvidtut" style="text-decoration:underline;font-weight:bold;cursor:Pointer; color:#1A91F2 !important; margin-bottom:8px;">Video Tutorial</div><td>				
+				<div class="messivideo" data-yvid="https://www.youtube.com/embed/htxwZw_aPF0?rel=0" style="margin-bottom:8px;">Video Tutorial</div><td>				
 				
 				<input type="text" name="easmedia_meta['. $field['id'] .']" id="'. $field['id'] .'" value="'. ($meta ? $meta : $field['std']) .'" size="30" />
 <div style="color:red; display:none;" id="emgvideopreview"></div>				
@@ -507,7 +502,7 @@ $curimgpth = explode(",", $curimgpth);
 	 $curimgpth[2] = '';
 	}	
 
-echo '<div id="medsingimgtut" style="text-decoration:underline;font-weight:bold;cursor:Pointer; color:#1A91F2 !important; margin-bottom:8px;">Video Tutorial</div><td id="imgupld"><input id="upload_image" type="text" name="easmedia_meta['. $field['id'] .']" value="'. ($meta ? $meta : $field['std']) .'" style="margin-bottom:5px;"/><div style="color:red;" id="notifynovalidimg"></div>
+echo '<div class="messivideo" data-yvid="https://www.youtube.com/embed/dXFBNY5t6E8?rel=0" style="margin-bottom:8px;">Video Tutorial</div><td id="imgupld"><input id="upload_image" type="text" name="easmedia_meta['. $field['id'] .']" value="'. ($meta ? $meta : $field['std']) .'" style="margin-bottom:5px;"/><div style="color:red;" id="notifynovalidimg"></div>
 <div class="addmed"><a rel="image-'.$emgepver.'" class="' . $uploaderclass . '" title="Add Media" '.$isdatacnt.' href="'.$emghref.'"><span class="emg-media-buttons-icon"></span>Add Media</a>
 <a onClick="return false;" style="'. $dsplynone .';" class="deleteimage button" title="Delete Image" href="#"><span class="emg-media-buttons-icon-del"></span>Delete Image</a></div><div style="'. $dsplynone .' width:'.$curimgpth[1].'px; height:'.$curimgpth[2].'px" id="imgpreviewbox" class="imgpreviewboxc">
 <img id="imgthumbnailprv" src="' . $curimgpth[0] . '"/></div>
@@ -529,7 +524,7 @@ if ( $curaudiopth != '' ) { echo '
     </script>	
 '; }
 
-echo '<div id="medaudiotut" style="text-decoration:underline;font-weight:bold;cursor:Pointer; color:#1A91F2 !important; margin-bottom:8px;">Video Tutorial</div><td id="audioupld"><input id="upload_audio" type="text" name="easmedia_meta['. $field['id'] .']" value="'. ($meta ? $meta : $field['std']) .'" style="margin-bottom:5px;"/><div style="color:red;" id="notifynovalidaudio"></div><div class="addmed"><a rel="audio-'.$emgepver.'" class="' . $uploaderclass . '" title="Add Media" '.$isdatacnt.' href="'.$emghref.'"><span class="emg-media-buttons-icon"></span>Add Media</a>
+echo '<div class="messivideo" data-yvid="https://www.youtube.com/embed/Bsn-CB5Hpbw?rel=0" style="margin-bottom:8px;">Video Tutorial</div><td id="audioupld"><input id="upload_audio" type="text" name="easmedia_meta['. $field['id'] .']" value="'. ($meta ? $meta : $field['std']) .'" style="margin-bottom:5px;"/><div style="color:red;" id="notifynovalidaudio"></div><div class="addmed"><a rel="audio-'.$emgepver.'" class="' . $uploaderclass . '" title="Add Media" '.$isdatacnt.' href="'.$emghref.'"><span class="emg-media-buttons-icon"></span>Add Media</a>
 <a onClick="return false;" style="'. $adsplynone .';" class="deleteaudio button" title="Delete Audio" href="#"><span class="emg-media-buttons-icon-del"></span>Delete Audio</a></div>
 
 <div style="'. $adsplynone .';" id="audioprev" class="vidpreviewboxc">
@@ -832,8 +827,8 @@ function easmedia_metabox_work(){
 			array(
 		
 					'name' => __( '<span class="gtips">Tips:</span>', 'easmedia' ),
-					'desc' => __( '<ul class="gtipslist"><li>Use <b>Ctrl + Click</b> on each image to select multiple images at once.</li><li>You also can drag and drop images to re-order.</li><li>Click on image to edit title/subtitle ( <i>Pro Version only</i> )</li><li><a href="https://www.youtube.com/watch?v=H1Z3fidyEbE" target="_blank">Tutorial How to Create Gallery</a></li>
-<li><a href="https://www.youtube.com/watch?v=pjHvRoV2Bn8" target="_blank">Tutorial How to Create Album</a></li></ul>', 'easmedia' ),
+					'desc' => __( '<ul class="gtipslist"><li>Use <b>Ctrl + Click</b> on each image to select multiple images at once.</li><li>You also can drag and drop images to re-order.</li><li>Click on image to edit title/subtitle ( <i>Pro Version only</i> )</li><li class="messivideo" data-yvid="https://www.youtube.com/embed/H1Z3fidyEbE?rel=0">Tutorial How to Create Gallery</li>
+<li class="messivideo" data-yvid="https://www.youtube.com/embed/H1Z3fidyEbE?rel=0">Tutorial How to Create Album</li></ul>', 'easmedia' ),
 					'id' => 'easmedia_metabox_media_gallery',
 					'gallid' => 'easmedia_metabox_media_gallery_id',
 					'type' => 'gallery',
