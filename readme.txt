@@ -26,8 +26,6 @@ Gallery - Photo Albums - Portfolio plugin allows you to create responsive image 
 * Google Maps / Google Street View (<em>[Pro Version](http://goo.gl/ckecFP "google maps gallery plugin")</em>)
 * 10+ Lightboxes (<em>[Pro Version](http://goo.gl/3vZHHb "best image lightbox plugin")</em>)
 
-**Gallery** - **Photo Albums** - **Portfolio** is a very customizable **plugin** that allow you to set display whatever you want like adjust colors, positions, grid, media sizes, hover effect and much more with one easy control panel. That easy control panel for experts it would save your time, and for you who do not have more knowledge about web programming or styling, of course this plugin will allow you to manage your gallery and portfolio much more easily.
-
 > #### **Live Demos**
 > * [Photo Albums](http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-gallery-and-photo-albums-demo/ "photo album plugin")
 > * [Gallery / Grid Gallery](http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-gallery-grid-galleries-plugin/ "gallery plugin - grid gallery")
@@ -46,6 +44,8 @@ Gallery - Photo Albums - Portfolio plugin allows you to create responsive image 
 > * [Gallery with FooBox](http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-gallery-lightboxes/foobox/ "gallery with FooBox")
 > * [Gallery with PhotoSwipe](http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-gallery-lightboxes/photoswipe/ "gallery with PhotoSwipe")
 > * [Gallery with Photobox](http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-gallery-lightboxes/photobox/ "gallery with Photobox")
+
+**Gallery** - **Photo Albums** - **Portfolio** is a very customizable **plugin** that allow you to set display whatever you want like adjust colors, positions, grid, media sizes, hover effect and much more with one easy control panel. That easy control panel for experts it would save your time, and for you who do not have more knowledge about web programming or styling, of course this plugin will allow you to manage your gallery and portfolio much more easily.
 
 = Video and Audio Features =
 Gallery - Photo Albums - Portfolio supports a wide range of media formats. Simply link to any image, video, hosted video or Youtube/Vimeo, mp3 audio, Google Map, Google Street View or Google Business View and the media will be automatically loaded into the overlay. Gallery - Photo Albums - Portfolio can be used to embed videos from :
