@@ -176,6 +176,7 @@ echo '<div class="pfwrpr"><div id="alignstyle" class="easymedia_'.$cus_align.'">
 	if ( $curimgnmane == 'no-image-available.jpg' ) {
 		$image = $image;
 		} else {
+			$globalsize = wp_get_attachment_image_src( emg_get_attachment_id_from_src( $image ), 'full' );
 			$image = easymedia_resizer( $image, $globalsize[1], $globalsize[2], $imwidth, $imheight, true );
 			}
 			

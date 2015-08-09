@@ -4,7 +4,7 @@ Donate link: http://ghozylab.com/donate
 Tags: gallery, plugin, post, posts, admin, image gallery, foto, shortcode, sidebar, youtube, seo, wordpress, widget, widgets, gallery image, photo, portfolio, widget gallery, lightbox gallery, photoswipe, foobox, facebook, google, twitter, prettyphoto, photobox, fancybox, colorbox, lightbox, website gallery, gallery lightbox, image, images, galleries, wordpress gallery, picture gallery, photo gallery, galeria, gallery, best gallery, media library, easy gallery, gallery plugin, plugin gallery, wordpress photo gallery plugin, add gallery, add image, wordpress seo, add picture, add photo, galery, gallery wordpress, wp gallery, gallery slider, galleria, simple gallery, wordpress gallery plugin, free gallery, video gallery, youtube gallery, vimeo gallery, photo albums, grid gallery, images gallery, filterable gallery, grid, photogallery, photoset, shortcode gallery, fullscreen gallery, fullscreen image, gallery shortcode, free photo gallery, best gallery plugin, photo album, image rotator, free slider, album, galeri, galerie, image album, wp gallery plugins, image gallery plugin, image slider, slideshow, slide, lightbox slider, slideshow gallery, watermarking, fotogalerie, responsive wordpress photo gallery, responsive gallery, art gallery, multiple pictures, fotoalbum, responsive galleries, photoalbum, jquery gallery, justified gallery, pictures, picture, photos, responsive
 Requires at least: 3.3
 Tested up to: 4.2.4
-Stable tag: 1.3.37
+Stable tag: 1.3.39
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -289,6 +289,11 @@ But seriously, I just want to drink coffee for free, so help a developer out. Yo
 9. Google Maps and Google Street View
 
 == Changelog ==
+
+= 1.3.39 =
+* Fixed  : Widget issue for version 4.2.4 and ready for 4.3
+* Fixed : Undefined variable ( PHP ) on shortcode
+* Fixed : Many other PHP and CSS clean and optimization
 
 = 1.3.37 =
 * Added  : Note inside media manager to let users know that they can easily insert multiple images at once
@@ -706,5 +711,5 @@ There are no complicated instructions for using this gallery plugin because this
 
 == Upgrade Notice ==
 
-= 1.3.37 =
+= 1.3.39 =
 IMPORTANT! SECURITY BUGS FIX, PLEASE UPDATE NOW!

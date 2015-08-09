@@ -4,7 +4,7 @@ Plugin Name: Easy Media Gallery
 Plugin URI: http://www.ghozylab.com/plugins/
 Description: Easy Media Gallery (Lite) - Displaying your image, video (MP4, Youtube, Vimeo) and audio mp3 in elegant and fancy lightbox with very easy. Allows you to customize all media to get it looking exactly what you want. <a href="http://ghozylab.com/plugins/easy-media-gallery-pro/pricing/" target="_blank"><strong> Upgrade to Pro Version Now</strong></a> and get a tons of awesome features.
 Author: GhozyLab, Inc.
-Version: 1.3.37
+Version: 1.3.39
 Author URI: http://www.ghozylab.com/plugins/
 */
 
@@ -69,7 +69,7 @@ if ( !defined( 'EASYMEDIA_NAME' ) ) {
 
 // Plugin Version
 if ( !defined( 'EASYMEDIA_VERSION' ) ) {
-	define( 'EASYMEDIA_VERSION', '1.3.37' );
+	define( 'EASYMEDIA_VERSION', '1.3.39' );
 }
 
 // Pro Price
@@ -505,6 +505,7 @@ include_once( dirname( __FILE__ ) . '/includes/functions/functions.php' );
 include_once( dirname( __FILE__ ) . '/includes/class/easymedia_resizer.php' );
 include_once( dirname( __FILE__ ) . '/includes/taxonomy.php' );
 include_once( dirname( __FILE__ ) . '/includes/shortcode.php' );
+include_once( dirname( __FILE__ ) . '/includes/easywidget.php' );
 
 if ( easy_get_option( 'easymedia_disen_plug' ) == '1' ) {	
 	include_once( dirname( __FILE__ ) . '/includes/frontend.php' );
@@ -526,8 +527,7 @@ if ( is_admin() ) {
 	include_once( dirname( __FILE__ ) . '/includes/pages/emg-addons.php');
 	include_once( dirname( __FILE__ ) . '/includes/pages/emg-demo.php');
 	include_once( dirname( __FILE__ ) . '/includes/metaboxes.php' ); 
-	include_once( dirname( __FILE__ ) . '/includes/tinymce-dlg.php' ); 
-	include_once( dirname( __FILE__ ) . '/includes/easywidget.php' );
+	include_once( dirname( __FILE__ ) . '/includes/tinymce-dlg.php' );
 	//include_once( dirname( __FILE__ ) . '/includes/emg-notice.php' );
 
 }
