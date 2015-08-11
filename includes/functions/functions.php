@@ -854,7 +854,7 @@ function emg_admin_bar_menu(){
             /* Add the main siteadmin menu item */
                 $wp_admin_bar->add_menu( array(
                     'id'     => 'emg-upgrade-bar',
-                    'href' => 'http://ghozylab.com/plugins/easy-media-gallery-pro/pricing/?utm_source=lite&utm_medium=topbar&utm_campaign=orderfromadminbar',
+                    'href' => 'http://ghozylab.com/plugins/ordernow.php?order=proplus&utm_source=lite&utm_medium=topbar&utm_campaign=orderfromtopbar',
                     'parent' => 'top-secondary',
 					'title' => __('<img src="'.plugins_url( 'images/easymedia-cp-icon.png' , dirname(__FILE__) ).'" style="vertical-align:middle;margin-right:5px" alt="Upgrade Now!" title="Upgrade Now!" />Upgrade Easy Media Gallery to PRO Version', 'easmedia' ),
                     'meta'   => array('class' => 'emg-upgrade-to-pro', 'target' => '_blank' ),
