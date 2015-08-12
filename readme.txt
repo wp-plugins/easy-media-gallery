@@ -34,8 +34,6 @@ Gallery - Photo Albums - Portfolio plugin allows you to create responsive image 
 > * [Carousel](http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-wordpress-carousel-image-plugin/ "image carousel")
 > * [Gallery with Pagination](http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-wordpress-plugin-gallery-using-pagination/ "gallery pagination")
 > * [Portfolio](http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-wordpress-portfolio-plugin/ "portfolio plugin")
-> * [Video Gallery](http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-wordpress-video-gallery-plugin/ "video gallery")
-> * [Audio Gallery](http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-wordpress-video-gallery-plugin/ "audio gallery")
 > * [Gallery with EMG Lightbox ( Light, dark transparent skins )](http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-gallery-lightboxes/emg-lightbox-default/ "gallery with EMG Lightbox")
 > * [Gallery with FancyBox 2](http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-gallery-lightboxes/fancybox-2/ "gallery with FancyBox 2")
 > * [Gallery with ColorBox](http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-gallery-lightboxes/colorbox/ "gallery with ColorBox")
@@ -44,6 +42,8 @@ Gallery - Photo Albums - Portfolio plugin allows you to create responsive image 
 > * [Gallery with FooBox](http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-gallery-lightboxes/foobox/ "gallery with FooBox")
 > * [Gallery with PhotoSwipe](http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-gallery-lightboxes/photoswipe/ "gallery with PhotoSwipe")
 > * [Gallery with Photobox](http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-gallery-lightboxes/photobox/ "gallery with Photobox")
+> * [Video Gallery](http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-wordpress-video-gallery-plugin/ "video gallery")
+> * [Audio Gallery](http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-wordpress-video-gallery-plugin/ "audio gallery")
 
 **Gallery** - **Photo Albums** - **Portfolio** is a very customizable **plugin** that allow you to set display whatever you want like adjust colors, positions, grid, media sizes, hover effect and much more with one easy control panel. That easy control panel for experts it would save your time, and for you who do not have more knowledge about web programming or styling, of course this plugin will allow you to manage your gallery and portfolio much more easily.
 
