@@ -45,7 +45,8 @@ Gallery - Photo Albums - Portfolio plugin allows you to create responsive image 
 > * [Video Gallery](http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-wordpress-video-gallery-plugin/ "video gallery")
 > * [Audio Gallery](http://ghozylab.com/plugins/easy-media-gallery-pro/demo/best-wordpress-video-gallery-plugin/ "audio gallery")
 
-**Gallery** - **Photo Albums** - **Portfolio** is a very customizable plugin that allow you to set display whatever you want like adjust colors, positions, grid, media sizes, hover effect and much more with one easy control panel. That easy control panel for experts it would save your time, and for you who do not have more knowledge about web programming or styling, of course this plugin will allow you to manage your gallery and portfolio much more easily.
+= Customizable Gallery Plugin =
+This gallery plugin is very customizable that allow you to set display whatever you want like adjust colors, positions, grid, media sizes, hover effect and much more with one easy control panel. That easy control panel for experts it would save your time, and for you who do not have more knowledge about web programming or styling, of course this plugin will allow you to manage your gallery and portfolio much more easily.
 
 = Video and Audio Features =
 Gallery - Photo Albums - Portfolio supports a wide range of media formats. Simply link to any image, video, hosted video or Youtube/Vimeo, mp3 audio, Google Map, Google Street View or Google Business View and the media will be automatically loaded into the overlay. Gallery - Photo Albums - Portfolio can be used to embed videos from :
