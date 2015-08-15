@@ -709,7 +709,7 @@ echo '<div class="messivideo" data-yvid="https://www.youtube.com/embed/Bsn-CB5Hp
 							
 						</li>';			
 						}
-				} else {echo '<p class="noimgs">No images selected... </p>';}
+				} else {echo '<p class="noimgs">No images... </p>';}
 
 				echo '</ul></div></td>';
 				
